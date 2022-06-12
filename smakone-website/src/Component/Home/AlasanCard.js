@@ -1,4 +1,5 @@
 import React from 'react'
+import {AiOutlineArrowRight} from "react-icons/ai";
 
 
 
@@ -10,7 +11,7 @@ const AlasanCard = (props) => {
                 <p className="font-bold text-left mb-6">{ props.desc }</p>
                 <div className="font-medium text-left my-3 text-white underline underline-offset-8">
                   <a>
-                    Kenali Lebih Lanjut 
+                    Kenali Lebih Lanjut <AiOutlineArrowRight/>
                   </a>
                 </div>
             </div>
