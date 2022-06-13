@@ -13,10 +13,10 @@ const Nav = () => {
         </a>
       </div>
       <div className='flex justify-center lg:items-center lg:w-auto w-full py-9'>
-        <nav className='font-bold'>
-          <a href="/tentang_kami" class="font-bold px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Tentang Kami</a>
-          <a href="/OSIS" class="font-bold px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">OSIS</a>
-          <a href="/kehidupan_smukie" class="font-bold px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Kehidupan Smukiers</a>
+        <nav className='font-black text-lg'>
+          <a href="/tentang_kami" class="px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">Tentang Kami</a>
+          <a href="/OSIS" class="px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">OSIS</a>
+          <a href="/kehidupan_smukie" class="px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">Kehidupan Smukiers</a>
         </nav>
       </div>
     </div>
