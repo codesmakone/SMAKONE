@@ -16,8 +16,8 @@ const Home = () => {
       {/* <div className='mt-32 col-span-6flex flex-col justify-start text-left '> */}
       <div className='col-span-6flex flex-col justify-start text-left '>
       <div className='px-20 py-24'>
-        <h1 className='text-7xl py-12 font-bold'>We Are SMAK 1</h1>
-        <h4 className='text-lg font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4>
+        <h1 className='text-7xl py-12 font-black'>We Are SMAK 1</h1>
+        <h4 className='text-xl font-black'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4>
       </div>
       </div>
 
@@ -33,7 +33,7 @@ const Home = () => {
               <div>mereka bersekolah di SMAK 1</div>
             </div>
           </div>
-          <div className='grid grid-cols-3 gap-4 mt-12 '>
+          <div className='grid grid-cols-3 justify-items-center gap-3 mt-12 '>
               <div>
                 <AlasanCard
                   img = {Pianis}
