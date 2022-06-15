@@ -7,7 +7,7 @@ const AlasanCard = (props) => {
             <div className="p-2">
                 <p className="font-bold mb-6">{ props.desc }</p>
                 <div className="font-bold text-xl my-3 text-white underline underline-offset-12">
-                  <a>
+                  <a href='http://localhost:3000/'>
                     Kenali Lebih Lanjut →
                   </a>
                 </div>
