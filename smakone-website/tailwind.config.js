@@ -7,7 +7,11 @@ module.exports = {
   theme: {
     extend: {},
     backgroundColor :{
-      'dark-blue' : '#000957'
+      'dark-blue' : '#000957',
+      'blue-500' : '#1D77FF'
+    },
+    backgroundImage: {
+      'footer-image': "url('./Image/Background_Footer.png')",
     },
     fontWeight: {
       hairline: 100,
