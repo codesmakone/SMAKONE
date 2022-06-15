@@ -3,6 +3,7 @@ import Nav from '../../Component/Nav/Nav'
 import AlasanCard from '../../Component/Home/AlasanCard'
 import Checklist from '../../Component/Home/Checklist'
 
+
 import Pianis from '../../Image/MichaelAbimanyu.jpeg'
 import Matematikawan from '../../Image/GabrielaErin.jpeg'
 import Pembulutangkis from '../../Image/DarrenJonathan.jpeg'
@@ -59,6 +60,7 @@ const Home = () => {
             </div>
         </div>
       </div>
+
       <div className='w-full h-auto mt-8 px-3 py-16'>
         <div className='container mx-auto'>
           <div className='grid grid-cols-2'>
@@ -86,6 +88,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
 
     </div>
   )
