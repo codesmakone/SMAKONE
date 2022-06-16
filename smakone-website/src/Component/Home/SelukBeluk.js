@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SelukBeluk = (props) =>{
     return(
@@ -7,7 +8,11 @@ const SelukBeluk = (props) =>{
             <div className="leading-normal ml-20 mt-8 font-bold">
                 <div className="text-4xl pr-20">{ props.title }</div>
                 <div className="text-xl mt-2">{ props.desc }</div>
-                <div className="text-xl mt-12"><a href="">Kenali Lebih Lanjut →</a></div>
+                <div className="text-xl mt-12">
+                <Link to={props.dir} className="link-underline link-underline-black " >
+                    Kenali Lebih Lanjut →
+                </Link>
+                </div>
             </div>
         </div>
     )

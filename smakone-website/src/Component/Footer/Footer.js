@@ -42,7 +42,6 @@ const Footer = () => {
             </div>
             <div className='flex flex-col text-xl gap-y-7 font-bold text-gray-500'>
               <Link to="/osis"className='text-black'>Osis</Link>
-
               <div>Visi & Misi Kami</div>
               <div>Bertemu dengan Kami</div>
               <div>Services</div>
