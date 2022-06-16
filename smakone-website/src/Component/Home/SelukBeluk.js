@@ -9,7 +9,7 @@ const SelukBeluk = (props) =>{
                 <div className="text-4xl pr-20">{ props.title }</div>
                 <div className="text-xl mt-2">{ props.desc }</div>
                 <div className="text-xl mt-12">
-                <Link to={props.dir} className="link-underline link-underline-black " >
+                <Link to={props.dir} className="link-underline link-underline-white">
                     Kenali Lebih Lanjut →
                 </Link>
                 </div>

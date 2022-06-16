@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link,useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const AlasanCard = (props) => {
-  
 
   return (
     <div className='m-3 h-auto w-72 p-4 text-left'>
