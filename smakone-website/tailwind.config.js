@@ -8,7 +8,9 @@ module.exports = {
     extend: {},
     backgroundColor :{
       'dark-blue' : '#000957',
-      'blue-500' : '#1D77FF'
+      'blue-500' : '#1D77FF',
+      'blue-400' : '#60a5fa',
+      'blue-700' : 'rgb(29 78 216)',
     },
     backgroundImage: {
       'footer-image': "url('./Image/Background_Footer.png')",

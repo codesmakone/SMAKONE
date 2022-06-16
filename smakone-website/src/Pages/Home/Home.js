@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from '../../Component/Nav/Nav'
 import AlasanCard from '../../Component/Home/AlasanCard'
 import Checklist from '../../Component/Home/Checklist'
 import Kegiatan from '../../Component/Home/Kegiatan'
@@ -18,8 +17,7 @@ const Home = () => {
   return (
     <div className='font-sans'>
 
-      
-      <Nav/>
+    
       {/* <div className='mt-32 col-span-6flex flex-col justify-start text-left '> */}
       <div className='col-span-6flex flex-col justify-start text-left '>
         <div className='px-20 py-24'>
@@ -29,7 +27,7 @@ const Home = () => {
       </div>
 
 
-      <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-32'>
+      <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24'>
         <div className='container mx-auto'>
           <div className='justify-center text-white text-center font-bold mb-12 px-40'>
             <div className='text-white mb-5 content-center text-lg'>
@@ -46,6 +44,7 @@ const Home = () => {
                   img = {Pianis}
                   alt = "Pianis"
                   desc='Pianis sekaligus musisi andalan SMUKIERS'
+                  dir="/alasan/pianis"
                 />
               </div>
               <div>
@@ -53,6 +52,7 @@ const Home = () => {
                   img = {Matematikawan}
                   alt = "Matematikawan"
                   desc='Matematikawan dengan puluhan medali'
+                  dir="/alasan/matematikawan"
                 />
               </div>
               <div>
@@ -60,6 +60,7 @@ const Home = () => {
                   img = {Pembulutangkis}
                   alt = "Pembulutangkis"
                   desc='Pebulutangkis cerdas dengan smash yang mematikan'
+                  dir="/alasan/pembulutangkis"
                 />
               </div>
             </div>
@@ -82,10 +83,9 @@ const Home = () => {
                 <Checklist txt='Sudah dikenal sampai ke mancanegara' />
               </div>
               <div className='pl-20 pr-20 pt-10'>
-              <button
-                class="py-5 px-16 bg-dark-blue text-white border active:bg-gray-200 rounded-full">
-                <a href='https://psbjakarta.bpkpenabur.or.id'className="text-white text-xl font-black px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900" >
-                  <u>Daftar Sekarang</u>
+              <button className="py-5 px-16 bg-dark-blue rounded-full">
+                <a href='https://psbjakarta.bpkpenabur.or.id'className="link-underline link-underline-white px-3 py-2 text-white text-xl font-black" >
+                  Daftar Sekarang
                 </a>
               </button>
               </div>
@@ -109,21 +109,25 @@ const Home = () => {
             img = {soc}
             title = "Smakonecup"
             desc = "Acara tahunan yang penuh sinar matahari, keringat, dan kejutan"
+            dir = "/kegiatan/soc"
           />
           <Kegiatan
             img = {soundscape}
             title = "Soundscape"
             desc = "Pertunjukan spektakuler di akhir Smakonecup"
+            dir = "/kegiatan/soundscape"
           />
           <Kegiatan
             img = {theater}
             title = "SMUKIEZ Theater Night"
             desc = "Saat berbagai seni dipadukan dan menghasilkan sebuah karya yang memukau"
+            dir = "/kegiatan/soundscape"
           />
           <Kegiatan
             img = {kriza}
             title = "KR1ZA"
             desc = "Terus berlatih dan raih prestasi"
+            dir = "/kegiatan/kriza"
           />
         </div>
       </div>
