@@ -8,8 +8,11 @@ const Kegiatan = (props) =>{
             <div className="leading-normal ml-20 mt-10 font-bold">
                 <div className="text-4xl">{ props.title }</div>
                 <div className="text-2xl">{ props.desc }</div>
-
-                <div className="text-xl mt-12"><a href="">Kenali Lebih Lanjut →</a></div>
+                <div className="text-xl mt-12">
+                <Link to={props.dir} className="link-underline link-underline-black " >
+                    Kenali Lebih Lanjut →
+                </Link>
+                </div>
             </div>
         </div>
     )
