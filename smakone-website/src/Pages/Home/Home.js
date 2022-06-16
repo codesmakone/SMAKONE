@@ -150,16 +150,19 @@ const Home = () => {
             img = {kehidupan}
             title = "Kehidupan Selama Menjadi SMUKIERS"
             desc = "Hidup penuh keseimbangan"
+            dir = "/kehidupan_smukie"
           />
           <SelukBeluk
             img = {tips}
             title = "Tips Belajar SMUKIERS"
             desc = "Selalu berusaha meraih yang terbaik"
+            dir = "/kehidupan_smukie/tips"
           />
           <SelukBeluk
             img = {kegiatan}
             title = "Kegiatan Setelah Kelas"
             desc = "Produktivitas dan istirahat yang seimbang"
+            dir = "/kehidupan_smukie/kegiatan"
           />
         </div>
       </div>
