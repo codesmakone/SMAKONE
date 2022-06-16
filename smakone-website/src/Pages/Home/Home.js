@@ -2,6 +2,7 @@ import React from 'react'
 import AlasanCard from '../../Component/Home/AlasanCard'
 import Checklist from '../../Component/Home/Checklist'
 import Kegiatan from '../../Component/Home/Kegiatan'
+import SelukBeluk from '../../Component/Home/SelukBeluk'
 
 
 import Pianis from '../../Image/MichaelAbimanyu.jpeg'
@@ -12,6 +13,9 @@ import soc from "../../Image/soc.jpg"
 import soundscape from "../../Image/soundscape.jpg"
 import theater from "../../Image/theater.jpg"
 import kriza from "../../Image/kriza.jpg"
+import kehidupan from "../../Image/kehidupan.png"
+import tips from "../../Image/tips.jpg"
+import kegiatan from "../../Image/kegiatan.jpg"
 
 const Home = () => {
   return (
@@ -131,8 +135,34 @@ const Home = () => {
           />
         </div>
       </div>
-
-
+      <div className="w-full h-auto text-white bg-dark-blue px-16 py-32">
+        <div className="container mx-auto">
+          <div className='justify-center text-center font-bold mb-12 px-40'>
+            <div className= 'mb-5 content-center text-lg'>
+              Kehidupan SMUKIERS
+            </div>
+            <div className='text-5xl leading-normal'>
+              <div>Cari Tahu Seluk Beluk Kehidupan</div>
+              <div>Murid-Murid SMAK 1</div>
+            </div>
+          </div>
+          <SelukBeluk
+            img = {kehidupan}
+            title = "Kehidupan Selama Menjadi SMUKIERS"
+            desc = "Hidup penuh keseimbangan"
+          />
+          <SelukBeluk
+            img = {tips}
+            title = "Tips Belajar SMUKIERS"
+            desc = "Selalu berusaha meraih yang terbaik"
+          />
+          <SelukBeluk
+            img = {kegiatan}
+            title = "Kegiatan Setelah Kelas"
+            desc = "Produktivitas dan istirahat yang seimbang"
+          />
+        </div>
+      </div>
     </div>
   )
 }
