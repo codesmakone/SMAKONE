@@ -22,14 +22,13 @@ const Home = () => {
     <div className='font-sans'>
 
     
-      {/* <div className='mt-32 col-span-6flex flex-col justify-start text-left '> */}
-      <div className='col-span-6flex flex-col justify-start text-left '>
-        <div className='px-20 py-24'>
-          <h1 className='text-7xl py-12 font-black'>We Are SMAK 1</h1>
-          <h4 className='text-xl font-black'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4>
+      {/* <div className='mt-32 col-span-6 flex flex-col justify-start text-left '> */}
+      <div className='col-span-6 flex flex-col justify-start text-left '>
+        <div className='px-20 py-28'>
+          <h1 className='text-7xl font-medium'>We Are SMAK 1</h1>
+          <h4 className='text-xl font-medium'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4>
         </div>
       </div>
-
 
       <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24'>
         <div className='container mx-auto'>
@@ -78,7 +77,7 @@ const Home = () => {
                 <img src={Lobby_SMAK1} alt="Lobby_SMAK1" className='h-auto w-full rounded-3xl justify-end'/>
             </div>
             <div className='container mx-auto'>
-              <div className='text-6xl leading-normal font-black pl-20 pt-8'>
+              <div className='text-6xl leading-normal font-bold pl-20 pt-8'>
                 <div>Kenapa SMAK 1?</div>
               </div>
               <div className='pl-14 pr-14 mr-2 pt-10'>
@@ -101,14 +100,15 @@ const Home = () => {
 
       <div className='w-full h-auto text-black px-16 py-32'>
         <div className='container mx-auto'>
-          <div className='justify-center text-center font-bold mb-12 px-40'>
-            <div className= 'mb-5 content-center text-lg'>
+          <div className='justify-center text-center font-bold'>
+            <div className= 'mb-5 content-center text-xl'>
               Kegiatan
             </div>
             <div className='text-5xl leading-normal'>
               <div>Seputar Kegiatan di SMAK 1</div>
             </div>
           </div>
+          <div className="px-8">
           <Kegiatan
             img = {soc}
             title = "Smakonecup"
@@ -133,12 +133,15 @@ const Home = () => {
             desc = "Terus berlatih dan raih prestasi"
             dir = "/kegiatan/kriza"
           />
+          </div>
         </div>
       </div>
+
+
       <div className="w-full h-auto text-white bg-dark-blue px-16 py-32">
         <div className="container mx-auto">
           <div className='justify-center text-center font-bold mb-12 px-40'>
-            <div className= 'mb-5 content-center text-lg'>
+            <div className= 'mb-5 content-center text-xl'>
               Kehidupan SMUKIERS
             </div>
             <div className='text-5xl leading-normal'>
@@ -146,6 +149,7 @@ const Home = () => {
               <div>Murid-Murid SMAK 1</div>
             </div>
           </div>
+          <div className="">
           <SelukBeluk
             img = {kehidupan}
             title = "Kehidupan Selama Menjadi SMUKIERS"
@@ -164,6 +168,7 @@ const Home = () => {
             desc = "Produktivitas dan istirahat yang seimbang"
             dir = "/kehidupan_smukie/kegiatan"
           />
+          </div>
         </div>
       </div>
     </div>

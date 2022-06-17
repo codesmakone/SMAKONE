@@ -2,7 +2,7 @@ import React from 'react'
 
 const Layout = (props) => {
   return (
-    <div className='font-sans'>
+    <div>
         <div className='container mx-auto'>
             <div className='px-20 pt-10 justify-center text-center'>
                 <h2 className='text-xl font-semibold'>{ props.cat }</h2>

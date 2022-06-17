@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
       
-        <div className='pt-12'>
+        <div >
           <div className='pb-12 flex justify-around'>
             <div>
               <img className='object-scale-down h-8' alt='smakone' src={Logo_SMAK1}/>

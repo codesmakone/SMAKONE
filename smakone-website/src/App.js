@@ -9,7 +9,7 @@ import Footer from './Component/Footer/Footer';
 
 function App() {
   return (
-      <div className='w-full h-full'>
+      <div className='w-full h-full font-sans'>
         <Nav/>
         <Routes>
           <Route path="/" element={<Home/>}/>

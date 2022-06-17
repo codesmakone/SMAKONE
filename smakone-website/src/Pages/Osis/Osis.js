@@ -1,12 +1,12 @@
 import React from 'react'
 
-import Article from '../../Component/Article/Article'
+import Layout from '../../Component/Layout/Layout'
 
 const Osis = () => {
   return (
     <div className='mx-auto container'>
       Osis
-      <Article/>
+      <Layout/>
     </div>
   )
 }
