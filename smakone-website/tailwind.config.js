@@ -46,7 +46,8 @@ module.exports = {
       12: '12px',
     },
     fontFamily: {
-      'sans' : ['Roboto', defaultTheme.fontFamily.sans]
+      'sans' : ['Roboto', defaultTheme.fontFamily.sans],
+      'Product': ['Product-sans', ...defaultTheme.fontFamily.sans],
     },
   },
   plugins: [],

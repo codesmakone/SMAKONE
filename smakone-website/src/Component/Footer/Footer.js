@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 // Icon for Email, Instagram, Line, and Youtube
 import { BsInstagram } from "react-icons/bs";
@@ -15,10 +16,10 @@ import Logo_SMAK1 from "../../Image/Logo_SMAK1.png"
 
 const Footer = () => {
 
-  const scrollToTargetAdjusted = (value) =>{
-    let element = document.getElementById(`${value}`);
-    element.scrollIntoView()
-  }
+  // const scrollToTargetAdjusted = (value) =>{
+  //   let element = document.getElementById(`${value}`);
+  //   element.scrollIntoView()
+  // }
 
   return (
   <div>
@@ -47,16 +48,16 @@ const Footer = () => {
               <img className='object-scale-down h-8' alt='smakone' src={Logo_SMAK1}/>
             </div>
             <div className='flex flex-col text-xl gap-y-7 font-bold text-gray-500'>
-              <Link to="/osis"className='text-black'>Osis</Link>
-              <div>Visi & Misi Kami</div>
-              <div>Bertemu dengan Kami</div>
-              <div>Services</div>
+              <HashLink to="/osis#osis"className='text-black'>Osis</HashLink>
+              <HashLink to="/osis#visi&misi">Visi & Misi Kami</HashLink>
+              <HashLink to="/osis#osis">Bertemu dengan Kami</HashLink>
+              <HashLink to="/osis#bidang">Services</HashLink>
             </div>
             <div className='flex flex-col text-xl gap-y-7 font-bold text-gray-500'>
               <Link to="/kehidupan_smukie" className='text-black'>Kehidupan SMUKIERS</Link >
-              <div>Kegiatan</div>
-              <div>Kehidupan SMUKIERS</div>
-              <div>Alumni</div>
+              <HashLink to="/kehidupan_smukie#Tips">Tips Belajar</HashLink>
+              <HashLink to="/kehidupan_smukie#kegiatan">Kegiatan</HashLink>
+              <Link to="/alumni">Alumni</Link>
             </div>
             <div className='flex gap-x-2'>
               <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><RiMailLine size={25}/></a>
