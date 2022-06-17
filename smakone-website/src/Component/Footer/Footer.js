@@ -14,6 +14,12 @@ import Logo_SMAK1 from "../../Image/Logo_SMAK1.png"
 
 
 const Footer = () => {
+
+  const scrollToTargetAdjusted = (value) =>{
+    let element = document.getElementById(`${value}`);
+    element.scrollIntoView()
+  }
+
   return (
   <div>
     <footer>
