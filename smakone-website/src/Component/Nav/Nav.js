@@ -18,7 +18,7 @@ const Nav = () => {
             </Link>
         </div>
         <div className='flex justify-center lg:items-center lg:w-auto w-full py-9'>
-          <div className='text-xl font-bold'>
+          <div className='text-xl font-medium'>
             {/* Active style : " ", nanya enrichie ini maunya gmn fixed atau apa */}
             <NavLink to="/tentang_kami" className="px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black">
               Tentang Kami
