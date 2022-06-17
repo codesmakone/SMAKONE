@@ -19,7 +19,7 @@ import kegiatan from "../../Image/kegiatan.jpg"
 
 const Home = () => {
   return (
-    <div className='font-sans'>
+    <div className=''>
 
     
       {/* <div className='mt-32 col-span-6 flex flex-col justify-start text-left '> */}
