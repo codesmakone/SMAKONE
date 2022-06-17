@@ -1,13 +1,13 @@
-import React from 'react'
-import AlasanCard from '../../Component/Home/AlasanCard'
-import Checklist from '../../Component/Home/Checklist'
-import Kegiatan from '../../Component/Home/Kegiatan'
-import SelukBeluk from '../../Component/Home/SelukBeluk'
+import React from "react"
+import AlasanCard from "../../Component/Home/AlasanCard"
+import Checklist from "../../Component/Home/Checklist"
+import Kegiatan from "../../Component/Home/Kegiatan"
+import SelukBeluk from "../../Component/Home/SelukBeluk"
 
 
-import Pianis from '../../Image/MichaelAbimanyu.jpeg'
-import Matematikawan from '../../Image/GabrielaErin.jpeg'
-import Pembulutangkis from '../../Image/DarrenJonathan.jpeg'
+import Pianis from "../../Image/MichaelAbimanyu.jpeg"
+import Matematikawan from "../../Image/GabrielaErin.jpeg"
+import Pembulutangkis from "../../Image/DarrenJonathan.jpeg"
 import Lobby_SMAK1 from "../../Image/Lobby_SMAK1.jpeg"
 import soc from "../../Image/soc.jpg"
 import soundscape from "../../Image/soundscape.jpg"
@@ -75,7 +75,7 @@ const Home = () => {
         <div className='container mx-auto'>
           <div className='grid grid-cols-2'>
             <div className='pl-20 pr-12 rounded-lg'>
-                <img src={Lobby_SMAK1} alt="" className='h-auto w-full rounded-3xl justify-end'/>
+                <img src={Lobby_SMAK1} alt="Lobby_SMAK1" className='h-auto w-full rounded-3xl justify-end'/>
             </div>
             <div className='container mx-auto'>
               <div className='text-6xl leading-normal font-black pl-20 pt-8'>
