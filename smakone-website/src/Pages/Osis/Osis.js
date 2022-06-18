@@ -1,15 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 // Component
 import OsisLayout from '../../Component/Osis/OsisLayout'
+import OsisNav from '../../Component/Osis/OsisNav'
 
 // Image
 import Osis_Image from '../../Image/OSIS_Pelantikan.jpeg'
+import Osis1 from '../../Image/Osis1.png'
+import Osis2 from '../../Image/Osis2.png'
+import Osis3 from '../../Image/Osis3.png'
 
 const Osis = () => {
   return (
-    <div className='mx-auto container'>
-      <div id='osis'>
+    <div>
+      <div id='osis' className='mx-auto container'>
       <OsisLayout 
       category="OSIS" 
       title="Tentang Kami"
@@ -23,7 +28,47 @@ const Osis = () => {
       misi4 ="Mengoptimalisasikan kualitas SDM SMAK 1 melalui restorasi organisasi yang disruptif serta pengembangan program yang sudah ada dengan evaluasi secara berkala."
       />
       </div>
-      <div id='bidang'>
+      <div id='bidang' className='bg-dark-blue w-full h-auto mt-16 text-white py-8'>
+        <div className='text-center'>
+          <div className='flex flex-col'>
+            <h1>
+              Bidang - Bidang
+            </h1>
+            <div>
+              <OsisNav
+              img={Osis1}
+              Title="Badan Pengurus Harian"
+              />
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+              
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
