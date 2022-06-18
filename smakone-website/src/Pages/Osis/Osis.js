@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { NavLink, Outlet } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link'
 
 // Component
 import OsisLayout from '../../Component/Osis/OsisLayout'
@@ -10,6 +11,7 @@ import Osis_Image from '../../Image/OSIS_Pelantikan.jpeg'
 import Osis1 from '../../Image/Osis1.png'
 import Osis2 from '../../Image/Osis2.png'
 import Osis3 from '../../Image/Osis3.png'
+
 
 const Osis = () => {
   return (
@@ -28,44 +30,166 @@ const Osis = () => {
       misi4 ="Mengoptimalisasikan kualitas SDM SMAK 1 melalui restorasi organisasi yang disruptif serta pengembangan program yang sudah ada dengan evaluasi secara berkala."
       />
       </div>
-      <div id='bidang' className='bg-dark-blue w-full h-auto mt-16 text-white py-8'>
-        <div className='text-center'>
-          <div className='flex flex-col'>
-            <h1>
+
+      <div id='bidang' className='bg-dark-blue w-full h-auto text-white py-14 mt-16'>
+        <div className='container mx-auto'>
+          <div className='text-center px-60'>
+            <h1 className='text-5xl font-semibold'>
               Bidang - Bidang
             </h1>
             <div>
-              <OsisNav
-              img={Osis1}
-              Title="Badan Pengurus Harian"
-              />
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-              
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
+              {/* <NavLink to="bph">
+                <OsisNav
+                  img={Osis1}
+                  Title="Badan Pengurus Harian"
+                />
+              </NavLink>
+              <NavLink to="bidang1">
+                <OsisNav
+                  img={Osis2}
+                  Title="Bidang 1"
+                  desc ="Bidang Pembinaan Keimanan dan Ketakwaan Terhadap Tuhan Yang Maha Esa"
+                  />
+              </NavLink>
+              <NavLink to="bidang2">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 2"
+                  desc ="Bidang Pembinaan Budi Pekerti Luhur dan Akhlak Mulia"
+                  />
+              </NavLink>
+              <NavLink to="bidang3">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 3"
+                  desc ="Bidang Pembinaan Kepribadian Unggul, Wawasan Kebangsaan, dan Bela Negara"
+                  />
+              </NavLink>
+              <NavLink to="bidang4">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 4"
+                  desc ="Bidang Pembinaan Prestasi Akademik dan Ilmu Pengetahuan dan Teknologi (IPTEK)"
+                  />
+              </NavLink>
+              <NavLink to="bidang5">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 5"
+                  desc ="Bidang Pembinaan Demokrasi, Hak Asasi Manusia, Pendidikan Politik, Lingkungan Hidup, Kepekaan, dan Toleransi Sosial Dalam Konteks Masyarakat Plural"
+                  />
+              </NavLink>
+              <NavLink to="bidang6">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 6"
+                  desc ="Bidang Kreativitas, Keterampilan, dan Kewirausahaan"
+                  />
+              </NavLink>
+              <NavLink to="bidang7">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 7"
+                  desc ="Bidang Pembinaan Kualitas Olahraga, Jasmani, Kesehatan, dan Gizi Berbasis Sumber Gizi Terdiversifikasi"
+                  />
+              </NavLink>
+              <NavLink to="bidang8">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 8"
+                  desc ="Bidang Pembinaan Sastra dan Budaya"
+                  />
+              </NavLink>
+              <NavLink to="bidang9">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 9"
+                  desc ="Bidang Pembinaan Teknologi Informasi dan Komunikasi (TIK)"
+                  />
+              </NavLink>
+              <NavLink to="bidang10">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 10"
+                  desc ="Bidang Pembinaan Komunikasi dalam Bahasa Inggris"
+                  />
+              </NavLink> */}
+              <HashLink to="bph#top">
+                <OsisNav
+                  img={Osis1}
+                  Title="Badan Pengurus Harian"
+                />
+              </HashLink>
+              <HashLink to="bidang1#top">
+                <OsisNav
+                  img={Osis2}
+                  Title="Bidang 1"
+                  desc ="Bidang Pembinaan Keimanan dan Ketakwaan Terhadap Tuhan Yang Maha Esa"
+                  />
+              </HashLink>
+              <HashLink to="bidang2#top">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 2"
+                  desc ="Bidang Pembinaan Budi Pekerti Luhur dan Akhlak Mulia"
+                  />
+              </HashLink>
+              <HashLink to="bidang3#top">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 3"
+                  desc ="Bidang Pembinaan Kepribadian Unggul, Wawasan Kebangsaan, dan Bela Negara"
+                  />
+              </HashLink>
+              <HashLink to="bidang4#top">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 4"
+                  desc ="Bidang Pembinaan Prestasi Akademik dan Ilmu Pengetahuan dan Teknologi (IPTEK)"
+                  />
+              </HashLink>
+              <HashLink to="bidang5#top">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 5"
+                  desc ="Bidang Pembinaan Demokrasi, Hak Asasi Manusia, Pendidikan Politik, Lingkungan Hidup, Kepekaan, dan Toleransi Sosial Dalam Konteks Masyarakat Plural"
+                  />
+              </HashLink>
+              <HashLink to="bidang6#top">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 6"
+                  desc ="Bidang Kreativitas, Keterampilan, dan Kewirausahaan"
+                  />
+              </HashLink>
+              <HashLink to="bidang7#top">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 7"
+                  desc ="Bidang Pembinaan Kualitas Olahraga, Jasmani, Kesehatan, dan Gizi Berbasis Sumber Gizi Terdiversifikasi"
+                  />
+              </HashLink>
+              <HashLink to="bidang8#top">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 8"
+                  desc ="Bidang Pembinaan Sastra dan Budaya"
+                  />
+              </HashLink>
+              <HashLink to="bidang9#top">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 9"
+                  desc ="Bidang Pembinaan Teknologi Informasi dan Komunikasi (TIK)"
+                  />
+              </HashLink>
+              <HashLink to="bidang10#top">
+                <OsisNav
+                  img={Osis3}
+                  Title="Bidang 10"
+                  desc ="Bidang Pembinaan Komunikasi dalam Bahasa Inggris"
+                  />
+              </HashLink>
             </div>
           </div>
         </div>
