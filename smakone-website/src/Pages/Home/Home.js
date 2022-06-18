@@ -149,7 +149,7 @@ const Home = () => {
               <div>Murid-Murid SMAK 1</div>
             </div>
           </div>
-          <div className="">
+          <div>
           <SelukBeluk
             img = {kehidupan}
             title = "Kehidupan Selama Menjadi SMUKIERS"
