@@ -15,19 +15,6 @@ module.exports = {
     backgroundImage: {
       'footer-image': "url('./Image/Background_Footer.png')",
     },
-    // fontWeight: {
-    //   hairline: 100,
-    //   'extra-light': 100,
-    //   thin: 200,
-    //   light: 300,
-    //   normal: 400,
-    //   medium: 500,
-    //   semibold: 600,
-    //   bold: 700,
-    //   extrabold: 800,
-    //   'extra-bold': 800,
-    //   black: 1000,
-    // },
     fontSize: {
       'xs': '.75rem',
       'sm': '.875rem',

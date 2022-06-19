@@ -48,16 +48,17 @@ const Footer = () => {
               <img className='object-scale-down h-8' alt='smakone' src={Logo_SMAK1}/>
             </div>
             <div className='flex flex-col text-xl gap-y-7 font-bold text-gray-500'>
-              <HashLink to="/osis#osis"className='text-black'>Osis</HashLink>
-              <HashLink to="/osis#visi&misi">Visi & Misi Kami</HashLink>
-              <HashLink to="/osis#osis">Bertemu dengan Kami</HashLink>
-              <HashLink to="/osis#bidang">Services</HashLink>
+              <Link to="/osis"className='text-black link-underline link-underline-black'>Osis</Link>
+              <HashLink to="/osis#visi&misi" className='hover:text-black link-underline link-underline-black' >Visi & Misi Kami</HashLink>
+              <HashLink to="/osis#osis" className='hover:text-black link-underline link-underline-black' >Bertemu dengan Kami</HashLink>
+              <HashLink to="/osis#bidang" className='hover:text-black link-underline link-underline-black' >Services</HashLink>
+              <Link to="/ass1st" className='hover:text-black link-underline link-underline-black' >Ass1st</Link>
             </div>
             <div className='flex flex-col text-xl gap-y-7 font-bold text-gray-500'>
-              <Link to="/kehidupan_smukie" className='text-black'>Kehidupan SMUKIERS</Link >
-              <HashLink to="/kehidupan_smukie#Tips">Tips Belajar</HashLink>
-              <HashLink to="/kehidupan_smukie#kegiatan">Kegiatan</HashLink>
-              <Link to="/alumni">Alumni</Link>
+              <Link to="/kehidupan_smukie" className='text-black link-underline link-underline-black'>Kehidupan SMUKIERS</Link >
+              <HashLink to="/kehidupan_smukie#Tips" className='hover:text-black link-underline link-underline-black'>Tips Belajar</HashLink>
+              <HashLink to="/kehidupan_smukie#kegiatan" className='hover:text-black link-underline link-underline-black' >Kegiatan</HashLink>
+              <Link to="/alumni" className='hover:text-black link-underline link-underline-black' >Alumni</Link>
             </div>
             <div className='flex gap-x-2'>
               <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><RiMailLine size={25}/></a>
