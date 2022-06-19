@@ -23,6 +23,11 @@ import OSIS_8 from './Pages/Osis/Osis_8/Osis_8'
 import OSIS_9 from './Pages/Osis/Osis_9/Osis_9'
 import OSIS_10 from './Pages/Osis/Osis_10/Osis_10'
 import NoMatchPages from './Pages/NoMatchPages/NoMatchPages'
+import SOC from './Pages/Kegiatan/soc'
+import Soundscape from './Pages/Kegiatan/soundscape'
+import STN from './Pages/Kegiatan/stn'
+import Kriza from './Pages/Kegiatan/kriza'
+import AlumniPage from './Pages/Alumni/alumni'
 
 
 function App() {
@@ -59,6 +64,11 @@ function App() {
           <Route path='/osis/bidang9' element={<OSIS_9/>}/>
           <Route path='/osis/bidang10' element={<OSIS_10/>}/>
           <Route path='*' element={<NoMatchPages/>}/>
+          <Route path='/kegiatan/soc' element={<SOC/>}/>
+          <Route path='/kegiatan/soundscape' element={<Soundscape/>}/>
+          <Route path='/kegiatan/stn' element={<STN/>}/>
+          <Route path='/kegiatan/kriza' element={<Kriza/>}/>
+          <Route path='/alumni' element={<AlumniPage/>}/>
         </Routes>
         <Footer/> 
       </div>
