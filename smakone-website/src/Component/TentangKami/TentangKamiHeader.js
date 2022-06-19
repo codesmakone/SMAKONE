@@ -13,7 +13,7 @@ const TentangKamiHeader = (props) => {
                         </div>
                     </h4>
                     <div className='pt-12 px-28 text-center'>
-                        <iframe className="objext-cover w-full" width="997" height="558" src="https://www.youtube.com/embed/XifGVzIuT_I" title="Welcome to SMAK ONE." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className="object-cover w-full" width="997" height="558" src="https://www.youtube.com/embed/XifGVzIuT_I" title="Welcome to SMAK ONE." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>

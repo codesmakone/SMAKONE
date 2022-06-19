@@ -125,7 +125,7 @@ const Home = () => {
             img = {theater}
             title = "SMUKIEZ Theater Night"
             desc = "Saat berbagai seni dipadukan dan menghasilkan sebuah karya yang memukau"
-            dir = "/kegiatan/soundscape"
+            dir = "/kegiatan/stn"
           />
           <Kegiatan
             img = {kriza}

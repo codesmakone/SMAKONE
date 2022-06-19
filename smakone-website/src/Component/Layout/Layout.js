@@ -10,23 +10,23 @@ const Layout = (props) => {
                 <h4 className='text-xl font-semibold'>{ props.desc }</h4>
             </div>
             <div className='pt-12 px-28 text-left'>
-                <p className='text-xl font-semibold'>
+                <p className='text-lg font-semibold px-3'>
                     { props.formerPar } 
                 </p>
                 <img src={ props.img } className="object-cover h-auto w-full rounded-3xl mt-6" alt={props.alt}/>
-                <p className='text-xl font-semibold mt-6'>
+                <p className='text-lg font-semibold mt-6 px-3'>
                     { props.latterPar1 }
                 </p>
-                <p className='text-xl font-semibold mt-6'>
+                <p className='text-lg font-semibold mt-6 px-3'>
                     { props.latterPar2 }
                 </p>
-                <p className='text-xl font-semibold mt-6'>
+                <p className='text-lg font-semibold mt-6 px-3'>
                     { props.latterPar3 }
                 </p>
-                <p className='text-xl font-semibold mt-6'>
+                <p className='text-lg font-semibold mt-6 px-3'>
                     { props.latterPar4 }
                 </p>
-                <p className='text-xl font-semibold mt-6'>
+                <p className='text-lg font-semibold mt-6 px-3'>
                     { props.latterPar5 }
                 </p>
             </div>

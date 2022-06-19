@@ -1,0 +1,20 @@
+import React from 'react'
+
+import Layout from '../../Component/Layout/Layout'
+import kriza from '../../Image/kriza.jpg'
+
+const Kriza = () => {
+    return(
+        <Layout
+            cat = "Kegiatan"
+            title = "KR1ZA"
+            desc = "Terus Berlatih dan Raih Prestasi"
+            formerPar = "Terdapat berbagai ekskul dan klub olahraga yang bisa diikuti siswa-siswi SMAK 1. Mulai dari basket, voli, futsal, hingga catur, dan masih banyak lagi. Klub olahraga di SMAK 1 sendiri biasa dikenal dengan nama KR1ZA. Sudah banyak murid SMAK 1 yang berhasil meraih juara. Salah satu pencapaiannya adalah KR1ZA Basket Putri yang berhasil mendapatkan juara 1 di DBL Putri 2019."
+            img = {kriza}
+            alt = "kr1za"
+            latterPar1 = "Untuk dapat menjadi anggota KR1ZA sendiri, terdapat seleksi yang harus diikuti. Sebaliknya, siapa pun bisa mengikuti ekskul untuk memperdalam dan melatih kemampuannya dalam olahraga pilihan."
+        />
+    )
+}
+
+export default Kriza
