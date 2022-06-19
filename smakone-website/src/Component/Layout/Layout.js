@@ -1,9 +1,7 @@
 import React from 'react'
-import ScrollToTop from '../ScrollToTop'
 
 const Layout = (props) => {
   return (
-    <ScrollToTop>
         <div>
             <div className='container mx-auto'>
                 <div className='px-20 pt-10 justify-center text-center'>
@@ -34,7 +32,6 @@ const Layout = (props) => {
                 </div>
             </div>
         </div>
-    </ScrollToTop>
   )
 }
 

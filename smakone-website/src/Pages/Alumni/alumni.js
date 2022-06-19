@@ -1,8 +1,12 @@
 import React from 'react'
+
+// Import Component
 import Alumni from '../../Component/Alumni/alumni'
-import BillyStevanus from '../../Image/BillyStevanus.jpg'
-import ScottMoses from '../../Image/ScottMoses.jpg'
-import NicoleCharlene from '../../Image/NicoleCharlene.jpg'
+
+//Import Image
+import BillyStevanus from '../../Image/Alumni/BillyStevanus.jpg'
+import ScottMoses from '../../Image/Alumni/ScottMoses.jpg'
+import NicoleCharlene from '../../Image/Alumni/NicoleCharlene.jpg'
 
 const AlumniPage = () => {
     return(
