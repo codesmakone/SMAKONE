@@ -1,27 +1,29 @@
 import React from "react"
+
+// Import Component
 import AlasanCard from "../../Component/Home/AlasanCard"
 import Checklist from "../../Component/Home/Checklist"
 import Kegiatan from "../../Component/Home/Kegiatan"
 import SelukBeluk from "../../Component/Home/SelukBeluk"
 
 
-import Pianis from "../../Image/MichaelAbimanyu.jpeg"
-import Matematikawan from "../../Image/GabrielaErin.jpeg"
-import Pembulutangkis from "../../Image/DarrenJonathan.jpeg"
-import Lobby_SMAK1 from "../../Image/Lobby_SMAK1.jpeg"
-import soc from "../../Image/soc.jpg"
-import soundscape from "../../Image/soundscape.jpg"
-import theater from "../../Image/theater.jpg"
-import kriza from "../../Image/kriza.jpg"
-import kehidupan from "../../Image/kehidupan.png"
-import tips from "../../Image/tips.jpg"
-import kegiatan from "../../Image/kegiatan.jpg"
+// Import Image
+import Pianis from "../../Image/Home/Alasan/MichaelAbimanyu.jpeg"
+import Matematikawan from "../../Image/Home/Alasan/GabrielaErin.jpeg"
+import Pembulutangkis from "../../Image/Home/Alasan/DarrenJonathan.jpeg"
+import Lobby_SMAK1 from "../../Image/Home/Lobby_SMAK1.jpeg"
+import soc from "../../Image/Home/Kegiatan/soc.jpg"
+import soundscape from "../../Image/Home/Kegiatan/soundscape.jpg"
+import theater from "../../Image/Home/Kegiatan/theater.jpg"
+import kriza from "../../Image/Home/Kegiatan/kriza.jpg"
+import kehidupan from "../../Image/Home/Kehidupan/kehidupan.png"
+import tips from "../../Image/Home/Kehidupan/tips.jpg"
+import kegiatan from "../../Image/Home/Kehidupan/kegiatan.jpg"
 
 const Home = () => {
   return (
     <div className=''>
 
-    
       {/* <div className='mt-32 col-span-6 flex flex-col justify-start text-left '> */}
       <div className='col-span-6 flex flex-col justify-start text-left '>
         <div className='px-20 py-28'>

@@ -4,6 +4,7 @@ import {Routes, Route} from "react-router-dom"
 // Import Component
 import Nav from './Component/Nav/Nav'
 import Footer from './Component/Footer/Footer'
+import ScrollToTop from './Component/ScrollToTop'
 
 
 // Import Pages
@@ -32,6 +33,7 @@ import AlumniPage from './Pages/Alumni/alumni'
 function App() {
   return (
       <div className='w-full h-full font-sans'>
+        <ScrollToTop/> 
         <Nav/>
         <Routes>
           <Route path="/" element={<Home/>}/>

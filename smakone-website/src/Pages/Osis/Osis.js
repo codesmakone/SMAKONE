@@ -1,16 +1,15 @@
 import React from 'react'
-// import { NavLink, Outlet } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link'
+import { NavLink } from 'react-router-dom';
 
 // Component
 import OsisLayout from '../../Component/Osis/OsisLayout'
 import OsisNav from '../../Component/Osis/OsisNav'
 
 // Image
-import Osis_Image from '../../Image/OSIS_Pelantikan.jpeg'
-import Osis1 from '../../Image/Osis1.png'
-import Osis2 from '../../Image/Osis2.png'
-import Osis3 from '../../Image/Osis3.png'
+import Osis_Image from '../../Image/Osis/OSIS_Pelantikan.jpeg'
+import Osis1 from '../../Image/Osis/Osis1.png'
+import Osis2 from '../../Image/Osis/Osis2.png'
+import Osis3 from '../../Image/Osis/Osis3.png'
 
 
 const Osis = () => {
@@ -38,7 +37,7 @@ const Osis = () => {
               Bidang - Bidang
             </h1>
             <div>
-              {/* <NavLink to="bph">
+              <NavLink to="bph">
                 <OsisNav
                   img={Osis1}
                   Title="Badan Pengurus Harian"
@@ -113,83 +112,7 @@ const Osis = () => {
                   Title="Bidang 10"
                   desc ="Bidang Pembinaan Komunikasi dalam Bahasa Inggris"
                   />
-              </NavLink> */}
-              <HashLink to="bph#top">
-                <OsisNav
-                  img={Osis1}
-                  Title="Badan Pengurus Harian"
-                />
-              </HashLink>
-              <HashLink to="bidang1#top">
-                <OsisNav
-                  img={Osis2}
-                  Title="Bidang 1"
-                  desc ="Bidang Pembinaan Keimanan dan Ketakwaan Terhadap Tuhan Yang Maha Esa"
-                  />
-              </HashLink>
-              <HashLink to="bidang2#top">
-                <OsisNav
-                  img={Osis3}
-                  Title="Bidang 2"
-                  desc ="Bidang Pembinaan Budi Pekerti Luhur dan Akhlak Mulia"
-                  />
-              </HashLink>
-              <HashLink to="bidang3#top">
-                <OsisNav
-                  img={Osis3}
-                  Title="Bidang 3"
-                  desc ="Bidang Pembinaan Kepribadian Unggul, Wawasan Kebangsaan, dan Bela Negara"
-                  />
-              </HashLink>
-              <HashLink to="bidang4#top">
-                <OsisNav
-                  img={Osis3}
-                  Title="Bidang 4"
-                  desc ="Bidang Pembinaan Prestasi Akademik dan Ilmu Pengetahuan dan Teknologi (IPTEK)"
-                  />
-              </HashLink>
-              <HashLink to="bidang5#top">
-                <OsisNav
-                  img={Osis3}
-                  Title="Bidang 5"
-                  desc ="Bidang Pembinaan Demokrasi, Hak Asasi Manusia, Pendidikan Politik, Lingkungan Hidup, Kepekaan, dan Toleransi Sosial Dalam Konteks Masyarakat Plural"
-                  />
-              </HashLink>
-              <HashLink to="bidang6#top">
-                <OsisNav
-                  img={Osis3}
-                  Title="Bidang 6"
-                  desc ="Bidang Kreativitas, Keterampilan, dan Kewirausahaan"
-                  />
-              </HashLink>
-              <HashLink to="bidang7#top">
-                <OsisNav
-                  img={Osis3}
-                  Title="Bidang 7"
-                  desc ="Bidang Pembinaan Kualitas Olahraga, Jasmani, Kesehatan, dan Gizi Berbasis Sumber Gizi Terdiversifikasi"
-                  />
-              </HashLink>
-              <HashLink to="bidang8#top">
-                <OsisNav
-                  img={Osis3}
-                  Title="Bidang 8"
-                  desc ="Bidang Pembinaan Sastra dan Budaya"
-                  />
-              </HashLink>
-              <HashLink to="bidang9#top">
-                <OsisNav
-                  img={Osis3}
-                  Title="Bidang 9"
-                  desc ="Bidang Pembinaan Teknologi Informasi dan Komunikasi (TIK)"
-                  />
-              </HashLink>
-              <HashLink to="bidang10#top">
-                <OsisNav
-                  img={Osis3}
-                  Title="Bidang 10"
-                  desc ="Bidang Pembinaan Komunikasi dalam Bahasa Inggris"
-                  />
-              </HashLink>
+              </NavLink>
             </div>
           </div>
         </div>
