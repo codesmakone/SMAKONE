@@ -13,7 +13,10 @@ const Layout = (props) => {
                     <p className='text-lg font-semibold px-3'>
                         { props.formerPar } 
                     </p>
-                    <img src={ props.img } className="object-cover h-auto w-full rounded-3xl mt-6" alt={props.alt}/>
+                    {props.img && 
+                    <img src={ props.img } className="object-cover h-auto w-full rounded-3xl mt-6" alt={props.alt}/>}
+                    {props.imgAlasan && 
+                    <img src={ props.imgAlasan } className="object-cover h-[32rem] w-auto mx-auto rounded-3xl mt-6" alt={props.altAlasan}/>}
                     <p className='text-lg font-semibold mt-6 px-3'>
                         { props.latterPar1 }
                     </p>

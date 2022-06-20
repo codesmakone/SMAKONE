@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Layout from '../../Component/Layout/Layout'
-import soc from '../../Image/Home/Kegiatan/soc.jpg'
+import Layout from '../../../Component/Layout/ArticleLayout'
+import soc from '../../../Image/Home/Kegiatan/soc.jpg'
 
 const SOC = () => {
     return(

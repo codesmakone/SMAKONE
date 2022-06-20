@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Layout from '../../Component/Layout/Layout'
-import kriza from '../../Image/Home/Kegiatan/kriza.jpg'
+import Layout from '../../../Component/Layout/ArticleLayout'
+import kriza from '../../../Image/Home/Kegiatan/kriza.jpg'
 
 const Kriza = () => {
     return(
