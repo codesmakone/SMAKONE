@@ -89,7 +89,7 @@ const Home = () => {
               </div>
               <div className='pl-20 pr-20 pt-10'>
               <button className="py-5 px-16 bg-dark-blue rounded-full">
-                <a href='https://psbjakarta.bpkpenabur.or.id'className="link-underline link-underline-white px-3 py-2 text-white text-xl font-black" >
+                <a href='https://psbjakarta.bpkpenabur.or.id' className="link-underline link-underline-white px-3 py-2 text-white text-xl font-black" target="blank">
                   Daftar Sekarang
                 </a>
               </button>

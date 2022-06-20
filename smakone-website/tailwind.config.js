@@ -5,13 +5,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
-    backgroundColor :{
+    extend: {    
+      backgroundColor :{
       'dark-blue' : '#000957',
-      'blue-500' : '#1D77FF',
-      'blue-400' : '#60a5fa',
-      'blue-700' : 'rgb(29 78 216)',
+      'light-blue' : '#1D77FF',
     },
+  },
     backgroundImage: {
       'footer-image': "url('./Image/Background_Footer.png')",
     },
