@@ -19,6 +19,8 @@ const BillyStevanus = () => {
             latterPar5="Menurut Billy, bersekolah di SMAK 1 tidak lepas dari tantangan. Bahkan, setiap ulangan juga merupakan ‘struggle’. Walaupun Billy memiliki target untuk lulus, ia tidak pernah melupakan kebahagiaannya sendiri. Waktu luang biasa ia gunakan untuk bertemu dengan teman-temannya, terutama apabila ada acara sweet 17. Selain itu, tentunya ia juga meluangkan waktu untuk melakukan hobinya, yaitu bermain futsal. “Everyday is a struggle,” katanya, setiap hari adalah tantangan. “Tapi, bagaimana cara kita bisa manage itu semua, bagaimana cara kita bisa kembang itu semua supaya aku ga ketinggalan masa muda untuk happy.”"
             imgAlasan = {Billy}
             altAlasan = "Billy Stevanus"
+            quote='"Kalian semua anak pintar, kalian semua anak yang beruntung bisa mendapatkan satu tempat di sekolah terbaik di Indonesia, bukan cuman di Jakarta. Berjuang, jadi yang terbaik. Saling kompetisi itu hal yang baik menurut aku, tapi jangan lupakan sisi lain kehidupan kamu, karena kehidupan kamu bukan cuman belajar, belajar, belajar, tapi juga jangan lupa mengembangkan networking, jangan lupa mengembangkan experience karena sekolah itu masalah 3 aspek menurut aku. Satu, knowledge, yang kedua, experience, yang ketiga, networking. Kalo ada satu aja yang ketinggalan menurut aku ada yang kurang dari masa SMA kamu. Jangan lupa untuk bersenang-senang."'
+            quote_name="Billy"
         />
     </div>
   )

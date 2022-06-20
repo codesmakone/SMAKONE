@@ -33,8 +33,8 @@ const Footer = () => {
                 <p className="text-5xl font-bold leading-normal text-white text-center mb-10 break-all">
                   Cari Tahu Informasi Terkini Mengenai SMAK 1
                 </p>
-                <div className="rounded-full bg-blue-500 py-4 px-16  flex justify-center hover:bg-blue-700">
-                    <a href="https://www.instagram.com/smukiee/" target="blank" className="text-xl text-white font-bold">
+                <div>
+                    <a href="https://www.instagram.com/smukiee/" target="blank" className="text-xl text-white font-bold  rounded-full bg-light-blue py-4 px-16  flex justify-center hover:bg-blue-700">
                       @smukiee
                     </a>
                 </div>
