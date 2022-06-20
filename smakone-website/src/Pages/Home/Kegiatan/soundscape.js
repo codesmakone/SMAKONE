@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Layout from '../../Component/Layout/Layout'
-import soundscape from '../../Image/Home/Kegiatan/soundscape.jpg'
+import Layout from '../../../Component/Layout/ArticleLayout'
+import soundscape from '../../../Image/Home/Kegiatan/soundscape.jpg'
 
 const Soundscape = () => {
     return(

@@ -47,25 +47,25 @@ const Home = () => {
               <div>
                 <AlasanCard
                   img = {Pianis}
-                  alt = "Pianis"
+                  alt = "MichaelAbimanyu"
                   desc='Pianis sekaligus musisi andalan SMUKIERS'
-                  dir="/alasan/pianis"
+                  dir="/alasan/MichaelAbimanyu"
                 />
               </div>
               <div>
                 <AlasanCard
                   img = {Matematikawan}
-                  alt = "Matematikawan"
+                  alt = "GabrielaErin"
                   desc='Matematikawan dengan puluhan medali'
-                  dir="/alasan/matematikawan"
+                  dir="/alasan/GabrielaErin"
                 />
               </div>
               <div>
                 <AlasanCard
                   img = {Pembulutangkis}
-                  alt = "Pembulutangkis"
+                  alt = "DarrenJonathan"
                   desc='Pebulutangkis cerdas dengan smash yang mematikan'
-                  dir="/alasan/pembulutangkis"
+                  dir="/alasan/DarrenJonathan"
                 />
               </div>
             </div>
