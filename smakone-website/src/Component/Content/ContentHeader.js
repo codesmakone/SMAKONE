@@ -1,14 +1,15 @@
 import React from 'react'
 
-const TentangKamiHeader = (props) => {
+const ContentHeader = (props) => {
     return(
         <div>
             <div className='container justify-center'>
                 <div className='pt-10 justify-center text-center'>
-                    <h2 className='text-xl font-medium'>{ props.category }</h2>
-                    <h1 className='text-6xl font-semibold'>{ props.title }</h1>
-                    <h4 className='text-xl font-medium'>
-                        <div className=' text-center px-20'>
+                    <h2 className='text-xl font-semibold'>{ props.category }</h2>
+                    <h1 className='text-6xl font-black'>{ props.title }</h1>
+                    <h2 className='text-xl font-medium'>{ props.quote }</h2>
+                    <h4 className='text-xl font-semibold pt-3'>
+                        <div className='text-left px-28'>
                         { props.desc }
                         </div>
                     </h4>
@@ -21,4 +22,4 @@ const TentangKamiHeader = (props) => {
     )
 }
 
-export default TentangKamiHeader
+export default ContentHeader

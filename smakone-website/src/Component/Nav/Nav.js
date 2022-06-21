@@ -1,11 +1,9 @@
 import React from 'react'
-import Logo_SMAK1 from "../../Image/Logo_SMAK1.png"
+import Logo_SMAK1 from '../../Image/Logo_SMAK1.png'
 import { NavLink,Link } from 'react-router-dom'
+import Dropdown from '../Dropdown'
 
 const Nav = () => {
-
-  
-
   return (
     <>
     <div className='Circle'></div> 
@@ -28,7 +26,7 @@ const Nav = () => {
             <NavLink to="/osis" className="px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black ">
               OSIS
             </NavLink>
-            <NavLink to="/kehidupan_smukie" className="px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black ">
+            <NavLink to="/kehidupan_smukiers" className="px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black ">
               Kehidupan Smukiers
             </NavLink>
           </div>

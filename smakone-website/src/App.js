@@ -19,6 +19,9 @@ import MichaelAbimanyu from './Pages/Home/Alasan/MichaelAbimanyu';
 
 import Osis from './Pages/Osis/Osis'
 import TentangKami from './Pages/TentangKami/TentangKami'
+import KehidupanSmukiers from './Pages/Smukiers/KehidupanSmukiers'
+import TipsBelajar from './Pages/Smukiers/TipsBelajar'
+import KegiatanSetelahKelas from './Pages/Smukiers/KegiatanSetelahKelas'
 import BPH from './Pages/Osis/BPH/BPH'
 import OSIS_1 from './Pages/Osis/Osis_1/Osis_1'
 import OSIS_2 from './Pages/Osis/Osis_2/Osis_2'
@@ -40,7 +43,7 @@ import Nicole from './Pages/Alumni/NicoleCharlene'
 
 function App() {
   return (
-      <div className='w-full h-full font-sans'>
+      <div className='w-full h-full font-Product'>
         <ScrollToTop/> 
         <Nav/>
         <Routes>
@@ -54,6 +57,12 @@ function App() {
             <Route path='/alasan/GabrielaErin' element={<GabrielaErin/>}/>
             <Route path='/alasan/DarrenJonathan' element={<DarrenJonathan/>}/>
 
+          <Route path="/tentang_kami" element={<TentangKami/>}/>
+
+          <Route path="/kehidupan_smukiers" element={<KehidupanSmukiers/>}/>
+          <Route path="/tips" element={<TipsBelajar/>}/>
+          <Route path="/kegiatan" element={<KegiatanSetelahKelas/>}/>
+
           <Route path='/osis' element={<Osis/>}/>
             <Route path='/osis/bph' element={<BPH/>}/>
             <Route path='/osis/bidang1' element={<OSIS_1/>}/>
@@ -66,7 +75,6 @@ function App() {
             <Route path='/osis/bidang8' element={<OSIS_8/>}/>
             <Route path='/osis/bidang9' element={<OSIS_9/>}/>
             <Route path='/osis/bidang10' element={<OSIS_10/>}/>
-          <Route path="/tentang_kami" element={<TentangKami/>}/>
 
           <Route path='/alumni' element={<AlumniPage/>}/>
             <Route path='/alumni/BillyStevanus' element={<Billy/>}/>

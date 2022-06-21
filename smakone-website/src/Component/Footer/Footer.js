@@ -78,7 +78,7 @@ const Footer = () => {
                 <p className="text-center font-bold text-gray-500">
                     Jalan Tanjung Duren Raya Nomor 4<br/>
                     Jakarta Barat, DKI Jakarta 11470<br/>
-                    Tel:(+62)21 5666962
+                    Tel: (+62)21 5666962
                 </p>
             </div>
             <div className="text-xs object-bottom place-self-end">

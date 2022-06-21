@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TentangKamiText = (props) =>{
+const ContentText = (props) =>{
     return(
         <div className="container mx-auto mt-12">
             <div className="text-xl font-bold ml-32 mt-12 text-left pr-36">{ props.title }</div>
@@ -9,4 +9,4 @@ const TentangKamiText = (props) =>{
     )
 } 
 
-export default TentangKamiText
+export default ContentText
