@@ -1,18 +1,17 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { Link } from 'react-router-dom'
 
 const Emagz = (props) =>{
     return(
         <div className='container mx-auto'>
-            <div className='justify-center text-white text-center font-bold mb-12 px-40'>
+            <div className='justify-center text-white text-center font-bold px-40'>
                 <div className='text-white mb-5 content-center text-lg'>
                     E-Magazine
                 </div>
                 <div className='text-white text-5xl leading-normal'>
                     <div>E-Magazine Bulan { props.month } Telah Hadir!!!</div>
                 </div>
-                <div className='px-60 py-16'>
+                <div className='px-60 py-12'>
                     <img src={ props.img } alt={ props.alt } className='h-auto w-full justify-center'/>
                 </div>
                 <button className="py-5 px-16 bg-white rounded-full">
