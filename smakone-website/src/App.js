@@ -60,29 +60,28 @@ function App() {
 
           <Route path="/tentang_kami" element={<TentangKami/>}/>
 
-          <Route path="/kehidupan_smukiers" element={<KehidupanSmukiers/>}/>
-          <Route path="/kehidupan_smukiers/tips" element={<TipsBelajar/>}/>
-          <Route path="/kehidupan_smukiers/kegiatan" element={<KegiatanSetelahKelas/>}/>
+          <Route path="/Kehidupan_smukiers" element={<KehidupanSmukiers/>}/>
+          <Route path="/Kehidupan_smukiers/tips" element={<TipsBelajar/>}/>
+          <Route path="/Kehidupan_smukiers/kegiatan" element={<KegiatanSetelahKelas/>}/>
+          <Route path='/Kehidupan_smukiers/Alumni' element={<AlumniPage/>}/>
+            <Route path='/Kehidupan_smukiers/Alumni/BillyStevanus' element={<Billy/>}/>
+            <Route path='/Kehidupan_smukiers/Alumni/ScottMoses' element={<Scoot/>}/>
+            <Route path='/Kehidupan_smukiers/Alumni/NicoleCharlene' element={<Nicole/>}/>
 
-          <Route path='/osis' element={<Osis/>}/>
-            <Route path='/osis/bph' element={<BPH/>}/>
-            <Route path='/osis/bidang1' element={<OSIS_1/>}/>
-            <Route path='/osis/bidang2' element={<OSIS_2/>}/>
-            <Route path='/osis/bidang3' element={<OSIS_3/>}/>
-            <Route path='/osis/bidang4' element={<OSIS_4/>}/>
-            <Route path='/osis/bidang5' element={<OSIS_5/>}/>
-            <Route path='/osis/bidang6' element={<OSIS_6/>}/>
-            <Route path='/osis/bidang7' element={<OSIS_7/>}/>
-            <Route path='/osis/bidang8' element={<OSIS_8/>}/>
-            <Route path='/osis/bidang9' element={<OSIS_9/>}/>
-            <Route path='/osis/bidang10' element={<OSIS_10/>}/>
-          <Route path='/osis/emagz' element={<Emagz/>}/>
-          <Route path='/osis/ass1st' element={null}/>
-
-          <Route path='/alumni' element={<AlumniPage/>}/>
-            <Route path='/alumni/BillyStevanus' element={<Billy/>}/>
-            <Route path='/alumni/ScottMoses' element={<Scoot/>}/>
-            <Route path='/alumni/NicoleCharlene' element={<Nicole/>}/>
+          <Route path='/OSIS' element={<Osis/>}/>
+            <Route path='/OSIS/bph' element={<BPH/>}/>
+            <Route path='/OSIS/bidang1' element={<OSIS_1/>}/>
+            <Route path='/OSIS/bidang2' element={<OSIS_2/>}/>
+            <Route path='/OSIS/bidang3' element={<OSIS_3/>}/>
+            <Route path='/OSIS/bidang4' element={<OSIS_4/>}/>
+            <Route path='/OSIS/bidang5' element={<OSIS_5/>}/>
+            <Route path='/OSIS/bidang6' element={<OSIS_6/>}/>
+            <Route path='/OSIS/bidang7' element={<OSIS_7/>}/>
+            <Route path='/OSIS/bidang8' element={<OSIS_8/>}/>
+            <Route path='/OSIS/bidang9' element={<OSIS_9/>}/>
+            <Route path='/OSIS/bidang10' element={<OSIS_10/>}/>
+          <Route path='/OSIS/emagz' element={<Emagz/>}/>
+          <Route path='/OSIS/ass1st' element={null}/>
 
 
           <Route path='*' element={<NoMatchPages/>}/>

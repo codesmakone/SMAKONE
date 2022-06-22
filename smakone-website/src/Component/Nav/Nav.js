@@ -1,7 +1,9 @@
 import React from 'react'
 import Logo_SMAK1 from '../../Image/Logo_SMAK1.png'
 import { NavLink,Link } from 'react-router-dom'
-import Dropdown from '../Dropdown'
+
+//Import component
+import Dropdown2 from '../Dropdown2'
 
 const Nav = () => {
   return (
@@ -23,7 +25,7 @@ const Nav = () => {
             <NavLink to="/Tentang_kami" className="px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black">
               Tentang Kami
             </NavLink>
-            <Dropdown 
+            {/* <Dropdown 
               title='OSIS' 
               class='px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black'
               dir1='/OSIS'
@@ -46,7 +48,8 @@ const Nav = () => {
               menu3='Kegiatan Setelah Kelas'
               menu4='Alumni'
               menu5='Seputar SMAK 1'
-            />
+            /> */}
+            <Dropdown2/>
           </div>
         </div>
       </div> 
