@@ -55,9 +55,9 @@ const Footer = () => {
               <Link to="/OSIS/ASS1ST" className='hover:text-black link-underline link-underline-black' >Ass1st</Link>
             </div>
             <div className='flex flex-col text-xl gap-y-7 font-bold text-gray-500'>
-              <Link to="/kehidupan_smukie" className='text-black link-underline link-underline-black'>Kehidupan SMUKIERS</Link >
-              <HashLink to="/kehidupan_smukie#Tips" className='hover:text-black link-underline link-underline-black'>Tips Belajar</HashLink>
-              <HashLink to="/kehidupan_smukie#kegiatan" className='hover:text-black link-underline link-underline-black' >Kegiatan</HashLink>
+              <Link to="/Kehidupan_smukiers" className='text-black link-underline link-underline-black'>Kehidupan SMUKIERS</Link >
+              <Link to="/Kehidupan_smukiers/Tips" className='hover:text-black link-underline link-underline-black'>Tips Belajar</Link>
+              <Link to="/Kehidupan_smukiers/Kegiatan" className='hover:text-black link-underline link-underline-black' >Kegiatan</Link>
               <Link to="/Kehidupan_smukiers/Alumni" className='hover:text-black link-underline link-underline-black' >Alumni</Link>
             </div>
             <div className='flex gap-x-2'>
