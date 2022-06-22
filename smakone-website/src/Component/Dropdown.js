@@ -1,45 +1,93 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React,{Fragment} from 'react'
+import { Link } from 'react-router-dom';
+import { Menu, Transition } from '@headlessui/react'
 
-const Dropdown = (props) =>{
 
-    const [ showMenu, setShowMenu ] = useState(false)
-    const handleClick = () => {
-        setShowMenu(!showMenu)
-    }
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
 
-    return(
-        <div className="relative inline-block text-left">
-            <div>
-                <button onClick={ handleClick } type="button" className={ props.className } id="menu-button" aria-expanded="true" aria-haspopup="true">
-                { props.title }
-                </button>
-            </div>
+const Dropdown = (props) => {
+  return (
+    <>
+    <Menu as="div" className="relative inline-block text-left">
+      <div>
+        <Menu.Button className="px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black">
+        { props.title }
+        </Menu.Button>
+      </div>
 
-            { showMenu && (
-                <div className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
-                <div className="py-1" role="none">
-                { props.menu1 && (
-                    <Link to={ props.dir1 } className="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem" tabIndex="-1" id="menu-item-0">{ props.menu1 }</Link>
-                ) }
-                { props.menu2 && (
-                    <Link to={ props.dir2 } className="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem" tabIndex="-1" id="menu-item-1">{ props.menu2 }</Link>
-                ) }
-                { props.menu3 && (
-                    <Link to={ props.dir3 } className="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem" tabIndex="-1" id="menu-item-2">{ props.menu3 }</Link>
-                ) }
-                { props.menu4 && (
-                    <Link to={ props.dir4 } className="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem" tabIndex="-1" id="menu-item-2">{ props.menu4 }</Link>
-                ) }
-                { props.menu5 && (
-                    <Link to={ props.dir5 } className="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem" tabIndex="-1" id="menu-item-2">{ props.menu5 }</Link>
-                ) }
-                </div>
-            </div>
+      <Transition
+        as={Fragment}
+        enter="transition ease-out duration-100"
+        enterFrom="transform opacity-0 scale-95"
+        enterTo="transform opacity-100 scale-100"
+        leave="transition ease-in duration-75"
+        leaveFrom="transform opacity-100 scale-100"
+        leaveTo="transform opacity-0 scale-95"
+      >
+        <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+          <div className="py-1">
+            <Menu.Item>
+              {({ active }) => (
+                <Link
+                  to={props.dir1}
+                  className={classNames(
+                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                    'block px-4 py-2 text-sm'
+                  )}
+                >
+                  {props.menu1}
+                </Link>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <Link
+                  to={props.dir2}
+                  className={classNames(
+                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                    'block px-4 py-2 text-sm'
+                  )}
+                >
+                  {props.menu2}
+                </Link>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <Link
+                  to={props.dir3}
+                  className={classNames(
+                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                    'block px-4 py-2 text-sm'
+                  )}
+                >
+                  {props.menu3}
+                </Link>
+              )}
+            </Menu.Item>
+            {props.dir4 && 
+            <Menu.Item>
+            {({ active }) => (
+              <Link
+                to={props.dir4}
+                className={classNames(
+                  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                  'block px-4 py-2 text-sm'
+                )}
+              >
+                {props.menu4}
+              </Link>
             )}
-            
-        </div>
-    )
+          </Menu.Item>
+            }
+          </div>
+        </Menu.Items>
+      </Transition>
+    </Menu>
+    </>
+  )
 }
 
 export default Dropdown
