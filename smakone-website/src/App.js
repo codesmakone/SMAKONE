@@ -80,8 +80,8 @@ function App() {
             <Route path='/OSIS/bidang8' element={<OSIS_8/>}/>
             <Route path='/OSIS/bidang9' element={<OSIS_9/>}/>
             <Route path='/OSIS/bidang10' element={<OSIS_10/>}/>
-          <Route path='/OSIS/emagz' element={<Emagz/>}/>
-          <Route path='/OSIS/ass1st' element={null}/>
+          <Route path='/OSIS/Emagz' element={<Emagz/>}/>
+          <Route path='/OSIS/ASS1ST' element={null}/>
 
 
           <Route path='*' element={<NoMatchPages/>}/>

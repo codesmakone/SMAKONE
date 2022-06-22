@@ -15,7 +15,7 @@ const Emagz = (props) =>{
                     <img src={ props.img } alt={ props.alt } className='h-auto w-full justify-center'/>
                 </div>
                 <button className="py-5 px-16 bg-white rounded-full">
-                    <NavLink to='/OSIS/Emagz' className="link-underline link-underline-black px-3 py-2 text-black text-xl font-black" target="blank">
+                    <NavLink to='/OSIS/Emagz' className="link-underline link-underline-black px-3 py-2 text-black text-xl font-black">
                     Baca Disini
                     </NavLink>
                 </button>
