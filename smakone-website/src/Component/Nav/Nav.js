@@ -21,10 +21,10 @@ const Nav = () => {
             </Link>
         </div>
         
-        <div className='flex justify-center lg:items-center lg:w-auto w-full py-9'>
+        <div className='flex justify-center lg:items-center lg:w-auto w-full py-9 leading-normal'>
           <div className='text-xl font-medium'>
             {/* nanya enrichie ini maunya gmn fixed atau apa */}
-            <NavLink to="/Tentang_kami" className="px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black">
+            <NavLink to="/Tentang_kami" className="px-3 py-[0.65rem] transition duration-200 border-b-2 border-transparent hover:border-black">
               Tentang Kami
             </NavLink>
             <Dropdown
