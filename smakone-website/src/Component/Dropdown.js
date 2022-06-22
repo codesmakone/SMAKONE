@@ -9,13 +9,11 @@ function classNames(...classes) {
 
 const Dropdown = (props) => {
   return (
-    <>
     <Menu as="div" className="relative inline-block text-left">
-      <div>
+
         <Menu.Button className="px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black">
         { props.title }
         </Menu.Button>
-      </div>
 
       <Transition
         as={Fragment}
@@ -86,7 +84,6 @@ const Dropdown = (props) => {
         </Menu.Items>
       </Transition>
     </Menu>
-    </>
   )
 }
 
