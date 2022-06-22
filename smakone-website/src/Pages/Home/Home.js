@@ -5,7 +5,7 @@ import AlasanCard from "../../Component/Home/AlasanCard"
 import Checklist from "../../Component/Home/Checklist"
 import Kegiatan from "../../Component/Home/Kegiatan"
 import SelukBeluk from "../../Component/Home/SelukBeluk"
-import Emagz from "../../Component/Home/Emagz"
+import FeatEmagz from "../../Component/Home/FeatEmagz"
 
 
 // Import Image
@@ -51,7 +51,7 @@ const Home = () => {
                   img = {Pianis}
                   alt = "MichaelAbimanyu"
                   desc='Pianis sekaligus musisi andalan SMUKIERS'
-                  dir="/alasan/MichaelAbimanyu"
+                  dir="Alasan/MichaelAbimanyu"
                 />
               </div>
               <div>
@@ -59,7 +59,7 @@ const Home = () => {
                   img = {Matematikawan}
                   alt = "GabrielaErin"
                   desc='Matematikawan dengan puluhan medali'
-                  dir="/alasan/GabrielaErin"
+                  dir="/Alasan/GabrielaErin"
                 />
               </div>
               <div>
@@ -67,7 +67,7 @@ const Home = () => {
                   img = {Pembulutangkis}
                   alt = "DarrenJonathan"
                   desc='Pebulutangkis cerdas dengan smash yang mematikan'
-                  dir="/alasan/DarrenJonathan"
+                  dir="/Alasan/DarrenJonathan"
                 />
               </div>
             </div>
@@ -102,7 +102,7 @@ const Home = () => {
       </div>
 
       <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24'>
-        <Emagz month='April' img={AphroditeApril} alt='AphroditeApril'/>
+        <FeatEmagz month='April' img={AphroditeApril} alt='AphroditeApril'/>
       </div>
 
 
@@ -121,25 +121,25 @@ const Home = () => {
             img = {soc}
             title = "Smakonecup"
             desc = "Acara tahunan yang penuh sinar matahari, keringat, dan kejutan"
-            dir = "/kegiatan/soc"
+            dir = "/Kegiatan/SOC"
           />
           <Kegiatan
             img = {soundscape}
             title = "Soundscape"
             desc = "Pertunjukan spektakuler di akhir Smakonecup"
-            dir = "/kegiatan/soundscape"
+            dir = "/Kegiatan/Soundscape"
           />
           <Kegiatan
             img = {theater}
             title = "SMUKIEZ Theater Night"
             desc = "Saat berbagai seni dipadukan dan menghasilkan sebuah karya yang memukau"
-            dir = "/kegiatan/stn"
+            dir = "/Kegiatan/STN"
           />
           <Kegiatan
             img = {kriza}
             title = "KR1ZA"
             desc = "Terus berlatih dan raih prestasi"
-            dir = "/kegiatan/kriza"
+            dir = "/Kegiatan/KR1ZA"
           />
           </div>
         </div>
@@ -162,19 +162,19 @@ const Home = () => {
             img = {kehidupan}
             title = "Kehidupan Selama Menjadi SMUKIERS"
             desc = "Hidup penuh keseimbangan"
-            dir = "/kehidupan_smukiers"
+            dir = "/Kehidupan_smukiers"
           />
           <SelukBeluk
             img = {tips}
             title = "Tips Belajar SMUKIERS"
             desc = "Selalu berusaha meraih yang terbaik"
-            dir = "/tips"
+            dir = "/Kehidupan_smukiers/Tips"
           />
           <SelukBeluk
             img = {kegiatan}
             title = "Kegiatan Setelah Kelas"
             desc = "Produktivitas dan istirahat yang seimbang"
-            dir = "/kegiatan"
+            dir = "/Kehidupan_smukiers/Kegiatan"
           />
           </div>
         </div>

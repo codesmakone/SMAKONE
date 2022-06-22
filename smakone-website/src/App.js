@@ -18,6 +18,7 @@ import DarrenJonathan from './Pages/Home/Alasan/DarrenJonathan';
 import MichaelAbimanyu from './Pages/Home/Alasan/MichaelAbimanyu';
 
 import Osis from './Pages/Osis/Osis'
+import Emagz from './Pages/Emagz/Emagz'
 import TentangKami from './Pages/TentangKami/TentangKami'
 import KehidupanSmukiers from './Pages/Smukiers/KehidupanSmukiers'
 import TipsBelajar from './Pages/Smukiers/TipsBelajar'
@@ -60,8 +61,8 @@ function App() {
           <Route path="/tentang_kami" element={<TentangKami/>}/>
 
           <Route path="/kehidupan_smukiers" element={<KehidupanSmukiers/>}/>
-          <Route path="/tips" element={<TipsBelajar/>}/>
-          <Route path="/kegiatan" element={<KegiatanSetelahKelas/>}/>
+          <Route path="/kehidupan_smukiers/tips" element={<TipsBelajar/>}/>
+          <Route path="/kehidupan_smukiers/kegiatan" element={<KegiatanSetelahKelas/>}/>
 
           <Route path='/osis' element={<Osis/>}/>
             <Route path='/osis/bph' element={<BPH/>}/>
@@ -75,6 +76,8 @@ function App() {
             <Route path='/osis/bidang8' element={<OSIS_8/>}/>
             <Route path='/osis/bidang9' element={<OSIS_9/>}/>
             <Route path='/osis/bidang10' element={<OSIS_10/>}/>
+          <Route path='/osis/emagz' element={<Emagz/>}/>
+          <Route path='/osis/ass1st' element={null}/>
 
           <Route path='/alumni' element={<AlumniPage/>}/>
             <Route path='/alumni/BillyStevanus' element={<Billy/>}/>

@@ -10,11 +10,13 @@ const TentangKami = () => {
                 <ContentHeader
                     category = 'Tentang Kami'
                     title = 'Sekilas Tentang SMAK 1'
-                    desc = 
-                    "SMAK 1 PENABUR merupakan sekolah Kristen bergengsi di wilayah Tanjung Duren, Jakarta. Dengan visi untuk mewujudnyatakan sekolah unggul yang bermotivasi dalam iman, ilmu dan pelayanan, SMAK 1 bertujuan untuk mengembangkan potensi para peserta didik secara optimal berdasarkan teladan nilai Kristiani. Program pembelajaran SMAK 1 memberi pemahaman bagi siswa-siswi melalui penggunaan kurikulum nasional. Selain itu, siswa-siswi juga dibekali dengan pembelajaran non-akademik, misalnya melalui kegiatan ekstrakurikuler dan acara-acara sekolah. Proses pembelajaran didukung dan ditunjang oleh guru-guru yang kompeten, bimbingan konseling dan fasilitas yang lengkap. SMAK 1 pun dikenal dengan prestasi-prestasi yang cemerlang baik di bidang akademis maupun non-akademis, internasional maupun nasional."
+                />
+                <ContentText
+                    text = "SMAK 1 PENABUR merupakan sekolah Kristen bergengsi di wilayah Tanjung Duren, Jakarta. Dengan visi untuk mewujudnyatakan sekolah unggul yang bermotivasi dalam iman, ilmu dan pelayanan, SMAK 1 bertujuan untuk mengembangkan potensi para peserta didik secara optimal berdasarkan teladan nilai Kristiani. Program pembelajaran SMAK 1 memberi pemahaman bagi siswa-siswi melalui penggunaan kurikulum nasional. Selain itu, siswa-siswi juga dibekali dengan pembelajaran non-akademik, misalnya melalui kegiatan ekstrakurikuler dan acara-acara sekolah. Proses pembelajaran didukung dan ditunjang oleh guru-guru yang kompeten, bimbingan konseling dan fasilitas yang lengkap. SMAK 1 pun dikenal dengan prestasi-prestasi yang cemerlang baik di bidang akademis maupun non-akademis, internasional maupun nasional."
                 />
 
                 <div className="font-bold text-left ml-32 text-2xl mt-12">Pertanyaan yang Sering Ditanyakan</div>
+
                 <ContentText
                     title = "Apakah pelajaran di SMAK 1 sulit?"
                     text = "Setiap murid SMAK 1 sudah melewati tes seleksi dengan standar yang tidak rendah sehingga kecerdasan akademik muridnya tidak perlu diragukan lagi. Ritme belajar di SMAK 1 tentu lebih cepat dibandingkan sekolah lainnya karena materi yang dipelajari lebih dalam dan bervariasi, sehingga susah atau tidaknya itu relatif dan tergantung dengan kecepatan belajar siswa dalam mengikuti ritme belajar SMAK 1."
