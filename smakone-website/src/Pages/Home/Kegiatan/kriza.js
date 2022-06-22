@@ -8,7 +8,7 @@ const Kriza = () => {
         <Layout
             cat = "Kegiatan"
             title = "KR1ZA"
-            desc = "Terus Berlatih dan Raih Prestasi"
+            quote = '"Terus Berlatih dan Raih Prestasi"'
             latterPar1 = "Terdapat berbagai ekskul dan klub olahraga yang bisa diikuti siswa-siswi SMAK 1. Mulai dari basket, voli, futsal, hingga catur, dan masih banyak lagi. Klub olahraga di SMAK 1 sendiri biasa dikenal dengan nama KR1ZA. Sudah banyak murid SMAK 1 yang berhasil meraih juara. Salah satu pencapaiannya adalah KR1ZA Basket Putri yang berhasil mendapatkan juara 1 di DBL Putri 2019."
             img = {kriza}
             alt = "kr1za"

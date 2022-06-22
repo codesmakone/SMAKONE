@@ -19,10 +19,31 @@ import MichaelAbimanyu from './Pages/Home/Alasan/MichaelAbimanyu';
 
 import Osis from './Pages/Osis/Osis'
 import Emagz from './Pages/Emagz/Emagz'
+import Issue1 from './Pages/Emagz/Issues/Issue1'
+import Issue2 from './Pages/Emagz/Issues/Issue2'
+import Issue3 from './Pages/Emagz/Issues/Issue3'
+import Issue4 from './Pages/Emagz/Issues/Issue4.js'
+import Issue5 from './Pages/Emagz/Issues/Issue5'
+import Issue6 from './Pages/Emagz/Issues/Issue6'
+import Issue7 from './Pages/Emagz/Issues/Issue7'
+
+
+import Ass1st from './Pages/Ass1st/Ass1st'
+import Kedokteran from './Pages/Ass1st/Jurusan/Kedokteran'
+import Farmasi from './Pages/Ass1st/Jurusan/Farmasi'
+import Keguruan from './Pages/Ass1st/Jurusan/Keguruan'
+import Sosiologi from './Pages/Ass1st/Jurusan/Sosiologi'
+import Akutansi from './Pages/Ass1st/Jurusan/Akutansi'
+import Hukum from './Pages/Ass1st/Jurusan/Hukum'
+import Psikologi from './Pages/Ass1st/Jurusan/Psikologi'
+import Sipil from './Pages/Ass1st/Jurusan/Sipil'
+import Pertambangan from './Pages/Ass1st/Jurusan/Pertambangan'
+
 import TentangKami from './Pages/TentangKami/TentangKami'
 import KehidupanSmukiers from './Pages/Smukiers/KehidupanSmukiers'
 import TipsBelajar from './Pages/Smukiers/TipsBelajar'
 import KegiatanSetelahKelas from './Pages/Smukiers/KegiatanSetelahKelas'
+
 import BPH from './Pages/Osis/BPH/BPH'
 import OSIS_1 from './Pages/Osis/Osis_1/Osis_1'
 import OSIS_2 from './Pages/Osis/Osis_2/Osis_2'
@@ -52,7 +73,7 @@ function App() {
             <Route path='/kegiatan/soc' element={<SOC/>}/>
             <Route path='/kegiatan/soundscape' element={<Soundscape/>}/>
             <Route path='/kegiatan/stn' element={<STN/>}/>
-            <Route path='/kegiatan/kriza' element={<Kriza/>}/>
+            <Route path='/kegiatan/kr1za' element={<Kriza/>}/>
 
             <Route path='/alasan/MichaelAbimanyu' element={<MichaelAbimanyu/>}/>
             <Route path='/alasan/GabrielaErin' element={<GabrielaErin/>}/>
@@ -81,7 +102,24 @@ function App() {
             <Route path='/OSIS/bidang9' element={<OSIS_9/>}/>
             <Route path='/OSIS/bidang10' element={<OSIS_10/>}/>
           <Route path='/OSIS/Emagz' element={<Emagz/>}/>
-          <Route path='/OSIS/ASS1ST' element={null}/>
+            <Route path='/OSIS/Emagz/1stIssue' element={<Issue1/>}/>
+            <Route path='/OSIS/Emagz/2ndIssue' element={<Issue2/>}/>
+            <Route path='/OSIS/Emagz/3rdIssue' element={<Issue3/>}/>
+            <Route path='/OSIS/Emagz/4thIssue' element={<Issue4/>}/>
+            <Route path='/OSIS/Emagz/5thIssue' element={<Issue5/>}/>
+            <Route path='/OSIS/Emagz/6thIssue' element={<Issue6/>}/>
+            <Route path='/OSIS/Emagz/7thIssue' element={<Issue7/>}/>
+
+          <Route path='/OSIS/ASS1ST' element={<Ass1st/>}/>
+            <Route path='/OSIS/ASS1ST/Kedokteran' element={<Kedokteran/>}/>
+            <Route path='/OSIS/ASS1ST/Farmasi' element={<Farmasi/>}/>
+            <Route path='/OSIS/ASS1ST/Keguruan' element={<Keguruan/>}/>
+            <Route path='/OSIS/ASS1ST/Sosiologi' element={<Sosiologi/>}/>
+            <Route path='/OSIS/ASS1ST/Akutansi' element={<Akutansi/>}/>
+            <Route path='/OSIS/ASS1ST/Hukum' element={<Hukum/>}/>
+            <Route path='/OSIS/ASS1ST/Psikologi' element={<Psikologi/>}/>
+            <Route path='/OSIS/ASS1ST/Teknik_sipil' element={<Sipil/>}/>
+            <Route path='/OSIS/ASS1ST/Pertambangan' element={<Pertambangan/>}/>
 
 
           <Route path='*' element={<NoMatchPages/>}/>
