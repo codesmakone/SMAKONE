@@ -5,6 +5,7 @@ import AlasanCard from "../../Component/Home/AlasanCard"
 import Checklist from "../../Component/Home/Checklist"
 import Kegiatan from "../../Component/Home/Kegiatan"
 import SelukBeluk from "../../Component/Home/SelukBeluk"
+import FeatEmagz from "../../Component/Home/FeatEmagz"
 
 
 // Import Image
@@ -19,6 +20,7 @@ import kriza from "../../Image/Home/Kegiatan/kriza.jpg"
 import kehidupan from "../../Image/Home/Kehidupan/kehidupan.png"
 import tips from "../../Image/Home/Kehidupan/tips.jpg"
 import kegiatan from "../../Image/Home/Kehidupan/kegiatan.jpg"
+import AphroditeApril from "../../Image/Emagz/AphroditeApril.jpg"
 
 const Home = () => {
   return (
@@ -27,8 +29,8 @@ const Home = () => {
       {/* <div className='mt-32 col-span-6 flex flex-col justify-start text-left '> */}
       <div className='col-span-6 flex flex-col justify-start text-left '>
         <div className='px-20 py-28'>
-          <h1 className='text-7xl font-medium'>We Are SMAK 1</h1>
-          <h4 className='text-xl font-medium'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4>
+          <h1 className='text-7xl font-black'>We Are SMAK 1</h1>
+          <h4 className='text-xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4>
         </div>
       </div>
 
@@ -49,7 +51,7 @@ const Home = () => {
                   img = {Pianis}
                   alt = "MichaelAbimanyu"
                   desc='Pianis sekaligus musisi andalan SMUKIERS'
-                  dir="/alasan/MichaelAbimanyu"
+                  dir="Alasan/MichaelAbimanyu"
                 />
               </div>
               <div>
@@ -57,7 +59,7 @@ const Home = () => {
                   img = {Matematikawan}
                   alt = "GabrielaErin"
                   desc='Matematikawan dengan puluhan medali'
-                  dir="/alasan/GabrielaErin"
+                  dir="/Alasan/GabrielaErin"
                 />
               </div>
               <div>
@@ -65,7 +67,7 @@ const Home = () => {
                   img = {Pembulutangkis}
                   alt = "DarrenJonathan"
                   desc='Pebulutangkis cerdas dengan smash yang mematikan'
-                  dir="/alasan/DarrenJonathan"
+                  dir="/Alasan/DarrenJonathan"
                 />
               </div>
             </div>
@@ -99,6 +101,10 @@ const Home = () => {
         </div>
       </div>
 
+      <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24'>
+        <FeatEmagz month='April' img={AphroditeApril} alt='AphroditeApril'/>
+      </div>
+
 
       <div className='w-full h-auto text-black px-16 py-32'>
         <div className='container mx-auto'>
@@ -115,25 +121,25 @@ const Home = () => {
             img = {soc}
             title = "Smakonecup"
             desc = "Acara tahunan yang penuh sinar matahari, keringat, dan kejutan"
-            dir = "/kegiatan/soc"
+            dir = "/Kegiatan/SOC"
           />
           <Kegiatan
             img = {soundscape}
             title = "Soundscape"
             desc = "Pertunjukan spektakuler di akhir Smakonecup"
-            dir = "/kegiatan/soundscape"
+            dir = "/Kegiatan/Soundscape"
           />
           <Kegiatan
             img = {theater}
             title = "SMUKIEZ Theater Night"
             desc = "Saat berbagai seni dipadukan dan menghasilkan sebuah karya yang memukau"
-            dir = "/kegiatan/stn"
+            dir = "/Kegiatan/STN"
           />
           <Kegiatan
             img = {kriza}
             title = "KR1ZA"
             desc = "Terus berlatih dan raih prestasi"
-            dir = "/kegiatan/kriza"
+            dir = "/Kegiatan/KR1ZA"
           />
           </div>
         </div>
@@ -156,19 +162,19 @@ const Home = () => {
             img = {kehidupan}
             title = "Kehidupan Selama Menjadi SMUKIERS"
             desc = "Hidup penuh keseimbangan"
-            dir = "/kehidupan_smukie"
+            dir = "/Kehidupan_smukiers"
           />
           <SelukBeluk
             img = {tips}
             title = "Tips Belajar SMUKIERS"
             desc = "Selalu berusaha meraih yang terbaik"
-            dir = "/kehidupan_smukie/tips"
+            dir = "/Kehidupan_smukiers/Tips"
           />
           <SelukBeluk
             img = {kegiatan}
             title = "Kegiatan Setelah Kelas"
             desc = "Produktivitas dan istirahat yang seimbang"
-            dir = "/kehidupan_smukie/kegiatan"
+            dir = "/Kehidupan_smukiers/Kegiatan"
           />
           </div>
         </div>
