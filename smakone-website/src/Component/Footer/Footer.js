@@ -30,7 +30,7 @@ const Footer = () => {
       <div className="py-20 px-10">
           <div className="bg-cover bg-footer-image rounded-xl py-28">
               <div className="flex flex-col items-center">
-                <p className="text-5xl font-bold leading-normal text-white text-center mb-10 break-all">
+                <p className="text-5xl font-bold leading-normal text-white text-center mb-10 break-all sm:text-2xl">
                   Cari Tahu Informasi Terkini Mengenai SMAK 1
                 </p>
                 <div>
@@ -43,18 +43,18 @@ const Footer = () => {
         </div>
       
         <div >
-          <div className='pb-12 flex justify-around'>
+          <div className='pb-12 flex justify-around mx-10'>
             <div>
-              <img className='object-scale-down h-8' alt='smakone' src={Logo_SMAK1}/>
+              <img className='object-scale-down h-8 sm:w-9/12' alt='smakone' src={Logo_SMAK1}/>
             </div>
-            <div className='flex flex-col text-xl gap-y-7 font-bold text-gray-500'>
+            <div className='flex flex-col xl:text-xl gap-y-7 font-bold text-gray-500 sm:text-base sm:mr-5'>
               <Link to="/OSIS"className='text-black link-underline link-underline-black'>Osis</Link>
               <HashLink to="/OSIS#visi&misi" className='hover:text-black link-underline link-underline-black' >Visi & Misi Kami</HashLink>
               <Link to="/OSIS" className='hover:text-black link-underline link-underline-black' >Bertemu dengan Kami</Link>
               <HashLink to="/OSIS#bidang" className='hover:text-black link-underline link-underline-black' >Services</HashLink>
               <Link to="/OSIS/ASS1ST" className='hover:text-black link-underline link-underline-black' >Ass1st</Link>
             </div>
-            <div className='flex flex-col text-xl gap-y-7 font-bold text-gray-500'>
+            <div className='flex flex-col xl:text-xl gap-y-7 font-bold text-gray-500 sm:text-base'>
               <Link to="/Kehidupan_smukiers" className='text-black link-underline link-underline-black'>Kehidupan SMUKIERS</Link >
               <Link to="/Kehidupan_smukiers/Tips" className='hover:text-black link-underline link-underline-black'>Tips Belajar</Link>
               <Link to="/Kehidupan_smukiers/Kegiatan" className='hover:text-black link-underline link-underline-black' >Kegiatan</Link>
@@ -68,21 +68,21 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 px-8">
-            <div className="flex justify-self-center lg:justify-self-start ">
-                    <img src={LogoPenabur} className="object-scale-down h-28 mr-2" alt="BPK PENABUR Logo"/>
-                    <img src={LogoOsis} className="object-scale-down h-28" alt="OSIS SMAK 1 Logo"/>
+          <div className="grid grid-cols-3 px-8 pb-5 mr-8">
+            <div className="flex justify-self-center">
+                    <img src={LogoPenabur} className="object-scale-down xl:h-28 mr-2 sm:h-16" alt="BPK PENABUR Logo"/>
+                    <img src={LogoOsis} className="object-scale-down xl:h-28 sm:h-16" alt="OSIS SMAK 1 Logo"/>
             </div>
             {/* <div className="flex justify-self-center object-center py-3 lg:py-6"> */}
-            <div className="flex justify-self-center place-self-end">
-                <p className="text-center font-bold text-gray-500">
+            <div className="flex justify-self-center place-self-center">
+                <p className="text-center font-bold text-gray-500 sm:text-xs xl:text-lg">
                     Jalan Tanjung Duren Raya Nomor 4<br/>
                     Jakarta Barat, DKI Jakarta 11470<br/>
                     Tel: (+62)21 5666962
                 </p>
             </div>
-            <div className="text-xs object-bottom place-self-end">
-                <p className='font-bold text-gray-500'>
+            <div className="place-self-center justify-self-end">
+                <p className='font-bold text-gray-500 sm:text-xs sm:ml-8 xl:text-lg xl:ml-0'>
                   Copyright © 2021 SMAK ONE Student Council All Rights Reserved
                 </p>
             </div>
