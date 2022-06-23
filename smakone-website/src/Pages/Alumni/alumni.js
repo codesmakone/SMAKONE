@@ -17,7 +17,7 @@ const AlumniPage = () => {
                         Alumni Kami
                     </div>
                 </div>
-                <div className="px-8">
+                <div className='sm:pl-8 md:pl-24 lg:pl-8 xl:pl-32 2xl:pl-32'>
                     <Alumni
                         img = {BillyStevanus}
                         title = "Billy Stevanus"
