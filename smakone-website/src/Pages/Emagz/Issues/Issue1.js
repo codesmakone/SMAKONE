@@ -3,7 +3,7 @@ import EmagzLayout from '../../../Component/Layout/EmagzLayout'
 
 const Issue1 = () => {
     return(
-        <EmagzLayout feat={false} title="November's Youth" iframe={(
+        <EmagzLayout button={true} feat={false} title="November's Youth" iframe={(
             <div>
                 <div className="justify-center mx-auto pl-[8.5rem] mb-8 iframe-container hidden lg:block">
                     <iframe

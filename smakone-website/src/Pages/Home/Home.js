@@ -29,8 +29,11 @@ const Home = () => {
       {/* <div className='mt-32 col-span-6 flex flex-col justify-start text-left '> */}
       <div className='col-span-6 flex flex-col justify-start text-left '>
         <div className='px-20 py-28'>
-          <h1 className='text-7xl font-black'>We Are SMAK 1</h1>
-          <h4 className='text-xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4>
+          <h1 className='text-[7rem] font-black'>We Are SMAK 1</h1>
+          <h4 className='text-2xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4>
+          <div className='font-bold text-2xl pt-24'>
+            smukiers .......
+          </div>
         </div>
       </div>
 
@@ -41,7 +44,7 @@ const Home = () => {
               Dengar dari SMUKIERS
             </div>
             <div className='text-white text-5xl leading-normal'>
-              <div>Dengar alasan mereka mengapa</div>
+              <div>Dengar alasan mengapa</div>
               <div>mereka bersekolah di SMAK 1</div>
             </div>
           </div>

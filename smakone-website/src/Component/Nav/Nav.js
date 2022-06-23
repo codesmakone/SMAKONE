@@ -10,9 +10,9 @@ const Nav = () => {
   return (
     <>
     <div className='Circle'></div> 
-    <nav>
-      {/* <div className='flex flex-wrap items-center py-4 px-20 w-full fixed top-0 left-0 right-0 justify-between font-sans'> */}
-      <div className='flex flex-wrap items-center py-4 px-20 w-full justify-between'>
+    <nav className=''>
+      <div className='flex flex-wrap items-center pt-3 px-20 w-full fixed top-0 left-0 justify-between bg-slate-100'>
+      {/* <div className='flex flex-wrap items-center py-4 px-20 w-full justify-between'> */}
         <div>
             <Link to="/" className="px-3 py-2 rounded-lg">
               <div>
@@ -21,7 +21,7 @@ const Nav = () => {
             </Link>
         </div>
         
-        <div className='flex justify-center lg:items-center lg:w-auto w-full py-9 leading-normal'>
+        <div className='flex justify-center lg:items-center lg:w-auto w-full py-5 leading-normal'>
           <div className='text-xl font-medium'>
             {/* nanya enrichie ini maunya gmn fixed atau apa */}
             <Dropdown
