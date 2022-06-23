@@ -21,7 +21,7 @@ const Issue1 = () => {
                 <div className="lg:hidden">
                     <p className="justify-center text-center p-2 text-2xl">
                         You are viewing this in your phone/tablet. For better readability, please kindly visit this 
-                        <a className="text-blue-500 underline-offset-4" href="https://www.flipbookpdf.net/web/site/26dca515e81cc0654f5d4dda43a7d5a5ff713edc202111.pdf.html" target="_blank"> link</a>.
+                        <a className="text-blue-500 underline-offset-4" href="https://www.flipbookpdf.net/web/site/26dca515e81cc0654f5d4dda43a7d5a5ff713edc202111.pdf.html" target="blank"> link</a>.
                     </p>
                 </div>
             </div>

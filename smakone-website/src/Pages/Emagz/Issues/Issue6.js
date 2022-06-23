@@ -21,7 +21,7 @@ const Issue6 = () => {
                 <div className="lg:hidden">
                 <p className="justify-center text-center p-2 text-2xl">
                     You are viewing this in your phone/tablet. For better readability, please kindly visit this 
-                    <a className="text-blue-500 underline-offset-4" href="https://heyzine.com/flip-book/5c1931dac5.html" target="_blank"> link</a>.
+                    <a className="text-blue-500 underline-offset-4" href="https://heyzine.com/flip-book/5c1931dac5.html" target="blank"> link</a>.
                 </p>
                 </div>
             </div>
