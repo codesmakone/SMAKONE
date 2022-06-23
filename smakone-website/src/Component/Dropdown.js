@@ -9,8 +9,8 @@ function classNames(...classes) {
 
 const Dropdown = (props) => {
   return (
-    <>
     <Menu as="div" className="relative inline-block text-left">
+
       <div>
         <Menu.Button className={ props.class }>
         <div className='flex flex-row'>
@@ -21,8 +21,6 @@ const Dropdown = (props) => {
                 </svg>
             )}
         </div>
-        </Menu.Button>
-      </div>
 
       <Transition
         as={Fragment}
@@ -213,7 +211,6 @@ const Dropdown = (props) => {
         </Menu.Items>
       </Transition>
     </Menu>
-    </>
   )
 }
 
