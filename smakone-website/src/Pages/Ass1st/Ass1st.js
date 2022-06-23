@@ -15,7 +15,6 @@ const Ass1st = () => {
     <div>
         <div id='osis' className='mx-auto container'>
             <div className='px-20 pt-10 justify-center text-center'>
-                <h2 className='text-xl font-semibold'>OSIS</h2>
                 <h1 className='text-6xl font-semibold'>ASS1ST</h1>
                 <h4 className='text-xl font-semibold'>
                     <h4 className=' text-center px-28'>

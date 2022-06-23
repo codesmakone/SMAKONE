@@ -50,7 +50,7 @@ const Layout = (props) => {
                     }
                     <div className='flex justify-end mt-10'>
                     <button onClick={ () => navigate(-1) } className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
-                        Go back
+                        Kembali
                     </button>
                     </div>
                 </div>

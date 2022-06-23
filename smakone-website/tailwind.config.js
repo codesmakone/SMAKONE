@@ -12,7 +12,7 @@ module.exports = {
     },
   },
     backgroundImage: {
-      'footer-image': "url('./Image/Background_Footer.png')",
+      'footer-image': "url('./Image/Background_Footer.jpeg')"
     },
     fontSize: {
       'xs': '.75rem',
@@ -27,6 +27,8 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
       '7xl': '5.5rem',
+      '8xl': '6rem',
+      '9xl': '8rem'
     },
     textUnderlineOffset: {
       12: '12px',

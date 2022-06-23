@@ -68,6 +68,7 @@ function App() {
       <div className='w-full h-full font-Product'>
         <ScrollToTop/> 
         <Nav/>
+        <div className='mt-32'>
         <Routes>
           <Route path="/" element={<Home/>}/>
             <Route path='/kegiatan/soc' element={<SOC/>}/>
@@ -124,6 +125,7 @@ function App() {
 
           <Route path='*' element={<NoMatchPages/>}/>
         </Routes>
+        </div>
         <Footer/> 
       </div>
   );
