@@ -11,7 +11,6 @@ const Dropdown = (props) => {
   return (
     <Menu as="div" className="relative inline-block text-left">
 
-      <div>
         <Menu.Button className={ props.class }>
         <div className='flex flex-row'>
             { props.title }
@@ -21,6 +20,7 @@ const Dropdown = (props) => {
                 </svg>
             )}
         </div>
+        </Menu.Button>
 
       <Transition
         as={Fragment}
