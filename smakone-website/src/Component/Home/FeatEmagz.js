@@ -9,7 +9,7 @@ const Emagz = (props) =>{
                     E-Magazine
                 </div>
                 <div className='text-white text-5xl leading-normal'>
-                    <div>E-Magazine Bulan { props.month } Telah Hadir!!!</div>
+                    <div>E-Magazine Bulan { props.month } Telah Hadir!</div>
                 </div>
                 <div className='px-60 py-12'>
                     <img src={ props.img } alt={ props.alt } className='h-auto w-full justify-center'/>

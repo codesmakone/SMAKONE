@@ -29,15 +29,15 @@ const Osis = () => {
       />
       </div>
 
-      <div id='bidang' className='bg-dark-blue w-full h-auto text-white py-14 mt-16'>
+      <div id='bidang' className='bg-dark-blue w-full h-auto text-white py-28 mt-16'>
         <div className='container mx-auto'>
           <div className='text-center px-60'>
             <h1 className='text-5xl font-semibold'>
               Bidang - Bidang
             </h1>
-            <div className=''>
+            <div className='grid grid-cols-4 gap-4 mt-10'>
               <div className="">
-              <NavLink to="bph">
+              <NavLink to="bph" >
                 <OsisNav
                   img={Osis1}
                   Title="Badan Pengurus Harian"
@@ -49,7 +49,7 @@ const Osis = () => {
                 <OsisNav
                   img={Osis2}
                   Title="Bidang 1"
-                  desc ="Bidang Pembinaan Keimanan dan Ketakwaan Terhadap Tuhan Yang Maha Esa"
+                  // desc ="Bidang Pembinaan Keimanan dan Ketakwaan Terhadap Tuhan Yang Maha Esa"
                   />
               </NavLink>
               </div>
@@ -58,7 +58,7 @@ const Osis = () => {
                 <OsisNav
                   img={Osis3}
                   Title="Bidang 2"
-                  desc ="Bidang Pembinaan Budi Pekerti Luhur dan Akhlak Mulia"
+                  // desc ="Bidang Pembinaan Budi Pekerti Luhur dan Akhlak Mulia"
                   />
               </NavLink>
               </div>
@@ -67,7 +67,7 @@ const Osis = () => {
                 <OsisNav
                   img={Osis3}
                   Title="Bidang 3"
-                  desc ="Bidang Pembinaan Kepribadian Unggul, Wawasan Kebangsaan, dan Bela Negara"
+                  // desc ="Bidang Pembinaan Kepribadian Unggul, Wawasan Kebangsaan, dan Bela Negara"
                   />
               </NavLink>
               </div>
@@ -76,7 +76,7 @@ const Osis = () => {
                 <OsisNav
                   img={Osis3}
                   Title="Bidang 4"
-                  desc ="Bidang Pembinaan Prestasi Akademik dan Ilmu Pengetahuan dan Teknologi (IPTEK)"
+                  // desc ="Bidang Pembinaan Prestasi Akademik dan Ilmu Pengetahuan dan Teknologi (IPTEK)"
                   />
               </NavLink>
               </div>
@@ -85,7 +85,7 @@ const Osis = () => {
                 <OsisNav
                   img={Osis3}
                   Title="Bidang 5"
-                  desc ="Bidang Pembinaan Demokrasi, Hak Asasi Manusia, Pendidikan Politik, Lingkungan Hidup, Kepekaan, dan Toleransi Sosial Dalam Konteks Masyarakat Plural"
+                  // desc ="Bidang Pembinaan Demokrasi, Hak Asasi Manusia, Pendidikan Politik, Lingkungan Hidup, Kepekaan, dan Toleransi Sosial Dalam Konteks Masyarakat Plural"
                   />
               </NavLink>
               </div>
@@ -94,7 +94,7 @@ const Osis = () => {
                 <OsisNav
                   img={Osis3}
                   Title="Bidang 6"
-                  desc ="Bidang Kreativitas, Keterampilan, dan Kewirausahaan"
+                  // desc ="Bidang Kreativitas, Keterampilan, dan Kewirausahaan"
                   />
               </NavLink>
               </div>
@@ -103,7 +103,7 @@ const Osis = () => {
                 <OsisNav
                   img={Osis3}
                   Title="Bidang 7"
-                  desc ="Bidang Pembinaan Kualitas Olahraga, Jasmani, Kesehatan, dan Gizi Berbasis Sumber Gizi Terdiversifikasi"
+                  // desc ="Bidang Pembinaan Kualitas Olahraga, Jasmani, Kesehatan, dan Gizi Berbasis Sumber Gizi Terdiversifikasi"
                   />
               </NavLink>
               </div>
@@ -112,7 +112,7 @@ const Osis = () => {
                 <OsisNav
                   img={Osis3}
                   Title="Bidang 8"
-                  desc ="Bidang Pembinaan Sastra dan Budaya"
+                  // desc ="Bidang Pembinaan Sastra dan Budaya"
                   />
               </NavLink>
               </div>
@@ -121,7 +121,7 @@ const Osis = () => {
                 <OsisNav
                   img={Osis3}
                   Title="Bidang 9"
-                  desc ="Bidang Pembinaan Teknologi Informasi dan Komunikasi (TIK)"
+                  // desc ="Bidang Pembinaan Teknologi Informasi dan Komunikasi (TIK)"
                   />
               </NavLink>
               </div>
@@ -130,7 +130,7 @@ const Osis = () => {
                 <OsisNav
                   img={Osis3}
                   Title="Bidang 10"
-                  desc ="Bidang Pembinaan Komunikasi dalam Bahasa Inggris"
+                  // desc ="Bidang Pembinaan Komunikasi dalam Bahasa Inggris"
                   />
               </NavLink>
               </div>

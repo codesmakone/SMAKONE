@@ -24,13 +24,13 @@ const Ass1st = () => {
             </div>
         </div>
 
-        <div id='bidang' className='bg-dark-blue w-full h-auto text-white py-14 mt-16'>
+        <div id='bidang' className='bg-dark-blue w-full h-auto text-white py-28 mt-16'>
         <div className='container mx-auto'>
           <div className='text-center px-60'>
             <h1 className='text-5xl font-semibold'>
               Jurusan
             </h1>
-            <div>
+            <div className='grid grid-cols-4 gap-y-5 mt-10'>
               <NavLink to="Kedokteran">
                 <OsisNav
                   img={Osis1}

@@ -41,3 +41,54 @@
 .hover-zoom:hover {
   transform: scale(1.2);
 }
+
+
+
+
+
+.card{
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+  color: white;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(31, 31, 31, 0.85);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.content *{
+  transform: translateY(-70%);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.content h2{
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.content h3{
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.card:hover .content{
+  opacity: 1;
+}
+
+.card:hover .content *{
+  opacity: 1;
+  transform: translateY(0);
+}

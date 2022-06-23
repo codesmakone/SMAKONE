@@ -10,10 +10,11 @@ module.exports = {
       'dark-blue' : '#000957',
       'light-blue' : '#1D77FF',
     },
-  },
     backgroundImage: {
       'footer-image': "url('./Image/Background_Footer.jpeg')"
     },
+  },
+
     fontSize: {
       'xs': '.75rem',
       'sm': '.875rem',
