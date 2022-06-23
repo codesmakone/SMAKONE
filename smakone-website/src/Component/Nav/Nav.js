@@ -28,7 +28,8 @@ const Nav = () => {
               Tentang Kami
             </NavLink>
             <Dropdown
-              title='OSIS' 
+              title='OSIS'
+              class="px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black" 
               dir1='/OSIS'
               dir2='/OSIS/Emagz'
               dir3='/OSIS/ASS1ST'
@@ -37,7 +38,8 @@ const Nav = () => {
               menu3='Ass1st' 
             />
             <Dropdown
-              title='Kehidupan Smukiers' 
+              title='Kehidupan Smukiers'
+              class="px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black" 
               dir1='/Kehidupan_smukiers'
               dir2='/Kehidupan_smukiers/Tips'
               dir3='/Kehidupan_smukiers/Kegiatan'

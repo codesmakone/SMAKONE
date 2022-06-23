@@ -8,7 +8,7 @@ const Soundscape = () => {
         <Layout
             cat = "Kegiatan"
             title = "Soundscape"
-            desc = "Pertunjukan Spektakuler di Akhir Smakonecup"
+            quote = '"Pertunjukan Spektakuler di Akhir Smakonecup"'
             latterPar1 = "Setelah sepuluh hari penyelenggaraan Smak One Cup (SOC), SMAK 1 akan menutup SOC dengan pertunjukan musik yang bernama Soundscape sebagai puncak acara."
             img = {soundscape}
             alt = "soundscape"

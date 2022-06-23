@@ -1,27 +1,34 @@
 import React from 'react'
-
-import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
-import ContentText from '../../Component/Content/ContentText'
+import EmagzLayout from '../../Component/Layout/EmagzLayout'
 
 const Emagz = () => {
     return(
-        <div className="">
-            <div className="container w-full h-full mx-auto justify-center pb-5">
-                <ContentHeaderImage
-                    category = 'OSIS'
-                    title = 'E-Magazine'
-                />
-
-                <ContentText
-                    text = 'E-magazine, seperti namanya, adalah program OSIS SMAK 1 PENABUR Jakarta yang berkolaborasi dengan ONE Journal Untuk menerbitkan majalah digital tiap bulannya. Nama dari e-magazine kami adalah "1NSPIRATION" yang memiliki arti "ONE Inspiration, ONE Aspiration for ONE Universe" dimana konten 1NSPIRATION adalah hasil dari kumpulan karya dan aspirasi Smukiers. Tidak hanya itu, 1NSPIRATION juga merupakan wadah informatif yang menyediakan informasi-informasi yang akan menambah pengetahuan umum dan entunya akan menginspirasi, menambah wawasan, dan meningkatakn tingkat literasi dalam membaca.'
-                />
-
-                <ContentText
-                    title = ""
-                    text = ""
-                />
-            </div>
+        <div>
+            <EmagzLayout feat={true} title='Summer Maylodies' def={true} iframe={(
+                <div>
+                    <div className="mb-8 mx-auto pl-[8.5rem] iframe-container hidden lg:block">
+                        <iframe
+                        src="https://heyzine.com/flip-book/a5b0ed1cb6.html"
+                        title="Summer Maylodies"
+                        width="1000"
+                        height="700"
+                        frameborder="0"
+                        webkitAllowFullScreen
+                        mozallowfullscreen
+                        allowFullScreen
+                        sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation"
+                        ></iframe>
+                    </div>
+                    <div className="lg:hidden">
+                    <p className="justify-center text-center p-2 text-2xl">
+                        You are viewing this in your phone/tablet. For better readability, please kindly visit this 
+                        <a className="text-blue-500 underline-offset-4" href="https://heyzine.com/flip-book/a5b0ed1cb6.html" target="_blank"> link</a>.
+                    </p>
+                    </div>
+                </div>
+            )}/>  
         </div>
+        
     )
 }
 

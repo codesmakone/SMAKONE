@@ -8,7 +8,7 @@ const SOC = () => {
         <Layout
             cat = "Kegiatan"
             title = "Smkaonecup"
-            desc = "Acara Tahunan yang Penuh Sinar Matahari, Keringat, dan Kejutan"
+            quote = '"Acara Tahunan yang Penuh Sinar Matahari, Keringat, dan Kejutan"'
             latterPar1 = "Smakonecup atau yang biasa disingkat SOC adalah sebuah acara tahunan yang berisikan lomba-lomba akademik dan non-akademik antar sekolah yang diselenggarakan oleh SMAK 1 PENABUR Jakarta. Acara ini biasanya diadakan di bulan Oktober dan berlangsung selama 10 hari. Smakonecup pertama kali diadakan pada tahun 1995, jadi acara ini sudah dilakukan oleh 26 generasi murid SMAK 1. Dalam acara ini, terdapat lomba akademis seperti lomba Matematika, IPA, dan Bahasa Inggris untuk SMP dan debat bagi SMA. Sedangkan lomba non-akademis berupa lomba olahraga, musik, seni, dan PASKIBRA untuk tingkat SMA." 
             img = {soc}
             alt = "smakonecup"

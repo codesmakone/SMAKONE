@@ -2,7 +2,7 @@ import React from 'react'
 
 const NoMatchPages = () => {
   return (
-    <div>NoMatchPages</div>
+    <div className='text-center'>No Matching Pages :(</div>
   )
 }
 
