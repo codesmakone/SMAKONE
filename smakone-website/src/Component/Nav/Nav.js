@@ -24,8 +24,8 @@ const Nav = () => {
         <div className='flex justify-center lg:items-center lg:w-auto w-full py-9 leading-normal'>
           <div className='text-xl font-medium'>
             {/* nanya enrichie ini maunya gmn fixed atau apa */}
-            <NavLink to="/Tentang_kami" className="px-3 py-[0.65rem] transition duration-200 border-b-2 border-transparent hover:border-black">
-              Tentang Kami
+            <NavLink to="/tentang_smak1" className="px-3 py-[0.65rem] transition duration-200 border-b-2 border-transparent hover:border-black">
+              Tentang SMAK 1
             </NavLink>
             <Dropdown
               title='OSIS'
@@ -33,7 +33,7 @@ const Nav = () => {
               dir1='/OSIS'
               dir2='/OSIS/Emagz'
               dir3='/OSIS/ASS1ST'
-              menu1='Tentang Kami'
+              menu1='Tentang Osis'
               menu2='E-Magazine'
               menu3='Ass1st' 
             />

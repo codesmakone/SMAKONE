@@ -39,7 +39,7 @@ import Psikologi from './Pages/Ass1st/Jurusan/Psikologi'
 import Sipil from './Pages/Ass1st/Jurusan/Sipil'
 import Pertambangan from './Pages/Ass1st/Jurusan/Pertambangan'
 
-import TentangKami from './Pages/TentangKami/TentangKami'
+import TentangKami from './Pages/TentangSMAK1/TentangSMAK1'
 import KehidupanSmukiers from './Pages/Smukiers/KehidupanSmukiers'
 import TipsBelajar from './Pages/Smukiers/TipsBelajar'
 import KegiatanSetelahKelas from './Pages/Smukiers/KegiatanSetelahKelas'
@@ -79,7 +79,7 @@ function App() {
             <Route path='/alasan/GabrielaErin' element={<GabrielaErin/>}/>
             <Route path='/alasan/DarrenJonathan' element={<DarrenJonathan/>}/>
 
-          <Route path="/tentang_kami" element={<TentangKami/>}/>
+          <Route path="/tentang_smak1" element={<TentangKami/>}/>
 
           <Route path="/Kehidupan_smukiers" element={<KehidupanSmukiers/>}/>
           <Route path="/Kehidupan_smukiers/tips" element={<TipsBelajar/>}/>

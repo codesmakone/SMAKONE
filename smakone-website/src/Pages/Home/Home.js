@@ -38,7 +38,7 @@ const Home = () => {
         <div className='container mx-auto'>
           <div className='justify-center text-white text-center font-bold mb-12 px-40'>
             <div className='text-white mb-5 content-center text-lg'>
-              Dengar dari Smukiers
+              Dengar dari SMUKIERS
             </div>
             <div className='text-white text-5xl leading-normal'>
               <div>Dengar alasan mereka mengapa</div>
