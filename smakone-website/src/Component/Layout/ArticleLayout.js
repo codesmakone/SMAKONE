@@ -42,9 +42,9 @@ const Layout = (props) => {
                         { props.latterPar5 }
                     </div>
                     </div>
-                    {props.quote &&
+                    {props.quoteAlumni &&
                     <div className='text-center text-xl font-semibold pt-5 text-gray-600 px-20'>
-                        {props.quote}
+                        {props.quoteAlumni}
                         <div>-{props.quote_name}</div>
                     </div>
                     }

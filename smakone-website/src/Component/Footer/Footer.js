@@ -28,13 +28,13 @@ const Footer = () => {
 
 
       <div className="py-20 px-10">
-          <div className="bg-cover bg-footer-image rounded-xl py-28">
+          <div className="bg-cover bg-footer-image rounded-xl py-24">
               <div className="flex flex-col items-center">
-                <p className="text-5xl font-bold leading-normal text-white text-center mb-10 break-all sm:text-2xl">
-                  Cari Tahu Informasi Terkini Mengenai SMAK 1
+                <p className="text-5xl font-bold leading-normal text-white text-center mb-10 break-all">
+                  Cari Tahu Informasi Terkini Mengenai SMAK 1 <br/>di Instagram Kami 
                 </p>
                 <div>
-                    <a href="https://www.instagram.com/smukiee/" target="blank" className="text-xl text-white font-bold  rounded-full bg-light-blue py-4 px-16  flex justify-center hover:bg-blue-700">
+                    <a href="https://www.instagram.com/smukiee/" target="blank" className="text-2xl text-white font-bold  rounded-full bg-light-blue py-6 px-16 flex justify-center hover:bg-blue-700">
                       @smukiee
                     </a>
                 </div>
