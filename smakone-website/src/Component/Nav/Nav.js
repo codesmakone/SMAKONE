@@ -11,12 +11,12 @@ const Nav = () => {
     <>
     <div className='Circle'></div> 
     <nav className=''>
-      <div className='flex flex-wrap items-center pt-3 px-20 w-full fixed top-0 left-0 justify-between bg-slate-100'>
+      <div className='flex flex-wrap items-center pt-3 px-20 w-full fixed top-0 left-0 justify-between bg-slate-100 drop-shadow-[0_15px_12px_rgba(0,0,0,0.25)]'>
       {/* <div className='flex flex-wrap items-center py-4 px-20 w-full justify-between'> */}
         <div>
-            <Link to="/" className="px-3 py-2 rounded-lg">
+            <Link to="/" className="py-px rounded-lg">
               <div>
-              <img className='object-scale-down h-8' alt='smakone' src={Logo_SMAK1}/>
+              <img className='object-scale-down h-7' alt='smakone' src={Logo_SMAK1}/>
               </div>
             </Link>
         </div>
@@ -39,7 +39,7 @@ const Nav = () => {
               menu3='Ass1st' 
             />
             <Dropdown
-              title='Kehidupan Smukiers'
+              title='Kehidupan SMUKIERS'
               class="px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black" 
               dir1='/Kehidupan_smukiers'
               dir2='/Kehidupan_smukiers/Tips'
