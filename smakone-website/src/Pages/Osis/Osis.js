@@ -36,12 +36,15 @@ const Osis = () => {
               Bidang - Bidang
             </h1>
             <div>
-              <NavLink to="bph">
+              <div className="hover-zoom">
+              <NavLink to="bph" >
                 <OsisNav
                   img={Osis1}
                   Title="Badan Pengurus Harian"
                 />
               </NavLink>
+              </div>
+              <div className="hover-zoom">
               <NavLink to="bidang1">
                 <OsisNav
                   img={Osis2}
@@ -49,6 +52,8 @@ const Osis = () => {
                   desc ="Bidang Pembinaan Keimanan dan Ketakwaan Terhadap Tuhan Yang Maha Esa"
                   />
               </NavLink>
+              </div>
+              <div className="hover-zoom">
               <NavLink to="bidang2">
                 <OsisNav
                   img={Osis3}
@@ -56,6 +61,8 @@ const Osis = () => {
                   desc ="Bidang Pembinaan Budi Pekerti Luhur dan Akhlak Mulia"
                   />
               </NavLink>
+              </div>
+              <div className="hover-zoom">
               <NavLink to="bidang3">
                 <OsisNav
                   img={Osis3}
@@ -63,6 +70,8 @@ const Osis = () => {
                   desc ="Bidang Pembinaan Kepribadian Unggul, Wawasan Kebangsaan, dan Bela Negara"
                   />
               </NavLink>
+              </div>
+              <div className="hover-zoom">
               <NavLink to="bidang4">
                 <OsisNav
                   img={Osis3}
@@ -70,6 +79,8 @@ const Osis = () => {
                   desc ="Bidang Pembinaan Prestasi Akademik dan Ilmu Pengetahuan dan Teknologi (IPTEK)"
                   />
               </NavLink>
+              </div>
+              <div className="hover-zoom">
               <NavLink to="bidang5">
                 <OsisNav
                   img={Osis3}
@@ -77,6 +88,8 @@ const Osis = () => {
                   desc ="Bidang Pembinaan Demokrasi, Hak Asasi Manusia, Pendidikan Politik, Lingkungan Hidup, Kepekaan, dan Toleransi Sosial Dalam Konteks Masyarakat Plural"
                   />
               </NavLink>
+              </div>
+              <div className="hover-zoom">
               <NavLink to="bidang6">
                 <OsisNav
                   img={Osis3}
@@ -84,6 +97,8 @@ const Osis = () => {
                   desc ="Bidang Kreativitas, Keterampilan, dan Kewirausahaan"
                   />
               </NavLink>
+              </div>
+              <div className="hover-zoom">
               <NavLink to="bidang7">
                 <OsisNav
                   img={Osis3}
@@ -91,6 +106,8 @@ const Osis = () => {
                   desc ="Bidang Pembinaan Kualitas Olahraga, Jasmani, Kesehatan, dan Gizi Berbasis Sumber Gizi Terdiversifikasi"
                   />
               </NavLink>
+              </div>
+              <div className="hover-zoom">
               <NavLink to="bidang8">
                 <OsisNav
                   img={Osis3}
@@ -98,6 +115,8 @@ const Osis = () => {
                   desc ="Bidang Pembinaan Sastra dan Budaya"
                   />
               </NavLink>
+              </div>
+              <div className="hover-zoom">
               <NavLink to="bidang9">
                 <OsisNav
                   img={Osis3}
@@ -105,6 +124,8 @@ const Osis = () => {
                   desc ="Bidang Pembinaan Teknologi Informasi dan Komunikasi (TIK)"
                   />
               </NavLink>
+              </div>
+              <div className="hover-zoom">
               <NavLink to="bidang10">
                 <OsisNav
                   img={Osis3}
@@ -112,6 +133,7 @@ const Osis = () => {
                   desc ="Bidang Pembinaan Komunikasi dalam Bahasa Inggris"
                   />
               </NavLink>
+              </div>
             </div>
           </div>
         </div>
