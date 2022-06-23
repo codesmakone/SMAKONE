@@ -35,16 +35,16 @@ const Osis = () => {
             <h1 className='text-5xl font-semibold'>
               Bidang - Bidang
             </h1>
-            <div>
-              <div className="hover-zoom">
-              <NavLink to="bph" >
+            <div className=''>
+              <div className="">
+              <NavLink to="bph">
                 <OsisNav
                   img={Osis1}
                   Title="Badan Pengurus Harian"
                 />
               </NavLink>
               </div>
-              <div className="hover-zoom">
+              <div className="">
               <NavLink to="bidang1">
                 <OsisNav
                   img={Osis2}
@@ -53,7 +53,7 @@ const Osis = () => {
                   />
               </NavLink>
               </div>
-              <div className="hover-zoom">
+              <div className="">
               <NavLink to="bidang2">
                 <OsisNav
                   img={Osis3}
@@ -62,7 +62,7 @@ const Osis = () => {
                   />
               </NavLink>
               </div>
-              <div className="hover-zoom">
+              <div className="">
               <NavLink to="bidang3">
                 <OsisNav
                   img={Osis3}
@@ -71,7 +71,7 @@ const Osis = () => {
                   />
               </NavLink>
               </div>
-              <div className="hover-zoom">
+              <div className="">
               <NavLink to="bidang4">
                 <OsisNav
                   img={Osis3}
@@ -80,7 +80,7 @@ const Osis = () => {
                   />
               </NavLink>
               </div>
-              <div className="hover-zoom">
+              <div className="">
               <NavLink to="bidang5">
                 <OsisNav
                   img={Osis3}
@@ -89,7 +89,7 @@ const Osis = () => {
                   />
               </NavLink>
               </div>
-              <div className="hover-zoom">
+              <div className="">
               <NavLink to="bidang6">
                 <OsisNav
                   img={Osis3}
@@ -98,7 +98,7 @@ const Osis = () => {
                   />
               </NavLink>
               </div>
-              <div className="hover-zoom">
+              <div className="">
               <NavLink to="bidang7">
                 <OsisNav
                   img={Osis3}
@@ -107,7 +107,7 @@ const Osis = () => {
                   />
               </NavLink>
               </div>
-              <div className="hover-zoom">
+              <div className="">
               <NavLink to="bidang8">
                 <OsisNav
                   img={Osis3}
@@ -116,7 +116,7 @@ const Osis = () => {
                   />
               </NavLink>
               </div>
-              <div className="hover-zoom">
+              <div className="">
               <NavLink to="bidang9">
                 <OsisNav
                   img={Osis3}
@@ -125,7 +125,7 @@ const Osis = () => {
                   />
               </NavLink>
               </div>
-              <div className="hover-zoom">
+              <div className="">
               <NavLink to="bidang10">
                 <OsisNav
                   img={Osis3}

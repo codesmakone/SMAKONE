@@ -19,7 +19,7 @@ const ScottMoses = () => {
             latterPar5="Saat ini, Scott sedangan menempuh pendidikan di Negeri Paman Sam dengan jurusan Electrical Engineering and Computer Science. Di waktu yang sama ia juga mengerjakan proyek “garudahaks.com” dan membangun proyek stealth blockchain."
             imgAlasan = {Scoot}
             altAlasan = "Scott Moses"
-            quote='“Studying for school is important, but there is a huge world out there that you can explore by looking beyond the textbook and things you learn in school.”'
+            quoteAlumni='“Studying for school is important, but there is a huge world out there that you can explore by looking beyond the textbook and things you learn in school.”'
             quote_name="Scott"
         />
     </div>

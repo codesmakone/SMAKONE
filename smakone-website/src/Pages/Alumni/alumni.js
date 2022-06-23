@@ -22,19 +22,19 @@ const AlumniPage = () => {
                         img = {BillyStevanus}
                         title = "Billy Stevanus"
                         desc = "Alumni yang Selalu Aktif dan Bersemangat"
-                        dir = "/alumni/BillyStevanus"
+                        dir = "/Kehidupan_smukiers/alumni/BillyStevanus"
                     />
                     <Alumni
                         img = {ScottMoses}
                         title = "Scott Moses"
                         desc = "Anak Muda Berbakat Dengan Segudang Pengalaman di Bidangnya"
-                        dir = "/alumni/ScottMoses"
+                        dir = "/Kehidupan_smukiers/alumni/ScottMoses"
                     />
                     <Alumni
                         img = {NicoleCharlene}
                         title = "Nicole Charlene"
                         desc = "Perempuan yang Suka Melayani Dengan Segudang Prestasi"
-                        dir = "/alumni/NicoleCharlene"
+                        dir = "/Kehidupan_smukiers/alumni/NicoleCharlene"
                     />
                 </div>
             </div>
