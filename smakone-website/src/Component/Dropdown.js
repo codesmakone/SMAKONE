@@ -11,6 +11,15 @@ const Dropdown = (props) => {
   return (
     <Menu as="div" className="relative inline-block text-left">
 
+        {props.title === "Tentang SMAK 1" &&
+          <div className={ props.class }>
+            <Link to="/tentang_smak1">
+              {props.title}
+            </Link>
+          </div>
+        }
+
+        {props.title !== "Tentang SMAK 1" &&
         <Menu.Button className={ props.class }>
         <div className='flex flex-row'>
             { props.title }
@@ -21,6 +30,7 @@ const Dropdown = (props) => {
             )}
         </div>
         </Menu.Button>
+        }
 
       <Transition
         as={Fragment}

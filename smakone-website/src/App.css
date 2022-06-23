@@ -33,3 +33,11 @@
   background-size: 100% 3px;
   background-position: 0 100%
 }
+
+.hover-zoom {
+  transition: transform 0.3s;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.2);
+}
