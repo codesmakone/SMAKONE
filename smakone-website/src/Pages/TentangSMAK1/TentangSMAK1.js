@@ -14,7 +14,7 @@ const TentangSMAK1 = () => {
                     text = "SMAK 1 PENABUR merupakan sekolah Kristen bergengsi di wilayah Tanjung Duren, Jakarta. Dengan visi untuk mewujudnyatakan sekolah unggul yang bermotivasi dalam iman, ilmu dan pelayanan, SMAK 1 bertujuan untuk mengembangkan potensi para peserta didik secara optimal berdasarkan teladan nilai Kristiani. Program pembelajaran SMAK 1 memberi pemahaman bagi siswa-siswi melalui penggunaan kurikulum nasional. Selain itu, siswa-siswi juga dibekali dengan pembelajaran non-akademik, misalnya melalui kegiatan ekstrakurikuler dan acara-acara sekolah. Proses pembelajaran didukung dan ditunjang oleh guru-guru yang kompeten, bimbingan konseling dan fasilitas yang lengkap. SMAK 1 pun dikenal dengan prestasi-prestasi yang cemerlang baik di bidang akademis maupun non-akademis, internasional maupun nasional."
                 />
 
-                <div className="font-black text-left ml-32 text-3xl mt-12">Pertanyaan yang Sering Ditanyakan</div>
+                <div className="font-black text-left ml-12 sm:ml-16 xl:ml-32 text-2xl xl:text-3xl mt-12">Pertanyaan yang Sering Ditanyakan</div>
 
                 <ContentText
                     title = "Apakah pelajaran di SMAK 1 sulit?"
