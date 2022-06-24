@@ -19,7 +19,7 @@ const NicoleCharlene = () => {
             latterPar5="Bagi Nicole, Kesulitan terbesar yang ia dihadapi saat di SMUKI adalah bagaimana caranya menyeim bangkan nilai, pertemanan dan kegiatan ekskulnya. Ia mendapat sebuah pesan dari seorang guru SMAK 1 yang sangat berdampak baginya. Beliau mengatakan kepadanya bahwa memang tidak semua materi pelajaran akan berguna kelak kemudian hari. Namun, tetaplah untuk semangat belajar karena pada akhirnya, setiap siswa membutuhkan nilai untuk menempuh universitas."
             imgAlasan = {Nicole}
             altAlasan = "Nicole Charlene"
-            quote='“Aku merasa nilai akademisku kurang dan bisa melakukan lebih baik lagi, tetapi pada akhirnya semua itu tidak apa-apa.”'
+            quoteAlumni='“Aku merasa nilai akademisku kurang dan bisa melakukan lebih baik lagi, tetapi pada akhirnya semua itu tidak apa-apa.”'
             quote_name="Nicole"
         />
     </div>
