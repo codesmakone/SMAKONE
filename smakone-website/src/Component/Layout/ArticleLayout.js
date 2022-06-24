@@ -26,7 +26,7 @@ const Layout = (props) => {
                     {props.imgAlasan && 
                     <img src={ props.imgAlasan } className="object-cover h-auto max-w-auto mx-auto rounded-3xl mt-6" alt={props.altAlasan}/>}
                     <div className='font-medium'>
-                    <div className='text-lg my-6 px-3'>
+                    <div className='text-lg mb-6 mt-9 px-3'>
                         { props.latterPar1 }
                     </div>
                     <div className='text-lg my-6 px-3'>
@@ -48,7 +48,7 @@ const Layout = (props) => {
                         <div>-{props.quote_name}</div>
                     </div>
                     }
-                    <div className='flex justify-end mt-10'>
+                    <div className='flex justify-center mt-10'>
                     <button onClick={ () => navigate(-1) } className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
                         Kembali
                     </button>

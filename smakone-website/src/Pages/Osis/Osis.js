@@ -7,9 +7,17 @@ import OsisNav from '../../Component/Osis/OsisNav'
 
 // Image
 import Osis_Image from '../../Image/Osis/OSIS_Pelantikan.jpeg'
-import Osis1 from '../../Image/Osis/Osis1.png'
-import Osis2 from '../../Image/Osis/Osis2.png'
-import Osis3 from '../../Image/Osis/Osis3.png'
+import bph from '../../Image/Osis/BPH/bph.png'
+import bid_1 from '../../Image/Osis/Bidang_1/bid_1.png'
+import bid_2 from '../../Image/Osis/Bidang_2/bid_2.png'
+import bid_3 from '../../Image/Osis/Bidang_3/bid_3.png'
+import bid_4 from '../../Image/Osis/Bidang_4/bid_4.png'
+import bid_5 from '../../Image/Osis/Bidang_5/bid_5.png'
+import bid_6 from '../../Image/Osis/Bidang_6/bid_6.png'
+import bid_7 from '../../Image/Osis/Bidang_7/bid_7.png'
+import bid_8 from '../../Image/Osis/Bidang_8/bid_8.png'
+import bid_9 from '../../Image/Osis/Bidang_9/bid_9.png'
+import bid_10 from '../../Image/Osis/Bidang_10/bid_10.png'
 
 
 const Osis = () => {
@@ -29,7 +37,7 @@ const Osis = () => {
       />
       </div>
 
-      <div id='bidang' className='bg-dark-blue w-full h-auto text-white py-28 mt-16'>
+      <div id='bidang' className='bg-dark-blue w-full h-auto text-white py-14 mt-16'>
         <div className='container mx-auto'>
           <div className='text-center px-60'>
             <h1 className='text-5xl font-semibold'>
@@ -39,7 +47,7 @@ const Osis = () => {
               <div className="">
               <NavLink to="bph" >
                 <OsisNav
-                  img={Osis1}
+                  img={bph}
                   Title="Badan Pengurus Harian"
                 />
               </NavLink>
@@ -47,7 +55,7 @@ const Osis = () => {
               <div className="">
               <NavLink to="bidang1">
                 <OsisNav
-                  img={Osis2}
+                  img={bid_1}
                   Title="Bidang 1"
                   // desc ="Bidang Pembinaan Keimanan dan Ketakwaan Terhadap Tuhan Yang Maha Esa"
                   />
@@ -56,7 +64,7 @@ const Osis = () => {
               <div className="">
               <NavLink to="bidang2">
                 <OsisNav
-                  img={Osis3}
+                  img={bid_2}
                   Title="Bidang 2"
                   // desc ="Bidang Pembinaan Budi Pekerti Luhur dan Akhlak Mulia"
                   />
@@ -65,7 +73,7 @@ const Osis = () => {
               <div className="">
               <NavLink to="bidang3">
                 <OsisNav
-                  img={Osis3}
+                  img={bid_3}
                   Title="Bidang 3"
                   // desc ="Bidang Pembinaan Kepribadian Unggul, Wawasan Kebangsaan, dan Bela Negara"
                   />
@@ -74,7 +82,7 @@ const Osis = () => {
               <div className="">
               <NavLink to="bidang4">
                 <OsisNav
-                  img={Osis3}
+                  img={bid_4}
                   Title="Bidang 4"
                   // desc ="Bidang Pembinaan Prestasi Akademik dan Ilmu Pengetahuan dan Teknologi (IPTEK)"
                   />
@@ -83,7 +91,7 @@ const Osis = () => {
               <div className="">
               <NavLink to="bidang5">
                 <OsisNav
-                  img={Osis3}
+                  img={bid_5}
                   Title="Bidang 5"
                   // desc ="Bidang Pembinaan Demokrasi, Hak Asasi Manusia, Pendidikan Politik, Lingkungan Hidup, Kepekaan, dan Toleransi Sosial Dalam Konteks Masyarakat Plural"
                   />
@@ -92,7 +100,7 @@ const Osis = () => {
               <div className="">
               <NavLink to="bidang6">
                 <OsisNav
-                  img={Osis3}
+                  img={bid_6}
                   Title="Bidang 6"
                   // desc ="Bidang Kreativitas, Keterampilan, dan Kewirausahaan"
                   />
@@ -101,34 +109,34 @@ const Osis = () => {
               <div className="">
               <NavLink to="bidang7">
                 <OsisNav
-                  img={Osis3}
+                  img={bid_7}
                   Title="Bidang 7"
                   // desc ="Bidang Pembinaan Kualitas Olahraga, Jasmani, Kesehatan, dan Gizi Berbasis Sumber Gizi Terdiversifikasi"
                   />
               </NavLink>
               </div>
-              <div className="">
+              <div className="justify-items-end">
               <NavLink to="bidang8">
                 <OsisNav
-                  img={Osis3}
+                  img={bid_8}
                   Title="Bidang 8"
                   // desc ="Bidang Pembinaan Sastra dan Budaya"
                   />
               </NavLink>
               </div>
-              <div className="">
+              <div className="col-span-2">
               <NavLink to="bidang9">
                 <OsisNav
-                  img={Osis3}
+                  img={bid_9}
                   Title="Bidang 9"
                   // desc ="Bidang Pembinaan Teknologi Informasi dan Komunikasi (TIK)"
                   />
               </NavLink>
               </div>
-              <div className="">
+              <div className="justify-items-start">
               <NavLink to="bidang10">
                 <OsisNav
-                  img={Osis3}
+                  img={bid_10}
                   Title="Bidang 10"
                   // desc ="Bidang Pembinaan Komunikasi dalam Bahasa Inggris"
                   />

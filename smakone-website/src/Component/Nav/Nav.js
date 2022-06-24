@@ -11,7 +11,7 @@ const Nav = () => {
     <>
     <div className='Circle'></div> 
     <nav className=''>
-      <div className='flex flex-wrap items-center pt-3 px-20 w-full fixed top-0 left-0 justify-between bg-slate-100 drop-shadow-[0_15px_12px_rgba(0,0,0,0.25)]'>
+      <div className='flex flex-wrap items-center pt-3 px-20 w-full fixed top-0 left-0 justify-between bg-slate-100 drop-shadow-[0_15px_12px_rgba(0,0,0,0.25)] z-50'>
       {/* <div className='flex flex-wrap items-center py-4 px-20 w-full justify-between'> */}
         <div>
             <Link to="/" className="py-px rounded-lg">

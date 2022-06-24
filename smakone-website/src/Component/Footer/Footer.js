@@ -12,7 +12,7 @@ import { FaLine } from "react-icons/fa";
 import LogoPenabur from "../../Image/Penabur_logo.png"
 import LogoOsis from "../../Image/OSIS_Logo.png"
 import Logo_SMAK1 from "../../Image/Logo_SMAK1.png"
-import Logo_CodeOne from "../../Image/logo_codeone.jpeg"
+import Logo_CodeOne from "../../Image/logo_codeone.png"
 
 
 const Footer = () => {
@@ -28,7 +28,7 @@ const Footer = () => {
     <div className='mx-auto'>
 
 
-      <div className="py-20 px-10">
+      <div className="py-20 px-12">
           <div className="bg-cover bg-footer-image rounded-xl py-24">
               <div className="flex flex-col items-center">
                 <p className="text-5xl font-bold leading-normal text-white text-center mb-10 break-all">
@@ -69,7 +69,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className='bg-gray-200 '>
+          {/* <div className='bg-gray-200 '>
           <div className="grid grid-cols-1 lg:grid-cols-3 px-10">
             <div className="flex my-2 justify-self-center lg:justify-self-start">
                     <img src={LogoPenabur} className="object-scale-down h-16 xl:h-28 mr-2" alt="BPK PENABUR Logo"/>
@@ -85,12 +85,38 @@ const Footer = () => {
                 </p>
             </div>
             <div className="place-self-end justify-self-center lg:justify-self-end">
-                <p className='font-bold text-gray-500 sm:text-xs sm:ml-8 xl:text-lg xl:ml-0 text-center lg:text-right my-2'>
-                  Copyright © 2021 SMAK ONE Student Council All Rights Reserved
+              <p className='font-bold text-gray-500 sm:text-xs sm:ml-8 xl:text-lg xl:ml-0 text-center lg:text-right my-2'>
+                Copyright © 2021 SMAK ONE Student Council All Rights Reserved
+              </p>
+          </div>
+          </div>
+          </div> */}
+          <div className='bg-gray-200 px-10'>
+                <div className="container mx-auto">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 ">
+                        <div className="flex lg:justify-self-start pt-6 pb-3">
+                                <img src={LogoPenabur} className="object-scale-down h-20 mr-2" alt="BPK PENABUR Logo"/>
+                                <img src={LogoOsis} className="object-scale-down h-20" alt="OSIS SMAK 1 Logo"/>
+                        </div>
+                        <div className="flex justify-self-center object-center pt-4">
+                            <p className="text-center align-center font-bold text-gray-500 xl:text-lg">
+                                Jalan Tanjung Duren Raya Nomor 4<br/>
+                                Jakarta Barat, DKI Jakarta 11470<br/>
+                                Tel: (+62)21 5666962
+                            </p>
+                        </div>
+                        <div className="flex justify-self-end pt-10">
+                                <img src={Logo_CodeOne} className="object-scale-down h-12 mr-2" alt="Logo CodeOne"/>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <div className="bg-gray-100 text-center py-1 text-xs">
+                <p>
+                    Copyright © 2021 SMAK ONE Student Council All Rights Reserved
                 </p>
             </div>
-          </div>
-          </div>
+
         </div>
     </div>
     </footer>
