@@ -10,7 +10,7 @@ import NicoleCharlene from '../../Image/Alumni/NicoleCharlene.jpg'
 
 const AlumniPage = () => {
     return(
-        <div className='w-full h-auto text-black px-16 py-32'>
+        <div className='w-full h-auto text-black px-16 pb-32'>
             <div className='container mx-auto'>
                 <div className='justify-center text-center font-bold'>
                     <div className= 'text-5xl leading-normal'>
