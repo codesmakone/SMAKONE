@@ -124,7 +124,7 @@ const Osis = () => {
                   />
               </NavLink>
               </div>
-              <div className="col-span-2">
+              <div className="">
               <NavLink to="bidang9">
                 <OsisNav
                   img={bid_9}
