@@ -7,8 +7,8 @@ const AlasanCard = (props) => {
     <div className='m-3 h-auto w-72 text-left'>
       <img src={ props.img } className="object-cover h-80 w-auto rounded-2xl" alt={props.alt} />
             <div className="p-2">
-                <p className="font-bold mb-6">{ props.desc }</p>
-                <div className="font-bold text-xl my-3 text-white ">
+                <p className="font-bold text-xl mb-6">{ props.desc }</p>
+                <div className="font-bold text-lg my-3 text-white ">
                   <Link to={props.dir} className="max-w-sm leading-tight">
                     <span className='link-underline link-underline-white '>Kenali Lebih Lanjut →</span>
                   </Link>
