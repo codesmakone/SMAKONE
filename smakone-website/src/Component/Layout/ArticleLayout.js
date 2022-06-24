@@ -17,14 +17,14 @@ const Layout = (props) => {
                         <h4 className='text-xl font-semibold'>{ props.desc }</h4>
                     ) }
                 </div>
-                <div className='pt-12 px-28 text-left'>
+                <div className='pt-3 px-28 text-left'>
                     <p className='text-lg font-semibold px-3'>
                         { props.formerPar } 
                     </p>
                     {props.img && 
                     <img src={ props.img } className="object-cover h-auto w-full rounded-3xl mt-6" alt={props.alt}/>}
                     {props.imgAlasan && 
-                    <img src={ props.imgAlasan } className="object-cover h-[32rem] w-auto mx-auto rounded-3xl mt-6" alt={props.altAlasan}/>}
+                    <img src={ props.imgAlasan } className="object-cover h-[32rem] w-auto mx-auto rounded-3xl mt-9" alt={props.altAlasan}/>}
                     <div className='font-medium'>
                     <div className='text-lg mb-6 mt-9 px-3'>
                         { props.latterPar1 }

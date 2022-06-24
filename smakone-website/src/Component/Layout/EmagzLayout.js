@@ -1,8 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
-import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
-import ContentText from '../../Component/Content/ContentText'
 import Dropdown from '../Dropdown'
 
 const EmagzLayout = (props) => {
@@ -11,16 +9,17 @@ const EmagzLayout = (props) => {
         <div className="">
                 { props.def && (
                     <div className="container w-full h-full mx-auto justify-center pb-12 mb-36">
-                        <ContentHeaderImage
-                            title = 'E-Magazine'
-                        />
-                        <ContentText
-                            title = "Apa itu E-Magazine?"
-                            text = 'E-Magazine, seperti namanya, adalah program OSIS SMAK 1 PENABUR Jakarta yang berkolaborasi dengan ONE Journal Untuk menerbitkan majalah digital tiap bulannya. Nama dari e-magazine kami adalah "1NSPIRATION" yang memiliki arti "ONE Inspiration, ONE Aspiration for ONE Universe" dimana konten 1NSPIRATION adalah hasil dari kumpulan karya dan aspirasi Smukiers. Tidak 1NSPIRATION juga merupakan wadah informatif yang menyediakan informasi-informasi yang akan menambah pengetahuan umum dan tentunya akan menginspirasi, menambah wawasan, dan meningkatkan tingkat literasi dalam membaca.'
-                        />
-                        <ContentText    
-                            text="Untuk mulai membaca, bisa klik seri majalah yang diinginkan pada dropdown dibawah layar. Selamat membaca!"
-                        />
+                    <div className='px-20 pt-10 justify-center text-center'>
+                        <h1 className='text-6xl font-semibold'>E-Magazine</h1>
+                        <h4 className='text-xl font-medium'>
+                            <div className=' text-center px-28'>
+                            E-Magazine, seperti namanya, adalah program OSIS SMAK 1 PENABUR Jakarta yang berkolaborasi dengan ONE Journal Untuk menerbitkan majalah digital tiap bulannya. Nama dari e-magazine kami adalah "1NSPIRATION" yang memiliki arti "ONE Inspiration, ONE Aspiration for ONE Universe" dimana konten 1NSPIRATION adalah hasil dari kumpulan karya dan aspirasi Smukiers. Tidak 1NSPIRATION juga merupakan wadah informatif yang menyediakan informasi-informasi yang akan menambah pengetahuan umum dan tentunya akan menginspirasi, menambah wawasan, dan meningkatkan tingkat literasi dalam membaca.
+                            </div>
+                            <div className=' text-center px-28 mt-12'>
+                            Untuk mulai membaca, bisa klik seri majalah yang diinginkan pada dropdown dibawah layar. Selamat membaca!
+                            </div>
+                        </h4>
+                    </div>
                     </div>
                 )}
             <div className='bg-dark-blue w-full h-auto mt-[-8rem] text-white px-3 py-24'>
