@@ -13,7 +13,7 @@ const OsisLayout = (props) => {
                     </div>
                 </h4>
             </div>
-            <div className='pt-12 px-28 text-center'>
+            <div className='pt-12 px-28 text-center xl:px-24 2xl:px-28'>
                 <img src={ props.img } className="object-cover h-auto w-full rounded-3xl mt-6" alt={props.alt}/>
                 <div className='mt-12 px-28' id='visi&misi'>
                     <h1 className='text-5xl font-semibold'>Visi Kami</h1>

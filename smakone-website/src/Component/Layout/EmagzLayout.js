@@ -18,8 +18,8 @@ const EmagzLayout = (props) => {
                             title = "Apa itu E-Magazine?"
                             text = 'E-Magazine, seperti namanya, adalah program OSIS SMAK 1 PENABUR Jakarta yang berkolaborasi dengan ONE Journal Untuk menerbitkan majalah digital tiap bulannya. Nama dari e-magazine kami adalah "1NSPIRATION" yang memiliki arti "ONE Inspiration, ONE Aspiration for ONE Universe" dimana konten 1NSPIRATION adalah hasil dari kumpulan karya dan aspirasi Smukiers. Tidak 1NSPIRATION juga merupakan wadah informatif yang menyediakan informasi-informasi yang akan menambah pengetahuan umum dan tentunya akan menginspirasi, menambah wawasan, dan meningkatkan tingkat literasi dalam membaca.'
                         />
-                        <ContentText
-                            text = 'Untuk mulai membaca, bisa klik seri majalah yang diinginkan pada dropdown dibawah layar. Selamat membaca!'
+                        <ContentText    
+                            text="Untuk mulai membaca, bisa klik seri majalah yang diinginkan pada dropdown dibawah layar. Selamat membaca!"
                         />
                     </div>
                 )}
@@ -64,7 +64,7 @@ const EmagzLayout = (props) => {
                             </div>
                         </div>
                         {props.button &&
-                        <div className='flex justify-end mt-10'>
+                        <div className='flex justify-center mt-10'>
                         <button onClick={ () => navigate(-1) } className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
                             Kembali
                         </button>
