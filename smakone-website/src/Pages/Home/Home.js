@@ -155,9 +155,9 @@ const Home = () => {
             <div className= 'mb-5 content-center text-xl'>
               Kehidupan SMUKIERS
             </div>
-            <div className='text-5xl leading-normal'>
-              <div>Cari Tahu Seluk Beluk Kehidupan</div>
-              <div>Murid-Murid SMAK 1</div>
+            <div className='text-white text-5xl leading-normal'>
+              <div>Cari tahu seluk beluk kehidupan</div>
+              <div>murid-murid SMAK 1</div>
             </div>
           </div>
           <div>

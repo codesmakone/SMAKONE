@@ -61,7 +61,7 @@ const TentangSMAK1 = () => {
                     text = 
                     {
                     <p>
-                    Untuk cara pendaftaran, kalian bisa memantau sosial media dan juga website resmi <a href="https://psbjakarta.bpkpenabur.or.id/" className="text-sky-400">BPK PENABUR</a> atau instagram <a href="https://www.instagram.com/smak1penabur/" className="text-sky-400">@smak1penabur</a>
+                    Untuk cara pendaftaran, kalian bisa memantau sosial media dan juga website resmi <a href="https://psbjakarta.bpkpenabur.or.id/" className="font-semibold text-blue-600">BPK PENABUR</a> atau instagram <a href="https://www.instagram.com/smak1penabur/" className="font-semibold text-blue-600">@smak1penabur</a>
                     </p>
                     }
                 />
