@@ -44,8 +44,8 @@ const Home = () => {
               Dengar dari SMUKIERS
             </div>
             <div className='text-white text-5xl leading-normal'>
-              <div>Dengar alasan mengapa</div>
-              <div>mereka bersekolah di SMAK 1</div>
+              <div>Dengar Alasan Mengapa</div>
+              <div>Mereka Bersekolah di SMAK 1</div>
             </div>
           </div>
           <div className='grid grid-cols-3 justify-items-center gap-3 mt-12 '>
@@ -156,8 +156,8 @@ const Home = () => {
               Kehidupan SMUKIERS
             </div>
             <div className='text-white text-5xl leading-normal'>
-              <div>Cari tahu seluk beluk kehidupan</div>
-              <div>murid-murid SMAK 1</div>
+              <div>Cari Tahu Seluk Beluk Kehidupan</div>
+              <div>Murid-murid SMAK 1</div>
             </div>
           </div>
           <div>
