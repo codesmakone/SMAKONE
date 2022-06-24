@@ -17,7 +17,7 @@ const Ass1st = () => {
             <div className='px-20 pt-10 justify-center text-center'>
                 <h1 className='text-6xl font-semibold'>ASS1ST</h1>
                 <h4 className='text-xl font-medium'>
-                    <h4 className=' text-center px-28'>
+                    <h4 className=' text-center px-28 mt-10'>
                     Hello Smukierz, sebentar lagi kita akan segera menapaki perjalanan kita di tingkat perkuliahan. Tapi, masih banyak dari kita yang ragu akan memilih jurusan kuliah. Tapi jangan khawatir karena kami hadir dengan program ASS1ST. Apa itu ASS1ST? ASS1ST ini adalah program OSIS bidang 4 yang isinya merupakan penjelasan mengenai jurusan kuliah serta nama-nama universitas yang mengusai di jurusan tersebut. Jadi, harapannya dengan adanya ASS1ST ini maka akan mempermudah kalian dalam menentukan jurusan kuliah yang kalian inginkan.
                     </h4>
                 </h4>

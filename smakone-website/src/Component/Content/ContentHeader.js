@@ -13,7 +13,7 @@ const ContentHeader = (props) => {
                         { props.desc }
                         </div>
                     </h4>
-                    <div className='pt-12 px-12 sm:px-16 xl:px-28 text-center'>
+                    <div className='mt-5 px-12 sm:px-16 xl:px-28 text-center'>
                         <iframe className="object-cover w-full h-[300px] lg:h-[558px] sm:h-[350px]"  
                         src="https://www.youtube.com/embed/XifGVzIuT_I" 
                         title="Welcome to SMAK ONE." 
