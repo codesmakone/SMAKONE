@@ -46,11 +46,29 @@
 
 
 
+
+.Assist{
+  display: inline-block;
+  height: 210px;
+  width: 210px;
+  color: white;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.Assist:hover .content{
+  opacity: 1;
+}
+
+.Assist:hover .content *{
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .card{
   display: inline-block;
   height: 250px;
   width: 250px;
-  padding: 20px;
   color: white;
   background-size: cover;
   cursor: pointer;
