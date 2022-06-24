@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Alumni = (props) =>{
     return(
-            <div className="container mx-auto flex flex-row mt-8w">
+            <div className="container mx-auto flex flex-row mt-8">
                 <img src={ props.img } className="object-cover h-80 rounded-2xl" alt={ props.title } />
                 <div className="leading-normal ml-20 mr-10 mt-10">
                     <div className="text-4xl font-bold">{ props.title }</div>
