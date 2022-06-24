@@ -71,21 +71,21 @@ const Footer = () => {
 
           <div className='bg-gray-200 '>
           <div className="grid grid-cols-1 lg:grid-cols-3 px-10">
-            <div className="flex justify-self-start">
-                    <img src={LogoPenabur} className="object-scale-down xl:h-28 mr-2 sm:h-16" alt="BPK PENABUR Logo"/>
-                    <img src={LogoOsis} className="object-scale-down xl:h-28 sm:h-16" alt="OSIS SMAK 1 Logo"/>
+            <div className="flex my-2 justify-self-center lg:justify-self-start">
+                    <img src={LogoPenabur} className="object-scale-down h-16 xl:h-28 mr-2" alt="BPK PENABUR Logo"/>
+                    <img src={LogoOsis} className="object-scale-down h-16 xl:h-28 " alt="OSIS SMAK 1 Logo"/>
                     {/* <img src={Logo_CodeOne} className="object-scale-down xl:h-28 sm:h-16 rounded-full" alt="Logo CodeOne"/> */}
             </div>
             {/* <div className="flex justify-self-center object-center py-3 lg:py-6"> */}
-            <div className="flex justify-self-center place-self-end">
+            <div className="flex justify-self-center place-self-end my-auto">
                 <p className="text-center font-bold text-gray-500 sm:text-xs xl:text-lg">
                     Jalan Tanjung Duren Raya Nomor 4<br/>
                     Jakarta Barat, DKI Jakarta 11470<br/>
                     Tel: (+62)21 5666962
                 </p>
             </div>
-            <div className="place-self-end justify-self-end">
-                <p className='font-bold text-gray-500 sm:text-xs sm:ml-8 xl:text-lg xl:ml-0'>
+            <div className="place-self-end justify-self-center lg:justify-self-end">
+                <p className='font-bold text-gray-500 sm:text-xs sm:ml-8 xl:text-lg xl:ml-0 text-center lg:text-right my-2'>
                   Copyright © 2021 SMAK ONE Student Council All Rights Reserved
                 </p>
             </div>
