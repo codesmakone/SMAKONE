@@ -32,7 +32,7 @@ const Footer = () => {
       <div className="py-20 px-12">
           <div className="bg-cover bg-footer-image rounded-xl py-24">
               <div className="flex flex-col items-center">
-                <p className="text-5xl font-bold leading-normal text-white text-center mb-10 break-all">
+                <p className="text-xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-normal text-white text-center mb-10 mx-6">
                   Cari Tahu Informasi Terkini Mengenai SMAK 1 <br/>di Instagram Kami 
                 </p>
                 <div>
@@ -52,22 +52,22 @@ const Footer = () => {
         <div >
           <div className='pb-12 flex justify-around mx-10'>
             <div>
-              <img className='object-scale-down h-8 sm:w-9/12' alt='smakone' src={Logo_SMAK1}/>
+              <img className='object-scale-down h-8 w-7/12 sm:w-9/12' alt='smakone' src={Logo_SMAK1}/>
             </div>
-            <div className='flex flex-col xl:text-xl gap-y-4 font-bold text-gray-500 sm:text-base sm:mr-5'>
+            <div className='flex flex-col xl:text-xl gap-y-4 font-bold text-gray-500 text-sm sm:text-base sm:mr-5 -ml-20 sm:-ml-10'>
               <Link to="/OSIS"className='text-black link-underline link-underline-black'>Osis</Link>
               <HashLink to="/OSIS#visi&misi" className='hover:text-black link-underline link-underline-black' >Visi & Misi Kami</HashLink>
               <Link to="/OSIS" className='hover:text-black link-underline link-underline-black' >Bertemu dengan Kami</Link>
               <HashLink to="/OSIS#bidang" className='hover:text-black link-underline link-underline-black' >Services</HashLink>
               <Link to="/OSIS/ASS1ST" className='hover:text-black link-underline link-underline-black' >Ass1st</Link>
             </div>
-            <div className='flex flex-col xl:text-xl gap-y-4 font-bold text-gray-500 sm:text-base'>
+            <div className='flex flex-col text-sm sm:text-base xl:text-xl gap-y-4 font-bold text-gray-500 '>
               <Link to="/Kehidupan_smukiers" className='text-black link-underline link-underline-black'>Kehidupan SMUKIERS</Link >
               <Link to="/Kehidupan_smukiers/Tips" className='hover:text-black link-underline link-underline-black'>Tips Belajar</Link>
               <Link to="/Kehidupan_smukiers/Kegiatan" className='hover:text-black link-underline link-underline-black' >Kegiatan</Link>
               <Link to="/Kehidupan_smukiers/Alumni" className='hover:text-black link-underline link-underline-black' >Alumni</Link>
             </div>
-            <div className='flex gap-x-2'>
+            <div className='flex flex-col lg:flex-row gap-y-2 lg:gap-x-2'>
               <div className=''>
               <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><RiMailLine size={26}/></a>
               </div>
@@ -79,18 +79,18 @@ const Footer = () => {
           <div className='bg-gray-200 px-10'>
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-3 ">
-                        <div className="flex lg:justify-self-start pt-6 pb-3">
+                        <div className="flex justify-self-center lg:justify-self-start pt-6 pb-3">
                                 <img src={LogoPenabur} className="object-scale-down h-20 mr-2" alt="BPK PENABUR Logo"/>
                                 <img src={LogoOsis} className="object-scale-down h-20" alt="OSIS SMAK 1 Logo"/>
                         </div>
-                        <div className="flex justify-self-center object-center pt-4">
+                        <div className="flex justify-self-center object-center my-auto">
                             <p className="text-center align-center font-bold text-gray-500 xl:text-lg">
                                 Jalan Tanjung Duren Raya Nomor 4<br/>
                                 Jakarta Barat, DKI Jakarta 11470<br/>
                                 Tel: (+62)21 5666962
                             </p>
                         </div>
-                        <div className="flex justify-self-end pt-10">
+                        <div className="flex justify-self-center lg:justify-self-end py-5 my-auto">
                                 <img src={Logo_CodeOne} className="object-scale-down h-12 mr-2" alt="Logo CodeOne"/>
                         </div>
                     </div>

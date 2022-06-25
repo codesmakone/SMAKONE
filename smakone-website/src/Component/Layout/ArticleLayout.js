@@ -7,24 +7,24 @@ const Layout = (props) => {
   return (
         <div>
             <div className='container mx-auto'>
-                <div className='px-20 pt-10 justify-center text-center'>
+                <div className='px-6 md:px-12 lg:px-16 xl:px-20 pt-10 justify-center text-center'>
                     <h2 className='text-xl font-semibold'>{ props.cat }</h2>
-                    <h1 className='text-6xl font-black'>{ props.title }</h1>
+                    <h1 className='text-4xl xl:text-6xl font-black'>{ props.title }</h1>
                     { props.quote && (
                         <h4 className='text-xl font-medium'>{ props.quote }</h4>
                     ) }
                     { props.desc && (
-                        <h4 className='text-xl font-semibold'>{ props.desc }</h4>
+                        <h4 className='text-lg xl:text-xl font-semibold'>{ props.desc }</h4>
                     ) }
                 </div>
-                <div className='pt-3 px-28 text-left'>
+                <div className='pt-12 px-6 md:px-12 lg:px-16 xl:px-28 text-justify'>
                     <p className='text-lg font-semibold px-3'>
                         { props.formerPar } 
                     </p>
                     {props.img && 
                     <img src={ props.img } className="object-cover h-auto w-full rounded-3xl mt-6" alt={props.alt}/>}
                     {props.imgAlasan && 
-                    <img src={ props.imgAlasan } className="object-cover h-[32rem] w-auto mx-auto rounded-3xl mt-9" alt={props.altAlasan}/>}
+                    <img src={ props.imgAlasan } className="object-cover h-auto max-w-auto mx-auto rounded-3xl mt-6" alt={props.altAlasan}/>}
                     <div className='font-medium'>
                     <div className='text-lg mb-6 mt-9 px-3'>
                         { props.latterPar1 }
@@ -43,7 +43,7 @@ const Layout = (props) => {
                     </div>
                     </div>
                     {props.quoteAlumni &&
-                    <div className='text-center text-xl font-semibold pt-5 text-gray-600 px-20'>
+                    <div className='text-center text-xl font-semibold pt-5 text-gray-600 px-6 md:px-12 lg:px-16 xl:px-20'>
                         {props.quoteAlumni}
                         <div>-{props.quote_name}</div>
                     </div>
