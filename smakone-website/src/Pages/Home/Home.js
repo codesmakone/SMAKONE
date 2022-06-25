@@ -20,7 +20,6 @@ import kriza from "../../Image/Home/Kegiatan/kriza.jpg"
 import kehidupan from "../../Image/Home/Kehidupan/kehidupan.png"
 import tips from "../../Image/Home/Kehidupan/tips.jpg"
 import kegiatan from "../../Image/Home/Kehidupan/kegiatan.jpg"
-import SummerMaylodies from "../../Image/Emagz/SummerMaylodies.png"
 
 const Home = () => {
   return (
@@ -118,7 +117,7 @@ const Home = () => {
       </div>
 
       <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24'>
-        <FeatEmagz month='May' img={SummerMaylodies} alt='SummerMaylodies'/>
+        <FeatEmagz />
       </div>
 
 
