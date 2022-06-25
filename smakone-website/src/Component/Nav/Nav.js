@@ -1,17 +1,29 @@
 import React from 'react'
 import Logo_SMAK1 from '../../Image/Logo_SMAK1.png'
 import { Link } from 'react-router-dom'
+import { useScrollPosition } from '../../Hooks';
 
 //Import component
 import Dropdown from '../Dropdown'
 
 
 const Nav = () => {
+
+  function classNames(...classes) {
+  return classes.filter(Boolean).join(' ');
+}
+  
+  const scrollPosition = useScrollPosition();
+  
+  
   return (
     <>
     <div className='Circle'></div> 
     <nav className=''>
-      <div className='flex flex-wrap items-center pt-3 px-20 w-full fixed top-0 left-0 justify-between z-50'>
+      <div className={classNames(
+        scrollPosition > 0 ? 'bg-slate-100 drop-shadow-[0_15px_12px_rgba(0,0,0,0.25)]' : '',
+        'flex flex-wrap items-center pt-3 px-20 w-full fixed top-0 left-0 justify-between z-50 transition-all duration-200'
+      )}>
         <div>
             <Link to="/" className="py-px rounded-lg">
               <div>
