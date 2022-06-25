@@ -23,10 +23,10 @@ const OsisNav = (props) => {
     //       }
     //   </div>
     // </div>
-    <div className="card" style={{backgroundImage: `url(${props.img})`}}>
-        <div className="content ">
+    <div className='hover-zoom'>
+      <img src={props.img} alt={props.alt} className='h-60'/>
+        <div className="mt-4 text-bold text-2xl">
               <h2>{props.Title}</h2>
-              <h3>{props.desc}</h3>  
         </div>
     </div>
   )

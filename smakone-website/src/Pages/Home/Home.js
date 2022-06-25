@@ -28,12 +28,25 @@ const Home = () => {
 
       {/* <div className='mt-32 col-span-6 flex flex-col justify-start text-left '> */}
       <div className='col-span-6 flex flex-col justify-start text-left '>
-        <div className='px-20 py-28'>
+        <div className='px-20 pt-20 pb-44'>
           <h1 className='text-[7rem] font-black'>We Are SMAK 1</h1>
-          <h4 className='text-2xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4>
-          <div className='font-bold text-2xl pt-24'>
-            smukiers .......
+          <div className="flex gap-5">
+          <h1 className="text-[2.3rem] font-black leading-tight">ALL NEW 10<sup>th</sup> GRADERS</h1>
+          <div className="mt-1">
+          <a href="drive.com" target="blank" className="text-white bg-black font-bold rounded-full text-2xl px-12 py-3 text-center mr-2 mb-2">
+            CLICK HERE
+          </a>
           </div>
+          </div>
+          {/* <h4 className='text-[1.3rem] text-gray-400 mt-10'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4> */}
+          {/* <div className="mt-12">
+          <h1 className='text-[4rem] font-black leading-tight'>ALL NEW <br/>10<sup>th</sup> GRADERS </h1>
+          <div className="mt-5">
+          <a href="drive.com" target="blank" className="text-white bg-black font-bold rounded-full text-2xl px-12 py-3 text-center mr-2 mb-2">
+            CLICK HERE
+          </a>
+          </div>
+          </div> */}
         </div>
       </div>
 

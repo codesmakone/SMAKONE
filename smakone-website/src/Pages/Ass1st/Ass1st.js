@@ -36,7 +36,7 @@ const Ass1st = () => {
             <h1 className='text-5xl font-semibold'>
               Jurusan
             </h1>
-            <div className='grid grid-cols-4 gap-y-5 mt-10'>
+            <div className='grid grid-cols-5 gap-5 mt-10'>
               <NavLink to="Kedokteran">
                 <Nav
                   img={Kedokteran}
@@ -85,7 +85,7 @@ const Ass1st = () => {
                   Title="Teknik Sipil"
                   />
               </NavLink>
-              <NavLink to="Pertambangan" className="col-span-4">
+              <NavLink to="Pertambangan" className="">
                 <Nav
                   img={Pertambangan}
                   Title="Teknik Pertambangan"
