@@ -32,6 +32,7 @@ const OSIS_9 = () => {
             'ONE-MEDIA: Tim multimedia OSIS SMAK 1 PENABUR Jakarta yang beranggotakan anggota OSIS Bidang 9 yang bertugas untuk melancarkan pelaksanaan kegiatan dan acara sekolah dan OSIS.',
             'ONECAST: Podcast resmi OSIS SMAK 1 PENABUR Jakarta yang dibawakan oleh peserta didik SMAK 1 dan dapat didengarkan Spotify.',
             'E-Magazine: Majalah elektronik resmi OSIS SMAK 1 PENABUR Jakarta yang bertujuan untuk menambah wawasan siswa-siswi SMAK1. Ditulis langsung oleh peserta didik SMAK 1 dan dapat diakses di website ini.',
+            'CodeOne: Sebuah komunitas coder naungan OSIS SMAK 1 PENABUR Jakarta yang beranggotakan siswa-siswi bertalenta dalam Web-Development dan bertugas membantu keperluan coding acara SMAK 1'
           ]
         }
       />
