@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Layout from '../../../Component/Layout/ArticleLayout'
-import kriza from '../../../Image/Home/Kegiatan/kriza.jpg'
+import Layout from '../../Component/Layout/KrizaLayout'
+import kriza from '../../Image/Home/Kegiatan/kriza.jpg'
 
 const Kriza = () => {
     return(
@@ -13,7 +13,15 @@ const Kriza = () => {
             img = {kriza}
             alt = "kr1za"
             latterPar2 = "Untuk dapat menjadi anggota KR1ZA sendiri, terdapat seleksi yang harus diikuti. Sebaliknya, siapa pun bisa mengikuti ekskul untuk memperdalam dan melatih kemampuannya dalam olahraga pilihan."
+            name1 = 'Basket'
+            name2 = 'Bulutangkis'
+            name3 = 'Catur'
+            name4 = 'Futsal'
+            name5 = 'Pencak Silat'
+            name6 = 'Tenis Meja'
+            name7 = 'Voli'
         />
+        
     )
 }
 
