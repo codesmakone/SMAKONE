@@ -1,8 +1,9 @@
 import React from 'react'
-import { useNavigate, Link } from 'react-router-dom'; 
+// import { useNavigate, Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom'; 
 
 const Layout = (props) => {
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
 
   return (
         <div>

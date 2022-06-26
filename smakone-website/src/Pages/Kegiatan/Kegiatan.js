@@ -8,62 +8,38 @@ const Kegiatan = () => {
         <div className="">
             <div className="container w-full h-full mx-auto justify-center">
                 <ContentHeader
-                    title = 'Sekilas Tentang SMAK 1'
+                    title = 'Ada Apa Aja Sih di SMAK 1?'
                 />
                 <ContentText
-                    text = "SMAK 1 PENABUR merupakan sekolah Kristen bergengsi di wilayah Tanjung Duren, Jakarta. Dengan visi untuk mewujudnyatakan sekolah unggul yang bermotivasi dalam iman, ilmu dan pelayanan, SMAK 1 bertujuan untuk mengembangkan potensi para peserta didik secara optimal berdasarkan teladan nilai Kristiani. Program pembelajaran SMAK 1 memberi pemahaman bagi siswa-siswi melalui penggunaan kurikulum nasional. Selain itu, siswa-siswi juga dibekali dengan pembelajaran non-akademik, misalnya melalui kegiatan ekstrakurikuler dan acara-acara sekolah. Proses pembelajaran didukung dan ditunjang oleh guru-guru yang kompeten, bimbingan konseling dan fasilitas yang lengkap. SMAK 1 pun dikenal dengan prestasi-prestasi yang cemerlang baik di bidang akademis maupun non-akademis, internasional maupun nasional."
-                />
-
-                <div className="font-black text-left ml-12 sm:ml-16 xl:ml-32 text-2xl xl:text-3xl mt-12">Pertanyaan yang Sering Ditanyakan</div>
-
-                <ContentText
-                    title = "Apakah pelajaran di SMAK 1 sulit?"
-                    text = "Setiap murid SMAK 1 sudah melewati tes seleksi dengan standar yang tidak rendah sehingga kecerdasan akademik muridnya tidak perlu diragukan lagi. Ritme belajar di SMAK 1 tentu lebih cepat dibandingkan sekolah lainnya karena materi yang dipelajari lebih dalam dan bervariasi, sehingga susah atau tidaknya itu relatif dan tergantung dengan kecepatan belajar siswa dalam mengikuti ritme belajar SMAK 1."
+                    text = "Banyak orang mengira di SMAK 1 itu hanya belajar, belajar, dan belajar. Memang benar sih kami banyak belajar, tetapi belajarnya bukan hanya dalam bidang akademis. Dalam bidang non-akademis kami juga banyak belajar, loh. SMAK 1 menyediakan berbagai club, ekstrakulikuler, banyak acara menarik seperti SMAK ONE CUP, dan sebagainya."
                 />
 
                 <ContentText
-                    title = "Apakah keseharian murid SMAK 1 hanya belajar?"
-                    text = "Tentu yang wajib adalah giat belajar, bukan belajar terus-menerus. Menjadi murid SMAK 1 tentunya juga masih bermain dan bersenang-senang. Namun, pembagian waktu yang baik merupakan kunci sukses di SMAK 1."
+                    text = "Pertama, mengenai club di SMAK 1 PENABUR. Club di SMUKI itu sangat beragam dimulai dari club graphic design Monograph, jurnalistik PENS1L, mini orchestra Smukiez Youth Chamber, band Cressendo, Smukiez Wind Ensemble, SMUKIEZ Choir, English Debate Society, ONE Model United Nations, contemporary dance SEREN1TY, modern Dance F1RST, pramuka (siswa juga bisa berpartisipasi menjadi dewan ambalan dan mengurus acara seperti PERJUSA, Raimuna, dan sebagainya), PMR, PASKIBRAKA Flash One, club fotografi, Shutter One, radio club ONE FM yang mengisi jam istirahat warga sekolah dengan lagu-lagu seru dan berita-berita terbaru dunia setiap dua minggu sekali, teater MASK yang tampil ketika Smukiez Theather Night dan acara SMAK 1 lainnya, serta club olahraga KR1ZA yang terdiri dari bulutangkis, futsal, basket, voli, tenis meja, dan banyak olahraga lainnya. Dengan banyaknya club yang disediakan, siswa-siswi dapat menikmati hobi bersama kawan-kawan yang memiliki interest dalam bidang yang sama."
                 />
 
                 <ContentText
-                    title = "Apakah perlu mengikuti les/bimbel tambahan di luar sekolah?"
-                    text = "Tidak! Kalian masih bisa mengikuti pelajaran dengan baik tanpa les. Kurikulum di SMAK 1 sudah dirancang untuk mudah dimengerti. Selama siswa/i fokus mendengarkan penjelasan guru dan belajar giat secara mandiri, pasti bisa memperoleh hasil yang memuaskan."
+                    text = "Kedua, SMUKI juga menyediakan banyak ekstrakurikuler menarik seperti bahasa korea, manga, animation, web design, multimedia, master of ceremony, business plan, kolintang, pencak silat, dan lain sebagainya. Adapun pilihan ekskur dapat berganti dari tahun ke tahun menyesuaikan dengan pihak sekolah."
                 />
 
                 <ContentText
-                    title = "Seperti apa guru-guru di SMAK 1?"
-                    text = "Guru-guru di SMAK 1 telah melalui proses seleksi yang panjang. Sehingga, bisa dipastikan semuanya berkompeten di bidangnya masing-masing. Benar, Setiap guru mempunyai cara dan karakter masing-masing dalam mengajar. Tetapi, semua guru di SMAK 1 pasti bersedia untuk menjawab pertanyaan setiap siswa yang belum memahami materi pembelajaran. Bahkan, beberapa guru juga tidak merasa keberatan bila dihubungi diluar jam pelajaran."
+                    text = "Ketiga, pihak sekolah dan pengurus OSIS juga mengurus banyak sekali acara, seperti Imlek, Valentine’s day, Paskah, Natal, Live-in, workshop yang mengundang beberapa narasumber menarik, MPLS2B, hari kemerdekaan, Smukiez Theater Night, Smukiez art week, RESIGHT, Tutorial for Others by Smukiers dimana siswa-siswi bisa mendaftar untuk mengajar anak-anak yang kurang mendapatkan akses pendidikan, Tutor Teman Sebaya (kegiatan dimana siswa-siswi dapat mengajar teman-teman lain di sekolah), donor darah, Smukiez Olympics, Entrepreneurs day, SMAK ONE CUP (siswa-siswi dapat mendaftar menjadi panitia di berbagai bidang), Family Run, dan yang sebentar lagi akan release yaitu TEDXSMAKONE!! Selain semua program acara dan kegiatan yang telah ditulis, masih banyak lagi kegiatan yang OSIS kerjakan dimana siswa-siswi dapat berpartisipasi dalam kemampuan dan bidang yang ingin mereka tekuni. Setiap acara tersebut memiliki warna mereka masing-masing yang membuat masa SMA smukiers menjadi sangat berkesan."
                 />
 
                 <ContentText
-                    title = "Berapa lama kegiatan belajar dan mengajar dalam satu hari?"
-                    text = "Setiap hari, ada 9-10 jam pelajaran, dengan 1 jam pelajaran berdurasi 45 menit."
+                    text = "Kegiatan lain yang SMAK 1 adakan merupakan i-Project dimana siswa-siswi akan menyusun karya ilmiah mereka sendiri dalam bidang yang mereka minati. Selain itu, SMAK 1 juga mengadakan EduFair agar siswa-siswi memiliki gambaran mengenai tempat perkuliahan yang tepat untuk mereka. Dalam kegitan EduFair, SMAK 1 juga kerap kali mendatangkan alumni-alumni yang sudah bekerja di profesi mereka untuk membagikan pengalaman mereka."
                 />
 
                 <ContentText
-                    title = "Pelajaran lintas minat apa saja yang bisa dipilih?"
-                    text = "SMAK 1 menyediakan pelajaran lintas minat yang terdiri dari Bahasa Inggris, Mandarin, Jerman, Jepang, dan TIK, yang bebas kalian pilih. Khusus untuk jurusan MIPA, kalian juga dapat memilih lintas minat ekonomi."
+                    text = "Selanjutnya untuk siswa-siswi yang memiliki minat di fisika, biologi, matematika, geografi, ekonomi, akuntansi, dan beberapa pelajaran lainnya dan berminat untuk mengikuti OSK ataupun OSN, SMAK 1 juga menyediakan pelatihan Science Club Jenjang setiap minggunya dan sangat mendukung siswa-siswi untuk mengikuti lomba-lomba baik akademik maupun non-akademik. Oleh karena itu, selain siswa-siswi yang memiliki minat di lomba akademik, siswa-siswi yang memiliki minat di lomba non-akademik juga dapat mengikuti lomba-lomba seperti O2SN, DBL, lomba mural, dance, atau bidang lain di cup sekolah lain, serta masih banyak lomba lainnya juga yang bisa saja mencapai taraf internasional."
                 />
 
                 <ContentText
-                    title = "Apa terdapat tes IGCSE, O level, SAT, dan sebagainya sehingga bisa memudahkan untuk mendaftar di perguruan tinggi luar negeri?"
-                    text = "Untuk saat ini, kurikulum SMAK 1 adalah kurikulum nasional sehingga tidak menyediakan tes tersebut. Namun, terdapat bimbingan IELTS dan simulasi tesnya untuk mempersiapkan siswa/i SMAK 1 dalam mengahadapi tes sesungguhnya yang biasanya menjadi salah satu syarat untuk mendaftar ke universitas."
+                    text = "Selain kegiatan-kegiatan, club, dan ekstrakulikuler yang seru, tentunya warga sekolah SMAK 1 dan gedung SMAK 1 sendiri sangatlah berkesan. Kantin SMAK 1 menyediakan banyak sekali ragam makanan dengan jenis yang beragam dari makanan western, korean, sampai indonesian. Tidak lupa, ada kantin SMAK 1 yang sudah cashless, loh. Jadi hanya menggunakan student card sudah bisa membeli makanan yang diinginkan. Fasilitas yang menjadi khas SMUKI adalah adanya balkon di aula atau kami sebutnya lantai delapan setengah. Dengan adanya balkon tersebut, kegiatan Smukiez Theater Night semakin terasa seperti di teater beneran!"
                 />
 
                 <ContentText
-                    title = "Apa saja kegiatan yang ada di SMAK 1?"
-                    text = "Ada banyak sekali kegiatan yang bisa kalian ikuti di SMAK 1. Mulai dari ekstrakurikuler, kegiatan-kegiatan yang diselenggarakan OSIS maupun sekolah, hingga klub sains dan klub non-akademis, seperti F1RST, Smukiez Choir, KR1ZA, dan masih banyak lagi. Ada juga organisasi- organisasi yang bisa kalian ikut seperti OSIS, MPK, dan Pramuka, serta panitia Smakonecup."
-                />
-
-                <ContentText
-                    title = "Sekarang saya mau mendaftarkan diri menjadi siswa/i SMAK 1. Bagaimana caranya?"
-                    text = 
-                    {
-                    <p>
-                    Untuk cara pendaftaran, kalian bisa memantau sosial media dan juga website resmi <a href="https://psbjakarta.bpkpenabur.or.id/" className="font-semibold text-blue-600">BPK PENABUR</a> atau instagram <a href="https://www.instagram.com/smak1penabur/" className="font-semibold text-blue-600">@smak1penabur</a>
-                    </p>
-                    }
+                    text = "Setelah menyebutkan semua itu, sepertinya masih tidak cukup untuk mendeskripsikan apa saja yang terdapat di SMAK 1 karena masih terdapat banyak sekali hal yang belum dituliskan. Namun satu hal yang pasti, sekolah di SMAK 1 untuk penulis sendiri merupakan pengalaman yang tak terlupakan karena kami banyak berkolaborasi bersama siswa lain, belajar mengemban tanggung jawab akademik dan non-akademik, serta bersama-sama berjuang meraih mimpi dengan mengembangkan bakat kami di berbagai fasilitas yang telah disediakan SMAK 1 dengan cara yang seru dan interaktif. Penulis rasa, teman-teman harus mencoba sendiri berbagai hal yang disediakan SMAK 1 untuk merasakan keseruannya."
                 />
             </div>
         </div>
