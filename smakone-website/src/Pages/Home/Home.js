@@ -20,7 +20,6 @@ import kriza from "../../Image/Home/Kegiatan/kriza.jpg"
 import kehidupan from "../../Image/Home/Kehidupan/kehidupan.png"
 import tips from "../../Image/Home/Kehidupan/tips.jpg"
 import kegiatan from "../../Image/Home/Kehidupan/kegiatan.jpg"
-import SummerMaylodies from "../../Image/Emagz/SummerMaylodies.png"
 
 const Home = () => {
   return (
@@ -28,11 +27,12 @@ const Home = () => {
 
       {/* <div className='mt-32 col-span-6 flex flex-col justify-start text-left '> */}
       <div className='col-span-6 flex flex-col justify-start text-left '>
-        <div className='px-20 pt-20 pb-44'>
+        <div className='px-20 pt-20 pb-32'>
           <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[7rem] font-black'>We Are SMAK 1</h1>
+          {/* <h4 className='text-2xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4> */}
           <div className="flex flex-col md:flex-row gap-5">
-          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[2.3rem] font-black leading-tight">ALL NEW 10<sup>th</sup> GRADERS</h1>
-          <div className="mt-1">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[3.5rem] font-black leading-tight">ALL NEW 10<sup>th</sup> GRADERS</h1>
+          <div className="mt-10">
             <a href="drive.com" target="blank" className="text-white bg-black hover:bg-white hover:text-black ease-in duration-200 font-bold rounded-full text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2">
               CLICK HERE
             </a>
@@ -118,7 +118,7 @@ const Home = () => {
       </div>
 
       <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24'>
-        <FeatEmagz month='May' img={SummerMaylodies} alt='SummerMaylodies'/>
+        <FeatEmagz />
       </div>
 
 
