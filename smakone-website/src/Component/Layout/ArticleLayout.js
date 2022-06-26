@@ -23,8 +23,10 @@ const Layout = (props) => {
                     </p>
                     {props.img && 
                     <img src={ props.img } className="object-cover h-auto w-full rounded-3xl mt-6" alt={props.alt}/>}
+                    {props.imgHome && 
+                    <img src={ props.imgHome } className="object-cover h-auto md:h-[26rem] lg:h-[30rem] xl:h-[32rem] max-w-auto mx-auto rounded-3xl mt-6" alt={props.altAlasan}/>}
                     {props.imgAlasan && 
-                    <img src={ props.imgAlasan } className="object-cover h-auto max-w-auto mx-auto rounded-3xl mt-6" alt={props.altAlasan}/>}
+                    <img src={ props.imgAlasan } className="object-cover h-auto md:h-[26rem] lg:h-[30rem] xl:h-[32rem] max-w-auto mx-auto rounded-3xl mt-6" alt={props.altAlasan}/>}
                     <div className='font-medium'>
                     <div className='text-lg mb-6 mt-9 px-3'>
                         { props.latterPar1 }
