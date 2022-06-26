@@ -33,6 +33,7 @@ const OSIS_1 = () => {
         'Kebaktian Paskah - Merayakan dan memperingati Paskah sebagai sebuah bentuk ucapan syukur atas kasih Allah'
         ]
       }
+      dir="/OSIS/bidang2"
       />
     </div>
   )

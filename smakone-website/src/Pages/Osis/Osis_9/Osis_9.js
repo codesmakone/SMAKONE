@@ -34,6 +34,7 @@ const OSIS_9 = () => {
             'E-Magazine: Majalah elektronik resmi OSIS SMAK 1 PENABUR Jakarta yang bertujuan untuk menambah wawasan siswa-siswi SMAK1. Ditulis langsung oleh peserta didik SMAK 1 dan dapat diakses di website ini.',
           ]
         }
+        dir="/OSIS/bidang10"
       />
     </div>
   )

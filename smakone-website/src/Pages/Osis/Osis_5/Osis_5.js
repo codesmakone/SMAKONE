@@ -32,6 +32,7 @@ const OSIS_5 = () => {
             'Bye Bye Plastic Bag Jakarta School Club, merupakan club yang fokus pada gerakan pengurangan penggunaan plastik di SMAK 1.'
           ]
         }
+        dir="/OSIS/bidang6"
         />
     </div>
   )

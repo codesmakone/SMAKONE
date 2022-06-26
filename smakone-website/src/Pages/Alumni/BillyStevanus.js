@@ -21,6 +21,7 @@ const BillyStevanus = () => {
             altAlasan = "Billy Stevanus"
             quoteAlumni='"Kalian semua anak pintar, kalian semua anak yang beruntung bisa mendapatkan satu tempat di sekolah terbaik di Indonesia, bukan cuman di Jakarta. Berjuang, jadi yang terbaik. Saling kompetisi itu hal yang baik menurut aku, tapi jangan lupakan sisi lain kehidupan kamu, karena kehidupan kamu bukan cuman belajar, belajar, belajar, tapi juga jangan lupa mengembangkan networking, jangan lupa mengembangkan experience karena sekolah itu masalah 3 aspek menurut aku. Satu, knowledge, yang kedua, experience, yang ketiga, networking. Kalo ada satu aja yang ketinggalan menurut aku ada yang kurang dari masa SMA kamu. Jangan lupa untuk bersenang-senang."'
             quote_name="Billy"
+            dir="/Kehidupan_smukiers/Alumni/ScottMoses"
         />
     </div>
   )

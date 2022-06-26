@@ -16,6 +16,7 @@ const GillianSeason = () => {
             latterPar5="Gillian merasa sangat bersyukur karena sudah diberi kesempatan untuk menimba ilmu di SMAK 1, karena menurutnya SMAK 1 penuh dengan orang-orang hebat yang kedepannya akan membuat perubahan-perubahan besar di masyarakat. Tidak hanya itu, di SMAK 1 Gillian juga mendapat kesempatan untuk mengembangkan skill-skill lainnya yang tentunya akan berguna di masa depan."
             imgHome = {Gilian}
             altAlasan = "Gillian Season"
+            dir="/alasan/Berwyn"
         />
     </div>
   )

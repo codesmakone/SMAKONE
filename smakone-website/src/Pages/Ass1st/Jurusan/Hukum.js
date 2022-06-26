@@ -24,7 +24,7 @@ const Hukum = () => {
                 alt="Hukum"
                 desc="Jurusan Ilmu Hukum mempelajari berbagai sistem hukum yang berkaitan dengan kehidupan kemasyarakatan maupun kegiatan bisnis. 
                 Di Ilmu Hukum, kamu juga belajar mengenai perundang-undangan termasuk di dalamnya hukum dasar (konstitusi, hukum perdata,
-                 hukum dagang, hukum tata negara, hukum pidana, hukum tata pidana) hingga hukum internasional dengan cakupan yang cukup luas."
+                hukum dagang, hukum tata negara, hukum pidana, hukum tata pidana) hingga hukum internasional dengan cakupan yang cukup luas."
                 world1img={harvard}
                 world2img={oxford}
                 world3img={cambridge}
@@ -43,6 +43,7 @@ const Hukum = () => {
                 indo1name="Universitas Indonesia"
                 indo2name="Universitas Airlangga"
                 indo3name="Universitas Gajah Mada"
+                dir="/OSIS/ASS1ST/Psikologi"
             />
         </div>
     )

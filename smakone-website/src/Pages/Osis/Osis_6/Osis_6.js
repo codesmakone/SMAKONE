@@ -31,6 +31,7 @@ const OSIS_6 = () => {
             'Koperasi Kejujuran : Koperasi siswa yang berada di lantai 1 sekolah dengan tujuan untuk meningkatkan kejujuran siswa/i SMAK 1.'
           ]
         }
+        dir="/OSIS/bidang7"
       />
     </div>
   )

@@ -1,5 +1,7 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'; 
+import { useNavigate,Link } from 'react-router-dom'; 
+// import { Link } from 'react-router-dom'; 
+import { HashLink } from 'react-router-hash-link';
 
 const Layout = (props) => {
     const navigate = useNavigate()
@@ -50,10 +52,26 @@ const Layout = (props) => {
                         <div>-{props.quote_name}</div>
                     </div>
                     }
-                    <div className='flex justify-center mt-10'>
+                    {/* <div className={props.dirsebelum ? `flex justify-between mt-10` : `flex justify-end mt-10` }> */}
+                    <div className={`flex justify-between mt-10` }>
                     <button onClick={ () => navigate(-1) } className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
                         Kembali
                     </button>
+                    {/* {props.dirsebelum &&
+                    <Link to={props.dir} className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                        Artikel sebelumnya
+                    </Link>
+                    } */}
+                    {props.dir && 
+                    <Link to={props.dir} className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                        Artikel berikutnya
+                    </Link>
+                    }
+                    {props.dirHome && 
+                    <HashLink to={props.dirHome} className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                        Kembali ke halaman utama
+                    </HashLink>
+                    }
                     </div>
                 </div>
             </div>

@@ -21,6 +21,7 @@ const ScottMoses = () => {
             altAlasan = "Scott Moses"
             quoteAlumni='“Studying for school is important, but there is a huge world out there that you can explore by looking beyond the textbook and things you learn in school.”'
             quote_name="Scott"
+            dir="/Kehidupan_smukiers/Alumni/NicoleCharlene"
         />
     </div>
   )

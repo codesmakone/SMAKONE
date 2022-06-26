@@ -15,6 +15,7 @@ const MattheusBryanDjahtranto = () => {
             latterPar4="Although Mattheus has won several awards throughout his career, he never could’ve done it had he not been in SMAK 1: the teachers, the seniors, the alumni, the competitive environment, and the school itself that facilitates its students with the best equipment. "
             imgHome = {Mattheus}
             altAlasan = "Mattheus Bryan Djahtranto"
+            dirHome="/#Alasan"
         />
     </div>
   )

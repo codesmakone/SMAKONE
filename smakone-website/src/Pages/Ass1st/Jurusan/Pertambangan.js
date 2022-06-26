@@ -44,6 +44,7 @@ const Pertambangan = () => {
                 indo1name="Institut Teknologi Bandung"
                 indo2name="Universitas Trisakti"
                 indo3name="Universitas Pertamina"
+                dirHome={true}
             />
         </div>
     )
