@@ -13,9 +13,10 @@ import Soundscape from './Pages/Home/Kegiatan/soundscape'
 import STN from './Pages/Home/Kegiatan/stn'
 import Kriza from './Pages/Home/Kegiatan/kriza'
 import SOC from './Pages/Home/Kegiatan/soc'
-import GabrielaErin from './Pages/Home/Alasan/GabrielaErin';
-import DarrenJonathan from './Pages/Home/Alasan/DarrenJonathan';
-import MichaelAbimanyu from './Pages/Home/Alasan/MichaelAbimanyu';
+import EnrichieGracia from './Pages/Home/Alasan/Enrichie'
+import GillianSeason from './Pages/Home/Alasan/Gilian'
+import Berwyn1 from './Pages/Home/Alasan/Berwyn'
+import MattheusBryanDjahtranto from './Pages/Home/Alasan/Mattheus'
 
 import Osis from './Pages/Osis/Osis'
 import Emagz from './Pages/Emagz/Emagz'
@@ -76,9 +77,10 @@ function App() {
             <Route path='/kegiatan/stn' element={<STN/>}/>
             <Route path='/kegiatan/kr1za' element={<Kriza/>}/>
 
-            <Route path='/alasan/MichaelAbimanyu' element={<MichaelAbimanyu/>}/>
-            <Route path='/alasan/GabrielaErin' element={<GabrielaErin/>}/>
-            <Route path='/alasan/DarrenJonathan' element={<DarrenJonathan/>}/>
+            <Route path='/alasan/EnrichieGracia' element={<EnrichieGracia/>}/>
+            <Route path='/alasan/GillianSeason' element={<GillianSeason/>}/>
+            <Route path='/alasan/Berwyn' element={<Berwyn1/>}/>
+            <Route path='/alasan/MattheusBryanDjahtranto' element={<MattheusBryanDjahtranto/>}/>
 
           <Route path="/tentang_smak1" element={<TentangKami/>}/>
 

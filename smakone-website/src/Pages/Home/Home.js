@@ -9,9 +9,10 @@ import FeatEmagz from "../../Component/Home/FeatEmagz"
 
 
 // Import Image
-import Pianis from "../../Image/Home/Alasan/MichaelAbimanyu.jpeg"
-import Matematikawan from "../../Image/Home/Alasan/GabrielaErin.jpeg"
-import Pembulutangkis from "../../Image/Home/Alasan/DarrenJonathan.jpeg"
+import EnrichieGracia from '../../Image/Home/Alasan/Enrichie.jpeg'
+import GillianSeason from '../../Image/Home/Alasan/Gilian.jpeg'
+import Berwyn from '../../Image/Home/Alasan/Berwyn.jpeg'
+import MattheusBryanDjahtranto from '../../Image/Home/Alasan/Mattheus.jpeg'
 import Lobby_SMAK1 from "../../Image/Home/Lobby_SMAK1.jpeg"
 import soc from "../../Image/Home/Kegiatan/soc.jpg"
 import soundscape from "../../Image/Home/Kegiatan/soundscape.jpg"
@@ -30,10 +31,10 @@ const Home = () => {
         <div className='px-20 pt-20 pb-32'>
           <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[7rem] font-black'>We Are SMAK 1</h1>
           {/* <h4 className='text-2xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4> */}
-          <div className="flex flex-col md:flex-row gap-5">
+          <div className="flex flex-col gap-5">
           <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[3.5rem] font-black leading-tight">ALL NEW 10<sup>th</sup> GRADERS</h1>
-          <div className="mt-10">
-            <a href="drive.com" target="blank" className="text-white bg-black hover:bg-white hover:text-black ease-in duration-200 font-bold rounded-full text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2">
+          <div className="mt-5">
+            <a href="https://drive.google.com/" target="blank" className="text-white bg-black font-bold rounded-full text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2">
               CLICK HERE
             </a>
           </div>
@@ -61,29 +62,37 @@ const Home = () => {
               <div>Mereka Bersekolah di SMAK 1</div>
             </div>
           </div>
-          <div className='grid grid-rows-3 grid-cols-none lg:grid-cols-3 lg:grid-rows-none justify-items-center gap-3 mt-12'>
+          <div className='grid grid-rows-3 grid-cols-none md:grid-cols-2 xl:grid-cols-4 lg:grid-rows-none justify-items-center gap-3 mt-12'>
               <div>
                 <AlasanCard
-                  img = {Pianis}
-                  alt = "MichaelAbimanyu"
+                  img = {EnrichieGracia}
+                  alt = "Enrichie Gracia"
                   desc='Pianis sekaligus musisi andalan SMUKIERS'
-                  dir="Alasan/MichaelAbimanyu"
+                  dir="Alasan/EnrichieGracia"
                 />
               </div>
               <div>
                 <AlasanCard
-                  img = {Matematikawan}
-                  alt = "GabrielaErin"
+                  img = {GillianSeason}
+                  alt = "Gillian Season"
                   desc='Matematikawan dengan puluhan medali'
-                  dir="/Alasan/GabrielaErin"
+                  dir="/Alasan/GillianSeason"
                 />
               </div>
               <div>
                 <AlasanCard
-                  img = {Pembulutangkis}
-                  alt = "DarrenJonathan"
+                  img = {Berwyn}
+                  alt = "Berwyn"
                   desc='Pebulutangkis cerdas dengan smash yang mematikan'
-                  dir="/Alasan/DarrenJonathan"
+                  dir="/Alasan/Berwyn"
+                />
+              </div>
+              <div>
+                <AlasanCard
+                  img = {MattheusBryanDjahtranto}
+                  alt = "Mattheus Bryan Djahtranto"
+                  desc='Pebulutangkis cerdas dengan smash yang mematikan'
+                  dir="/Alasan/MattheusBryanDjahtranto"
                 />
               </div>
             </div>
