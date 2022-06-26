@@ -35,6 +35,7 @@ const OSIS_9 = () => {
             'CodeOne: Sebuah komunitas coder naungan OSIS SMAK 1 PENABUR Jakarta yang beranggotakan siswa-siswi bertalenta dalam Web-Development dan bertugas membantu keperluan coding acara SMAK 1'
           ]
         }
+        dir="/OSIS/bidang10"
       />
     </div>
   )

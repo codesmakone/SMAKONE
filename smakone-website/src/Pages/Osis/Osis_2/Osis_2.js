@@ -30,6 +30,7 @@ const OSIS_2 = () => {
             'Tutorial for Others yang adalah program pengajaran anak-anak kurang beruntung yang diadakan bersama Yayasan Sahabat Anak, di mana kami beserta para relawan siswa/i akan mengajarkan mereka pelajaran seperti matematika dasar, bahasa inggris dan lain-lain.w'
           ]
         }
+        dir="/OSIS/bidang3"
         />
     </div>
   )

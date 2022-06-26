@@ -21,6 +21,7 @@ const NicoleCharlene = () => {
             altAlasan = "Nicole Charlene"
             quoteAlumni='“Aku merasa nilai akademisku kurang dan bisa melakukan lebih baik lagi, tetapi pada akhirnya semua itu tidak apa-apa.”'
             quote_name="Nicole"
+            dirHome="/Kehidupan_smukiers/Alumni"
         />
     </div>
   )

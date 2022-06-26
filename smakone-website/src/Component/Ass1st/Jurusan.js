@@ -1,5 +1,6 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 
 const Jurusan = (props) => {
     const navigate = useNavigate()
@@ -62,10 +63,20 @@ const Jurusan = (props) => {
                     <p className="justify-center text-center p-2">{ props.indo3name }</p>
                 </div>
             </div>
-            <div className='flex justify-end mt-10'>
+            <div className='flex justify-between mt-10'>
             <button onClick={ () => navigate(-1) } className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
-                Go back
+                Kembali
             </button>
+            { props.dir && 
+            <Link to={props.dir} className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                Artikel Berikutnya
+            </Link>
+            }
+            {props.dirHome && 
+            <HashLink to="/OSIS/ASS1ST#Assist" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                Kembali ke halaman utama
+            </HashLink>
+            }
             </div>
         </div>
             

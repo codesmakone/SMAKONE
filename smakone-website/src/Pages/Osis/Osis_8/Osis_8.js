@@ -33,6 +33,7 @@ const OSIS_8 = () => {
             'Kaderisasi club-club SMAK 1 bertujuan untuk memantau kegiatan club seni di SMAK 1 mulai dari perekrutan, pelaksanaan, dan kegiatan besar di tiap kegiatan club.'
           ]
         }
+        dir="/OSIS/bidang9"
       />
     </div>
   )

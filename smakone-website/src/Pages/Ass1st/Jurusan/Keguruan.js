@@ -44,6 +44,7 @@ const Keguruan= () => {
                 indo1name="Universitas Negeri Yogyakarta"
                 indo2name="Universitas Pendidikan Indonesia"
                 indo3name="Universitas Negeri Malang"
+                dir="/OSIS/ASS1ST/Sosiologi"
             />
         </div>
     )

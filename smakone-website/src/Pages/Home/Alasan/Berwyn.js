@@ -14,6 +14,7 @@ const Berwyn1 = () => {
             latterPar3="Bagi Berwyn, SMAK 1 PENABUR Jakarta menjadi sekolah yang tepat untuk mengembangkan potensi akademik yang Berwyn miliki. Lingkungan yang cukup kompetitif menjadikan Berwyn lebih bekerja keras untuk mencapai target yang Berwyn miliki. Selain itu, sekolahnya juga menyediakan pelatihan untuk para peserta olimpiade dari PENABUR. Tidak hanya itu, dukungan dan doa dari para guru dan teman juga menjadi semangat dalam mengikuti olimpiade."
             imgHome = {Berwyn}
             altAlasan = "Berwyn"
+            dir="/alasan/MattheusBryanDjahtranto"
         />
     </div>
   )

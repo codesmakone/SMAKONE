@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'; 
+import { HashLink } from 'react-router-hash-link';
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
 import ContentText from '../../Component/Content/ContentText'
@@ -44,6 +46,16 @@ const KegiatanSetelahKelas = () => {
                 <ContentText
                     text = "Melalui setiap kegiatan yang kerap dilakukan peserta didik SMAK 1, kegiatan-kegiatan yang dilakukan sebuah ekspresi yang digunakan siswa-siswi untuk melepas diri dari kesibukan diri. Baik beristirahat, berorganisasi, maupun berkumpul bersama teman, sangat disarankan bagi siswa-siswi untuk memilih kegiatan yang tepat untuk menyegarkan diri setelah menjalani hari yang melelahkan."
                 />
+                    <div className='container mx-auto mt-10'>
+                        <div className='flex justify-between ml-12 sm:ml-16 xl:ml-32 mt-2 pr-12 sm:pr-16 xl:pr-36'>
+                            <Link to="/Kehidupan_smukiers/Tips" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                                Artikel Sebelumnya
+                            </Link>  
+                            <HashLink to="/#Kehidupan" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                                Kembali ke halaman utama
+                            </HashLink>                                          
+                        </div>
+                    </div>
             </div>
         </div>
     )
