@@ -1,22 +1,32 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import {magazineList} from '../Data/magazineList'
 
-const Emagz = (props) =>{
+const Emagz = () =>{
+    
     return(
         <div className='container mx-auto'>
-            <div className='justify-center text-white text-center font-bold px-40'>
+            <div className='justify-center text-white text-center font-bold px-20'>
                 <div className='text-white mb-5 content-center text-lg'>
                     E-Magazine
                 </div>
                 <div className='text-white text-5xl leading-normal'>
-                    <div>E-Magazine Bulan { props.month } Telah Hadir!</div>
+                    <div>Keluaran E-Magazine Terbaru</div>
                 </div>
-                <div className='px-60 py-12'>
-                    <img src={ props.img } alt={ props.alt } className='h-auto w-full justify-center'/>
+                <div className='px-4 py-12'>
+                    <div className="grid lg:grid-cols-4 grid-cols-1 gap-16">
+                        { magazineList.reverse().slice(0,4).map((magazine, i) => 
+                            <div>
+                                <a href={ magazine.link } target="blank"><img src={ magazine.img } alt={ magazine.title } className='h-auto w-full justify-center'/></a>
+                                <h4 className="py-4 font-medium text-center">{ magazine.title }</h4>
+                            </div>
+                        )}
+
+                    </div>      
                 </div>
                 <button className="py-5 px-16 bg-white rounded-full">
                     <NavLink to='/OSIS/Emagz' className="link-underline link-underline-black px-3 py-2 text-black text-xl font-black">
-                    Baca Disini
+                    Edisi Sebelumnya
                     </NavLink>
                 </button>
             </div>
