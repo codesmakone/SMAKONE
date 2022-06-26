@@ -8,7 +8,7 @@ const Checklist = (props) => {
             <div className="self-center pr-1">
                 <IoIosCheckmarkCircle size={35}/>
             </div>
-            <div className='text-xl leading-normal font-medium'>
+            <div className='text-base md:text-lg lg:text-xl leading-normal font-medium place-content-center'>
             { props.txt }
             </div>
         </div>
