@@ -62,39 +62,31 @@ const Home = () => {
               <div>Mereka Bersekolah di SMAK 1</div>
             </div>
           </div>
-          <div className='grid grid-rows-3 grid-cols-none md:grid-cols-2 xl:grid-cols-4 lg:grid-rows-none justify-items-center gap-3 mt-12'>
-              <div>
+          <div className='grid grid-cols-none md:grid-cols-2 xl:grid-cols-4 lg:grid-rows-none justify-items-center gap-3 mt-12'>
                 <AlasanCard
                   img = {EnrichieGracia}
                   alt = "Enrichie Gracia"
-                  desc='Pianis sekaligus musisi andalan SMUKIERS'
+                  desc='Dalang kreatif yang aktif berorganisasi.'
                   dir="Alasan/EnrichieGracia"
                 />
-              </div>
-              <div>
                 <AlasanCard
                   img = {GillianSeason}
                   alt = "Gillian Season"
-                  desc='Matematikawan dengan puluhan medali'
+                  desc='Seorang aktivis lingkungan dengan kesadaran tentang isu-isu global.'
                   dir="/Alasan/GillianSeason"
                 />
-              </div>
-              <div>
                 <AlasanCard
                   img = {Berwyn}
                   alt = "Berwyn"
-                  desc='Pebulutangkis cerdas dengan smash yang mematikan'
+                  desc='Fisikawan yang mewakili Indonesia di panggung internasional.'
                   dir="/Alasan/Berwyn"
                 />
-              </div>
-              <div>
                 <AlasanCard
                   img = {MattheusBryanDjahtranto}
                   alt = "Mattheus Bryan Djahtranto"
-                  desc='Pebulutangkis cerdas dengan smash yang mematikan'
+                  desc='A prestigious debater with tens of awards.'
                   dir="/Alasan/MattheusBryanDjahtranto"
                 />
-              </div>
             </div>
         </div>
       </div>

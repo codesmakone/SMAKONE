@@ -11,9 +11,6 @@ const EmagzLayout = () => {
                     <div className=' text-center px-28 mt-10'>
                     E-Magazine, seperti namanya, adalah program OSIS SMAK 1 PENABUR Jakarta yang berkolaborasi dengan ONE Journal Untuk menerbitkan majalah digital tiap bulannya. Nama dari e-magazine kami adalah "1NSPIRATION" yang memiliki arti "ONE Inspiration, ONE Aspiration for ONE Universe" dimana konten 1NSPIRATION adalah hasil dari kumpulan karya dan aspirasi Smukiers. Tidak 1NSPIRATION juga merupakan wadah informatif yang menyediakan informasi-informasi yang akan menambah pengetahuan umum dan tentunya akan menginspirasi, menambah wawasan, dan meningkatkan tingkat literasi dalam membaca.
                     </div>
-                    <div className=' text-center px-28 mt-12'>
-                    Untuk mulai membaca, bisa klik seri majalah yang diinginkan pada bagian bawhah layar. Selamat membaca!
-                    </div>
                 </h4>
             </div>
             </div>
