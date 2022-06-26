@@ -10,14 +10,14 @@ import NicoleCharlene from '../../Image/Alumni/NicoleCharlene.jpg'
 
 const AlumniPage = () => {
     return(
-        <div className='w-full h-auto text-black px-16 pb-32'>
+        <div className='w-full h-auto text-black px-8 md:px-12 lg:px-16 pb-32'>
             <div className='container mx-auto'>
                 <div className='justify-center text-center font-bold'>
                     <div className= 'text-4xl xl:text-5xl leading-normal'>
                         Alumni Kami
                     </div>
                 </div>
-                <div className='px-8'>
+                <div className='grid grid-rows-3 px-8'>
                     <Alumni
                         img = {BillyStevanus}
                         title = "Billy Stevanus"

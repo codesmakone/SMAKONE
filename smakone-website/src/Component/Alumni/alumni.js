@@ -9,7 +9,7 @@ const Alumni = (props) =>{
                     <div className="font-bold text-base md:text-lg lg:text-3xl xl:text-4xl">{ props.title }</div>
                     <div className="font-medium text-sm md:text-base lg:text-xl xl:text-2xl 2xl:text-3xl tracking-tighter sm:tracking-normal">{ props.desc }</div>
                     <div className="text-sm sm:mt-2 lg:text-xl lg:mt-8 xl:text-2xl xl:mt-12 2xl:text-2xl">
-                    <Link to={props.dir} className="link-underline link-underline-black font-semibold tracking-tighter md:tracking-normal" >
+                    <Link to={props.dir} className="link-underline link-underline-black font-semibold tracking-tighter md:tracking-normal">
                         Kenali Lebih Lanjut →
                     </Link>
                     </div>
