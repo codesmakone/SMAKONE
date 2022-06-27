@@ -17,7 +17,7 @@ const AlumniPage = () => {
                         Alumni Kami
                     </div>
                 </div>
-                <div className='grid grid-rows-3 px-8'>
+                <div className='grid grid-rows-3 grid-cols-none lg:grid-cols-3 lg:grid-rows-none gap-12 text-left lg:text-center'>
                     <Alumni
                         img = {BillyStevanus}
                         title = "Billy Stevanus"
