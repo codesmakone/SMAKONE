@@ -44,6 +44,7 @@ const Psikologi = () => {
                 indo1name="Universitas Indonesia"
                 indo2name="Universitas Gajah Mada"
                 indo3name="Universitas Padjajaran"
+                dir="/OSIS/ASS1ST/Teknik_sipil"
             />
         </div>
     )

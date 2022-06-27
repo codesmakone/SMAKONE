@@ -32,6 +32,7 @@ const OSIS_7 = () => {
             'M1STER1, Case solving games mengenai kasus kesehatan dan psikologi untuk meningkatkan wawasan dan pengetahuan secara kreatif dan interaktif.'
           ]
         }
+        dir="/OSIS/bidang8"
       />
     </div>
   )

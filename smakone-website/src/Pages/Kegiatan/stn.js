@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Layout from '../../../Component/Layout/ArticleLayout'
-import theater from '../../../Image/Home/Kegiatan/theater.jpg'
+import Layout from '../../Component/Layout/KegiatanLayout'
+import theater from '../../Image/Home/Kegiatan/theater.jpg'
 
 const STN = () => {
     return(

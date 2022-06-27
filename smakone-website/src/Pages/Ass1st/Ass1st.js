@@ -30,7 +30,7 @@ const Ass1st = () => {
             </div>
         </div>
 
-        <div id='bidang' className='bg-dark-blue w-full h-auto text-white py-14 mt-16'>
+        <div id='Assist' className='bg-dark-blue w-full h-auto text-white py-14 mt-16'>
         <div className='container mx-auto'>
           <div className='text-center px-60'>
             <h1 className='text-5xl font-semibold'>
@@ -85,7 +85,7 @@ const Ass1st = () => {
                   Title="Teknik Sipil"
                   />
               </NavLink>
-              <NavLink to="Pertambangan" className="">
+              <NavLink to="Pertambangan">
                 <Nav
                   img={Pertambangan}
                   Title="Teknik Pertambangan"

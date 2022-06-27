@@ -30,6 +30,7 @@ const OSIS_4 = () => {
             'Ask Away - merupakan program talkshow yang mengundang beberapa alumni SMAK 1 untuk berbicara tentang fakultas - fakultas universitas serta kehidupan di universitas nantinya.'
           ]
         }
+        dir="/OSIS/bidang5"
         />
     </div>
   )

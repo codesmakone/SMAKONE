@@ -1,10 +1,9 @@
 import React from 'react'
-import { useNavigate,Link } from 'react-router-dom'; 
-// import { Link } from 'react-router-dom'; 
-import { HashLink } from 'react-router-hash-link';
+// import { useNavigate, Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom'; 
 
 const Layout = (props) => {
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
 
   return (
         <div>
@@ -45,6 +44,19 @@ const Layout = (props) => {
                     <div className='text-lg my-6 px-3'>
                         { props.latterPar5 }
                     </div>
+                    <div className="pb-12">
+                        <div className="text-2xl text-left grid grid-cols-1 lg:grid-cols-2 gap-y-3 gap-x-10 px-10">
+                            <div className="border-b-4 border-gray-600 ">{">>"} {props.name1}</div>
+                            <div className="border-b-4 border-gray-600 ">{">>"} {props.name2}</div>
+                            <div className="border-b-4 border-gray-600 ">{">>"} {props.name3}</div>
+                            <div className="border-b-4 border-gray-600 ">{">>"} {props.name4}</div>
+                            <div className="border-b-4 border-gray-600 ">{">>"} {props.name5}</div>
+                            <div className="border-b-4 border-gray-600 ">{">>"} {props.name6}</div>
+                            <div className="border-b-4 border-gray-600 ">{">>"} {props.name7}</div>
+                            <div className="border-b-4 border-gray-600 ">{">>"} {props.name8}</div>
+                            <div className="border-b-4 border-gray-600 ">{">>"} {props.name9}</div>
+                        </div>
+                    </div>
                     </div>
                     {props.quoteAlumni &&
                     <div className='text-center text-xl font-semibold pt-5 text-gray-600 px-6 md:px-12 lg:px-16 xl:px-20'>
@@ -52,26 +64,12 @@ const Layout = (props) => {
                         <div>-{props.quote_name}</div>
                     </div>
                     }
-                    {/* <div className={props.dirsebelum ? `flex justify-between mt-10` : `flex justify-end mt-10` }> */}
-                    <div className={`flex justify-between mt-10` }>
-                    <button onClick={ () => navigate(-1) } className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
-                        Kembali
+                    <div className='flex justify-center mt-10'>
+                    <Link to="/">
+                    <button className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                        Home
                     </button>
-                    {/* {props.dirsebelum &&
-                    <Link to={props.dir} className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
-                        Artikel sebelumnya
                     </Link>
-                    } */}
-                    {props.dir && 
-                    <Link to={props.dir} className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
-                        Artikel berikutnya
-                    </Link>
-                    }
-                    {props.dirHome && 
-                    <HashLink to={props.dirHome} className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
-                        Kembali ke halaman utama
-                    </HashLink>
-                    }
                     </div>
                 </div>
             </div>
@@ -80,4 +78,3 @@ const Layout = (props) => {
 }
 
 export default Layout
-

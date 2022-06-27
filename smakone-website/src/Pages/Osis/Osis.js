@@ -43,7 +43,13 @@ const Osis = () => {
             <h1 className='text-5xl font-semibold'>
               Bidang - Bidang
             </h1>
-            <div className='grid grid-cols-4 gap-4 mt-10'>
+            <div className='grid grid-cols-5 gap-4 mt-10'>
+              <div>
+
+              </div>
+              <div>
+
+              </div>
               <div className="">
               <NavLink to="bph" >
                 <OsisNav
@@ -51,6 +57,12 @@ const Osis = () => {
                   Title="Badan Pengurus Harian"
                 />
               </NavLink>
+              </div>
+              <div>
+
+              </div>
+              <div>
+                
               </div>
               <div className="">
               <NavLink to="bidang1">

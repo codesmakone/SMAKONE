@@ -45,6 +45,7 @@ const Farmasi= () => {
                 indo1name="Universitas Indonesia"
                 indo2name="Universitas Gajah Mada"
                 indo3name="Institut Teknologi Bandung"
+                dir="/OSIS/ASS1ST/Keguruan"
             />
         </div>
     )

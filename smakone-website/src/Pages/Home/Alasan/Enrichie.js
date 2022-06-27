@@ -15,6 +15,7 @@ const EnrichieGracia = () => {
             latterPar4="Menurut Enrichie, SMAK 1 menyediakan banyak sekali pilihan organisasi dan klub yang dapat diikuti untuk meningkatkan kemampuan siswa. Dengan adanya komunitas tersebut, kita juga bisa bertemu dan berbicara dengan orang-orang yang juga memiliki ketertarikan yang sama dengan kita. Selain itu, dengan adanya bimbingan dari para guru, siswa akan mampu mengembangkan potensi-potensinya secara tepat dan positif."
             imgHome = {Enrichie}
             altAlasan = "Enrichie Gracia"
+            dir="/Alasan/GillianSeason"
         />
     </div>
   )

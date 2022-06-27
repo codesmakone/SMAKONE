@@ -9,10 +9,10 @@ import ScrollToTop from './Component/ScrollToTop'
 
 // Import Pages
 import Home from './Pages/Home/Home';
-import Soundscape from './Pages/Home/Kegiatan/soundscape'
-import STN from './Pages/Home/Kegiatan/stn'
-import Kriza from './Pages/Home/Kegiatan/kriza'
-import SOC from './Pages/Home/Kegiatan/soc'
+import Soundscape from './Pages/Kegiatan/soundscape'
+import STN from './Pages/Kegiatan/stn'
+import Kriza from './Pages/Kegiatan/kriza'
+import SOC from './Pages/Kegiatan/soc'
 import EnrichieGracia from './Pages/Home/Alasan/Enrichie'
 import GillianSeason from './Pages/Home/Alasan/Gilian'
 import Berwyn1 from './Pages/Home/Alasan/Berwyn'
@@ -54,6 +54,14 @@ import AlumniPage from './Pages/Alumni/alumni'
 import Billy from './Pages/Alumni/BillyStevanus'
 import Scoot from './Pages/Alumni/ScottMoses'
 import Nicole from './Pages/Alumni/NicoleCharlene'
+import Seni from './Pages/Kegiatan/seni';
+import SClub from './Pages/Kegiatan/scj';
+import Pramuka from './Pages/Kegiatan/pramuka';
+import DoFEIA from './Pages/Kegiatan/DoFEIA';
+import Kegiatan from './Pages/Kegiatan/Kegiatan';
+import MUN from './Pages/Kegiatan/MUN';
+import Lainnya from './Pages/Kegiatan/lainnya';
+import OneCast from './Pages/Kegiatan/onecast';
 
 function App() {
   return (
@@ -63,10 +71,18 @@ function App() {
         <div className='mt-40'>
         <Routes>
           <Route path="/" element={<Home/>}/>
+            <Route path='/kegiatan/' element={<Kegiatan/>}/>
             <Route path='/kegiatan/soc' element={<SOC/>}/>
             <Route path='/kegiatan/soundscape' element={<Soundscape/>}/>
             <Route path='/kegiatan/stn' element={<STN/>}/>
             <Route path='/kegiatan/kr1za' element={<Kriza/>}/>
+            <Route path='/kegiatan/seni' element={<Seni/>}/>
+            <Route path='/kegiatan/scj' element={<SClub/>}/>
+            <Route path='/kegiatan/pramuka' element={<Pramuka/>}/>
+            <Route path='/kegiatan/onecast' element={<OneCast/>}/>
+            <Route path='/kegiatan/DoFE' element={<DoFEIA/>}/>
+            <Route path='/kegiatan/muneds' element={<MUN/>}/>
+            <Route path='/kegiatan/lainnya' element={<Lainnya/>}/>
 
             <Route path='/alasan/EnrichieGracia' element={<EnrichieGracia/>}/>
             <Route path='/alasan/GillianSeason' element={<GillianSeason/>}/>

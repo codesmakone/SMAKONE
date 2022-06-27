@@ -51,7 +51,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24'>
+      <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24' id="Alasan">
         <div className='container mx-auto'>
           <div className='justify-center text-white text-center font-bold mb-12 px-12 md:px-24 lg:px-32 xl:px-40'>
             <div className='text-white mb-5 content-center text-lg'>
@@ -163,7 +163,7 @@ const Home = () => {
       </div>
 
 
-      <div className="w-full h-auto text-white bg-dark-blue px-16 py-32">
+      <div className="w-full h-auto text-white bg-dark-blue px-16 py-32" id="Kehidupan">
         <div className="container mx-auto">
           <div className='justify-center text-center font-bold mb-12  px-12 md:px-24 lg:px-32 xl:px-40'>
             <div className= 'mb-5 content-center text-lg'>

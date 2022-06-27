@@ -43,6 +43,7 @@ const Akutansi = () => {
                 indo1name="Universitas Gajah Mada"
                 indo2name="Politeknik Keuangan Negara STAN"
                 indo3name="Universitas Indonesia"
+                dir="/OSIS/ASS1ST/Hukum"
             />
         </div>
     )

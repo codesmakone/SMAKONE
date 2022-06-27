@@ -36,6 +36,7 @@ const OSIS_3 = () => {
             'K1SAH : OSIS Bidang 3 bekerja sama dengan eskul manga untuk membuat komik singkat setiap perayaan hari-hari besar Indonesia'
           ]
         }
+        dir="/OSIS/bidang4"
         />
     </div>
   )

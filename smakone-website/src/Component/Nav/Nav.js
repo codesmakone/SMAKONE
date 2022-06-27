@@ -136,6 +136,34 @@ const Nav = () => {
               menu3='Kegiatan Setelah Kelas'
               menu4='Alumni'
             />
+            <Dropdown
+              title='Kegiatan'
+              class="px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black" 
+              dir1='/Kegiatan'
+              dir2='/Kegiatan/soc'
+              dir3='/Kegiatan/soundscape'
+              dir4="/Kegiatan/stn"
+              dir5='/Kegiatan/KR1ZA'
+              dir6='/Kegiatan/Seni'
+              dir7='/Kegiatan/scj'
+              dir8='/Kegiatan/pramuka'
+              dir9='/Kegiatan/onecast'
+              dir10='/Kegiatan/DoFE'
+              dir11='/Kegiatan/muneds'
+              dir12='/Kegiatan/lainnya'
+              menu1='Kegiatan'
+              menu2='Smakonecup'
+              menu3='Soundscape'
+              menu4='Smukiez Theater Night'
+              menu5='KR1ZA'
+              menu6='Seni'
+              menu7='Science Club'
+              menu8='Pramuka'
+              menu9='OneCast'
+              menu10='The Duke of Edinburgh’s International Award'
+              menu11='Model United Nation dan English Debate Society'
+              menu12='Ekstrakulikuler Lainnya'
+            />
           </div>
         </div>
       </div> 

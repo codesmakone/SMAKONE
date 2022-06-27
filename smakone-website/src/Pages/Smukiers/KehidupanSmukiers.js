@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'; 
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
 import ContentText from '../../Component/Content/ContentText'
@@ -6,7 +7,7 @@ import kehidupan from "../../Image/Home/Kehidupan/kehidupan.png"
 
 const KehidupanSmukiers = () => {
     return(
-        <div className="">
+        <div>
             <div className="container w-full h-full mx-auto justify-center pb-5">
                 <ContentHeaderImage
                     category = 'Kehidupan Smukiers'
@@ -39,6 +40,13 @@ const KehidupanSmukiers = () => {
                     title = "Waktu Istirahat"
                     text = "Setelah menjalani jam pelajaran yang panjang dan menguras tenaga, siswa-siswi dapat menghabiskan waktu istirahatnya di area kantin. Ada berbagai stall yang menjual makanan dan minuman yang bervariasi, mulai dari yang manis, pedas, hingga panas dan dingin. Berbagai tanaman yang menghiasi kantin, menciptakan suasana yang rindang dan asri."
                 />
+                    <div className='container mx-auto mt-10'>
+                        <div className='flex justify-end ml-12 sm:ml-16 xl:ml-32 mt-2 pr-12 sm:pr-16 xl:pr-36'>
+                            <Link to="/Kehidupan_smukiers/tips" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                                Artikel Berikutnya
+                            </Link>                        
+                        </div>
+                    </div>
             </div>
         </div>
     )
