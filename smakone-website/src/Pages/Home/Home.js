@@ -66,7 +66,7 @@ const Home = () => {
                 <AlasanCard
                   img = {EnrichieGracia}
                   alt = "Enrichie Gracia"
-                  desc='Dalang kreatif yang aktif berorganisasi.'
+                  desc='Siswa kreatif yang aktif berorganisasi.'
                   dir="Alasan/EnrichieGracia"
                 />
                 <AlasanCard
