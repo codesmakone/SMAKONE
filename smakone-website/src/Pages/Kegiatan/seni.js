@@ -24,6 +24,7 @@ const Seni = () => {
             name8 = 'Paduan Suara'
             name9 = 'Teater'
             name10 = 'Web Design'
+            dir="/Kegiatan/scj"
         />
     )
 }

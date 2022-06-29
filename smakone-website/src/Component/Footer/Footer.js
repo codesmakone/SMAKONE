@@ -52,7 +52,7 @@ const Footer = () => {
         <div >
           <div className='pb-12 flex justify-around mx-10'>
             <div>
-              <img className='object-scale-down h-8 w-7/12 sm:w-9/12' alt='smakone' src={Logo_SMAK1}/>
+              <img className='object-scale-down h-8 w-1/2 sm:w-9/12' alt='smakone' src={Logo_SMAK1}/>
             </div>
             <div className='flex flex-col xl:text-xl gap-y-4 font-bold text-gray-500 text-sm sm:text-base sm:mr-5 -ml-20 sm:-ml-10'>
               <Link to="/OSIS"className='text-black link-underline link-underline-black'>Osis</Link>
@@ -98,7 +98,7 @@ const Footer = () => {
                 </div>
             <div className="bg-gray-100 text-center py-1 text-xs">
                 <p>
-                    Copyright © 2021 SMAK ONE Student Council All Rights Reserved
+                    Copyright © 2022 SMAK ONE Student Council All Rights Reserved
                 </p>
             </div>
 

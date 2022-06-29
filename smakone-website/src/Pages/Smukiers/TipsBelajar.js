@@ -46,10 +46,12 @@ const TipsBelajar = () => {
                 />
                 <div className='container mx-auto mt-10'>
                     <div className='flex justify-between ml-12 sm:ml-16 xl:ml-32 mt-2 pr-12 sm:pr-16 xl:pr-36'>
-                        <Link to="/Kehidupan_smukiers" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                        <Link to="/Kehidupan_smukiers" className="
+                        text-white bg-blue-700 hover:bg-blue-800 focus:outline-none rounded-3xl sm:rounded-full  text-base sm:text-xl px-[0.2rem] sm:px-5 py-1 sm:py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700">
                             Artikel Sebelumnya
                         </Link>                        
-                        <Link to="/Kehidupan_smukiers/kegiatan" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                        <Link to="/Kehidupan_smukiers/kegiatan" className="
+                        text-white bg-blue-700 hover:bg-blue-800 focus:outline-none rounded-3xl sm:rounded-full  text-base sm:text-xl px-[0.2rem] sm:px-5 py-1 sm:py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700">
                             Artikel Berikutnya
                         </Link>                        
                     </div>

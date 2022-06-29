@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-// import { useNavigate } from 'react-router-dom'; 
+import { useNavigate,Link } from 'react-router-dom'; 
 
 const Layout = (props) => {
-    // const navigate = useNavigate()
+    const navigate = useNavigate()
 
   return (
         <div>
@@ -51,12 +50,15 @@ const Layout = (props) => {
                         <div>-{props.quote_name}</div>
                     </div>
                     }
-                    <div className='flex justify-center mt-10'>
-                    <Link to="/">
-                    <button className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
-                        Home
+                    <div className={`flex justify-between mt-10` }>
+                    <button onClick={ () => navigate(-1) } className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                        Kembali
                     </button>
+                    {props.dir && 
+                    <Link to={props.dir} className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                        Artikel berikutnya
                     </Link>
+                    }
                     </div>
                 </div>
             </div>

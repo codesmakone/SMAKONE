@@ -1,11 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'; 
+import { HashLink } from 'react-router-hash-link' 
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
 import ContentText from '../../Component/Content/ContentText'
 import Mun from "../../Image/Home/Kegiatan/MUN.jpg"
 
 const MUN = () => {
+    const navigate = useNavigate()
+
     return(
         <div className="">
             <div className="container w-full h-full mx-auto justify-center pb-5">
@@ -48,12 +51,13 @@ const MUN = () => {
                     text = "Bagi siswa-siswi yang berminat dapat mengunjungi akun instagram @one.mun untuk mendapatkan informasi lebih lanjut seputar lomba, webinar, dan prestasi lainnya.                    "
                 />
             </div>
-            <div className='flex justify-center mt-10'>
-                    <Link to="/">
-                    <button className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
-                        Home
+            <div className='flex justify-between px-7 sm:px-14 xl:px-48  mt-10'>
+                    <button onClick={ () => navigate(-1) } className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                        Kembali
                     </button>
-                    </Link>
+                    <HashLink to="/#kegiatan" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                        Home
+                    </HashLink>
             </div>
         </div>
     )
