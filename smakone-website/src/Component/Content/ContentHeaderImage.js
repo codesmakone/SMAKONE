@@ -14,8 +14,8 @@ const ContentHeaderImage = (props) => {
                         </div>
                     </h4>
                     { props.img && (
-                        <div className='pt-12 px-10 md:px-16 xl:px-28 rounded-lg'>
-                            <img src={ props.img } alt={ props.alt } className=' w-full rounded-3xl justify-end'/>
+                        <div className='pt-12 md:px-16 xl:px-28'>
+                            <img src={ props.img } alt={ props.alt } className=' w-full md:rounded-3xl justify-end'/>
                         </div>
                     ) }
                 </div>
