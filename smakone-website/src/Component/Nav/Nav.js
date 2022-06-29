@@ -29,11 +29,11 @@ const Nav = () => {
             </Link>
         </div>
 
-          <div className='lg:items-center lg:w-auto w-full sm:pt-1 lg:py-5 leading-normal'>
-            <div className='flex flex-rows place-items-center gap-3 sm:gap-8 md:gap-0 md:justify-end lg:justify-center'>
+          <div className='lg:items-center lg:w-auto w-full sm:pt-1 lg:py-5 leading-normal '>
+            <div className='flex flex-rows place-items-center gap-4 sm:gap-8 md:gap-0 md:justify-end lg:justify-center'>
               <Dropdown
                 title="Tentang SMAK 1"
-                class="md:px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black cursor-pointer text-xs md:text-sm lg:text-lg xl:text-xl"
+                class="md:px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black cursor-pointer text-xs sm:text-base md:text-sm lg:text-lg xl:text-xl"
                 dir1='/tentang_smak1'
                 dir2='/tentang_smak1/Sejarah'
                 dir3='/tentang_smak1/Fasilitas'
@@ -48,7 +48,7 @@ const Nav = () => {
               />
               <Dropdown
                 title='OSIS'
-                class="md:px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black cursor-pointer text-xs  md:text-sm lg:text-lg xl:text-xl" 
+                class="md:px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black cursor-pointer text-xs sm:text-base lg:text-lg xl:text-xl" 
                 dir1='/OSIS'
                 dir2='/OSIS/Emagz'
                 dir3='/OSIS/ASS1ST'
@@ -59,7 +59,7 @@ const Nav = () => {
               />
               <Dropdown
                 title='Kehidupan SMUKIERS'
-                class="md:px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black cursor-pointer text-xs  md:text-sm lg:text-lg xl:text-xl" 
+                class="md:px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black cursor-pointer text-xs sm:text-base lg:text-lg xl:text-xl" 
                 dir1='/Kehidupan_smukiers'
                 dir2='/Kehidupan_smukiers/Tips'
                 dir3='/Kehidupan_smukiers/Kegiatan'
@@ -71,7 +71,7 @@ const Nav = () => {
               />
               <Dropdown
                 title='Kegiatan'
-                class="md:px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black cursor-pointer text-xs  md:text-sm lg:text-lg xl:text-xl" 
+                class="md:px-3 py-2 transition duration-200 border-b-2 border-transparent hover:border-black cursor-pointer text-xs sm:text-base lg:text-lg xl:text-xl" 
                 dir1='/Kegiatan'
                 dir2='/Kegiatan/soc'
                 dir3='/Kegiatan/soundscape'

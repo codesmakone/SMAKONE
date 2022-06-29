@@ -8,7 +8,7 @@ const OsisLayout = (props) => {
                 <h2 className='text-base sm:text-lg md:text-xl font-semibold'>{ props.category }</h2>
                 <h1 className='text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-black'>{ props.title }</h1>
                 <h4 className='text-sm sm:text-base md:text-lg font-medium'>
-                    <div className=' text-center lg:px-28 mt-10'>
+                    <div className='text-center lg:px-28 mt-10'>
                     { props.desc }
                     </div>
                 </h4>

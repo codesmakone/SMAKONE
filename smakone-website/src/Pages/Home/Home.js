@@ -54,7 +54,7 @@ const Home = () => {
       <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24' id="Alasan">
         <div className='container mx-auto'>
           <div className='justify-center text-white text-center font-bold mb-12 px-12 md:px-24 lg:px-32 xl:px-40'>
-            <div className='text-white mb-5 content-center text-lg'>
+            <div className='text-white mb-5 content-center text-sm sm:text-base lg:text-lg'>
               Dengar dari SMUKIERS
             </div>
             <div className='text-white text-3xl lg:text-4xl xl:text-5xl leading-normal'>
@@ -106,9 +106,9 @@ const Home = () => {
                 <Checklist txt='Alumni SMAK 1 tersebar di seluruh dunia' />
                 <Checklist txt='Sudah dikenal sampai ke mancanegara' />
               </div>
-              <div className='pl-20 pr-20 pt-10'>
+              <div className='grid px-10 lg:px-20 pt-10 place-items-center'>
               <button className="py-4 lg:py-5 px-12 lg:px-16 bg-dark-blue rounded-full">
-                <a href='https://psbjakarta.bpkpenabur.or.id' className="link-underline link-underline-white px-3 py-2 text-white text-xl font-black" target="blank">
+                <a href='https://psbjakarta.bpkpenabur.or.id' className="link-underline link-underline-white px-3 py-2 text-white text-base sm:text-lg md:text-xl font-black" target="blank">
                   Daftar Sekarang
                 </a>
               </button>
