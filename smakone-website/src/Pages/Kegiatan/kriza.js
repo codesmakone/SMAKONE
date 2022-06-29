@@ -20,6 +20,7 @@ const Kriza = () => {
             name5 = 'Pencak Silat'
             name6 = 'Tenis Meja'
             name7 = 'Voli'
+            dir="/Kegiatan/Seni"
         />
         
     )

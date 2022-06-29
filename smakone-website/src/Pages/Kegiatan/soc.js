@@ -14,6 +14,7 @@ const SOC = () => {
             alt = "smakonecup"
             latterPar2 = "SOC diselenggarakan dengan tujuan sebagai wadah bagi peserta didik SMAK 1 dan juga sekolah-sekolah lainnya untuk menyalurkan kemampuan mereka di bidang akademik dan non akademik, serta sebagai upaya mempererat hubungan SMAK 1 dengan sekolah lain. Selain itu, SOC juga dapat menjadi tempat generasi muda mengembangkan potensi diri mereka secara luas dan mendalam."
             latterPar3= "Acara ini diorganisir oleh panitia siswa yang telah dibentuk 9 bulan sebelum SOC berlangsung. Panitia lomba yang berjumlah sekitar 150 orang ini, bertugas untuk menangani semua persiapan lomba, mulai dari mengumpulkan peserta lomba, merinci kegiatan lomba, hingga mencari dana. Peserta didik yang berminat untuk menjadi bagian dari kepanitiaan SOC harus mendaftarkan diri terlebih dahulu di bidang yang diminati, dan selanjutnya akan menjalani proses seleksi panitia, sebelum akhirnya dapat bekerja di bidangnya masing-masing. Tentunya setiap panitia akan diberikan sertifikat resmi dari sekolah ketika acara sudah selesai. Bukan hanya itu, kenangan yang melekat selamanya juga akan dirasakan oleh semua orang yang berpartisipasi dalam Smakonecup ini."
+            dir="/Kegiatan/soundscape"
         />
     )
 }

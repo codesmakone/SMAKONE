@@ -1,14 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate,Link } from 'react-router-dom'; 
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
 import ContentText from '../../Component/Content/ContentText'
 import Pramukaks from "../../Image/Home/Kegiatan/pramuka.jpg"
 
 const Pramuka = () => {
+    const navigate = useNavigate()
+
     return(
         <div className="">
-            <div className="container w-full h-full mx-auto justify-center pb-5">
+            <div className="container w-full h-full mx-auto justify-center">
                 <ContentHeaderImage
                     category = 'Kegiatan'
                     title = 'Pramuka'
@@ -50,12 +52,13 @@ const Pramuka = () => {
                     text = "Untuk info lebih lanjut mengenai kegiatan pramuka dan dewan ambalan dapat mengunjungi instagram @dasmukie atau menghubungi dewan ambalan dan pembina."
                 />
             </div>
-            <div className='flex justify-center mt-10'>
-                    <Link to="/">
-                    <button className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
-                        Home
-                    </button>
-                    </Link>
+            <div className='flex justify-between px-6 sm:px-14 xl:px-48 mt-10'>
+            <button onClick={ () => navigate(-1) } className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                Kembali
+            </button>
+            <Link to="/Kegiatan/onecast" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                Artikel berikutnya
+            </Link>
             </div>
         </div>
     )

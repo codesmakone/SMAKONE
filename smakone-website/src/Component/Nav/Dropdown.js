@@ -31,7 +31,12 @@ const Dropdown = (props) => {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className={`"origin-top-right absolute right-0 mt-2 ${ !!props.right ? `translate-x-${props.right} md:translate-x-0'` : ''} ${ !!props.dir7 ? 'w-[19rem]' : 'w-[7.5rem] md:w-56'} rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"`}>
+        <Menu.Items className={`origin-top-right absolute right-0 mt-2 md:translate-x-0
+        ${props.smak1 ? 'translate-x-1/3' : ''} 
+        ${props.osis ? 'translate-x-2/4' : ''}  
+        ${props.Kehidupan ? 'translate-x-0' : ''} 
+        ${props.dir7 ? 'w-[19rem]' : 'w-[7.5rem] md:w-56'} 
+        rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none`}>
           <div className={`${ !!props.dir7 ? 'grid grid-cols-2' : '' }`}>
             <div>
               <Menu.Item>
