@@ -32,6 +32,11 @@ import Sipil from './Pages/Ass1st/Jurusan/Sipil'
 import Pertambangan from './Pages/Ass1st/Jurusan/Pertambangan'
 
 import TentangKami from './Pages/TentangSMAK1/TentangSMAK1'
+import Sejarah from './Pages/TentangSMAK1/Sejarah'
+import Fasilitas from './Pages/TentangSMAK1/Fasilitas'
+import Logo from './Pages/TentangSMAK1/Logo'
+import Lagu from './Pages/TentangSMAK1/Lagu'
+
 import KehidupanSmukiers from './Pages/Smukiers/KehidupanSmukiers'
 import TipsBelajar from './Pages/Smukiers/TipsBelajar'
 import KegiatanSetelahKelas from './Pages/Smukiers/KegiatanSetelahKelas'
@@ -90,6 +95,11 @@ function App() {
             <Route path='/alasan/MattheusBryanDjahtranto' element={<MattheusBryanDjahtranto/>}/>
 
           <Route path="/tentang_smak1" element={<TentangKami/>}/>
+          <Route path="/tentang_smak1/sejarah" element={<Sejarah/>}/>
+          <Route path="/tentang_smak1/fasilitas" element={<Fasilitas/>}/>
+          <Route path="/tentang_smak1/logo" element={<Logo/>}/>
+          <Route path="/tentang_smak1/lagu" element={<Lagu/>}/>
+
 
           <Route path="/Kehidupan_smukiers" element={<KehidupanSmukiers/>}/>
           <Route path="/Kehidupan_smukiers/tips" element={<TipsBelajar/>}/>
