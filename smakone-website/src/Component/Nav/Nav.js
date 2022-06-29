@@ -5,7 +5,6 @@ import { useScrollPosition } from '../../Hooks';
 //Import component
 import Dropdown from './Dropdown'
 
-
 const Nav = () => {
 
   function classNames(...classes) {
