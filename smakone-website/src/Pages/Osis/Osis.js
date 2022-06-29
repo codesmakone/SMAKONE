@@ -39,18 +39,13 @@ const Osis = () => {
 
       <div id='bidang' className='bg-dark-blue w-full h-auto text-white py-14 mt-16'>
         <div className='container mx-auto'>
-          <div className='text-center px-60'>
-            <h1 className='text-5xl font-semibold'>
+          <div className='text-center px-6 sm:px-24  md:px-32 lg:px-36 xl:px-52'>
+            <h1 className='text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-semibold'>
               Bidang - Bidang
             </h1>
-            <div className='grid grid-cols-5 gap-4 mt-10'>
-              <div>
+            <div className='grid grid-cols-3 lg:grid-cols-5 gap-10 mt-10 place-items-center'>
 
-              </div>
-              <div>
-
-              </div>
-              <div className="">
+              <div className="col-span-3 lg:col-span-5">
               <NavLink to="bph" >
                 <OsisNav
                   img={bph}
@@ -58,12 +53,7 @@ const Osis = () => {
                 />
               </NavLink>
               </div>
-              <div>
 
-              </div>
-              <div>
-                
-              </div>
               <div className="">
               <NavLink to="bidang1">
                 <OsisNav
@@ -145,7 +135,7 @@ const Osis = () => {
                   />
               </NavLink>
               </div>
-              <div className="justify-items-start">
+              <div className="col-span-3 lg:col-auto">
               <NavLink to="bidang10">
                 <OsisNav
                   img={bid_10}
