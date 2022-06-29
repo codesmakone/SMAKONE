@@ -28,7 +28,7 @@ const Home = () => {
 
       {/* <div className='mt-32 col-span-6 flex flex-col justify-start text-left '> */}
       <div className='col-span-6 flex flex-col justify-start text-left '>
-        <div className='px-20 pt-20 pb-32'>
+        <div className='px-10 sm:px-20 pt-10 lg:pt-20 pb-32'>
           <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[7rem] font-black'>We Are SMAK 1</h1>
           {/* <h4 className='text-2xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4> */}
           <div className="flex flex-col gap-5">

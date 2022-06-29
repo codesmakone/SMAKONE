@@ -20,15 +20,6 @@ import MattheusBryanDjahtranto from './Pages/Home/Alasan/Mattheus'
 
 import Osis from './Pages/Osis/Osis'
 import Emagz from './Pages/Emagz/Emagz'
-import Issue1 from './Pages/Emagz/Issues/Issue1'
-import Issue2 from './Pages/Emagz/Issues/Issue2'
-import Issue3 from './Pages/Emagz/Issues/Issue3'
-import Issue4 from './Pages/Emagz/Issues/Issue4.js'
-import Issue5 from './Pages/Emagz/Issues/Issue5'
-import Issue6 from './Pages/Emagz/Issues/Issue6'
-import Issue7 from './Pages/Emagz/Issues/Issue7'
-
-
 import Ass1st from './Pages/Ass1st/Ass1st'
 import Kedokteran from './Pages/Ass1st/Jurusan/Kedokteran'
 import Farmasi from './Pages/Ass1st/Jurusan/Farmasi'
@@ -41,6 +32,11 @@ import Sipil from './Pages/Ass1st/Jurusan/Sipil'
 import Pertambangan from './Pages/Ass1st/Jurusan/Pertambangan'
 
 import TentangKami from './Pages/TentangSMAK1/TentangSMAK1'
+import Sejarah from './Pages/TentangSMAK1/Sejarah'
+import Fasilitas from './Pages/TentangSMAK1/Fasilitas'
+import Logo from './Pages/TentangSMAK1/Logo'
+import Lagu from './Pages/TentangSMAK1/Lagu'
+
 import KehidupanSmukiers from './Pages/Smukiers/KehidupanSmukiers'
 import TipsBelajar from './Pages/Smukiers/TipsBelajar'
 import KegiatanSetelahKelas from './Pages/Smukiers/KegiatanSetelahKelas'
@@ -99,6 +95,11 @@ function App() {
             <Route path='/alasan/MattheusBryanDjahtranto' element={<MattheusBryanDjahtranto/>}/>
 
           <Route path="/tentang_smak1" element={<TentangKami/>}/>
+          <Route path="/tentang_smak1/sejarah" element={<Sejarah/>}/>
+          <Route path="/tentang_smak1/fasilitas" element={<Fasilitas/>}/>
+          <Route path="/tentang_smak1/logo" element={<Logo/>}/>
+          <Route path="/tentang_smak1/lagu" element={<Lagu/>}/>
+
 
           <Route path="/Kehidupan_smukiers" element={<KehidupanSmukiers/>}/>
           <Route path="/Kehidupan_smukiers/tips" element={<TipsBelajar/>}/>
@@ -121,14 +122,6 @@ function App() {
             <Route path='/OSIS/bidang9' element={<OSIS_9/>}/>
             <Route path='/OSIS/bidang10' element={<OSIS_10/>}/>
           <Route path='/OSIS/Emagz' element={<Emagz/>}/>
-            <Route path='/OSIS/Emagz/1stIssue' element={<Issue1/>}/>
-            <Route path='/OSIS/Emagz/2ndIssue' element={<Issue2/>}/>
-            <Route path='/OSIS/Emagz/3rdIssue' element={<Issue3/>}/>
-            <Route path='/OSIS/Emagz/4thIssue' element={<Issue4/>}/>
-            <Route path='/OSIS/Emagz/5thIssue' element={<Issue5/>}/>
-            <Route path='/OSIS/Emagz/6thIssue' element={<Issue6/>}/>
-            <Route path='/OSIS/Emagz/7thIssue' element={<Issue7/>}/>
-
           <Route path='/OSIS/ASS1ST' element={<Ass1st/>}/>
             <Route path='/OSIS/ASS1ST/Kedokteran' element={<Kedokteran/>}/>
             <Route path='/OSIS/ASS1ST/Farmasi' element={<Farmasi/>}/>
