@@ -5,9 +5,9 @@ const ContentHeader = (props) => {
         <div>
             <div className='container justify-center'>
                 <div className='pt-10 justify-center text-center'>
-                    <h2 className='text-xl font-semibold'>{ props.category }</h2>
+                    <h2 className='text-base sm:text-lg md:text-xl font-semibold'>{ props.category }</h2>
                     <h1 className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black'>{ props.title }</h1>
-                    <h2 className='text-xl font-medium'>{ props.quote }</h2>
+                    <h2 className='text-base sm:text-lg md:text-xl font-medium'>{ props.quote }</h2>
                     <h4 className='text-xl font-semibold pt-3'>
                         <div className='text-left px-28'>
                         { props.desc }

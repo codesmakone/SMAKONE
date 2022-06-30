@@ -106,9 +106,9 @@ const Home = () => {
                 <Checklist txt='Alumni SMAK 1 tersebar di seluruh dunia' />
                 <Checklist txt='Sudah dikenal sampai ke mancanegara' />
               </div>
-              <div className='pl-20 pr-20 pt-10'>
-              <button className="py-2 sm:py-4 lg:py-5 px-10 sm:px-12 lg:px-16 bg-dark-blue rounded-full">
-                <a href='https://psbjakarta.bpkpenabur.or.id' className="link-underline link-underline-white sm:px-3 sm:py-2 text-white text-xl font-black" target="blank">
+              <div className='grid px-10 lg:px-20 pt-10 place-items-center'>
+              <button className="py-4 lg:py-5 px-12 lg:px-16 bg-dark-blue rounded-full">
+                <a href='https://psbjakarta.bpkpenabur.or.id' className="link-underline link-underline-white px-3 py-2 text-white text-base sm:text-lg md:text-xl font-black" target="blank">
                   Daftar Sekarang
                 </a>
               </button>
