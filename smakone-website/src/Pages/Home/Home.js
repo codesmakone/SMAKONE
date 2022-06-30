@@ -18,9 +18,9 @@ import soc from "../../Image/Home/Kegiatan/soc.jpg"
 import soundscape from "../../Image/Home/Kegiatan/soundscape.jpg"
 import theater from "../../Image/Home/Kegiatan/theater.jpg"
 import kriza from "../../Image/Home/Kegiatan/kriza.jpg"
-import kehidupan from "../../Image/Home/Kehidupan/kehidupan.png"
-import tips from "../../Image/Home/Kehidupan/tips.jpg"
-import kegiatan from "../../Image/Home/Kehidupan/kegiatan.jpg"
+import kehidupan from "../../Image/Home/Kehidupan/kehidupan.jpeg"
+import tips from "../../Image/Home/Kehidupan/tips.jpeg"
+import kegiatan from "../../Image/Home/Kehidupan/kegiatan.jpeg"
 
 const Home = () => {
   return (

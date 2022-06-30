@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
 import ContentText from '../../Component/Content/ContentText'
-import kehidupan from "../../Image/Home/Kehidupan/kehidupan.png"
+import kehidupan from "../../Image/Home/Kehidupan/kehidupan.jpeg"
 
 const KehidupanSmukiers = () => {
     return(
