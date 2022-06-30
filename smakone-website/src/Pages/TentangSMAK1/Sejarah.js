@@ -17,6 +17,11 @@ const Sejarah = () => {
                 />
 
                 <ContentTextMl
+                    title = "Misi BPK PENABUR Jakarta"
+                    text = "Mengembangkan potensi peserta didik secara optimal melalui pendidikan dan pengajaran bermutu berdasarkan nilai-nilai Kristiani                    "
+                />
+
+                <ContentTextMl
                     title = "Visi SMAK 1"
                     text = "Mewujudkan sumber daya berkualitas unggul dalam ilmu pengetahuan dan teknologi serta peduli terhadap sesama berdasarkan nilai-nilai hidup Kristiani."
                 />
