@@ -28,7 +28,7 @@ const Home = () => {
 
       {/* <div className='mt-32 col-span-6 flex flex-col justify-start text-left '> */}
       <div className='col-span-6 flex flex-col justify-start text-left '>
-        <div className='px-5 sm:px-20 pt-10 lg:pt-20 pb-12 sm:pb-32'>
+        <div className='px-5 md:px-10 lg:px-16 xl:px-20 pt-10 lg:pt-20 pb-12 md:pb-20 lg:pb-24 xl:pb-32'>
           <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[7rem] font-black'>We Are SMAK 1</h1>
           {/* <h4 className='text-2xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4> */}
           <div className="flex flex-col gap-5">
@@ -102,7 +102,7 @@ const Home = () => {
                 <div>Kenapa SMAK 1?</div>
               </div>
               <div className='px-14 mr-2 pt-2 sm:pt-10'>
-                <Checklist txt='Sekolah swasta nomor 1 di Jakarta berdasarkan rerata TPS UTBK 2020' />
+                <Checklist txt='Sekolah swasta nomor 1 di Jakarta berdasarkan rerata TPS UTBK 2021' />
                 <Checklist txt='Alumni SMAK 1 tersebar di seluruh dunia' />
                 <Checklist txt='Sudah dikenal sampai ke mancanegara' />
               </div>

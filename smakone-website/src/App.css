@@ -1,22 +1,8 @@
-.Circle{
+@media (max-width: 375px) { 
+  .Circle{
   z-index: -1;
-  width: 42rem;
-  height: 42rem;
-  border-top-right-radius:0;
-  border-top-left-radius:0;
-  border-bottom-right-radius:0;
-  border-bottom-left-radius:100%;
-  top: 0;
-  right: 0;
-  position: absolute;
-  background: #F1F1F1;
-}
-
-@media (min-width: 640px) { 
-  Circle{
-  z-index: -1;
-  width: 2rem;
-  height: 2rem;
+  width: 22rem;
+  height: 22rem;
   border-top-right-radius:0;
   border-top-left-radius:0;
   border-bottom-right-radius:0;
@@ -28,10 +14,42 @@
   }
 }
 
+@media (min-width: 376px) { 
+  .Circle{
+  z-index: -1;
+  width: 24rem;
+  height: 24rem;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background: #F1F1F1;
+  }
+}
+@media (min-width: 640px) { 
+  .Circle{
+    z-index: -1;
+    width: 28rem;
+    height: 28rem;
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: #F1F1F1;
+  }
+}
+
 @media (min-width: 768px) { 
-  Circle{
-    width: 2rem;
-    height: 2rem;
+  .Circle{
+    z-index: -1;
+    width: 28rem;
+    height: 28rem;
     border-top-right-radius:0;
     border-top-left-radius:0;
     border-bottom-right-radius:0;
@@ -44,9 +62,10 @@
 }
 
 @media (min-width: 1024px) { 
-  Circle{
-    width: 32rem;
-    height: 32rem;
+  .Circle{
+    z-index: -1;
+    width: 35rem;
+    height: 35rem;
     border-top-right-radius:0;
     border-top-left-radius:0;
     border-bottom-right-radius:0;
@@ -59,7 +78,8 @@
 }
 
 @media (min-width: 1280px) { 
-  Circle{
+  .Circle{
+    z-index: -1;
     width: 42rem;
     height: 42rem;
     border-top-right-radius:0;

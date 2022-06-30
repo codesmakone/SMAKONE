@@ -1,6 +1,6 @@
 import React from 'react'
 
-const OsisNav = (props) => {
+const Nav = (props) => {
   return (
     <div className='hover-zoom grid grid-cols-1 place-items-center'>
       <img src={props.img} alt={props.alt} className='h-16 w-16 md:h-20 md:w-20 lg:h-28 lg:w-28 xl:h-36 xl:w-36'/>
@@ -11,4 +11,4 @@ const OsisNav = (props) => {
   )
 }
 
-export default OsisNav
+export default Nav
