@@ -102,7 +102,7 @@ const Home = () => {
                 <div>Kenapa SMAK 1?</div>
               </div>
               <div className='px-14 mr-2 pt-2 sm:pt-10'>
-                <Checklist txt='Sekolah swasta nomor 1 di Jakarta berdasarkan rerata TPS UTBK 2021' />
+                <Checklist txt='Sekolah swasta nomor 1 di Jakarta berdasarkan nilai UTBK 2021' />
                 <Checklist txt='Alumni SMAK 1 tersebar di seluruh dunia' />
                 <Checklist txt='Sudah dikenal sampai ke mancanegara' />
               </div>

@@ -34,7 +34,7 @@ const Fasilitas = () => {
                     title = 'Fasilitas'
             />
             <br />
-            <div className="grid xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-9 mt-4 place-items-center lg:mx-28 xl:mx-[-3rem]">
+            <div className="grid xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-9 mt-4 place-items-center lg:mx-28 xl:mx-8">
                 <div>
                     <img src={gedung} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="Gedung Sekolah"/>
                     <p className="justify-center text-center p-2">Gedung Sekolah</p>
