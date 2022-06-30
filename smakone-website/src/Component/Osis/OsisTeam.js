@@ -36,8 +36,8 @@ const OsisTeam = (props) => {
           })}
           </ol>
         </div>
-        <div className={props.dirBPH ? `flex justify-between mt-10 px-16 sm:px-32 md:px-32 lg:px-20 xl:px-28` : `flex justify-between mt-10 px-20 sm:px-28 md:px-36 lg:px-48 xl:px-56`}>
-          <button onClick={ () => navigate(-1) } className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-full text-sm sm:text-base md:text-lg lg:text-xl px-5 py-2.5 text-center sm:-ml-16 sm:-ml-8 lg:ml-0 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+        <div className={props.dirBPH ? `flex justify-between mt-10 px-12 sm:px-24` : `flex justify-between mt-10 px-12 sm:px-24`}>
+          <button onClick={ () => navigate(-1) } className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-full text-sm sm:text-base md:text-lg lg:text-xl px-5 py-2.5 text-center sm:-ml-8 lg:ml-0 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
               Kembali
           </button>
           {(props.dir || props.dirBPH) && 
