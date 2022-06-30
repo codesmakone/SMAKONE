@@ -80,8 +80,8 @@
 @media (min-width: 1280px) { 
   .Circle{
     z-index: -1;
-    width: 42rem;
-    height: 42rem;
+    width: 40 rem;
+    height: 40  rem;
     border-top-right-radius:0;
     border-top-left-radius:0;
     border-bottom-right-radius:0;
