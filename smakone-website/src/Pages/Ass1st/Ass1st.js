@@ -20,10 +20,10 @@ const Ass1st = () => {
   return (
     <div>
         <div className='mx-auto container'>
-            <div className='px-20 pt-10 justify-center text-center'>
-                <h1 className='text-6xl font-semibold'>ASS1ST</h1>
-                <h4 className='text-xl font-medium'>
-                    <h4 className=' text-center px-28 mt-10'>
+            <div className='px-5 sm:px-10 md:px-20 pt-10 justify-center text-center'>
+                <h1 className='text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-black'>ASS1ST</h1>
+                <h4 className='text-sm sm:text-base md:text-lg font-medium'>
+                    <h4 className='text-center lg:px-28 mt-10'>
                     Hello Smukierz, sebentar lagi kita akan segera menapaki perjalanan kita di tingkat perkuliahan. Tapi, masih banyak dari kita yang ragu akan memilih jurusan kuliah. Tapi jangan khawatir karena kami hadir dengan program ASS1ST. Apa itu ASS1ST? ASS1ST ini adalah program OSIS bidang 4 yang isinya merupakan penjelasan mengenai jurusan kuliah serta nama-nama universitas yang mengusai di jurusan tersebut. Jadi, harapannya dengan adanya ASS1ST ini maka akan mempermudah kalian dalam menentukan jurusan kuliah yang kalian inginkan.
                     </h4>
                 </h4>
@@ -32,11 +32,11 @@ const Ass1st = () => {
 
         <div id='Assist' className='bg-dark-blue w-full h-auto text-white py-14 mt-16'>
         <div className='container mx-auto'>
-          <div className='text-center px-60'>
-            <h1 className='text-5xl font-semibold'>
+          <div className='text-center px-10 sm:px-24 md:px-32 lg:px-36 xl:px-52'>
+            <h1 className='text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-semibold'>
               Jurusan
             </h1>
-            <div className='grid grid-cols-5 gap-5 mt-10'>
+            <div className='grid grid-cols-3 lg:grid-cols-5 gap-10 mt-10 place-items-center'>
               <NavLink to="Kedokteran">
                 <Nav
                   img={Kedokteran}

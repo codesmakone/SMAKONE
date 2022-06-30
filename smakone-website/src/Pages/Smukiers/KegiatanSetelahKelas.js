@@ -47,13 +47,13 @@ const KegiatanSetelahKelas = () => {
                     text = "Melalui setiap kegiatan yang kerap dilakukan peserta didik SMAK 1, kegiatan-kegiatan yang dilakukan sebuah ekspresi yang digunakan siswa-siswi untuk melepas diri dari kesibukan diri. Baik beristirahat, berorganisasi, maupun berkumpul bersama teman, sangat disarankan bagi siswa-siswi untuk memilih kegiatan yang tepat untuk menyegarkan diri setelah menjalani hari yang melelahkan."
                 />
                     <div className='container mx-auto mt-10'>
-                        <div className='flex justify-between ml-12 sm:ml-16 xl:ml-32 mt-2 pr-12 sm:pr-16 xl:pr-36'>
-                            <Link to="/Kehidupan_smukiers/Tips" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none rounded-3xl sm:rounded-full text-base sm:text-xl px-[0.2rem] sm:px-5 py-1 sm:py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
-                                Artikel Sebelumnya
-                            </Link>  
-                            <HashLink to="/#Kehidupan" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  rounded-3xl sm:rounded-full text-base sm:text-xl px-[0.2rem] sm:px-5 py-1 sm:py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
-                                Home
-                            </HashLink>                                          
+                        <div className='flex justify-between mt-10 px-10 sm:px-24 md:px-28 lg:px-20 xl:px-32'>
+                        <Link to="/Kehidupan_smukiers" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-full text-sm sm:text-base md:text-lg lg:text-xl px-5 py-2.5 text-center sm:-ml-16 sm:-ml-8 lg:ml-0 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700">
+                            Artikel Sebelumnya
+                        </Link> 
+                        <HashLink to="/#Kehidupan" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-full text-sm sm:text-base md:text-lg lg:text-xl px-5 py-2.5 text-center sm:-mr-8 lg:mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700">
+                            Home
+                        </HashLink>                                        
                         </div>
                     </div>
             </div>
