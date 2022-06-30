@@ -53,8 +53,8 @@ const Home = () => {
 
       <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24' id="Alasan">
         <div className='container mx-auto'>
-          <div className='justify-center text-white text-center font-bold mb-12 px-12 md:px-24 lg:px-32 xl:px-40'>
-            <div className='text-white mb-5 content-center text-sm sm:text-base lg:text-lg'>
+          <div className='justify-center text-white text-center font-bold mb-12 px-3 sm:px-12 md:px-24 lg:px-32 xl:px-40'>
+            <div className='text-white mb-5 content-center text-lg'>
               Dengar dari SMUKIERS
             </div>
             <div className='text-white text-2xl sm:text-3xl lg:text-4xl xl:text-5xl leading-normal'>
@@ -123,53 +123,53 @@ const Home = () => {
       </div>
 
 
-      <div className='w-full h-auto text-black px-16 py-28  sm:py-32' id="kegiatan">
+      <div className='w-full h-auto text-black px-6 sm:px-16 py-20 sm:py-28 xl:py-32' id="kegiatan">
         <div className='container mx-auto'>
-          <div className='justify-center text-center font-bold px-12 md:px-24 lg:px-32 xl:px-40'>
-            <div className= 'mb-5 content-center text-lg'>
+          <div className='justify-center text-center font-bold px-3 sm:px-12 md:px-24 lg:px-32 xl:px-40'>
+            <div className='mb-5 content-center text-lg'>
               Kegiatan
             </div>
-            <div className='text-3xl lg:text-4xl xl:text-5xl leading-normal'>
+            <div className='text-2xl sm:text-3xl lg:text-4xl xl:text-5xl leading-normal'>
               <div>Seputar Kegiatan di SMAK 1</div>
             </div>
           </div>
-          <div className="px-8">
-          <Kegiatan
-            img = {soc}
-            title = "Smakonecup"
-            desc = "Acara tahunan yang penuh sinar matahari, keringat, dan kejutan"
-            dir = "/Kegiatan/SOC"
-          />
-          <Kegiatan
-            img = {soundscape}
-            title = "Soundscape"
-            desc = "Pertunjukan spektakuler di akhir Smakonecup"
-            dir = "/Kegiatan/Soundscape"
-          />
-          <Kegiatan
-            img = {theater}
-            title = "SMUKIEZ Theater Night"
-            desc = "Saat berbagai seni dipadukan dan menghasilkan sebuah karya yang memukau"
-            dir = "/Kegiatan/STN"
-          />
-          <Kegiatan
-            img = {kriza}
-            title = "KR1ZA"
-            desc = "Terus berlatih dan raih prestasi"
-            dir = "/Kegiatan/KR1ZA"
-          />
+          <div className="justify-items-center gap-3 mt-8">
+            <Kegiatan
+              img = {soc}
+              title = "Smakonecup"
+              desc = "Acara tahunan yang penuh sinar matahari, keringat, dan kejutan"
+              dir = "/Kegiatan/SOC"
+            />
+            <Kegiatan
+              img = {soundscape}
+              title = "Soundscape"
+              desc = "Pertunjukan spektakuler di akhir Smakonecup"
+              dir = "/Kegiatan/Soundscape"
+            />
+            <Kegiatan
+              img = {theater}
+              title = "SMUKIEZ Theater Night"
+              desc = "Saat berbagai seni dipadukan dan menghasilkan sebuah karya yang memukau"
+              dir = "/Kegiatan/STN"
+            />
+            <Kegiatan
+              img = {kriza}
+              title = "KR1ZA"
+              desc = "Terus berlatih dan raih prestasi"
+              dir = "/Kegiatan/KR1ZA"
+            />
           </div>
         </div>
       </div>
 
 
-      <div className="w-full h-auto text-white bg-dark-blue px-16 py-32" id="Kehidupan">
+      <div className="w-full h-auto text-white bg-dark-blue px-6 sm:px-16 py-20 sm:py-28 xl:py-32" id="Kehidupan">
         <div className="container mx-auto">
-          <div className='justify-center text-center font-bold mb-12  px-12 md:px-24 lg:px-32 xl:px-40'>
+          <div className='justify-center text-center font-bold mb-3 sm:mb-12 px-3 sm:px-12 md:px-24 lg:px-32 xl:px-40'>
             <div className= 'mb-5 content-center text-lg'>
               Kehidupan SMUKIERS
             </div>
-            <div className='text-white text-3xl lg:text-4xl xl:text-5xl leading-normal'>
+            <div className='text-white text-2xl sm:text-3xl lg:text-4xl xl:text-5xl  leading-normal'>
               <div>Cari Tahu Seluk Beluk Kehidupan</div>
               <div>Murid-murid SMAK 1</div>
             </div>
