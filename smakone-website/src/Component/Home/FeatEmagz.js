@@ -16,7 +16,7 @@ const Emagz = () =>{
                 <div className='px-4 py-12'>
                     <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 sm:gap-10 md:gap-16">
                         { magazineList.reverse().slice(0,4).map((magazine, i) => 
-                            <div>
+                            <div key={i}>
                                 <a href={ magazine.link } target="blank"><img src={ magazine.img } alt={ magazine.title } className='h-auto w-full justify-center'/></a>
                                 <h4 className="py-4 font-medium text-center">{ magazine.title }</h4>
                             </div>

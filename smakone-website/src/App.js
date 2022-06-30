@@ -65,7 +65,6 @@ import Pramuka from './Pages/Kegiatan/pramuka';
 import DoFEIA from './Pages/Kegiatan/DoFEIA';
 import Kegiatan from './Pages/Kegiatan/Kegiatan';
 import MUN from './Pages/Kegiatan/MUN';
-import Lainnya from './Pages/Kegiatan/lainnya';
 import OneCast from './Pages/Kegiatan/onecast';
 
 function App() {
@@ -87,7 +86,6 @@ function App() {
             <Route path='/kegiatan/onecast' element={<OneCast/>}/>
             <Route path='/kegiatan/DoFE' element={<DoFEIA/>}/>
             <Route path='/kegiatan/muneds' element={<MUN/>}/>
-            <Route path='/kegiatan/lainnya' element={<Lainnya/>}/>
 
             <Route path='/alasan/EnrichieGracia' element={<EnrichieGracia/>}/>
             <Route path='/alasan/GillianSeason' element={<GillianSeason/>}/>

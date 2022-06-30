@@ -96,7 +96,6 @@ const Nav = () => {
                 menu9='OneCast'
                 menu10='The Duke of Edinburgh’s International Award'
                 menu11='Model United Nation dan English Debate Society'
-                menu12='Ekstrakulikuler Lainnya'
                 kegiatan={true}              
                 />
             </div>

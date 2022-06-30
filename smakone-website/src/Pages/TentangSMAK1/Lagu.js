@@ -9,15 +9,16 @@ const Lagu = () => {
                 <ContentHeaderImage
                     title = 'Lagu Tema'
                 />
-                <div className='mt-8 grid lg:grid-cols-2 grid-cols-1 gap-10 mb-12'>
+                <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 mb-12'>
                     <div className="">
                         <div>
                             <div className="mt-4 mb-8 iframe-container grid place-items-center">
                             <iframe
+                                className="object-cover sm:w-[80%] sm:h-[300px] md:h-[360px] lg:w-[90%] lg:h-[300px] xl:w-full  xl:h-[350px] " 
                                 title="MARS BPK PENABUR"
                                 src="https://www.youtube.com/embed/e6kY2wYT9_A" 
-                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                allowfullscreen>
+                                frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowFullScreen>
                             </iframe>
                             </div>
                             <h2 className="font-medium text-3xl lg:text-5xl mt-3 justify-center text-center">
@@ -59,10 +60,11 @@ const Lagu = () => {
                     <div>
                         <div className="mt-4 mb-8 iframe-container grid place-items-center">
                             <iframe
+                                className="object-cover sm:w-[80%] sm:h-[300px] md:h-[360px] lg:w-[90%] lg:h-[300px] xl:w-full  xl:h-[350px] "
                                 title="Cinta SMAK 1"
                                 src="https://www.youtube.com/embed/3u_OEOwSBjE" 
-                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                allowfullscreen>
+                                frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowFullScreen>
                             </iframe>
                         </div>
                         <h2 className="font-medium text-3xl lg:text-5xl mt-3 justify-center text-center">

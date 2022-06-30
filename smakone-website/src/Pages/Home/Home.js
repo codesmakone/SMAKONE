@@ -11,7 +11,7 @@ import FeatEmagz from "../../Component/Home/FeatEmagz"
 // Import Image
 import EnrichieGracia from '../../Image/Home/Alasan/Enrichie.jpeg'
 import GillianSeason from '../../Image/Home/Alasan/Gilian.jpeg'
-import Berwyn from '../../Image/Home/Alasan/Berwyn.jpeg'
+import Berwyn from '../../Image/Home/Alasan/Berwyn.png'
 import MattheusBryanDjahtranto from '../../Image/Home/Alasan/Mattheus.jpeg'
 import Lobby_SMAK1 from "../../Image/Home/Lobby_SMAK1.jpeg"
 import soc from "../../Image/Home/Kegiatan/soc.jpg"

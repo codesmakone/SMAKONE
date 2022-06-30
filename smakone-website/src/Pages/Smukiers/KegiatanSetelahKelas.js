@@ -46,15 +46,13 @@ const KegiatanSetelahKelas = () => {
                 <ContentText
                     text = "Melalui setiap kegiatan yang kerap dilakukan peserta didik SMAK 1, kegiatan-kegiatan yang dilakukan sebuah ekspresi yang digunakan siswa-siswi untuk melepas diri dari kesibukan diri. Baik beristirahat, berorganisasi, maupun berkumpul bersama teman, sangat disarankan bagi siswa-siswi untuk memilih kegiatan yang tepat untuk menyegarkan diri setelah menjalani hari yang melelahkan."
                 />
-                    <div className='container mx-auto mt-10'>
-                        <div className='flex justify-between mt-10 px-10 sm:px-24 md:px-28 lg:px-20 xl:px-32'>
-                        <Link to="/Kehidupan_smukiers" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-full text-sm sm:text-base md:text-lg lg:text-xl px-5 py-2.5 text-center sm:-ml-16 sm:-ml-8 lg:ml-0 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700">
+                    <div className='flex justify-between mt-10 px-10 sm:px-24 lg:px-14 xl:px-32'>
+                        <Link to="/Kehidupan_smukiers" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-full text-sm sm:text-base md:text-lg lg:text-xl px-5 py-2.5 text-center sm:-ml-8 lg:ml-0 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700">
                             Artikel Sebelumnya
                         </Link> 
                         <HashLink to="/#Kehidupan" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-full text-sm sm:text-base md:text-lg lg:text-xl px-5 py-2.5 text-center sm:-mr-8 lg:mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700">
                             Home
                         </HashLink>                                        
-                        </div>
                     </div>
             </div>
         </div>

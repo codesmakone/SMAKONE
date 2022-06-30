@@ -28,7 +28,7 @@ const EmagzLayout = () => {
                         <div className='container mx-auto'>
                             <div className="grid xl:grid-cols-5 lg:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-8 sm:gap-10 md:gap-12 xl:gap-16">
                                 { magazineList.map((magazine, i) => 
-                                    <div>
+                                    <div key={i}>
                                         <a href={ magazine.link } target="blank"><img src={ magazine.img } alt={ magazine.title } className='h-auto w-full justify-center'/></a>
                                         <h4 className="py-4 font-medium text-center">{ magazine.title }</h4>
                                     </div>
