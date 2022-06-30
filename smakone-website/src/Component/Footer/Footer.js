@@ -36,7 +36,7 @@ const Footer = () => {
                   Cari Tahu Informasi Terkini Mengenai SMAK 1 <br/>di Instagram Kami 
                 </p>
                 <div>
-                    <a href="https://www.instagram.com/smukiee/" target="blank" className="text-2xl text-white font-bold  rounded-full bg-light-blue py-6 px-12 flex justify-center hover:bg-blue-700">
+                    <a href="https://www.instagram.com/smukiee/" target="blank" className="text-xl md:text-2xl text-white font-bold rounded-full bg-light-blue py-3 lg:py-6 px-6 lg:px-9 xl:px-12 flex justify-center hover:bg-blue-700">
                     <div className='flex gap-2'>
                       <div className='mt-0.5'>
                       <BsInstagram size={30}/>
@@ -50,18 +50,19 @@ const Footer = () => {
         </div>
       
         <div >
+          <div>
+            <img className='object-scale-down mx-auto h-8 w-1/2 sm:w-9/12 mb-12' alt='smakone' src={Logo_SMAK1}/>
+          </div>
           <div className='pb-12 flex justify-around mx-10'>
-            <div>
-              <img className='object-scale-down h-8 w-1/2 sm:w-9/12' alt='smakone' src={Logo_SMAK1}/>
-            </div>
-            <div className='flex flex-col xl:text-xl gap-y-4 font-bold text-gray-500 text-sm sm:text-base sm:mr-5 -ml-20 sm:-ml-10'>
+            
+            <div className='flex flex-col gap-y-4 font-bold text-gray-500 text-[0.75rem] sm:text-base xl:text-xl sm:mr-5 pr-2'>
               <Link to="/OSIS"className='text-black link-underline link-underline-black'>Osis</Link>
               <HashLink to="/OSIS#visi&misi" className='hover:text-black link-underline link-underline-black' >Visi & Misi Kami</HashLink>
               <Link to="/OSIS" className='hover:text-black link-underline link-underline-black' >Bertemu dengan Kami</Link>
               <HashLink to="/OSIS#bidang" className='hover:text-black link-underline link-underline-black' >Services</HashLink>
               <Link to="/OSIS/ASS1ST" className='hover:text-black link-underline link-underline-black' >Ass1st</Link>
             </div>
-            <div className='flex flex-col text-sm sm:text-base xl:text-xl gap-y-4 font-bold text-gray-500 '>
+            <div className='flex flex-col text-[0.75rem] sm:text-base xl:text-xl gap-y-4 font-bold text-gray-500 pr-2'>
               <Link to="/Kehidupan_smukiers" className='text-black link-underline link-underline-black'>Kehidupan SMUKIERS</Link >
               <Link to="/Kehidupan_smukiers/Tips" className='hover:text-black link-underline link-underline-black'>Tips Belajar</Link>
               <Link to="/Kehidupan_smukiers/Kegiatan" className='hover:text-black link-underline link-underline-black' >Kegiatan</Link>
