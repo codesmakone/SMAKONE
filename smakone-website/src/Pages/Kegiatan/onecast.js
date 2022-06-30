@@ -16,7 +16,8 @@ const OneCast = () => {
             }
             img = {OC}
             alt = "onecast"
-            latterPar2 = "Jadwal pengunggahan setiap episode akan bergantung pada masing-masing bidang OSIS. Bagi siswa-siswi SMAK 1 yang ingin menjadi bagian dari ONECAST, dapat mendaftarkan diri di awal tahun ajaran dengan periode kerja 1 tahun.            "
+            latterPar2 = "Jadwal pengunggahan setiap episode akan bergantung pada masing-masing bidang OSIS. Bagi siswa-siswi SMAK 1 yang ingin menjadi bagian dari ONECAST, dapat mendaftarkan diri di awal tahun ajaran dengan periode kerja 1 tahun."
+            dir="/Kegiatan/DoFE"
         />
     )
 }

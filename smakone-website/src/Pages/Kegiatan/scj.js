@@ -24,6 +24,7 @@ const SClub = () => {
             name7 = 'Kimia'
             name8 = 'Komputer'
             name9 = 'Matematika'
+            dir="/Kegiatan/pramuka"
         />
         
     )

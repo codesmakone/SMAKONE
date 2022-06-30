@@ -44,7 +44,7 @@ const Nav = () => {
                 menu3="Fasilitas"
                 menu4="Logo"
                 menu5="Lagu Tema"
-                right='1/3'
+                smak1={true}
               />
               <Dropdown
                 title='OSIS'
@@ -55,7 +55,7 @@ const Nav = () => {
                 menu1='Tentang Osis'
                 menu2='E-Magazine'
                 menu3='Ass1st'
-                right='2/4'
+                osis = {true}
               />
               <Dropdown
                 title='Kehidupan SMUKIERS'
@@ -68,6 +68,7 @@ const Nav = () => {
                 menu2='Tips Belajar'
                 menu3='Kegiatan Setelah Kelas'
                 menu4='Alumni'
+                Kehidupan ={true}
               />
               <Dropdown
                 title='Kegiatan'
@@ -96,8 +97,8 @@ const Nav = () => {
                 menu10='The Duke of Edinburgh’s International Award'
                 menu11='Model United Nation dan English Debate Society'
                 menu12='Ekstrakulikuler Lainnya'
-                right='24'
-              />
+                kegiatan={true}              
+                />
             </div>
           </div>
       </div>
