@@ -32,12 +32,12 @@ const Ass1st = () => {
 
         <div id='Assist' className='bg-dark-blue w-full h-auto text-white mt-16'>
         <div className='container mx-auto'>
-          <div className='text-center px-10 sm:px-24 md:px-32 lg:px-36 xl:px-52 py-16'>
+          <div className='text-center px-10 sm:px-16 md:px-20 lg:px-32 xl:px-52 py-16'>
             <h1 className='text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-semibold'>
               Jurusan
             </h1>
             {/* <div className='grid grid-cols-3 lg:grid-cols-5 gap-10 mt-10 place-items-center'> */}
-            <div className='grid grid-cols-3 gap-10 my-16'>
+            <div className='grid gap-4 grid-cols-2 lg:grid-cols-3 xl:gap-10 my-16'>
               <NavLink to="Kedokteran">
                 <Nav
                   img={Kedokteran}
