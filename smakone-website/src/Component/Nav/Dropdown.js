@@ -125,7 +125,7 @@ const Dropdown = (props) => {
               }
             </div>
             { !!props.dir7 && (
-              <div className='h-[20.4rem] absolute left-2/4 border-light border-solid border-l-4'></div>
+              <div className='h-[16.8rem] absolute left-2/4 border-light border-solid border-l-4'></div>
             )}
             <div>
               {props.dir7 && 
@@ -199,21 +199,6 @@ const Dropdown = (props) => {
                   )}
                 >
                   {props.menu11}
-                </Link>
-              )}
-            </Menu.Item>
-              }
-              {props.dir12 && 
-              <Menu.Item>
-              {({ active }) => (
-                <Link
-                  to={props.dir12}
-                  className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  {props.menu12}
                 </Link>
               )}
             </Menu.Item>
