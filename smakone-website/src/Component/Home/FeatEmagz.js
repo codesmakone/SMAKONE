@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import {magazineList} from '../Data/magazineList'
+import {HomeMagazine} from '../Data/HomeMagazine'
 
 const Emagz = () =>{
     
@@ -15,7 +15,7 @@ const Emagz = () =>{
                 </div>
                 <div className='px-4 py-12'>
                     <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 sm:gap-10 md:gap-16">
-                        { magazineList.reverse().slice(3,7).map((magazine, i) => 
+                        { HomeMagazine.slice(0).reverse().map((magazine, i) => 
                             <div key={i}>
                                 <a href={ magazine.link } target="blank"><img src={ magazine.img } alt={ magazine.title } className='h-auto w-full justify-center'/></a>
                                 <h4 className="py-4 font-medium text-center">{ magazine.title }</h4>
