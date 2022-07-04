@@ -11,7 +11,7 @@ export default function BukuAcara() {
 
   return (
     <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
-      <div style={{ height: "720px" }}>
+      <div style={{ height: "100vh" }}>
         <Viewer fileUrl={demoFile} plugins={[defaultLayoutPluginInstance]} />
       </div>
     </Worker>

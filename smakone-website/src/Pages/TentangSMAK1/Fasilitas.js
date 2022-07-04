@@ -1,5 +1,7 @@
 import React from 'react'
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
 
 import gedung from "../../Image/Fasilitas/GEDUNG SEKOLAH.webp"
 import aula from "../../Image/Fasilitas/AULA.webp"
@@ -30,6 +32,8 @@ import UKS from "../../Image/Fasilitas/UKS.webp"
 const Fasilitas = () => {
     return(
         <div className='container mx-auto'>
+            <Nav/>
+            <div className='mt-28'>
             <ContentHeaderImage
                     title = 'Fasilitas'
             />
@@ -135,7 +139,9 @@ const Fasilitas = () => {
                     <img src={tow} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="toilet wanita" />
                     <p className="justify-center text-center p-2">Toilet Wanita</p>
                 </div>
+            </div>          
             </div>
+            <Footer/>
         </div>
     )
 }

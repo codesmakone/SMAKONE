@@ -1,4 +1,6 @@
 import React from 'react'
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
 import OSIS_Logo from '../../Image/OSIS_Logo.webp'
@@ -7,7 +9,8 @@ import Penabur_logo from '../../Image/Penabur_logo.webp'
 const Logo = () => {
     return(
         <div className="container mx-auto">
-            <div className="container w-full h-full mx-auto justify-center">
+            <Nav/>
+            <div className="container w-full h-full mx-auto justify-center mt-28">
                 <ContentHeaderImage
                     title = 'Logo'
                 />
@@ -36,6 +39,7 @@ const Logo = () => {
                     
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

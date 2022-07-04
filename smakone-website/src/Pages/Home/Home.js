@@ -6,6 +6,8 @@ import Checklist from "../../Component/Home/Checklist"
 import Kegiatan from "../../Component/Home/Kegiatan"
 import SelukBeluk from "../../Component/Home/SelukBeluk"
 import FeatEmagz from "../../Component/Home/FeatEmagz"
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
 
 
 // Import Image
@@ -26,9 +28,9 @@ import { Link } from "react-router-dom"
 const Home = () => {
   return (
     <div className='overflow-hidden'>
-
+      <Nav/>
       {/* <div className='mt-32 col-span-6 flex flex-col justify-start text-left '> */}
-      <div className='col-span-6 flex flex-col justify-start text-left '>
+      <div className='col-span-6 flex flex-col justify-start text-left mt-28 '>
         <div className='px-5 md:px-10 lg:px-16 xl:px-20 pt-10 lg:pt-20 pb-12 md:pb-20 lg:pb-24 xl:pb-44'>
         <h1 className='text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black'>We are SMAK 1's OSIS</h1>
           {/* <h4 className='text-sm xl:text-2xl lg:text-xl md:text-lg sm:text-base font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4> */}
@@ -202,6 +204,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

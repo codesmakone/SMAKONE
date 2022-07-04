@@ -1,12 +1,15 @@
 import React from 'react'
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
 
 import ContentHeader from '../../Component/Content/ContentHeader'
 import ContentText from '../../Component/Content/ContentText'
 
 const TentangSMAK1 = () => {
     return(
-        <div className="">
-            <div className="container w-full h-full mx-auto justify-center">
+        <div>
+            <Nav/>
+            <div className="container w-full h-full mx-auto justify-center mt-28">
                 <ContentHeader
                     title = 'Sekilas Tentang SMAK 1'
                 />
@@ -66,6 +69,7 @@ const TentangSMAK1 = () => {
                     }
                 />
             </div>
+            <Footer/>
         </div>
     )
 }

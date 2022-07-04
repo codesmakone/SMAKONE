@@ -1,12 +1,15 @@
 import React from 'react'
 import { useNavigate,Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link'; 
+import { HashLink } from 'react-router-hash-link';
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer' 
 
 const OsisTeam = (props) => {
   const navigate = useNavigate()
 
   return (
     <div>
+      <Nav/>
       <div className="justify-center text-center">
         <div className='px-20 pt-20 pb-10'>
             <h2 className='text-base sm:text-lg md:text-xl font-semibold'>OSIS</h2>
@@ -52,6 +55,7 @@ const OsisTeam = (props) => {
           }
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

@@ -1,10 +1,13 @@
 import React from 'react'
 import {magazineList} from '../Data/magazineList'
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
 
 const EmagzLayout = () => {    
     return(
-        <div className="">
-            <div className="container w-full h-full mx-auto justify-center pb-12 mb-36">
+        <div>
+            <Nav/>
+            <div className="container w-full h-full mx-auto justify-center pb-12 mb-36 mt-28">
                 <div className='px-5 sm:px-10 md:px-20 pt-10 justify-center text-center'>
                     <h1 className='text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-black'>E-Magazine</h1>
                     <h4 className='text-sm sm:text-base md:text-lg font-medium'>
@@ -38,6 +41,7 @@ const EmagzLayout = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

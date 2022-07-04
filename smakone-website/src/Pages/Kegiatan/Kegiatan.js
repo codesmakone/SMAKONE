@@ -2,11 +2,14 @@ import React from 'react'
 
 import ContentHeader from '../../Component/Content/ContentHeader'
 import ContentText from '../../Component/Content/ContentText'
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
 
 const Kegiatan = () => {
     return(
-        <div className="">
-            <div className="container w-full h-full mx-auto justify-center">
+        <div>
+            <Nav/>
+            <div className="container w-full h-full mx-auto justify-center mt-28">
                 <ContentHeader
                     title = 'Ada Apa Aja Sih di SMAK 1?'
                 />
@@ -42,6 +45,7 @@ const Kegiatan = () => {
                     text = "Setelah menyebutkan semua itu, sepertinya masih tidak cukup untuk mendeskripsikan apa saja yang terdapat di SMAK 1 karena masih terdapat banyak sekali hal yang belum dituliskan. Namun satu hal yang pasti, sekolah di SMAK 1 untuk penulis sendiri merupakan pengalaman yang tak terlupakan karena kami banyak berkolaborasi bersama siswa lain, belajar mengemban tanggung jawab akademik dan non-akademik, serta bersama-sama berjuang meraih mimpi dengan mengembangkan bakat kami di berbagai fasilitas yang telah disediakan SMAK 1 dengan cara yang seru dan interaktif. Penulis rasa, teman-teman harus mencoba sendiri berbagai hal yang disediakan SMAK 1 untuk merasakan keseruannya."
                 />
             </div>
+            <Footer/>
         </div>
     )
 }
