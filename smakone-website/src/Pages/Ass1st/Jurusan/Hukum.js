@@ -2,16 +2,16 @@ import React from 'react'
 
 import Jurusan from '../../../Component/Ass1st/Jurusan'
 
-import harvard from '../../../Image/Ass1st/Univ/harvard.jpg'
-import oxford from '../../../Image/Ass1st/Univ/Oxford.jpg'
-import cambridge from '../../../Image/Ass1st/Univ/cambridge.jpg'
-import nus from '../../../Image/Ass1st/Univ/NUS.jpg'
-import hku from '../../../Image/Ass1st/Univ/HKU.jpg'
-import tokyo from '../../../Image/Ass1st/Univ/tokyoU-jpg.jpg'
-import ui from '../../../Image/Ass1st/Univ/UI-jpg.jpg'
-import ugm from '../../../Image/Ass1st/Univ/UGM.jpg'
-import unair from '../../../Image/Ass1st/Univ/airlangga.jpg'
-import law from '../../../Image/Ass1st/law.jpg'
+import harvard from '../../../Image/Ass1st/Univ/harvard.webp'
+import oxford from '../../../Image/Ass1st/Univ/Oxford.webp'
+import cambridge from '../../../Image/Ass1st/Univ/cambridge.webp'
+import nus from '../../../Image/Ass1st/Univ/NUS.webp'
+import hku from '../../../Image/Ass1st/Univ/HKU.webp'
+import tokyo from '../../../Image/Ass1st/Univ/tokyoU.webp'
+import ui from '../../../Image/Ass1st/Univ/UI.webp'
+import ugm from '../../../Image/Ass1st/Univ/UGM.webp'
+import unair from '../../../Image/Ass1st/Univ/airlangga.webp'
+import law from '../../../Image/Ass1st/law.webp'
 
 const Hukum = () => {
 

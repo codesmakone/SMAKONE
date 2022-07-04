@@ -9,10 +9,10 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLine } from "react-icons/fa";
 
 
-import LogoPenabur from "../../Image/Penabur_logo.png"
-import LogoOsis from "../../Image/OSIS_Logo.png"
-import Logo_SMAK1 from "../../Image/Logo_SMAK1.png"
-import Logo_CodeOne from "../../Image/logo_codeone.png"
+import LogoPenabur from "../../Image/Penabur_logo.webp"
+import LogoOsis from "../../Image/OSIS_Logo.webp"
+import Logo_SMAK1 from "../../Image/Logo_SMAK1.webp"
+import Logo_CodeOne from "../../Image/logo_codeone.webp"
 
 
 const Footer = () => {

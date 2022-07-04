@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo_SMAK1 from '../../Image/Logo_SMAK1.png'
+import Logo_SMAK1 from '../../Image/Logo_SMAK1.webp'
 import { Link } from 'react-router-dom'
 import { useScrollPosition } from '../../Hooks';
 //Import component

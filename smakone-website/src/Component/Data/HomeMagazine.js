@@ -1,7 +1,7 @@
-import FestiveFebruary from "../../Image/Emagz/FestiveFebruary.png"
-import Floraison from "../../Image/Emagz/Floraison.png"
-import AphroditeApril from "../../Image/Emagz/AphroditeApril.png"
-import SummerMaylodies from "../../Image/Emagz/SummerMaylodies.png"
+import FestiveFebruary from "../../Image/Emagz/FestiveFebruary.webp"
+import Floraison from "../../Image/Emagz/Floraison.webp"
+import AphroditeApril from "../../Image/Emagz/AphroditeApril.webp"
+import SummerMaylodies from "../../Image/Emagz/SummerMaylodies.webp"
 
 export const HomeMagazine = [
     {

@@ -1,7 +1,7 @@
 import React from 'react' 
 import Layout from '../../Component/Layout/PramukaLayout'
 
-import Pramuka_img from '../../Image/Home/Kegiatan/pramuka.jpg'
+import Pramuka_img from '../../Image/Home/Kegiatan/pramuka.webp'
 
 
 const Pramuka = () => {
@@ -11,7 +11,7 @@ const Pramuka = () => {
             cat = "Kegiatan"
             title = "Pramuka"
             quote = '"Ambalan Soekarno-Fatmawati Siap!"'
-            latterPar1 = "Pramuka merupakan organisasi non akademik yang juga berfungsi sebagai wadah pendidikan keterampilan dan karakter. Pramuka SMAK 1 PENABUR Jakarta sendiri dibimbing dengan 22 pembina (guru) dan 33 Dewan Ambalan (siswa) yang juga turut serta berpartisipasi dalam beberapa kegiatan sebagai berikut:" 
+            latterPar1 = "Pramuka merupakan organisasi non akademik yang juga berfungsi sebagai wadah pendidikan keterampilan dan karakter. Pramuka SMAK 1 PENABUR Jakarta sendiri dibimbing dengan 22 pembina (guru) dan 32 Dewan Ambalan (siswa) yang juga turut serta berpartisipasi dalam beberapa kegiatan sebagai berikut:" 
             imgHome = {Pramuka_img}
             alt = "Pramuka"
             title2 ="Kegiatan Rutin"

@@ -6,19 +6,19 @@ import OsisLayout from '../../Component/Osis/OsisLayout'
 import OsisNav from '../../Component/Osis/OsisNav'
 
 // Image
-import Osis_Image from '../../Image/Osis/OSIS_Pelantikan.jpeg'
+import Osis_Image from '../../Image/Osis/OSIS_Pelantikan.webp'
 
-import bph from '../../Image/Osis/BPH/bph.png'
-import bid_1 from '../../Image/Osis/Bidang_1/bid1.png'
-import bid_2 from '../../Image/Osis/Bidang_2/bid2.png'
-import bid_3 from '../../Image/Osis/Bidang_3/bid3.png'
-import bid_4 from '../../Image/Osis/Bidang_4/bid4.png'
-import bid_5 from '../../Image/Osis/Bidang_5/bid5.png'
-import bid_6 from '../../Image/Osis/Bidang_6/bid6.png'
-import bid_7 from '../../Image/Osis/Bidang_7/bid7.png'
-import bid_8 from '../../Image/Osis/Bidang_8/bid8.png'
-import bid_9 from '../../Image/Osis/Bidang_9/bid9.png'
-import bid_10 from '../../Image/Osis/Bidang_10/bid10.png'
+import bph from '../../Image/Osis/BPH/bph.webp'
+import bid_1 from '../../Image/Osis/Bidang_1/bid1.webp'
+import bid_2 from '../../Image/Osis/Bidang_2/bid2.webp'
+import bid_3 from '../../Image/Osis/Bidang_3/bid3.webp'
+import bid_4 from '../../Image/Osis/Bidang_4/bid4.webp'
+import bid_5 from '../../Image/Osis/Bidang_5/bid5.webp'
+import bid_6 from '../../Image/Osis/Bidang_6/bid6.webp'
+import bid_7 from '../../Image/Osis/Bidang_7/bid7.webp'
+import bid_8 from '../../Image/Osis/Bidang_8/bid8.webp'
+import bid_9 from '../../Image/Osis/Bidang_9/bid9.webp'
+import bid_10 from '../../Image/Osis/Bidang_10/bid10.webp'
 
 
 const Osis = () => {

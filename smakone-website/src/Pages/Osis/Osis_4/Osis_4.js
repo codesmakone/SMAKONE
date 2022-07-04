@@ -5,9 +5,9 @@ import BidangSection from '../../../Component/Osis/BidangSection'
 import OsisTeam from '../../../Component/Osis/OsisTeam'
 
 // Import Image
-import Michael from '../../../Image/Osis/Bidang_4/Michael.jpg'
-import Geoffrey from '../../../Image/Osis/Bidang_4/Geoffrey.jpg'
-import Grant from '../../../Image/Osis/Bidang_4/Grant.jpg'
+import Michael from '../../../Image/Osis/Bidang_4/Michael.webp'
+import Geoffrey from '../../../Image/Osis/Bidang_4/Geoffrey.webp'
+import Grant from '../../../Image/Osis/Bidang_4/Grant.webp'
 
 const OSIS_4 = () => {
   return (

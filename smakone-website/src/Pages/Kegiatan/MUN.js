@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../../Component/Layout/MunLayout'
 
-import Mun from "../../Image/Home/Kegiatan/MUN.jpg"
+import Mun from "../../Image/Home/Kegiatan/MUN.webp"
 
 const MUN = () => {
     return(

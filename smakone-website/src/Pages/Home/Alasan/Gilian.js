@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../../Component/Layout/ArticleLayout'
-import Gilian from "../../../Image/Home/Alasan/Gilian.png"
+import Gilian from "../../../Image/Home/Alasan/Gilian2.webp"
 
 const GillianSeason = () => {
   return (

@@ -2,16 +2,16 @@ import React from 'react'
 
 import Jurusan from '../../../Component/Ass1st/Jurusan'
 
-import harvard from '../../../Image/Ass1st/Univ/harvard.jpg'
-import oxford from '../../../Image/Ass1st/Univ/Oxford.jpg'
-import stanford from '../../../Image/Ass1st/Univ/Stanford.jpg'
-import nus from '../../../Image/Ass1st/Univ/NUS.jpg'
-import ntu from '../../../Image/Ass1st/Univ/NTU.jpg'
-import hku from '../../../Image/Ass1st/Univ/HKU.jpg'
-import ui from '../../../Image/Ass1st/Univ/UI-jpg.jpg'
-import ugm from '../../../Image/Ass1st/Univ/UGM.jpg'
-import unpad from '../../../Image/Ass1st/Univ/padjajaran.jpg'
-import psyc from '../../../Image/Ass1st/psikol.jpg'
+import harvard from '../../../Image/Ass1st/Univ/harvard.webp'
+import oxford from '../../../Image/Ass1st/Univ/Oxford.webp'
+import stanford from '../../../Image/Ass1st/Univ/Stanford.webp'
+import nus from '../../../Image/Ass1st/Univ/NUS.webp'
+import ntu from '../../../Image/Ass1st/Univ/NTU.webp'
+import hku from '../../../Image/Ass1st/Univ/HKU.webp'
+import ui from '../../../Image/Ass1st/Univ/UI.webp'
+import ugm from '../../../Image/Ass1st/Univ/UGM.webp'
+import unpad from '../../../Image/Ass1st/Univ/padjajaran.webp'
+import psyc from '../../../Image/Ass1st/psikol.webp'
 
 const Psikologi = () => {
 

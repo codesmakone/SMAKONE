@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../Component/Layout/SeniLayout'
-import seni from '../../Image/Home/Kegiatan/Seni.JPG'
+import seni from '../../Image/Home/Kegiatan/Seni.webp'
 
 const Seni = () => {
     return(

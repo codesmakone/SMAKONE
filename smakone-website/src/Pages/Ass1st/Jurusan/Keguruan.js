@@ -2,16 +2,16 @@ import React from 'react'
 
 import Jurusan from '../../../Component/Ass1st/Jurusan'
 
-import harvard from '../../../Image/Ass1st/Univ/harvard.jpg'
-import ucl from '../../../Image/Ass1st/Univ/Oxford.jpg'
-import uoft from '../../../Image/Ass1st/Univ/UofT.jpg'
-import hku from '../../../Image/Ass1st/Univ/HKU.jpg'
-import eduhk from '../../../Image/Ass1st/Univ/EducationUHongKong.jpg'
-import ntu from '../../../Image/Ass1st/Univ/NTU.jpg'
-import uny from '../../../Image/Ass1st/Univ/UNYogya.jpg'
-import upi from '../../../Image/Ass1st/Univ/UnivPendidikanIndo.jpg'
-import malang from '../../../Image/Ass1st/Univ/UNMalang.jpg'
-import guru from '../../../Image/Ass1st/guru.jpg'
+import harvard from '../../../Image/Ass1st/Univ/harvard.webp'
+import ucl from '../../../Image/Ass1st/Univ/Oxford.webp'
+import uoft from '../../../Image/Ass1st/Univ/UofT.webp'
+import hku from '../../../Image/Ass1st/Univ/HKU.webp'
+import eduhk from '../../../Image/Ass1st/Univ/EducationUHongKong.webp'
+import ntu from '../../../Image/Ass1st/Univ/NTU.webp'
+import uny from '../../../Image/Ass1st/Univ/UNYogya.webp'
+import upi from '../../../Image/Ass1st/Univ/UnivPendidikanIndo.webp'
+import malang from '../../../Image/Ass1st/Univ/UNMalang.webp'
+import guru from '../../../Image/Ass1st/guru.webp'
 
 const Keguruan= () => {
 
