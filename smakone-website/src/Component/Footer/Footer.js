@@ -20,7 +20,7 @@ const Footer = () => {
     <div className='mx-auto'>
 
 
-      <div className="py-20 px-12">
+      <div className="py-20 px-5">
           <div className="bg-cover bg-footer-image rounded-xl py-10 sm:py-12 md:py-16 lg:py-20 xl:py-24">
               <div className="flex flex-col items-center">
                 <p className="text-xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-normal text-white text-center mb-10 mx-6">
@@ -46,25 +46,25 @@ const Footer = () => {
           </div>
 
           <div>
-            <div className=' flex justify-around px-8 lg:mx-10 lg:pb-12'>
-              <div className='flex flex-col gap-y-4 font-bold text-gray-500 text-[0.9rem] sm:text-lg xl:text-xl sm:mr-5 pr-2'>
-                <Link to="/OSIS"className='hover:text-black'>Osis</Link>
+            <div className=' flex justify-center gap-3 md:justify-around px-8 md:mx-10 md:pb-12'>
+              <div className='flex flex-col gap-y-2 xl:gap-y-4 font-bold text-gray-500 text-[0.9rem] sm:text-lg xl:text-xl'>
+                <Link to="/OSIS"className='hover:text-gray-500 text-black'>Tentang OSIS</Link>
                 <HashLink to="/OSIS#visi&misi" className='hover:text-black' >Visi & Misi Kami</HashLink>
                 <HashLink to="/OSIS#bidang" className='hover:text-black' >Services</HashLink>
                 <Link to="/OSIS/Emagz" className='hover:text-black' >E-Magazine</Link>
                 <Link to="/OSIS/ASS1ST" className='hover:text-black' >Ass1st</Link>
               </div>
-              <div className='flex flex-col text-[0.9rem] sm:text-lg xl:text-xl gap-y-4 font-bold text-gray-500 pr-2'>
-                <Link to="/Kehidupan_smukiers" className='hover:text-black'>Kehidupan SMUKIERS</Link >
+              <div className='flex flex-col text-[0.9rem] sm:text-lg xl:text-xl gap-y-2 xl:gap-y-4 font-bold text-gray-500'>
+                <Link to="/Kehidupan_smukiers" className='hover:text-gray-500 text-black'>Kehidupan SMUKIERS</Link >
                 <Link to="/Kehidupan_smukiers/Tips" className='hover:text-black'>Tips Belajar</Link>
                 <Link to="/Kehidupan_smukiers/Kegiatan" className='hover:text-black' >Kegiatan</Link>
                 <Link to="/Kehidupan_smukiers/Alumni" className='hover:text-black' >Alumni</Link>
               </div>
 
-              <div className='hidden lg:inline'>
+              <div className='hidden md:inline'>
                 <p className='pb-2 text-lg font-semibold text-right'>Contact Us</p>
-                <div className='lg:flex lg:flex-row lg:gap-x-1'>
-                  <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><ImMail size={31}/></a>
+                <div className='md:flex md:flex-row md:gap-x-1'>
+                  <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><ImMail size={30}/></a>
                   <a href="https://www.instagram.com/smukiee/" target="blank"><FaInstagramSquare size={30}/></a>
                   <a href="https://www.tiktok.com/@smukierz" target="blank"><FaTiktok size={30}/></a>
                   <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="blank"><FaYoutubeSquare size={30}/></a>
@@ -72,7 +72,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className='text-center lg:hidden'>
+            <div className='text-center md:hidden'>
               <p className='pt-4 pb-2 text-lg font-semibold'>Contact Us</p>
               <div className='flex flex-row justify-center gap-x-1 pb-12'>
                 <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><ImMail size={31}/></a>
