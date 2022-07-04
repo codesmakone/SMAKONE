@@ -45,7 +45,7 @@ const Dropdown = (props) => {
                     to={props.dir1}
                     className={classNames(
                       active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                      'block px-4 py-2 text-sm'
+                      'block px-4 py-2 text-sm rounded-t-md'
                     )}
                   >
                     {props.menu1}
@@ -71,7 +71,7 @@ const Dropdown = (props) => {
                     to={props.dir3}
                     className={classNames(
                       active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                      'block px-4 py-2 text-sm'
+                      props.osis ? 'block px-4 py-2 text-sm rounded-b-md' : 'block px-4 py-2 text-sm'
                     )}
                   >
                     {props.menu3}
@@ -85,7 +85,7 @@ const Dropdown = (props) => {
                   to={props.dir4}
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    props.Kehidupan ? 'block px-4 py-2 text-sm rounded-b-md' : 'block px-4 py-2 text-sm'
                   )}
                 >
                   {props.menu4}
@@ -99,8 +99,8 @@ const Dropdown = (props) => {
                 <Link
                   to={props.dir5}
                   className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 
+                    props.smak1 ? 'block px-4 py-2 text-sm rounded-b-md' : 'block px-4 py-2 text-sm'
                   )}
                 >
                   {props.menu5}
@@ -195,7 +195,7 @@ const Dropdown = (props) => {
                   to={props.dir11}
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    props.dir7 ? 'block px-4 py-2 text-sm rounded-br-md' : 'block px-4 py-2 text-sm'
                   )}
                 >
                   {props.menu11}
