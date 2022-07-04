@@ -5,10 +5,10 @@ import BidangSection from '../../../Component/Osis/BidangSection'
 import OsisTeam from '../../../Component/Osis/OsisTeam'
 
 // Import Image
-import valeska from '../../../Image/Osis/Bidang_7/valeska.jpg'
-import Jessicav from '../../../Image/Osis/Bidang_7/Jessicav.jpg'
-import Fidella from '../../../Image/Osis/Bidang_7/Fidella.JPG'
-import Bradley from '../../../Image/Osis/Bidang_7/Bradley.jpg'
+import valeska from '../../../Image/Osis/Bidang_7/valeska.webp'
+import Jessicav from '../../../Image/Osis/Bidang_7/Jessicav.webp'
+import Fidella from '../../../Image/Osis/Bidang_7/Fidella.webp'
+import Bradley from '../../../Image/Osis/Bidang_7/Bradley.webp'
 
 const OSIS_7 = () => {
   return (

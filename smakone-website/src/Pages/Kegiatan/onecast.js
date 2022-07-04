@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../Component/Layout/KegiatanLayout'
-import OC from '../../Image/Home/Kegiatan/onecast.png'
+import OC from '../../Image/Home/Kegiatan/onecast.webp'
 
 const OneCast = () => {
     return(

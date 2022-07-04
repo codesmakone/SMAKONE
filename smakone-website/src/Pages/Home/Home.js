@@ -9,18 +9,18 @@ import FeatEmagz from "../../Component/Home/FeatEmagz"
 
 
 // Import Image
-import EnrichieGracia from '../../Image/Home/Alasan/Enrichie.jpeg'
-import GillianSeason from '../../Image/Home/Alasan/Gilian.jpeg'
-import Berwyn from '../../Image/Home/Alasan/Berwyn.png'
-import MattheusBryanDjahtranto from '../../Image/Home/Alasan/Mattheus.jpeg'
-import Lobby_SMAK1 from "../../Image/Home/Lobby_SMAK1.jpeg"
-import soc from "../../Image/Home/Kegiatan/soc.jpg"
-import soundscape from "../../Image/Home/Kegiatan/soundscape.jpg"
-import theater from "../../Image/Home/Kegiatan/theater.jpg"
-import kriza from "../../Image/Home/Kegiatan/kriza.jpg"
-import kehidupan from "../../Image/Home/Kehidupan/kehidupan.jpeg"
-import tips from "../../Image/Home/Kehidupan/tips.jpeg"
-import kegiatan from "../../Image/Home/Kehidupan/kegiatan.jpeg"
+import EnrichieGracia from '../../Image/Home/Alasan/Enrichie1.webp'
+import GillianSeason from '../../Image/Home/Alasan/Gilian1.webp'
+import Berwyn from '../../Image/Home/Alasan/Berwyn.webp'
+import MattheusBryanDjahtranto from '../../Image/Home/Alasan/Mattheus1.webp'
+import Lobby_SMAK1 from "../../Image/Home/Lobby_SMAK1.webp"
+import soc from "../../Image/Home/Kegiatan/soc.webp"
+import soundscape from "../../Image/Home/Kegiatan/soundscape.webp"
+import theater from "../../Image/Home/Kegiatan/theater.webp"
+import kriza from "../../Image/Home/Kegiatan/kriza.webp"
+import kehidupan from "../../Image/Home/Kehidupan/kehidupan.webp"
+import tips from "../../Image/Home/Kehidupan/tips.webp"
+import kegiatan from "../../Image/Home/Kehidupan/kegiatan.webp"
 import { Link } from "react-router-dom"
 
 const Home = () => {

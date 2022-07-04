@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../../Component/Layout/ArticleLayout'
-import Berwyn from "../../../Image/Home/Alasan/Berwyn.png"
+import Berwyn from "../../../Image/Home/Alasan/Berwyn.webp"
 
 const Berwyn1 = () => {
   return (

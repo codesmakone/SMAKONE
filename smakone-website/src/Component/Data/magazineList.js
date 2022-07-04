@@ -1,10 +1,10 @@
-import NovembersYouth from "../../Image/Emagz/NovembersYouth.png"
-import MindfulChristmas from "../../Image/Emagz/MindfulChristmas.png"
-import SquareOne from "../../Image/Emagz/SquareOne.png"
-import FestiveFebruary from "../../Image/Emagz/FestiveFebruary.png"
-import Floraison from "../../Image/Emagz/Floraison.png"
-import AphroditeApril from "../../Image/Emagz/AphroditeApril.png"
-import SummerMaylodies from "../../Image/Emagz/SummerMaylodies.png"
+import NovembersYouth from "../../Image/Emagz/NovembersYouth.webp"
+import MindfulChristmas from "../../Image/Emagz/MindfulChristmas.webp"
+import SquareOne from "../../Image/Emagz/SquareOne.webp"
+import FestiveFebruary from "../../Image/Emagz/FestiveFebruary.webp"
+import Floraison from "../../Image/Emagz/Floraison.webp"
+import AphroditeApril from "../../Image/Emagz/AphroditeApril.webp"
+import SummerMaylodies from "../../Image/Emagz/SummerMaylodies.webp"
 
 export const magazineList = [
     {

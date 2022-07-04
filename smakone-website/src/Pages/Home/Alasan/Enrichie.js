@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../../Component/Layout/ArticleLayout'
-import Enrichie from "../../../Image/Home/Alasan/Enrichie.png"
+import Enrichie from "../../../Image/Home/Alasan/Enrichie2.webp"
 
 const EnrichieGracia = () => {
   return (

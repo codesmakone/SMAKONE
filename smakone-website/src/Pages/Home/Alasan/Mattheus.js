@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../../Component/Layout/ArticleLayout'
-import Mattheus from "../../../Image/Home/Alasan/Mattheus.png"
+import Mattheus from "../../../Image/Home/Alasan/Mattheus2.webp"
 
 const MattheusBryanDjahtranto = () => {
   return (

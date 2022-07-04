@@ -2,16 +2,16 @@ import React from 'react'
 
 import Jurusan from '../../../Component/Ass1st/Jurusan'
 
-import harvard from '../../../Image/Ass1st/Univ/harvard.jpg'
-import oxford from '../../../Image/Ass1st/Univ/Oxford.jpg'
-import lse from '../../../Image/Ass1st/Univ/LSE.jpg'
-import nus from '../../../Image/Ass1st/Univ/NUS.jpg'
-import peking from '../../../Image/Ass1st/Univ/Peking.jpg'
-import tokyo from '../../../Image/Ass1st/Univ/tokyoU-jpg.jpg'
-import ui from '../../../Image/Ass1st/Univ/UI-jpg.jpg'
-import ugm from '../../../Image/Ass1st/Univ/UGM.jpg'
-import unpad from '../../../Image/Ass1st/Univ/padjajaran.jpg'
-import socio from '../../../Image/Ass1st/socio.jpeg'
+import harvard from '../../../Image/Ass1st/Univ/harvard.webp'
+import oxford from '../../../Image/Ass1st/Univ/Oxford.webp'
+import lse from '../../../Image/Ass1st/Univ/LSE.webp'
+import nus from '../../../Image/Ass1st/Univ/NUS.webp'
+import peking from '../../../Image/Ass1st/Univ/Peking.webp'
+import tokyo from '../../../Image/Ass1st/Univ/tokyoU.webp'
+import ui from '../../../Image/Ass1st/Univ/UI.webp'
+import ugm from '../../../Image/Ass1st/Univ/UGM.webp'
+import unpad from '../../../Image/Ass1st/Univ/padjajaran.webp'
+import socio from '../../../Image/Ass1st/socio.webp'
 
 const Sosiologi= () => {
 

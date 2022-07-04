@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
 import ContentText from '../../Component/Content/ContentText'
-import kegiatan from "../../Image/Home/Kehidupan/kegiatan.jpeg"
+import kegiatan from "../../Image/Home/Kehidupan/kegiatan.webp"
 
 
 const KegiatanSetelahKelas = () => {

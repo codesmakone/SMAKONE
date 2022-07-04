@@ -2,16 +2,16 @@ import React from 'react'
 
 import Jurusan from '../../../Component/Ass1st/Jurusan'
 
-import harvard from '../../../Image/Ass1st/Univ/harvard.jpg'
-import mit from '../../../Image/Ass1st/Univ/MIT.jpg'
-import stanford from '../../../Image/Ass1st/Univ/Stanford.jpg'
-import nus from '../../../Image/Ass1st/Univ/NUS.jpg'
-import tsinghua from '../../../Image/Ass1st/Univ/tsinghua.jpg'
-import hkust from '../../../Image/Ass1st/Univ/HKUST.jpg'
-import ui from '../../../Image/Ass1st/Univ/UI-jpg.jpg'
-import ugm from '../../../Image/Ass1st/Univ/UGM.jpg'
-import stan from '../../../Image/Ass1st/Univ/STAN.jpg'
-import akuntansi from '../../../Image/Ass1st/accounting.jpg'
+import harvard from '../../../Image/Ass1st/Univ/harvard.webp'
+import mit from '../../../Image/Ass1st/Univ/MIT.webp'
+import stanford from '../../../Image/Ass1st/Univ/Stanford.webp'
+import nus from '../../../Image/Ass1st/Univ/NUS.webp'
+import tsinghua from '../../../Image/Ass1st/Univ/tsinghua.webp'
+import hkust from '../../../Image/Ass1st/Univ/HKUST.webp'
+import ui from '../../../Image/Ass1st/Univ/UI.webp'
+import ugm from '../../../Image/Ass1st/Univ/UGM.webp'
+import stan from '../../../Image/Ass1st/Univ/STAN.webp'
+import akuntansi from '../../../Image/Ass1st/accounting.webp'
 
 const Akutansi = () => {
 

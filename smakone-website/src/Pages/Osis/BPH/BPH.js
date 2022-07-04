@@ -5,11 +5,11 @@ import BidangSection from '../../../Component/Osis/BidangSection'
 import OsisTeam from '../../../Component/Osis/OsisTeam'
 
 //Import Image
-import Joce from '../../../Image/Osis/BPH/joce.jpg'
-import Aline from '../../../Image/Osis/BPH/alinee.jpg'
-import Valerie from '../../../Image/Osis/BPH/valerie.jpg'
-import Chloe from '../../../Image/Osis/BPH/chloe.png'
-import Amanda from '../../../Image/Osis/BPH/amanda.jpg'
+import Joce from '../../../Image/Osis/BPH/joce.webp'
+import Aline from '../../../Image/Osis/BPH/alinee.webp'
+import Valerie from '../../../Image/Osis/BPH/valerie.webp'
+import Chloe from '../../../Image/Osis/BPH/chloe.webp'
+import Amanda from '../../../Image/Osis/BPH/amanda.webp'
 
 const BPH = () => {
   return (

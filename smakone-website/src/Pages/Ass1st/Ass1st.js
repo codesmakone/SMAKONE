@@ -5,15 +5,15 @@ import { NavLink } from 'react-router-dom';
 import Nav from '../../Component/Ass1st/Nav'
 
 // Image
-import Kedokteran from '../../Image/Ass1st/Logo/kedokteran.png'
-import Farmasi from '../../Image/Ass1st/Logo/farmasi.png'
-import Keguruan from '../../Image/Ass1st/Logo/pendidikan.png'
-import Sosiologi from '../../Image/Ass1st/Logo/sosiologi.png'
-import Akutansi from '../../Image/Ass1st/Logo/akuntansi.png'
-import Hukum from '../../Image/Ass1st/Logo/hukum.png'
-import Psikologi from '../../Image/Ass1st/Logo/psikologi.png'
-import Teknik_sipil from '../../Image/Ass1st/Logo/teknik_sipil.png'
-import Pertambangan from '../../Image/Ass1st/Logo/teknik_pertambangan.png'
+import Kedokteran from '../../Image/Ass1st/Logo/kedokteran.webp'
+import Farmasi from '../../Image/Ass1st/Logo/farmasi.webp'
+import Keguruan from '../../Image/Ass1st/Logo/pendidikan.webp'
+import Sosiologi from '../../Image/Ass1st/Logo/sosiologi.webp'
+import Akutansi from '../../Image/Ass1st/Logo/akuntansi.webp'
+import Hukum from '../../Image/Ass1st/Logo/hukum.webp'
+import Psikologi from '../../Image/Ass1st/Logo/psikologi.webp'
+import Teknik_sipil from '../../Image/Ass1st/Logo/teknik_sipil.webp'
+import Pertambangan from '../../Image/Ass1st/Logo/teknik_pertambangan.webp'
 
 
 const Ass1st = () => {

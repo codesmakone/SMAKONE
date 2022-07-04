@@ -2,16 +2,16 @@ import React from 'react'
 
 import Jurusan from '../../../Component/Ass1st/Jurusan'
 
-import colo from '../../../Image/Ass1st/Univ/Colorado-School-of-mines.jpg'
-import curt from '../../../Image/Ass1st/Univ/Curtin.jpg'
-import queens from '../../../Image/Ass1st/Univ/Queensland.jpg'
-import fahd from '../../../Image/Ass1st/Univ/KingFahdU-of-Petrol-Mineral.jpg'
-import cumt from '../../../Image/Ass1st/Univ/ChinaU-Mining-Tech.jpg'
-import kyuu from '../../../Image/Ass1st/Univ/Kyushu.jpg'
-import trisakti from '../../../Image/Ass1st/Univ/Trisakti.jpg'
-import pertamina from '../../../Image/Ass1st/Univ/pertamina.jpg'
-import itb from '../../../Image/Ass1st/Univ/ITB-jpg.jpg'
-import tambang from '../../../Image/Ass1st/tambang.png'
+import colo from '../../../Image/Ass1st/Univ/Colorado-School-of-mines.webp'
+import curt from '../../../Image/Ass1st/Univ/Curtin.webp'
+import queens from '../../../Image/Ass1st/Univ/Queensland.webp'
+import fahd from '../../../Image/Ass1st/Univ/KingFahdU-of-Petrol-Mineral.webp'
+import cumt from '../../../Image/Ass1st/Univ/ChinaU-Mining-Tech.webp'
+import kyuu from '../../../Image/Ass1st/Univ/Kyushu.webp'
+import trisakti from '../../../Image/Ass1st/Univ/Trisakti.webp'
+import pertamina from '../../../Image/Ass1st/Univ/pertamina.webp'
+import itb from '../../../Image/Ass1st/Univ/ITB.webp'
+import tambang from '../../../Image/Ass1st/tambang.webp'
 
 const Pertambangan = () => {
 

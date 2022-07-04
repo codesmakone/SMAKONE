@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
 import ContentText from '../../Component/Content/ContentText'
-import tips from "../../Image/Home/Kehidupan/tips.jpeg"
+import tips from "../../Image/Home/Kehidupan/tips.webp"
 
 const TipsBelajar = () => {
     return(

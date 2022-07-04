@@ -1,8 +1,8 @@
 import React from 'react'
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
-import OSIS_Logo from '../../Image/OSIS_Logo.png'
-import Penabur_logo from '../../Image/Penabur_logo.png'
+import OSIS_Logo from '../../Image/OSIS_Logo.webp'
+import Penabur_logo from '../../Image/Penabur_logo.webp'
 
 const Logo = () => {
     return(

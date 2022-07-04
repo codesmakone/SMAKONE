@@ -2,16 +2,16 @@ import React from 'react'
 
 import Jurusan from '../../../Component/Ass1st/Jurusan'
 
-import mit from '../../../Image/Ass1st/Univ/MIT.jpg'
-import delft from '../../../Image/Ass1st/Univ/Delft.jpg'
-import ntu from '../../../Image/Ass1st/Univ/NTU.jpg'
-import nus from '../../../Image/Ass1st/Univ/NUS.jpg'
-import tsinghua from '../../../Image/Ass1st/Univ/tsinghua.jpg'
-import hkust from '../../../Image/Ass1st/Univ/HKUST.jpg'
-import ui from '../../../Image/Ass1st/Univ/UI-jpg.jpg'
-import ugm from '../../../Image/Ass1st/Univ/UGM.jpg'
-import itb from '../../../Image/Ass1st/Univ/ITB-jpg.jpg'
-import sipil from '../../../Image/Ass1st/sipil.jpg'
+import mit from '../../../Image/Ass1st/Univ/MIT.webp'
+import delft from '../../../Image/Ass1st/Univ/Delft.webp'
+import ntu from '../../../Image/Ass1st/Univ/NTU.webp'
+import nus from '../../../Image/Ass1st/Univ/NUS.webp'
+import tsinghua from '../../../Image/Ass1st/Univ/tsinghua.webp'
+import hkust from '../../../Image/Ass1st/Univ/HKUST.webp'
+import ui from '../../../Image/Ass1st/Univ/UI.webp'
+import ugm from '../../../Image/Ass1st/Univ/UGM.webp'
+import itb from '../../../Image/Ass1st/Univ/ITB.webp'
+import sipil from '../../../Image/Ass1st/sipil.webp'
 
 const Sipil = () => {
     
