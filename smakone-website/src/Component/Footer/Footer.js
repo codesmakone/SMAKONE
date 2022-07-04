@@ -65,7 +65,7 @@ const Footer = () => {
               </div>
 
               <div className='hidden lg:inline'>
-                <p className='pb-2 text-lg font-semibold'>Contact Us</p>
+                <p className='pb-2 text-lg font-semibold text-right'>Contact Us</p>
                 <div className='lg:flex lg:flex-row lg:gap-x-1'>
                   <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><RiMailLine size={31}/></a>
                   <a href="https://www.instagram.com/smukiee/" target="blank"><FaInstagram size={30}/></a>
