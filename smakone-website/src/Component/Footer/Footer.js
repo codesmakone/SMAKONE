@@ -30,7 +30,7 @@ const Footer = () => {
                   Cari Tahu Informasi Terkini Mengenai SMAK 1 <br/>di Instagram Kami 
                 </p>
                 <div>
-                    <a href="https://www.instagram.com/smukiee/" target="blank" className="text-xl md:text-2xl text-white font-bold rounded-full bg-light-blue py-3 px-6 md:px-8 md:py-4 lg:py-6 lg:px-9 xl:px-10 flex justify-center hover:bg-blue-700">
+                    <a href="https://www.instagram.com/smukiee/" target="blank" className="text-xl md:text-2xl text-white font-bold rounded-full bg-light-blue py-3 px-6 md:px-8 md:py-4 lg:py-4 lg:px-9 xl:px-10 flex justify-center hover:bg-blue-700">
                     <div className='flex gap-1.5'>
                       <div className='mt-0.5'>
                       <FaInstagram className='h-full w-full'/>
