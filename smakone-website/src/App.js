@@ -66,6 +66,7 @@ import DoFEIA from './Pages/Kegiatan/DoFEIA';
 import Kegiatan from './Pages/Kegiatan/Kegiatan';
 import MUN from './Pages/Kegiatan/MUN';
 import OneCast from './Pages/Kegiatan/onecast';
+import BukuAcara from './Pages/Home/Buku_Acara';
 
 function App() {
   return (
@@ -75,6 +76,7 @@ function App() {
         <div className='mt-40'>
         <Routes>
           <Route path="/" element={<Home/>}/>
+          <Route path="/BukuAcara" element={<BukuAcara/>}/>
             <Route path='/kegiatan/' element={<Kegiatan/>}/>
             <Route path='/kegiatan/soc' element={<SOC/>}/>
             <Route path='/kegiatan/soundscape' element={<Soundscape/>}/>
