@@ -3,11 +3,8 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 // Icon for Email, Instagram, Line, and Youtube
-import { RiMailLine } from "react-icons/ri";
-import { FaYoutubeSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLine } from "react-icons/fa";
-
+import { ImMail } from "react-icons/im";
+import { FaYoutubeSquare, FaTiktok, FaInstagramSquare} from "react-icons/fa";
 
 import LogoPenabur from "../../Image/Penabur_logo.webp"
 import LogoOsis from "../../Image/OSIS_Logo.webp"
@@ -33,7 +30,7 @@ const Footer = () => {
                     <a href="https://www.instagram.com/smukiee/" target="blank" className="text-xl md:text-2xl text-white font-bold rounded-full bg-light-blue py-3 px-6 md:px-8 md:py-4 lg:py-6 lg:px-9 xl:px-10 flex justify-center hover:bg-blue-700">
                     <div className='flex gap-1.5'>
                       <div className='mt-0.5'>
-                      <FaInstagram className='h-full w-full'/>
+                      <FaInstagramSquare className='h-full w-full'/>
                       </div>
                     <span>smukiee</span>
                     </div>
@@ -51,24 +48,25 @@ const Footer = () => {
           <div>
             <div className=' flex justify-around px-8 lg:mx-10 lg:pb-12'>
               <div className='flex flex-col gap-y-4 font-bold text-gray-500 text-[0.9rem] sm:text-lg xl:text-xl sm:mr-5 pr-2'>
-                <Link to="/OSIS"className='text-black link-underline link-underline-black'>Osis</Link>
-                <HashLink to="/OSIS#visi&misi" className='hover:text-black link-underline link-underline-black' >Visi & Misi Kami</HashLink>
-                <Link to="/OSIS" className='hover:text-black link-underline link-underline-black' >Bertemu dengan Kami</Link>
-                <HashLink to="/OSIS#bidang" className='hover:text-black link-underline link-underline-black' >Services</HashLink>
-                <Link to="/OSIS/ASS1ST" className='hover:text-black link-underline link-underline-black' >Ass1st</Link>
+                <Link to="/OSIS"className='hover:text-black'>Osis</Link>
+                <HashLink to="/OSIS#visi&misi" className='hover:text-black' >Visi & Misi Kami</HashLink>
+                <HashLink to="/OSIS#bidang" className='hover:text-black' >Services</HashLink>
+                <Link to="/OSIS/Emagz" className='hover:text-black' >E-Magazine</Link>
+                <Link to="/OSIS/ASS1ST" className='hover:text-black' >Ass1st</Link>
               </div>
               <div className='flex flex-col text-[0.9rem] sm:text-lg xl:text-xl gap-y-4 font-bold text-gray-500 pr-2'>
-                <Link to="/Kehidupan_smukiers" className='text-black link-underline link-underline-black'>Kehidupan SMUKIERS</Link >
-                <Link to="/Kehidupan_smukiers/Tips" className='hover:text-black link-underline link-underline-black'>Tips Belajar</Link>
-                <Link to="/Kehidupan_smukiers/Kegiatan" className='hover:text-black link-underline link-underline-black' >Kegiatan</Link>
-                <Link to="/Kehidupan_smukiers/Alumni" className='hover:text-black link-underline link-underline-black' >Alumni</Link>
+                <Link to="/Kehidupan_smukiers" className='hover:text-black'>Kehidupan SMUKIERS</Link >
+                <Link to="/Kehidupan_smukiers/Tips" className='hover:text-black'>Tips Belajar</Link>
+                <Link to="/Kehidupan_smukiers/Kegiatan" className='hover:text-black' >Kegiatan</Link>
+                <Link to="/Kehidupan_smukiers/Alumni" className='hover:text-black' >Alumni</Link>
               </div>
 
               <div className='hidden lg:inline'>
                 <p className='pb-2 text-lg font-semibold text-right'>Contact Us</p>
                 <div className='lg:flex lg:flex-row lg:gap-x-1'>
-                  <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><RiMailLine size={31}/></a>
-                  <a href="https://www.instagram.com/smukiee/" target="blank"><FaInstagram size={30}/></a>
+                  <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><ImMail size={31}/></a>
+                  <a href="https://www.instagram.com/smukiee/" target="blank"><FaInstagramSquare size={30}/></a>
+                  <a href="https://www.tiktok.com/@smukierz" target="blank"><FaTiktok size={30}/></a>
                   <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="blank"><FaYoutubeSquare size={30}/></a>
                 </div>
               </div>
@@ -77,8 +75,9 @@ const Footer = () => {
             <div className='text-center lg:hidden'>
               <p className='pt-4 pb-2 text-lg font-semibold'>Contact Us</p>
               <div className='flex flex-row justify-center gap-x-1 pb-12'>
-                <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><RiMailLine size={31}/></a>
-                <a href="https://www.instagram.com/smukiee/" target="blank"><FaInstagram size={30}/></a>
+                <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><ImMail size={31}/></a>
+                <a href="https://www.instagram.com/smukiee/" target="blank"><FaInstagramSquare size={30}/></a>
+                <a href="https://www.tiktok.com/@smukierz" target="blank"><FaTiktok size={30}/></a>
                 <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="blank"><FaYoutubeSquare size={30}/></a>
               </div>
             </div>
