@@ -1,12 +1,15 @@
 import React from 'react'
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
 import ContentTextMl from '../../Component/Content/ContentTextMl'
 
 const Sejarah = () => {
     return(
-        <div className="">
-            <div className="container w-full h-full mx-auto justify-center">
+        <div>
+            <Nav/>
+            <div className="container w-full h-full mx-auto justify-center mt-28">
                 <ContentHeaderImage
                     title = 'Sejarah, Visi, dan Misi'
                 />
@@ -54,6 +57,7 @@ const Sejarah = () => {
                     }
                 />
             </div>
+            <Footer/>
         </div>
     )
 }

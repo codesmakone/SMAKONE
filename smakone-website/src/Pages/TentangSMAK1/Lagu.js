@@ -1,11 +1,14 @@
 import React from 'react'
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
 
 const Lagu = () => {
     return(
         <div className="container mx-auto">
-            <div className="container w-full h-full mx-auto justify-center">
+            <Nav/>
+            <div className="container w-full h-full mx-auto justify-center mt-28">
                 <ContentHeaderImage
                     title = 'Lagu Tema'
                 />
@@ -96,6 +99,7 @@ const Lagu = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

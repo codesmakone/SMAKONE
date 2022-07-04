@@ -4,13 +4,17 @@ import { HashLink } from 'react-router-hash-link';
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
 import ContentText from '../../Component/Content/ContentText'
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
+
 import kegiatan from "../../Image/Home/Kehidupan/kegiatan.webp"
 
 
 const KegiatanSetelahKelas = () => {
     return(
-        <div className="">
-            <div className="container w-full h-full mx-auto justify-center pb-5">
+        <div>
+            <Nav/>
+            <div className="container w-full h-full mx-auto justify-center pb-5 mt-28">
                 <ContentHeaderImage
                     category = 'Kehidupan Smukiers'
                     title = 'Kegiatan Setelah Kelas'
@@ -55,6 +59,7 @@ const KegiatanSetelahKelas = () => {
                         </HashLink>                                        
                     </div>
             </div>
+            <Footer/>
         </div>
     )
 }

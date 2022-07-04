@@ -2,8 +2,6 @@ import './App.css';
 import {Routes, Route} from "react-router-dom"
 
 // Import Component
-import Nav from './Component/Nav/Nav'
-import Footer from './Component/Footer/Footer'
 import ScrollToTop from './Component/ScrollToTop'
 
 
@@ -72,8 +70,6 @@ function App() {
   return (
       <div className='w-full h-full font-Product'>
         <ScrollToTop/> 
-        <Nav/>
-        <div className='mt-40'>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/BukuAcara" element={<BukuAcara/>}/>
@@ -136,8 +132,6 @@ function App() {
 
           <Route path='*' element={<NoMatchPages/>}/>
         </Routes>
-        </div>
-        <Footer/> 
       </div>
   );
 }

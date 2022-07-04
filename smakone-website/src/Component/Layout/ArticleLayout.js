@@ -1,14 +1,16 @@
 import React from 'react'
 import { useNavigate,Link } from 'react-router-dom'; 
-// import { Link } from 'react-router-dom'; 
 import { HashLink } from 'react-router-hash-link';
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
 
 const Layout = (props) => {
     const navigate = useNavigate()
 
   return (
         <div>
-            <div className='container mx-auto'>
+            <Nav/>
+            <div className='container mx-auto mt-28'>
                 <div className='px-6 md:px-12 lg:px-16 xl:px-20 pt-10 justify-center text-center'>
                     <h2 className='text-xl font-semibold'>{ props.cat }</h2>
                     <h1 className='text-4xl xl:text-6xl font-black'>{ props.title }</h1>
@@ -69,6 +71,7 @@ const Layout = (props) => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
   )
 }

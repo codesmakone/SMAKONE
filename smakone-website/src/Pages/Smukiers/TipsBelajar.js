@@ -3,12 +3,16 @@ import { Link } from 'react-router-dom';
 
 import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
 import ContentText from '../../Component/Content/ContentText'
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
+
 import tips from "../../Image/Home/Kehidupan/tips.webp"
 
 const TipsBelajar = () => {
     return(
         <div>
-            <div className="container w-full h-full mx-auto justify-center pb-5">
+            <Nav/>
+            <div className="container w-full h-full mx-auto justify-center pb-5 mt-28">
                 <ContentHeaderImage
                     category = 'Kehidupan Smukiers'
                     title = 'Tips Belajar SMUKIERS'
@@ -53,6 +57,7 @@ const TipsBelajar = () => {
                         </Link>                        
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

@@ -2,7 +2,9 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 
 // Component
-import Nav from '../../Component/Ass1st/Nav'
+import AssistNav from '../../Component/Ass1st/Nav'
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
 
 // Image
 import Kedokteran from '../../Image/Ass1st/Logo/kedokteran.webp'
@@ -19,7 +21,8 @@ import Pertambangan from '../../Image/Ass1st/Logo/teknik_pertambangan.webp'
 const Ass1st = () => {
   return (
     <div>
-        <div className='mx-auto container'>
+      <Nav/>
+        <div className='mx-auto container mt-28'>
             <div className='px-5 sm:px-10 md:px-20 pt-10 justify-center text-center'>
                 <h1 className='text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-black'>ASS1ST</h1>
                 <div className='text-sm sm:text-base md:text-lg font-medium'>
@@ -39,55 +42,55 @@ const Ass1st = () => {
             {/* <div className='grid grid-cols-3 lg:grid-cols-5 gap-10 mt-10 place-items-center'> */}
             <div className='grid gap-4 grid-cols-2 lg:grid-cols-3 xl:gap-10 my-16'>
               <NavLink to="Kedokteran">
-                <Nav
+                <AssistNav
                   img={Kedokteran}
                   Title="Kedokteran"
                 />
               </NavLink>
               <NavLink to="Farmasi">
-                <Nav
+                <AssistNav
                   img={Farmasi}
                   Title="Farmasi"
                   />
               </NavLink>
               <NavLink to="Keguruan">
-                <Nav
+                <AssistNav
                   img={Keguruan}
                   Title="Keguruan"
                   />
               </NavLink>
               <NavLink to="Sosiologi">
-                <Nav
+                <AssistNav
                   img={Sosiologi}
                   Title="Sosiologi"
                   />
               </NavLink>
               <NavLink to="Akutansi">
-                <Nav
+                <AssistNav
                   img={Akutansi}
                   Title="Akutansi"
                   />
               </NavLink>
               <NavLink to="Hukum">
-                <Nav
+                <AssistNav
                   img={Hukum}
                   Title="Hukum"
                   />
               </NavLink>
               <NavLink to="Psikologi">
-                <Nav
+                <AssistNav
                   img={Psikologi}
                   Title="Psikologi"
                   />
               </NavLink>
               <NavLink to="Teknik_sipil">
-                <Nav
+                <AssistNav
                   img={Teknik_sipil}
                   Title="Teknik Sipil"
                   />
               </NavLink>
               <NavLink to="Pertambangan">
-                <Nav
+                <AssistNav
                   img={Pertambangan}
                   Title="Pertambangan"
                   />
@@ -96,6 +99,7 @@ const Ass1st = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

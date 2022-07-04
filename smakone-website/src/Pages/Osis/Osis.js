@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 // Component
 import OsisLayout from '../../Component/Osis/OsisLayout'
 import OsisNav from '../../Component/Osis/OsisNav'
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
 
 // Image
 import Osis_Image from '../../Image/Osis/OSIS_Pelantikan.webp'
@@ -24,7 +26,8 @@ import bid_10 from '../../Image/Osis/Bidang_10/bid10.webp'
 const Osis = () => {
   return (
     <div>
-      <div id='osis' className='mx-auto container'>
+      <Nav/>
+      <div id='osis' className='mx-auto container mt-28'>
       <OsisLayout 
       title="Tentang OSIS"
       desc="OSIS SMAK 1 merupakan satu-satunya organisasi resmi di SMAK 1 PENABUR Jakarta. Sejak awal dibentuk, kami selalu dituntut untuk membuat salah satu sekolah terbaik di Indonesia menjadi lebih baik lagi. Dengan satu tim, satu visi, dan satu misi, OSIS SMAK 1 mengarah ke arah yang benar dengan segudang prestasi termasuk menyelenggarakan ajang SMAK ONE CUP setiap tahunnya. Jalan yang akan dilewati bebas dari hambatan untuk OSIS SMAK 1 terus melebarkan sayapnya."
@@ -150,6 +153,7 @@ const Osis = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
