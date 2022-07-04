@@ -69,7 +69,6 @@ const Footer = () => {
                 <div className='lg:flex lg:flex-row lg:gap-x-1'>
                   <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><RiMailLine size={31}/></a>
                   <a href="https://www.instagram.com/smukiee/" target="blank"><FaInstagram size={30}/></a>
-                  <a href="http://line.me/ti/p/~@xwk9576e" target="blank"><FaLine size={30}/></a>
                   <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="blank"><FaYoutubeSquare size={30}/></a>
                 </div>
               </div>
@@ -80,7 +79,6 @@ const Footer = () => {
               <div className='flex flex-row justify-center gap-x-1 pb-12'>
                 <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><RiMailLine size={31}/></a>
                 <a href="https://www.instagram.com/smukiee/" target="blank"><FaInstagram size={30}/></a>
-                <a href="http://line.me/ti/p/~@xwk9576e" target="blank"><FaLine size={30}/></a>
                 <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="blank"><FaYoutubeSquare size={30}/></a>
               </div>
             </div>
