@@ -14,11 +14,6 @@ const Dropdown = (props) => {
       <Menu.Button className={ props.class }>
       <div className='flex flex-row'>
           { props.title }
-          { props.arrowLogo && (
-              <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-              </svg>
-          )}
       </div>
       </Menu.Button>
         
@@ -45,7 +40,7 @@ const Dropdown = (props) => {
                     to={props.dir1}
                     className={classNames(
                       active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                      'block px-4 py-2 text-sm'
+                      'block px-4 py-2 text-sm rounded-t-md'
                     )}
                   >
                     {props.menu1}
@@ -71,7 +66,7 @@ const Dropdown = (props) => {
                     to={props.dir3}
                     className={classNames(
                       active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                      'block px-4 py-2 text-sm'
+                      props.osis ? 'block px-4 py-2 text-sm rounded-b-md' : 'block px-4 py-2 text-sm'
                     )}
                   >
                     {props.menu3}
@@ -85,7 +80,7 @@ const Dropdown = (props) => {
                   to={props.dir4}
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    props.Kehidupan ? 'block px-4 py-2 text-sm rounded-b-md' : 'block px-4 py-2 text-sm'
                   )}
                 >
                   {props.menu4}
@@ -99,8 +94,8 @@ const Dropdown = (props) => {
                 <Link
                   to={props.dir5}
                   className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 
+                    props.smak1 ? 'block px-4 py-2 text-sm rounded-b-md' : 'block px-4 py-2 text-sm'
                   )}
                 >
                   {props.menu5}
@@ -195,7 +190,7 @@ const Dropdown = (props) => {
                   to={props.dir11}
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    props.dir7 ? 'block px-4 py-2 text-sm rounded-br-md' : 'block px-4 py-2 text-sm'
                   )}
                 >
                   {props.menu11}
