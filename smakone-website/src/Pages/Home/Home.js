@@ -39,7 +39,7 @@ const Home = () => {
             {/* <a href="https://drive.google.com/" target="blank" className="text-white bg-black font-bold rounded-full text-md sm:text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2">
               CLICK HERE
             </a> */}
-            <Link to="/BukuAcara" target="blank" className="text-white bg-black font-bold rounded-full text-md sm:text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2">
+            <Link to="/BukuAcara" target="blank" className="hover:bg-gray-700 text-white bg-black font-bold rounded-full text-md sm:text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2">
               CLICK HERE
             </Link>
           </div>
@@ -113,11 +113,12 @@ const Home = () => {
                 <Checklist txt='Sudah dikenal sampai ke mancanegara' />
               </div>
               <div className='grid px-10 lg:px-20 pt-10 place-items-center'>
-              <button className="py-4 lg:py-5 px-12 lg:px-16 bg-dark-blue rounded-full">
-                <a href='https://psbjakarta.bpkpenabur.or.id' className="link-underline link-underline-white px-3 py-2 text-white text-base sm:text-lg md:text-xl font-black" target="blank">
+              
+                <a href='https://psbjakarta.bpkpenabur.or.id' className="px-3 py-2 text-white text-base sm:text-lg md:text-xl font-black" target="blank">
+                  <button className="py-4 lg:py-5 px-12 lg:px-16 bg-dark-blue hover:bg-dark-blue-hover rounded-full">
                   Daftar Sekarang
+                  </button>
                 </a>
-              </button>
               </div>
             </div>
           </div>

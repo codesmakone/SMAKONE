@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 
 // Icon for Email, Instagram, Line, and Youtube
 import { ImMail } from "react-icons/im";
-import { FaYoutubeSquare, FaTiktok, FaInstagramSquare} from "react-icons/fa";
+import { FaYoutubeSquare, FaTiktok, FaInstagramSquare, FaInstagram} from "react-icons/fa";
 
 import LogoPenabur from "../../Image/Penabur_logo.webp"
 import LogoOsis from "../../Image/OSIS_Logo.webp"
@@ -30,7 +30,7 @@ const Footer = () => {
                     <a href="https://www.instagram.com/smukiee/" target="blank" className="text-xl md:text-2xl text-white font-bold rounded-full bg-light-blue py-3 px-6 md:px-8 md:py-4 lg:py-6 lg:px-9 xl:px-10 flex justify-center hover:bg-blue-700">
                     <div className='flex gap-1.5'>
                       <div className='mt-0.5'>
-                      <FaInstagramSquare className='h-full w-full'/>
+                      <FaInstagram className='h-full w-full'/>
                       </div>
                     <span>smukiee</span>
                     </div>

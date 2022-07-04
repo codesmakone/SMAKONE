@@ -24,11 +24,11 @@ const Emagz = () =>{
 
                     </div>      
                 </div>
-                <button className="py-5 px-16 bg-white rounded-full">
-                    <NavLink to='/OSIS/Emagz' className="link-underline link-underline-black px-3 py-2 text-black text-base sm:text-lg md:text-xl font-black">
+                <NavLink to='/OSIS/Emagz' className="px-3 py-2 text-base sm:text-lg md:text-xl font-black">
+                    <button className="py-5 px-16 bg-white hover:bg-gray-200 text-black rounded-full text-base sm:text-lg md:text-xl font-black">
                     Edisi Sebelumnya
-                    </NavLink>
-                </button>
+                    </button>
+                </NavLink>
             </div>
         </div>
     )

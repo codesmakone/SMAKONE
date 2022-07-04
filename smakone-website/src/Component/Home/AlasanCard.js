@@ -9,7 +9,7 @@ const AlasanCard = (props) => {
       <p className="font-bold text-xl mb-6 mt-3">{ props.desc }</p>
       <div className="font-bold text-md mt-auto text-white">
         <Link to={props.dir} className="max-w-sm leading-tight">
-          <span className='link-underline link-underline-white'>Kenali Lebih Lanjut →</span>
+          <span className='link-underline-alasan link-underline-white'>Kenali Lebih Lanjut →</span>
         </Link>
         </div>
     </div>
