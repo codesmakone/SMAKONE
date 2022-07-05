@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Layout from '../../Component/Layout/SCLayout'
+import Layout from '../../Component/Layout/KegiatanLayout'
 import SC from '../../Image/Home/Kegiatan/osn.webp'
 
 const SClub = () => {

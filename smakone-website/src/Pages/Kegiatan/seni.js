@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Layout from '../../Component/Layout/SeniLayout'
+import Layout from '../../Component/Layout/KegiatanLayout'
 import seni from '../../Image/Home/Kegiatan/Seni.webp'
 
 const Seni = () => {

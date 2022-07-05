@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Layout from '../../Component/Layout/KrizaLayout'
+import Layout from '../../Component/Layout/KegiatanLayout'
 import kriza from '../../Image/Home/Kegiatan/kriza.webp'
 
 const Kriza = () => {

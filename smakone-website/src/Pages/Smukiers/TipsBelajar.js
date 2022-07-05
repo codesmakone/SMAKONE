@@ -48,7 +48,7 @@ const TipsBelajar = () => {
                 <ContentText
                     text = "Selain beberapa tips tersebut, hal yang dibutuhkan untuk mewujudkan proses pembelajaran yang efektif adalah Pola pikir growth mindset. Growth mindset merupakan sebuah pola pikir yang menekankan bahwa kecerdasan kita dapat terus menerus berkembang jika kita berusaha. Dengan memiliki pola pikir ini, siswa- siswi diharapkan untuk menjadi lebih pantang menyerah dan lebih berani dalam menghadapi tugas maupun penilaian yang menantang."
                 />
-                <div className='flex justify-between mt-10 px-7 sm:px-24 lg:px-14 xl:px-32'>
+                <div className='flex justify-between mt-10 px-5 sm:px-24 lg:px-14 xl:px-28'>
                         <Link to="/Kehidupan_smukiers" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-full text-sm sm:text-base md:text-lg lg:text-xl px-5 py-2.5 text-center sm:-ml-8 lg:ml-0 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700">
                             Artikel Sebelumnya
                         </Link>                        
