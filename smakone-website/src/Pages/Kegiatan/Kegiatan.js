@@ -12,6 +12,7 @@ const Kegiatan = () => {
             <div className="container w-full h-full mx-auto justify-center mt-28">
                 <ContentHeader
                     title = 'Ada Apa Aja Sih di SMAK 1?'
+                    iframe={true}
                 />
                 <ContentText
                     text = "Banyak orang mengira di SMAK 1 itu hanya belajar, belajar, dan belajar. Memang benar sih kami banyak belajar, tetapi belajarnya bukan hanya dalam bidang akademis. Dalam bidang non-akademis kami juga banyak belajar, loh. SMAK 1 menyediakan berbagai club, ekstrakulikuler, banyak acara menarik seperti SMAK ONE CUP, dan sebagainya."

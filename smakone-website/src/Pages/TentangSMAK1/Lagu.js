@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
+import ContentHeader from '../../Component/Content/ContentHeader'
 import Nav from '../../Component/Nav/Nav'
 import Footer from '../../Component/Footer/Footer'
 
@@ -9,7 +9,7 @@ const Lagu = () => {
         <div className="container mx-auto">
             <Nav/>
             <div className="container w-full h-full mx-auto justify-center mt-28">
-                <ContentHeaderImage
+                <ContentHeader
                     title = 'Lagu Tema'
                 />
                 <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 mb-12'>

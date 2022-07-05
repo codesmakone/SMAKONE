@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../../Component/Nav/Nav'
 import Footer from '../../Component/Footer/Footer'
 
-import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
+import ContentHeader from '../../Component/Content/ContentHeader'
 import OSIS_Logo from '../../Image/OSIS_Logo.webp'
 import Penabur_logo from '../../Image/Penabur_logo.webp'
 
@@ -11,7 +11,7 @@ const Logo = () => {
         <div className="container mx-auto">
             <Nav/>
             <div className="container w-full h-full mx-auto justify-center mt-28">
-                <ContentHeaderImage
+                <ContentHeader
                     title = 'Logo'
                 />
                 <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 mb-12'>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'; 
 import { HashLink } from 'react-router-hash-link';
 
-import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
+import ContentHeader from '../../Component/Content/ContentHeader'
 import ContentText from '../../Component/Content/ContentText'
 import Nav from '../../Component/Nav/Nav'
 import Footer from '../../Component/Footer/Footer'
@@ -15,7 +15,7 @@ const KegiatanSetelahKelas = () => {
         <div>
             <Nav/>
             <div className="container w-full h-full mx-auto justify-center pb-5 mt-28">
-                <ContentHeaderImage
+                <ContentHeader
                     category = 'Kehidupan Smukiers'
                     title = 'Kegiatan Setelah Kelas'
                     quote = '"Produktivitas dan istirahat yang seimbang"'

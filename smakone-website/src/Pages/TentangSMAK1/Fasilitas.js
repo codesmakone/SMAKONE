@@ -1,5 +1,5 @@
 import React from 'react'
-import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
+import ContentHeader from '../../Component/Content/ContentHeader'
 import Nav from '../../Component/Nav/Nav'
 import Footer from '../../Component/Footer/Footer'
 
@@ -34,7 +34,7 @@ const Fasilitas = () => {
         <div className='container mx-auto'>
             <Nav/>
             <div className='mt-28'>
-            <ContentHeaderImage
+            <ContentHeader
                     title = 'Fasilitas'
             />
             <br />
