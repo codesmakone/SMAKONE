@@ -47,15 +47,15 @@ const Footer = () => {
 
           <div>
             <div className=' flex justify-center gap-3 md:justify-around px-8 md:mx-10 md:pb-12'>
-              <div className='flex flex-col gap-y-2 xl:gap-y-4 font-bold text-gray-500 text-[0.9rem] sm:text-lg xl:text-xl'>
-                <Link to="/OSIS"className='hover:text-gray-500 text-black'>Tentang OSIS</Link>
+              <div className='flex flex-col gap-y-2 xl:gap-y-4 text-gray-500 md:font-bold text-[0.9rem] sm:text-lg xl:text-xl'>
+                <Link to="/OSIS"className='hover:text-gray-500 font-bold text-black'>Tentang OSIS</Link>
                 <HashLink to="/OSIS#visi&misi" className='hover:text-black' >Visi & Misi Kami</HashLink>
                 <HashLink to="/OSIS#bidang" className='hover:text-black' >Services</HashLink>
                 <Link to="/OSIS/Emagz" className='hover:text-black' >E-Magazine</Link>
                 <Link to="/OSIS/ASS1ST" className='hover:text-black' >Ass1st</Link>
               </div>
-              <div className='flex flex-col text-[0.9rem] sm:text-lg xl:text-xl gap-y-2 xl:gap-y-4 font-bold text-gray-500'>
-                <Link to="/Kehidupan_smukiers" className='hover:text-gray-500 text-black'>Kehidupan SMUKIERS</Link >
+              <div className='flex flex-col text-[0.9rem] sm:text-lg xl:text-xl gap-y-2 xl:gap-y-4 text-gray-500 md:font-bold'>
+                <Link to="/Kehidupan_smukiers" className='hover:text-gray-500 font-bold text-black'>Kehidupan SMUKIERS</Link >
                 <Link to="/Kehidupan_smukiers/Tips" className='hover:text-black'>Tips Belajar</Link>
                 <Link to="/Kehidupan_smukiers/Kegiatan" className='hover:text-black' >Kegiatan</Link>
                 <Link to="/Kehidupan_smukiers/Alumni" className='hover:text-black' >Alumni</Link>

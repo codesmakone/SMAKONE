@@ -31,20 +31,20 @@ const Layout = (props) => {
                     <img src={ props.imgHome } className="object-cover h-auto md:h-[26rem] lg:h-[30rem] xl:h-[32rem] max-w-auto mx-auto rounded-3xl mt-6" alt={props.altAlasan}/>}
                     {props.imgAlasan && 
                     <img src={ props.imgAlasan } className="object-cover h-auto md:h-[26rem] lg:h-[30rem] xl:h-[32rem] max-w-auto mx-auto rounded-3xl mt-6" alt={props.altAlasan}/>}
-                    <div className='font-medium'>
-                    <div className='text-lg mb-6 mt-9 px-3'>
+                    <div className='font-medium sm:px-2'>
+                    <div className='text-lg mb-6 mt-9'>
                         { props.latterPar1 }
                     </div>
-                    <div className='text-lg my-6 px-3'>
+                    <div className='text-lg my-6'>
                         { props.latterPar2 }
                     </div>
-                    <div className='text-lg my-6 px-3'>
+                    <div className='text-lg my-6'>
                         { props.latterPar3 }
                     </div>
-                    <div className='text-lg my-6 px-3'>
+                    <div className='text-lg my-6'>
                         { props.latterPar4 }
                     </div>
-                    <div className='text-lg my-6 px-3'>
+                    <div className='text-lg my-6'>
                         { props.latterPar5 }
                     </div>
                     </div>

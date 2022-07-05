@@ -13,14 +13,14 @@ const AlumniPage = () => {
     return(
         <>
         <Nav/>
-        <div className='w-full mt-28 h-auto text-black px-8 md:px-12 lg:px-16 pb-28 sm:pb-32'>
+        <div className='w-full mt-28 h-auto text-black px-8 md:px-12 lg:px-16 lg:pb-24'>
             <div className='container mx-auto'>
                 <div className='justify-center text-center font-bold'>
                     <div className= 'text-4xl xl:text-5xl leading-normal'>
                         Alumni Kami
                     </div>
                 </div>
-                <div className='grid grid-rows-3 grid-cols-none lg:grid-cols-3 lg:grid-rows-none gap-12 text-left lg:text-center'>
+                <div className='grid grid-rows-3 grid-cols-none lg:grid-cols-3 lg:grid-rows-none gap-4 sm:gap-8  lg:gap-12 text-left lg:text-center'>
                     <Alumni
                         img = {BillyStevanus}
                         title = "Billy Stevanus"

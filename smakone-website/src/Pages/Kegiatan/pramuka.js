@@ -12,7 +12,7 @@ const Pramuka = () => {
             title = "Pramuka"
             quote = '"Ambalan Soekarno-Fatmawati Siap!"'
             latterPar1 = "Pramuka merupakan organisasi non akademik yang juga berfungsi sebagai wadah pendidikan keterampilan dan karakter. Pramuka SMAK 1 PENABUR Jakarta sendiri dibimbing dengan 22 pembina (guru) dan 32 Dewan Ambalan (siswa) yang juga turut serta berpartisipasi dalam beberapa kegiatan sebagai berikut:" 
-            imgHome = {Pramuka_img}
+            img = {Pramuka_img}
             alt = "Pramuka"
             title2 ="Kegiatan Rutin"
             latterPar2 = "Ekstrakurikuler Pramuka wajib diikuti siswa kelas 10 selama 90 menit setiap hari Rabu seusai sekolah. Materi yang diberikan pun beragam, mulai dari keterampilan dasar ke-Pramukaan seperti, menaksir jarak, tali temali, baris-berbaris, sandi pramuka, hingga keterampilan sehari-hari seperti, public speaking, menanam tanaman hidroponik, daur ulang, kewirausahaan, dan masih banyak lagi. Sedangkan siswa kelas 11 dan kelas 12 hanya diwajibkan untuk mengikuti apel mingguan di kelas masing-masing."

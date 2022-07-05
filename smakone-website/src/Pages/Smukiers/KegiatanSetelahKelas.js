@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'; 
 import { HashLink } from 'react-router-hash-link';
 
-import ContentHeaderImage from '../../Component/Content/ContentHeaderImage'
+import ContentHeader from '../../Component/Content/ContentHeader'
 import ContentText from '../../Component/Content/ContentText'
 import Nav from '../../Component/Nav/Nav'
 import Footer from '../../Component/Footer/Footer'
@@ -15,7 +15,7 @@ const KegiatanSetelahKelas = () => {
         <div>
             <Nav/>
             <div className="container w-full h-full mx-auto justify-center pb-5 mt-28">
-                <ContentHeaderImage
+                <ContentHeader
                     category = 'Kehidupan Smukiers'
                     title = 'Kegiatan Setelah Kelas'
                     quote = '"Produktivitas dan istirahat yang seimbang"'
@@ -50,7 +50,7 @@ const KegiatanSetelahKelas = () => {
                 <ContentText
                     text = "Melalui setiap kegiatan yang kerap dilakukan peserta didik SMAK 1, kegiatan-kegiatan yang dilakukan sebuah ekspresi yang digunakan siswa-siswi untuk melepas diri dari kesibukan diri. Baik beristirahat, berorganisasi, maupun berkumpul bersama teman, sangat disarankan bagi siswa-siswi untuk memilih kegiatan yang tepat untuk menyegarkan diri setelah menjalani hari yang melelahkan."
                 />
-                    <div className='flex justify-between mt-10 px-10 sm:px-24 lg:px-14 xl:px-32'>
+                    <div className='flex justify-between mt-10 px-5 sm:px-24 lg:px-14 xl:px-28'>
                         <Link to="/Kehidupan_smukiers" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-full text-sm sm:text-base md:text-lg lg:text-xl px-5 py-2.5 text-center sm:-ml-8 lg:ml-0 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700">
                             Artikel Sebelumnya
                         </Link> 
