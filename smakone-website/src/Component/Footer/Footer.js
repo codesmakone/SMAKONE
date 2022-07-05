@@ -20,7 +20,7 @@ const Footer = () => {
     <div className='mx-auto'>
 
 
-      <div className="py-20 px-5">
+      <div className="py-20 px-5 sm:px-10 md:px-12">
           <div className="bg-cover bg-footer-image rounded-xl py-10 sm:py-12 md:py-16 lg:py-20 xl:py-24">
               <div className="flex flex-col items-center">
                 <p className="text-xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-normal text-white text-center mb-10 mx-6">
