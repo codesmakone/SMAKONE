@@ -9,7 +9,7 @@ const Layout = (props) => {
 
   return (
         <div>
-            <Nav/>
+            <Nav />
             <div className='container mx-auto mt-28'>
                 <div className='px-6 md:px-12 lg:px-16 xl:px-20 pt-10 justify-center text-center'>
                     <h2 className='text-xl font-semibold'>{ props.cat }</h2>

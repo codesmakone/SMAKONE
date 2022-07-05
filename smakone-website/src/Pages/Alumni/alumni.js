@@ -12,7 +12,7 @@ import NicoleCharlene from '../../Image/Alumni/NicoleCharlene.webp'
 const AlumniPage = () => {
     return(
         <>
-        <Nav/>
+        <Nav />
         <div className='w-full mt-28 h-auto text-black px-8 md:px-12 lg:px-16 lg:pb-24'>
             <div className='container mx-auto'>
                 <div className='justify-center text-center font-bold'>

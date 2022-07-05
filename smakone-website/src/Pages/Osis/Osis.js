@@ -26,7 +26,7 @@ import bid_10 from '../../Image/Osis/Bidang_10/bid10.webp'
 const Osis = () => {
   return (
     <div>
-      <Nav/>
+      <Nav osisl/>
       <div id='osis' className='mx-auto container mt-28'>
       <OsisLayout 
       title="Tentang OSIS"

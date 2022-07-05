@@ -9,7 +9,7 @@ const OsisTeam = (props) => {
 
   return (
     <div>
-      <Nav/>
+      <Nav />
       <div className="justify-center text-center mt-28">
         <div className='px-20 pt-20 pb-10'>
             <h2 className='text-base sm:text-lg md:text-xl font-semibold'>OSIS</h2>
