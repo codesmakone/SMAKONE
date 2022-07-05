@@ -8,7 +8,7 @@ const Jurusan = (props) => {
     const navigate = useNavigate()
     return (
         <div>
-            <Nav/>
+            <Nav />
             <div className="container mx-auto mb-6 mt-28">
                 <div className="px-20 pt-10 justify-center text-center">
                     <h2 className='text-base sm:text-lg md:text-xl font-semibold'>{ props.cat }</h2>

@@ -11,7 +11,7 @@ import tips from "../../Image/Home/Kehidupan/tips.webp"
 const TipsBelajar = () => {
     return(
         <div>
-            <Nav/>
+            <Nav />
             <div className="container w-full h-full mx-auto justify-center pb-5 mt-28">
                 <ContentHeader
                     category = 'Kehidupan Smukiers'

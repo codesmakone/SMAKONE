@@ -12,7 +12,7 @@ import kehidupan from "../../Image/Home/Kehidupan/kehidupan.webp"
 const KehidupanSmukiers = () => {
     return(
         <div>
-            <Nav/>
+            <Nav />
             <div className="container w-full h-full mx-auto justify-center pb-5 mt-28">
                 <ContentHeader
                     category = 'Kehidupan Smukiers'
