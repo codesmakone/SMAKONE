@@ -56,87 +56,87 @@ const Fasilitas = () => {
                     <p className="justify-center text-center p-2">Kelas</p>
                 </div>
                 <div>
-                    <img src={labb} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="lab bio" />
+                    <img src={labb} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="lab bio" />
                     <p className="justify-center text-center p-2">Lab Biologi</p>
                 </div>
                 <div>
-                    <img src={labf} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="lab fisika" />
+                    <img src={labf} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="lab fisika" />
                     <p className="justify-center text-center p-2">Lab Fisika</p>
                 </div>
                 <div>
-                    <img src={labkim} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="lab kimia" />
+                    <img src={labkim} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="lab kimia" />
                     <p className="justify-center text-center p-2">Lab Kimia</p>
                 </div>
                 <div>
-                    <img src={labkomp} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="lab komp" />
+                    <img src={labkomp} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="lab komp" />
                     <p className="justify-center text-center p-2">Lab Komputer</p>
                 </div>
                 <div>
-                    <img src={labe} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="lab ing" />
+                    <img src={labe} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="lab ing" />
                     <p className="justify-center text-center p-2">Lab Inggris</p>
                 </div>
                 <div>
-                    <img src={lobi} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="lobby"/>
+                    <img src={lobi} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="lobby"/>
                     <p className="justify-center text-center p-2">Lobi</p>
                 </div>
                 <div>
-                    <img src={lift} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="lift"/>
+                    <img src={lift} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="lift"/>
                     <p className="justify-center text-center p-2">Lift</p>
                 </div>
                 <div>
-                    <img src={lap} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="lapangan"/>
+                    <img src={lap} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="lapangan"/>
                     <p className="justify-center text-center p-2">Lapangan</p>
                 </div>
                 <div>
-                    <img src={park} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="taman" />
+                    <img src={park} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="taman" />
                     <p className="justify-center text-center p-2">Parkiran</p>
                 </div>
                 <div>
-                    <img src={audittari} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="auditorium tari" />
+                    <img src={audittari} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="auditorium tari" />
                     <p className="justify-center text-center p-2">Auditorium Seni Tari</p>
                 </div>
                 <div>
-                    <img src={auditvokal} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="auditorium vokal" />
+                    <img src={auditvokal} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="auditorium vokal" />
                     <p className="justify-center text-center p-2">Auditorium Seni Vokal</p>
                 </div>
                 <div>
-                    <img src={musik} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="musik" />
+                    <img src={musik} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="musik" />
                     <p className="justify-center text-center p-2">Ruang Musik</p>
                 </div>
                 <div>
-                    <img src={guru} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="ruang guru" />
+                    <img src={guru} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="ruang guru" />
                     <p className="justify-center text-center p-2">Ruang Guru</p>
                 </div>
                 <div>
-                    <img src={tu} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="ruang tu" />
+                    <img src={tu} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="ruang tu" />
                     <p className="justify-center text-center p-2">Ruang Tata Usaha</p>
                 </div>
                 <div>
-                    <img src={bk} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="ruang bk" />
+                    <img src={bk} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="ruang bk" />
                     <p className="justify-center text-center p-2">Ruang Bimbingan Konseling</p>
                 </div>
                 <div>
-                    <img src={kepsek} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="ruang kepsek" />
+                    <img src={kepsek} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="ruang kepsek" />
                     <p className="justify-center text-center p-2">Ruang Kepala Sekolah</p>
                 </div>
                 <div>
-                    <img src={perpus} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="perpus" />
+                    <img src={perpus} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="perpus" />
                     <p className="justify-center text-center p-2">Perpustakaan</p>
                 </div>
                 <div>
-                    <img src={radio} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="ruang radio" />
+                    <img src={radio} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="ruang radio" />
                     <p className="justify-center text-center p-2">Ruang Radio</p>
                 </div>
                 <div>
-                    <img src={UKS} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="uks" />
+                    <img src={UKS} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="uks" />
                     <p className="justify-center text-center p-2">Unit Kesehatan Sekolah (UKS)</p>
                 </div>
                 <div>
-                    <img src={top} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="toilet pria" />
+                    <img src={top} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="toilet pria" />
                     <p className="justify-center text-center p-2">Toilet Pria</p>
                 </div>
                 <div>
-                    <img src={tow} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' alt="toilet wanita" />
+                    <img src={tow} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="toilet wanita" />
                     <p className="justify-center text-center p-2">Toilet Wanita</p>
                 </div>
             </div>          
