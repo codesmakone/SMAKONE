@@ -15,7 +15,7 @@ import med from '../../../Image/Ass1st/medschool.webp'
 const Kedokteran = () => {
 
     return (
-        <div className="container mx-auto"> 
+        <div> 
             <Jurusan
                 cat="ASS1ST"
                 title="Kedokteran"

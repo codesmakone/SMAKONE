@@ -6,8 +6,9 @@ import Footer from '../../Component/Footer/Footer'
 
 const Lagu = () => {
     return(
+        <>
+        <Nav/>
         <div className="container mx-auto">
-            <Nav/>
             <div className="container w-full h-full mx-auto justify-center mt-28">
                 <ContentHeader
                     title = 'Lagu Tema'
@@ -99,8 +100,9 @@ const Lagu = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
+        <Footer/>
+        </>
     )
 }
 
