@@ -108,7 +108,7 @@
   background-size: 100% 3px;
   background-position: 0 100%;
   background-repeat: no-repeat;
-  transition: background-size .5s ease-in-out;
+  transition: background-size .5s ease-in-out;  
 }
 
 .link-underline-alasan {

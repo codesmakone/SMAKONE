@@ -3,7 +3,7 @@ import { Dialog, Transition } from '@headlessui/react';
 
 export default function HeadlessSlideOver({ open, setOpen, title, children }) {
   return (
-    <Transition.Root show={open} as={Fragment} className='md:hidden'>
+    <Transition.Root show={open} as={Fragment} className='lg:hidden'>
       <Dialog
         as="div"
         static
