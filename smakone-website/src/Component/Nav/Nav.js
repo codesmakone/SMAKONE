@@ -52,10 +52,66 @@ const Nav = (props) => {
 
     const scrollPosition = useScrollPosition();
 
-    let menuArray = [true, false, false];
+    const pathSMAK1 = 
+    path===''
+    || path==="/tentang_smak1" 
+    || path==="/tentang_smak1/sejarah"
+    || path==="/tentang_smak1/fasilitas"
+    || path==="/tentang_smak1/logo" 
+    || path==="/tentang_smak1/lagu"
+
+    const pathOSIS = 
+    path==='/osis' 
+    || path==='/osis/bph' 
+    || path==='/osis/bidang1' 
+    || path==='/osis/bidang2'
+    || path==='/osis/bidang3'
+    || path==='/osis/bidang4'
+    || path==='/osis/bidang5' 
+    || path==='/osis/bidang6'
+    || path==='/osis/bidang7' 
+    || path==='/osis/bidang8' 
+    || path==='/osis/bidang9' 
+    || path==='/osis/bidang10'
+    || path==='/osis/emagz'
+    || path==='/osis/ass1st' 
+    || path==='/osis/ass1st/kedokteran' 
+    || path==='/osis/ass1st/farmasi' 
+    || path==='/osis/ass1st/keguruan' 
+    || path==='/osis/ass1st/sosiologi'
+    || path==='/osis/ass1st/akutansi' 
+    || path==='/osis/ass1st/hukum'
+    || path==='/osis/ass1st/psikologi' 
+    || path==='/osis/ass1st/teknik_sipil' 
+    || path==='/osis/ass1st/pertambangan'
+    
+    const pathKehidupan = 
+    path==='/kehidupan_smukiers' 
+    || path==='/kehidupan_smukiers'
+    || path==='/kehidupan_smukiers/tips'
+    || path==='/kehidupan_smukiers/kegiatan'
+    || path==='/kehidupan_smukiers/alumni'
+    || path==='/kehidupan_smukiers/alumni/billystevanus'
+    || path==='/kehidupan_smukiers/alumni/scottmoses'
+    || path==='/kehidupan_smukiers/alumni/nicolecharlene'
+    
+    const pathKegiatan = 
+    path==='/kegiatan' 
+    || path==='/kegiatan/soc' 
+    || path==='/kegiatan/soundscape'
+    || path==="/kegiatan/stn"
+    || path==='/kegiatan/kr1za'
+    || path==='/kegiatan/seni'
+    || path==='/kegiatan/scj'
+    || path==='/kegiatan/pramuka'
+    || path==='/kegiatan/onecast'
+    || path==='/kegiatan/dofe'
+    || path==='/kegiatan/muneds'
+    || path==='/kegiatan/lainnya'
+     
+    let menuArray = [pathSMAK1, pathOSIS, pathKehidupan, pathKegiatan];
         const [menu, setMenu] = useState(menuArray);
         const [isHeadlessOpen, setIsHeadlessOpen] = useState(false);
-
         const setMenuValue = (props) => {
             let newArr = [...menu];
             newArr[props] = !newArr[props];
@@ -115,7 +171,7 @@ const Nav = (props) => {
             <div className="flex flex-col justify-start items-center md:items-start px-6 border-b border-gray-600 w-full">
                 <button onClick={()=>setMenuValue(0)} className="focus:outline-none focus:text-indigo-400  text-black flex justify-between items-center w-full py-5 space-x-14  ">
                     <p className="text-sm leading-5 uppercase">Tentang SMAK 1</p>
-                    <svg id="icon1" className={`${menu[0] ? '' : 'rotate-180'} transform duration-100`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg id="icon1" className={`${menu[0] ? '' : 'rotate-180'} transform duration-200`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18 15L12 9L6 15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </button>
@@ -145,7 +201,7 @@ const Nav = (props) => {
             <div className="flex flex-col justify-start items-center md:items-start px-6 border-b border-gray-600 w-full">
                 <button onClick={()=>setMenuValue(1)} className="focus:outline-none focus:text-indigo-400  text-black flex justify-between items-center w-full py-5 space-x-14  ">
                     <p className="text-sm leading-5 uppercase">OSIS</p>
-                    <svg id="icon2" className={`${menu[1] ? '' : 'rotate-180'} transform `} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg id="icon2" className={`${menu[1] ? '' : 'rotate-180'} transform duration-200`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18 15L12 9L6 15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </button>
@@ -189,7 +245,7 @@ const Nav = (props) => {
             <div className="flex flex-col justify-start items-center md:items-start px-6 border-b border-gray-600 w-full">
             <button onClick={()=>setMenuValue(2)} className="focus:outline-none focus:text-indigo-400  text-black flex justify-between items-center w-full py-5 space-x-14  ">
                 <p className="text-sm leading-5  uppercase">Kehidupan SMUKIERS</p>
-                <svg id="icon3" className={`${menu[2] ? '' : 'rotate-180 '} transform duration-100`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg id="icon3" className={`${menu[2] ? '' : 'rotate-180 '} transform duration-200`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18 15L12 9L6 15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             </button>
@@ -218,7 +274,7 @@ const Nav = (props) => {
             <div className="flex flex-col justify-start items-center md:items-start px-6 w-full">
             <button onClick={()=>setMenuValue(3)} className="focus:outline-none focus:text-indigo-400  text-black flex justify-between items-center w-full py-5 space-x-14  ">
                 <p className="text-sm leading-5  uppercase">Kegiatan</p>
-                <svg id="icon3" className={`${menu[3] ? '' : 'rotate-180 '} transform duration-100`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg id="icon3" className={`${menu[3] ? '' : 'rotate-180 '} transform duration-200`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18 15L12 9L6 15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             </button>
