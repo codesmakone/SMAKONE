@@ -16,7 +16,7 @@ import psyc from '../../../Image/Ass1st/psikol.webp'
 const Psikologi = () => {
 
     return (
-        <div className="container mx-auto"> 
+        <div> 
             <Jurusan
                 cat="ASS1ST"
                 title="Psikologi"

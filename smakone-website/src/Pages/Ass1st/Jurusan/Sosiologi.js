@@ -16,7 +16,7 @@ import socio from '../../../Image/Ass1st/socio.webp'
 const Sosiologi= () => {
 
     return (
-        <div className="container mx-auto"> 
+        <div> 
             <Jurusan
                 cat="ASS1ST"
                 title="Sosiologi"

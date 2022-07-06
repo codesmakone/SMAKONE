@@ -15,7 +15,7 @@ import farmasi from '../../../Image/Ass1st/pharmacy.webp'
 
 const Farmasi= () => {
     return (
-        <div className="container mx-auto"> 
+        <div> 
             <Jurusan
                 cat="ASS1ST"
                 title="Farmasi"

@@ -31,8 +31,9 @@ import UKS from "../../Image/Fasilitas/UKS.webp"
 
 const Fasilitas = () => {
     return(
+        <>
+        <Nav/>
         <div className='container mx-auto'>
-            <Nav/>
             <div className='mt-28'>
             <ContentHeader
                     title = 'Fasilitas'
@@ -139,10 +140,11 @@ const Fasilitas = () => {
                     <img src={tow} className='object-cover md:w-screen lg:w-auto lg:h-64 xl:h-80 2xl:h-96' loading="lazy" alt="toilet wanita" />
                     <p className="justify-center text-center p-2">Toilet Wanita</p>
                 </div>
-            </div>          
+            </div>        
             </div>
-            <Footer/>
         </div>
+        <Footer/> 
+        </>
     )
 }
 

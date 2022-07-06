@@ -16,7 +16,7 @@ import guru from '../../../Image/Ass1st/guru.webp'
 const Keguruan= () => {
 
     return (
-        <div className="container mx-auto"> 
+        <div> 
             <Jurusan
                 cat="ASS1ST"
                 title="Keguruan dan Pendidikan"

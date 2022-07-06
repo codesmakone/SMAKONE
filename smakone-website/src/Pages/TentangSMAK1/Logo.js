@@ -8,8 +8,10 @@ import Penabur_logo from '../../Image/Penabur_logo.webp'
 
 const Logo = () => {
     return(
+        <>
+        <Nav/>
         <div className="container mx-auto">
-            <Nav/>
+            
             <div className="container w-full h-full mx-auto justify-center mt-28">
                 <ContentHeader
                     title = 'Logo'
@@ -39,8 +41,9 @@ const Logo = () => {
                     
                 </div>
             </div>
-            <Footer/>
         </div>
+        <Footer/>
+        </>
     )
 }
 

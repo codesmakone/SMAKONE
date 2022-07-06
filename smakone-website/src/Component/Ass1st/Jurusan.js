@@ -19,11 +19,11 @@ const Jurusan = (props) => {
                     <img src={ props.img } className="object-cover w-screen h-auto rounded-xl md:w-full md:rounded-3xl mt-6" alt={props.alt}/>
                 </div>
             </div>
-            <p className="text-sm sm:text-base md:text-lg mt-2 px-4 sm:px-8 lg:px-16 xl:px-28 text-justify font-medium text-gray-500">
+            <p className="text-sm sm:text-base md:text-lg mt-2 px-4 sm:px-8 lg:px-16 xl:px-48 text-justify font-medium text-gray-500">
                 { props.desc }
             </p>
             <h2 className="justify-left text-center text-3xl font-semibold px-2 pt-10 pb-2">Top Universitas Dunia</h2>
-            <div className="grid lg:grid-cols-3 md grid-cols-1 gap-9 mt-4 place-items-center px-6 lg:mx-28 xl:mx-auto">
+            <div className="grid lg:grid-cols-3 md grid-cols-1 gap-9 mt-4 place-items-center px-6 lg:mx-28 xl:mx-20">
                 <div>
                     <img src={ props.world1img } className='md:w-screen lg:w-auto' alt={ props.world1name } />
                     <p className="justify-center text-center p-2">{ props.world1name }</p>
@@ -38,7 +38,7 @@ const Jurusan = (props) => {
                 </div>
             </div>
             <h2 className="justify-left text-center text-3xl font-semibold px-2 pt-4 pb-2">Top Universitas Asia</h2>
-            <div className="grid lg:grid-cols-3 md grid-cols-1 gap-9 mt-4 place-items-center px-6 lg:mx-28 xl:mx-auto">
+            <div className="grid lg:grid-cols-3 md grid-cols-1 gap-9 mt-4 place-items-center px-6 lg:mx-28 xl:mx-20">
                 <div>   
                     <img src={ props.asia1img } className='md:w-screen lg:w-auto' alt={ props.asia1name } />
                     <p className="justify-center text-center p-2">{ props.asia1name }</p>
@@ -53,7 +53,7 @@ const Jurusan = (props) => {
                 </div>
             </div>
             <h2 className="justify-left text-center text-3xl font-semibold px-2 pt-4 pb-2">Top Universitas Indonesia</h2>
-            <div className="grid lg:grid-cols-3 md grid-cols-1 gap-9 mt-4 place-items-center px-6 lg:mx-28 xl:mx-auto">
+            <div className="grid lg:grid-cols-3 md grid-cols-1 gap-9 mt-4 place-items-center px-6 lg:mx-28 xl:mx-20">
                 <div>
                     <img src={ props.indo1img } className='md:w-screen lg:w-auto' alt={ props.indo1name } />
                     <p className="justify-center text-center p-2">{ props.indo1name }</p>
@@ -67,7 +67,7 @@ const Jurusan = (props) => {
                     <p className="justify-center text-center p-2">{ props.indo3name }</p>
                 </div>
             </div>
-            <div className='flex justify-between mt-10 px-6 sm:px-16 lg:px-32 xl:px-8'>
+            <div className='flex justify-between mt-10 px-6 sm:px-16 lg:px-32 xl:px-24'>
                 <button onClick={ () => navigate(-1) } className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-full text-sm sm:text-base md:text-lg lg:text-xl px-5 py-2.5 text-center sm:-ml-16 sm:-ml-8 lg:ml-0 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
                     Kembali
                 </button>

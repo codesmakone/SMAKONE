@@ -16,7 +16,7 @@ import tambang from '../../../Image/Ass1st/tambang.webp'
 const Pertambangan = () => {
 
     return (
-        <div className="container mx-auto"> 
+        <div> 
             <Jurusan
                 cat="ASS1ST"
                 title="Teknik Pertambangan"

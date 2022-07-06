@@ -16,7 +16,7 @@ import law from '../../../Image/Ass1st/law.webp'
 const Hukum = () => {
 
     return (
-        <div className="container mx-auto"> 
+        <div> 
             <Jurusan
                 cat="ASS1ST"
                 title="Hukum"

@@ -16,7 +16,7 @@ import sipil from '../../../Image/Ass1st/sipil.webp'
 const Sipil = () => {
     
     return (
-        <div className="container mx-auto"> 
+        <div> 
             <Jurusan
                 cat="ASS1ST"
                 title="Teknik Sipil"
