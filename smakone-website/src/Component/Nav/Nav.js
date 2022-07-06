@@ -54,7 +54,7 @@ const Nav = (props) => {
 
     let menuArray = [true, false, false];
         const [menu, setMenu] = useState(menuArray);
-        const [show, setShow] = useState(false);
+        const [isHeadlessOpen, setIsHeadlessOpen] = useState(false);
 
         const setMenuValue = (props) => {
             let newArr = [...menu];
@@ -64,15 +64,11 @@ const Nav = (props) => {
 
     function openHandler() {
         setIsHeadlessOpen(true);
-        setShow(true)
     }
 
     function closeHandler() {
         setIsHeadlessOpen(false);
-        setShow(false)
     }
-
-    const [isHeadlessOpen, setIsHeadlessOpen] = useState(false);
 
     return (
         <>
@@ -89,14 +85,14 @@ const Nav = (props) => {
                 </div>
                 </Link>
                 <div aria-label="toggler" className="flex justify-end items-center pr-2 lg:hidden">
-                <button aria-label="open" id="open" onClick={() => openHandler()} className={`${show ? 'hidden' : ''} focus:outline-none focus:ring-2`}>
+                <button aria-label="open" id="open" onClick={() => openHandler()} className={`${isHeadlessOpen ? 'hidden' : ''} focus:outline-none focus:ring-2`}>
                     <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4 6H20" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         <path d="M4 12H20" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         <path d="M4 18H20" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </button>
-                <button aria-label="close" id="close" onClick={() => closeHandler()} className={`${show ? '' : 'hidden'} focus:outline-none focus:ring-2`}>
+                <button aria-label="close" id="close" onClick={() => closeHandler()} className={`${isHeadlessOpen? '' : 'hidden'} focus:outline-none focus:ring-2`}>
                     <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18 6L6 18" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         <path d="M6 6L18 18" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -112,11 +108,7 @@ const Nav = (props) => {
             <div id="Main" className={`transform ease-in-out transition duration-500 flex justify-start items-start h-full  w-full bg-white flex-col`}>
             {/* <div className="mt-6 flex flex-col justify-start items-center  pl-4 w-full border-gray-600 border-b space-y-3 pb-5 ">
                 <button className="flex jusitfy-start items-center space-x-6 w-full  focus:outline-none  focus:text-indigo-400  text-black rounded ">
-                    <svg className="fill-stroke " width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9 4H5C4.44772 4 4 4.44772 4 5V9C4 9.55228 4.44772 10 5 10H9C9.55228 10 10 9.55228 10 9V5C10 4.44772 9.55228 4 9 4Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M19 4H15C14.4477 4 14 4.44772 14 5V9C14 9.55228 14.4477 10 15 10H19C19.5523 10 20 9.55228 20 9V5C20 4.44772 19.5523 4 19 4Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M9 14H5C4.44772 14 4 14.4477 4 15V19C4 19.5523 4.44772 20 5 20H9C9.55228 20 10 19.5523 10 19V15C10 14.4477 9.55228 14 9 14Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M19 14H15C14.4477 14 14 14.4477 14 15V19C14 19.5523 14.4477 20 15 20H19C19.5523 20 20 19.5523 20 19V15C20 14.4477 19.5523 14 19 14Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    <svg>
                     </svg>
                     <p className="text-base leading-4 ">Placeholder</p>
                 </button> */}

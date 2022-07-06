@@ -1,4 +1,4 @@
-import React,{Fragment} from 'react'
+import React,{Fragment, useState} from 'react'
 import { Link } from 'react-router-dom';
 import { Menu, Transition } from '@headlessui/react'
 
@@ -8,16 +8,23 @@ function classNames(...classes) {
 }
 
 const Dropdown = (props) => {
+  const [isShowing, setIsShowing] = useState(false)
   return (
     <Menu as="div" className="relative inline-block text-left">
  
-      <Menu.Button className={ props.class }>
+      <Menu.Button 
+      onMouseEnter={() => setIsShowing(true)}
+      onMouseLeave={() => setIsShowing(false)}
+      className={ props.class }>
       <div className='flex flex-row'>
           { props.title }
       </div>
       </Menu.Button>
         
       <Transition
+        show={isShowing}
+        onMouseEnter={() => setIsShowing(true)}
+        onMouseLeave={() => setIsShowing(false)}
         as={Fragment}
         enter="transition ease-out duration-100"
         enterFrom="transform opacity-0 scale-95"
