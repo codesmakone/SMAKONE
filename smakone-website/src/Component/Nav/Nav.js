@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
 import HeadlessSlideOver from './HeadlessSlideOver';
-import Logo_SMAK1 from '../../Image/Logo_SMAK1.webp'
 import { Link } from 'react-router-dom'
 import { useScrollPosition } from '../../Hooks';
 import { useLocation } from 'react-router-dom';
 
 //Import component
 import Dropdown from './Dropdown'
+
+//Import Image
+import Logo_SMAK1 from '../../Image/Logo_SMAK1.webp'
+
 
 //Import icons
 import {IoEyeSharp} from 'react-icons/io5'
@@ -137,11 +140,11 @@ const Nav = (props) => {
                         <FaBuilding size={24} />
                         <p className="text-base leading-4"><Link to="/tentang_smak1/Fasilitas">Fasilitas</Link></p>
                     </button>
-                    <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kehidupan_smukiers/logo' ? "font-bold" : "text-gray-500"}`}>
+                    <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/tentang_smak1/logo' ? "font-bold" : "text-gray-500"}`}>
                         <RiShieldCrossFill size={24} />
                         <p className="text-base leading-4  "><Link to='/tentang_smak1/Logo'>Logo</Link></p>
                     </button>
-                    <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kehidupan_smukiers/lagu' ? "font-bold" : "text-gray-500"}`}>
+                    <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/tentang_smak1/lagu' ? "font-bold" : "text-gray-500"}`}>
                         <IoMdMusicalNotes size={24} />
                         <p className="text-base leading-4  "><Link to='/tentang_smak1/Lagu'>Lagu</Link></p>
                     </button>
@@ -155,7 +158,19 @@ const Nav = (props) => {
                     </svg>
                 </button>
                 <div className={`${menu[1] ? 'flex' : 'hidden'} justify-start  flex-col w-full md:w-auto items-start pb-5 `}>
-                    <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/osis' ? "font-bold" : "text-gray-500"}`}>
+                    <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${                    
+                    path==='/osis' 
+                    || path==='/osis/bph' 
+                    || path==='/osis/bidang1' 
+                    || path==='/osis/bidang2'
+                    || path==='/osis/bidang3'
+                    || path==='/osis/bidang4'
+                    || path==='/osis/bidang5' 
+                    || path==='/osis/bidang6'
+                    || path==='/osis/bidang7' 
+                    || path==='/osis/bidang8' 
+                    || path==='/osis/bidang9' 
+                    || path==='/osis/bidang10' ? "font-bold" : "text-gray-500"}`}>
                         <BsFillPeopleFill size={24} />
                         <p className="text-base leading-4  "><Link to='/OSIS'>Tentang OSIS</Link></p>
                     </button>
@@ -163,7 +178,17 @@ const Nav = (props) => {
                         <BsBookFill size={24} />
                         <p className="text-base leading-4  "><Link to='/OSIS/Emagz'>E-Magazine</Link></p>
                     </button>
-                    <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/osis/ass1st' ? "font-bold" : "text-gray-500"}`}>
+                    <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${                   
+                    path==='/osis/ass1st' 
+                    || path==='/osis/ass1st/kedokteran' 
+                    || path==='/osis/ass1st/farmasi' 
+                    || path==='/osis/ass1st/keguruan' 
+                    || path==='/osis/ass1st/sosiologi'
+                    || path==='/osis/ass1st/akutansi' 
+                    || path==='/osis/ass1st/hukum'
+                    || path==='/osis/ass1st/psikologi' 
+                    || path==='/osis/ass1st/teknik_sipil' 
+                    || path==='/osis/ass1st/pertambangan'  ? "font-bold" : "text-gray-500"}`}>
                         <FaUniversity size={24} />
                         <p className="text-base leading-4  "><Link to='/OSIS/ASS1ST'>Ass1st</Link></p>
                     </button>
@@ -189,7 +214,10 @@ const Nav = (props) => {
                     <GiThrowingBall size={24} />
                     <p className="text-base leading-4  "><Link to='/Kehidupan_smukiers/Kegiatan'>Kegiatan Setelah Kelas</Link></p>
                 </button>
-                <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kehidupan_smukiers/alumni' ? "font-bold" : "text-gray-500"}`}>
+                <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kehidupan_smukiers/alumni'
+                || path==='/kehidupan_smukiers/alumni/billystevanus'
+                || path==='/kehidupan_smukiers/alumni/scottmoses'
+                || path==='/kehidupan_smukiers/alumni/nicolecharlene'  ? "font-bold" : "text-gray-500"}`}>
                     <IoSchool size={24} />
                     <p className="text-base leading-4  "><Link to='/Kehidupan_smukiers/Alumni'>Alumni</Link></p>
                 </button>
