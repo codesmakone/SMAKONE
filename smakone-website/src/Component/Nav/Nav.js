@@ -52,10 +52,66 @@ const Nav = (props) => {
 
     const scrollPosition = useScrollPosition();
 
-    let menuArray = [true, false, false];
-        const [menu, setMenu] = useState(menuArray);
-        const [show, setShow] = useState(false);
+    const pathSMAK1 = 
+    path===''
+    || path==="/tentang_smak1" 
+    || path==="/tentang_smak1/sejarah"
+    || path==="/tentang_smak1/fasilitas"
+    || path==="/tentang_smak1/logo" 
+    || path==="/tentang_smak1/lagu"
 
+    const pathOSIS = 
+    path==='/osis' 
+    || path==='/osis/bph' 
+    || path==='/osis/bidang1' 
+    || path==='/osis/bidang2'
+    || path==='/osis/bidang3'
+    || path==='/osis/bidang4'
+    || path==='/osis/bidang5' 
+    || path==='/osis/bidang6'
+    || path==='/osis/bidang7' 
+    || path==='/osis/bidang8' 
+    || path==='/osis/bidang9' 
+    || path==='/osis/bidang10'
+    || path==='/osis/emagz'
+    || path==='/osis/ass1st' 
+    || path==='/osis/ass1st/kedokteran' 
+    || path==='/osis/ass1st/farmasi' 
+    || path==='/osis/ass1st/keguruan' 
+    || path==='/osis/ass1st/sosiologi'
+    || path==='/osis/ass1st/akutansi' 
+    || path==='/osis/ass1st/hukum'
+    || path==='/osis/ass1st/psikologi' 
+    || path==='/osis/ass1st/teknik_sipil' 
+    || path==='/osis/ass1st/pertambangan'
+    
+    const pathKehidupan = 
+    path==='/kehidupan_smukiers' 
+    || path==='/kehidupan_smukiers'
+    || path==='/kehidupan_smukiers/tips'
+    || path==='/kehidupan_smukiers/kegiatan'
+    || path==='/kehidupan_smukiers/alumni'
+    || path==='/kehidupan_smukiers/alumni/billystevanus'
+    || path==='/kehidupan_smukiers/alumni/scottmoses'
+    || path==='/kehidupan_smukiers/alumni/nicolecharlene'
+    
+    const pathKegiatan = 
+    path==='/kegiatan' 
+    || path==='/kegiatan/soc' 
+    || path==='/kegiatan/soundscape'
+    || path==="/kegiatan/stn"
+    || path==='/kegiatan/kr1za'
+    || path==='/kegiatan/seni'
+    || path==='/kegiatan/scj'
+    || path==='/kegiatan/pramuka'
+    || path==='/kegiatan/onecast'
+    || path==='/kegiatan/dofe'
+    || path==='/kegiatan/muneds'
+    || path==='/kegiatan/lainnya'
+     
+    let menuArray = [pathSMAK1, pathOSIS, pathKehidupan, pathKegiatan];
+        const [menu, setMenu] = useState(menuArray);
+        const [isHeadlessOpen, setIsHeadlessOpen] = useState(false);
         const setMenuValue = (props) => {
             let newArr = [...menu];
             newArr[props] = !newArr[props];
@@ -64,15 +120,11 @@ const Nav = (props) => {
 
     function openHandler() {
         setIsHeadlessOpen(true);
-        setShow(true)
     }
 
     function closeHandler() {
         setIsHeadlessOpen(false);
-        setShow(false)
     }
-
-    const [isHeadlessOpen, setIsHeadlessOpen] = useState(false);
 
     return (
         <>
@@ -89,14 +141,14 @@ const Nav = (props) => {
                 </div>
                 </Link>
                 <div aria-label="toggler" className="flex justify-end items-center pr-2 lg:hidden">
-                <button aria-label="open" id="open" onClick={() => openHandler()} className={`${show ? 'hidden' : ''} focus:outline-none focus:ring-2`}>
+                <button aria-label="open" id="open" onClick={() => openHandler()} className={`${isHeadlessOpen ? 'hidden' : ''} focus:outline-none focus:ring-2`}>
                     <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4 6H20" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         <path d="M4 12H20" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         <path d="M4 18H20" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </button>
-                <button aria-label="close" id="close" onClick={() => closeHandler()} className={`${show ? '' : 'hidden'} focus:outline-none focus:ring-2`}>
+                <button aria-label="close" id="close" onClick={() => closeHandler()} className={`${isHeadlessOpen? '' : 'hidden'} focus:outline-none focus:ring-2`}>
                     <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18 6L6 18" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         <path d="M6 6L18 18" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -112,18 +164,14 @@ const Nav = (props) => {
             <div id="Main" className={`transform ease-in-out transition duration-500 flex justify-start items-start h-full  w-full bg-white flex-col`}>
             {/* <div className="mt-6 flex flex-col justify-start items-center  pl-4 w-full border-gray-600 border-b space-y-3 pb-5 ">
                 <button className="flex jusitfy-start items-center space-x-6 w-full  focus:outline-none  focus:text-indigo-400  text-black rounded ">
-                    <svg className="fill-stroke " width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9 4H5C4.44772 4 4 4.44772 4 5V9C4 9.55228 4.44772 10 5 10H9C9.55228 10 10 9.55228 10 9V5C10 4.44772 9.55228 4 9 4Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M19 4H15C14.4477 4 14 4.44772 14 5V9C14 9.55228 14.4477 10 15 10H19C19.5523 10 20 9.55228 20 9V5C20 4.44772 19.5523 4 19 4Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M9 14H5C4.44772 14 4 14.4477 4 15V19C4 19.5523 4.44772 20 5 20H9C9.55228 20 10 19.5523 10 19V15C10 14.4477 9.55228 14 9 14Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M19 14H15C14.4477 14 14 14.4477 14 15V19C14 19.5523 14.4477 20 15 20H19C19.5523 20 20 19.5523 20 19V15C20 14.4477 19.5523 14 19 14Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    <svg>
                     </svg>
                     <p className="text-base leading-4 ">Placeholder</p>
                 </button> */}
             <div className="flex flex-col justify-start items-center md:items-start px-6 border-b border-gray-600 w-full">
                 <button onClick={()=>setMenuValue(0)} className="focus:outline-none focus:text-indigo-400  text-black flex justify-between items-center w-full py-5 space-x-14  ">
                     <p className="text-sm leading-5 uppercase">Tentang SMAK 1</p>
-                    <svg id="icon1" className={`${menu[0] ? '' : 'rotate-180'} transform duration-100`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg id="icon1" className={`${menu[0] ? '' : 'rotate-180'} transform duration-200`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18 15L12 9L6 15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </button>
@@ -153,7 +201,7 @@ const Nav = (props) => {
             <div className="flex flex-col justify-start items-center md:items-start px-6 border-b border-gray-600 w-full">
                 <button onClick={()=>setMenuValue(1)} className="focus:outline-none focus:text-indigo-400  text-black flex justify-between items-center w-full py-5 space-x-14  ">
                     <p className="text-sm leading-5 uppercase">OSIS</p>
-                    <svg id="icon2" className={`${menu[1] ? '' : 'rotate-180'} transform `} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg id="icon2" className={`${menu[1] ? '' : 'rotate-180'} transform duration-200`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18 15L12 9L6 15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </button>
@@ -197,7 +245,7 @@ const Nav = (props) => {
             <div className="flex flex-col justify-start items-center md:items-start px-6 border-b border-gray-600 w-full">
             <button onClick={()=>setMenuValue(2)} className="focus:outline-none focus:text-indigo-400  text-black flex justify-between items-center w-full py-5 space-x-14  ">
                 <p className="text-sm leading-5  uppercase">Kehidupan SMUKIERS</p>
-                <svg id="icon3" className={`${menu[2] ? '' : 'rotate-180 '} transform duration-100`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg id="icon3" className={`${menu[2] ? '' : 'rotate-180 '} transform duration-200`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18 15L12 9L6 15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             </button>
@@ -226,7 +274,7 @@ const Nav = (props) => {
             <div className="flex flex-col justify-start items-center md:items-start px-6 w-full">
             <button onClick={()=>setMenuValue(3)} className="focus:outline-none focus:text-indigo-400  text-black flex justify-between items-center w-full py-5 space-x-14  ">
                 <p className="text-sm leading-5  uppercase">Kegiatan</p>
-                <svg id="icon3" className={`${menu[3] ? '' : 'rotate-180 '} transform duration-100`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg id="icon3" className={`${menu[3] ? '' : 'rotate-180 '} transform duration-200`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18 15L12 9L6 15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             </button>
