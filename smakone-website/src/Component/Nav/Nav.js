@@ -9,6 +9,7 @@ import Dropdown from './Dropdown'
 
 //Import Image
 import Logo_SMAK1 from '../../Image/Logo_SMAK1.webp'
+import SOC from '../../Image/Nav/SMAKONECUP.jpeg'
 
 
 //Import icons
@@ -284,7 +285,7 @@ const Nav = (props) => {
                     <p className="text-base leading-4  "><Link to='/Kegiatan'>Kegiatan</Link></p>
                 </button>
                 <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/soc' ? "font-bold" : "text-gray-500"}`}>
-                    <FaTrophy size={24} />
+                    <img src={SOC} alt="SOC" className='grayscale h-6 w-6'/>
                     <p className="text-base leading-4  "><Link to='/Kegiatan/SOC'>Smakonecup</Link></p>
                 </button>
                 <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/soundscape' ? "font-bold" : "text-gray-500"}`}>
