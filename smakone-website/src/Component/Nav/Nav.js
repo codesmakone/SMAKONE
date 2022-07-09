@@ -9,7 +9,7 @@ import Dropdown from './Dropdown'
 
 //Import Image
 import Logo_SMAK1 from '../../Image/Logo_SMAK1.webp'
-import SOC from '../../Image/Nav/SMAKONECUP.jpeg'
+import SOC from '../../Image/Nav/SMAKONECUP.webp'
 
 
 //Import icons
