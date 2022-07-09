@@ -10,6 +10,9 @@ import Dropdown from './Dropdown'
 //Import Image
 import Logo_SMAK1 from '../../Image/Logo_SMAK1.webp'
 import SOC from '../../Image/Nav/SMAKONECUP.webp'
+import Pramukaks from '../../Image/Nav/Pramuka.webp'
+import DoFE from '../../Image/Nav/DofE.webp'
+import OneCast from '../../Image/Nav/Onecast.webp'
 
 
 //Import icons
@@ -309,15 +312,15 @@ const Nav = (props) => {
                     <p className="text-base leading-4  "><Link to='/Kegiatan/SCJ'>Science Club</Link></p>
                 </button>
                 <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/pramuka' ? "font-bold" : "text-gray-500"}`}>
-                    <GiCampfire size={24} />
+                    <img src={Pramukaks} alt="Pramuka" className=' h-6 w-6'/>
                     <p className="text-base leading-4  "><Link to='/Kegiatan/Pramuka'>Pramuka</Link></p>
                 </button>
                 <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/onecast' ? "font-bold" : "text-gray-500"}`}>
-                    <BsFillMicFill size={24} />
+                    <img src={OneCast} alt="OneCast" className='grayscale h-6 w-6'/>
                     <p className="text-base leading-4  "><Link to='/Kegiatan/OneCast'>OneCast</Link></p>
                 </button>
                 <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/dofe' ? "font-bold" : "text-gray-500"}`}>
-                    <GiTiedScroll size ={24} />
+                    <img src={DoFE} alt="DoFEIA" className='grayscale h-6 w-6'/>
                     <p className="text-base leading-4  "><Link to='/Kegiatan/DofE'>DofE</Link></p>
                 </button>
                 <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/muneds' ? "font-bold" : "text-gray-500"}`}>
