@@ -1,5 +1,7 @@
 import './App.css';
+import React,{useEffect} from 'react'
 import {Routes, Route} from "react-router-dom"
+import ReactGA from 'react-ga';
 
 // Import Component
 import ScrollToTop from './Component/ScrollToTop'
@@ -66,7 +68,15 @@ import MUN from './Pages/Kegiatan/MUN';
 import OneCast from './Pages/Kegiatan/onecast';
 import BukuAcara from './Pages/Home/Buku_Acara';
 
+
+const TRACKING_ID = "G-EZHENXJ8ML"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
       <div className='w-full h-full font-Product'>
         <ScrollToTop/> 
