@@ -23,7 +23,7 @@ import kriza from "../../Image/Home/Kegiatan/kriza.webp"
 import kehidupan from "../../Image/Home/Kehidupan/kehidupan.webp"
 import tips from "../../Image/Home/Kehidupan/tips.webp"
 import kegiatan from "../../Image/Home/Kehidupan/kegiatan.webp"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 const Home = () => {
   return (
@@ -31,31 +31,19 @@ const Home = () => {
       <Nav/>
       {/* <div className='mt-32 col-span-6 flex flex-col justify-start text-left '> */}
       <div className='col-span-6 flex flex-col justify-start text-left mt-28 '>
-        <div className='px-5 md:px-10 lg:px-16 xl:px-20 pt-10 lg:pt-20 pb-12 md:pb-20 lg:pb-24 xl:pb-44'>
+        <div className='px-5 md:px-10 lg:px-16 xl:px-20 pt-10 lg:pt-20 pb-12  md:pb-24 lg:pb-24 xl:pb-44'>
         <h1 className='text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black'>We are SMAK 1's OSIS</h1>
-          {/* <h4 className='text-sm xl:text-2xl lg:text-xl md:text-lg sm:text-base font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4> */}
+          <h4 className='text-base xl:text-2xl lg:text-xl sm:text-xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4>
           {/* ini yang bener V */}
-          <div className="flex flex-col gap-5">
+          {/* <div className="flex flex-col gap-5">
           <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[3.5rem] font-black leading-tight">ALL NEW 10<sup>th</sup> GRADERS</h1>
           <div className="sm:mt-5">
-            {/* <a href="https://drive.google.com/" target="blank" className="text-white bg-black font-bold rounded-full text-md sm:text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2">
-              CLICK HERE
-            </a> */}
             <Link to="/BukuAcara" target="blank" className="hover:bg-gray-700 text-white bg-black font-bold rounded-full text-md sm:text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2">
               CLICK HERE
             </Link>
           </div>
-          </div>
-          {/* ini yang bener ^ */}
-          {/* <h4 className='text-[1.3rem] text-gray-400 mt-10'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4> */}
-          {/* <div className="mt-12">
-          <h1 className='text-[4rem] font-black leading-tight'>ALL NEW <br/>10<sup>th</sup> GRADERS </h1>
-          <div className="mt-5">
-          <a href="drive.com" target="blank" className="text-white bg-black font-bold rounded-full text-2xl px-12 py-3 text-center mr-2 mb-2">
-            CLICK HERE
-          </a>
-          </div>
           </div> */}
+          
         </div>
       </div>
 
