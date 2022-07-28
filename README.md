@@ -10,7 +10,10 @@ Note: Image must in webp format
 
 1. Taruh Cover E mag ke src/image/Emagz
 2. Buka src/Component/Data/HomeMagazine.js
-3. import "Nama File" from "../../Image/Emagz/'Nama File'"
+3. Taruh code 
+```
+import "Nama File" from "../../Image/Emagz/'Nama File'"
+```
 
 4.
 ```
@@ -70,7 +73,11 @@ ganti ke
 ```
 
 5. Buka src/Component/Data/magazineList.js
-6. import "Nama File" from "../../Image/Emagz/'Nama File'"
+6. taruh code
+```
+import "Nama File" from "../../Image/Emagz/'Nama File' "
+```
+7.
 ```
     {
       id :....,
