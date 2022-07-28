@@ -68,15 +68,15 @@ Ganti ke
     {
         id:4,
         title: "New Emag titile",
-        img:"Nama File"(yang dari step 3),
-        link:""(link emg)
+        img: "Nama File"(yang dari step 3),
+        link: "" (link emg)
     },
 ```
 
 5. Buka src/Component/Data/magazineList.js
 6. taruh code
 ```
-import "Nama File" from "../../Image/Emagz/'Nama File' "
+import "Nama File" from "../../Image/Emagz/'Nama File'"
 ```
 7.
 Ganti
@@ -90,8 +90,8 @@ Ganti
     ,{
         id: id yang atas + 1,
         title: "New Emag titile",
-        img:"Nama File"(yang dari step 5),
-        link:""(link emg)
+        img: "Nama File"(yang dari step 5),
+        link: "" (link emg)
     },
 ```
 
