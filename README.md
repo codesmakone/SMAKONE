@@ -16,6 +16,7 @@ import "Nama File" from "../../Image/Emagz/'Nama File'"
 ```
 
 4.
+Dari 
 ```
     {
         id:1,
@@ -43,7 +44,7 @@ import "Nama File" from "../../Image/Emagz/'Nama File'"
     },
 
 ``` 
-ganti ke 
+Ganti ke 
 
 ```
     {
@@ -78,6 +79,7 @@ ganti ke
 import "Nama File" from "../../Image/Emagz/'Nama File' "
 ```
 7.
+Ganti
 ```
     {
       id :....,
@@ -92,3 +94,5 @@ import "Nama File" from "../../Image/Emagz/'Nama File' "
         link:""(link emg)
     },
 ```
+
+Abis itu run server, untuk cek bener atau tidak
