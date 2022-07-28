@@ -90,7 +90,7 @@ Ganti
     ,{
         id: id yang atas + 1,
         title: "New Emag titile",
-        img: "Nama File"(yang dari step 5),
+        img: "Nama File"(yang dari step 6),
         link: "" (link emg)
     },
 ```
