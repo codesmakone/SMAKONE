@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 // Icon for Email, Instagram, Line, and Youtube
-import { ImMail } from "react-icons/im";
+import { ImMail2 } from "react-icons/im";
 import { FaYoutubeSquare, FaTiktok, FaInstagramSquare, FaInstagram} from "react-icons/fa";
 
 import LogoPenabur from "../../Image/Penabur_logo.webp"
@@ -64,9 +64,9 @@ const Footer = () => {
               <div className='hidden md:inline'>
                 <p className='pb-2 text-lg font-semibold text-right'>Contact Us</p>
                 <div className='md:flex md:flex-row md:gap-x-1'>
-                  <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><ImMail size={30}/></a>
+                  <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id' className='mt-[0.1em]'><ImMail2 size={27}/></a>
                   <a href="https://www.instagram.com/smukiee/" target="blank"><FaInstagramSquare size={30}/></a>
-                  <a href="https://www.tiktok.com/@smukierz" target="blank"><FaTiktok size={30}/></a>
+                  <a href="https://www.tiktok.com/@smukierz" target="blank" className='mt-[0.1em]'><FaTiktok size={27}/></a>
                   <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="blank"><FaYoutubeSquare size={30}/></a>
                 </div>
               </div>
@@ -75,9 +75,9 @@ const Footer = () => {
             <div className='text-center md:hidden'>
               <p className='pt-4 pb-2 text-lg font-semibold'>Contact Us</p>
               <div className='flex flex-row justify-center gap-x-1 pb-12'>
-                <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id'><ImMail size={31}/></a>
+                <a href='mailto:smak1.osis@bpkpenaburjakarta.or.id' className='mt-[0.1em]'><ImMail2 size={27}/></a>
                 <a href="https://www.instagram.com/smukiee/" target="blank"><FaInstagramSquare size={30}/></a>
-                <a href="https://www.tiktok.com/@smukierz" target="blank"><FaTiktok size={30}/></a>
+                <a href="https://www.tiktok.com/@smukierz" target="blank" className='mt-[0.1em]'><FaTiktok size={27}/></a>
                 <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="blank"><FaYoutubeSquare size={30}/></a>
               </div>
             </div>
