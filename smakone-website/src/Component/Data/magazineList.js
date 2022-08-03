@@ -5,6 +5,7 @@ import FestiveFebruary from "../../Image/Emagz/FestiveFebruary.webp"
 import Floraison from "../../Image/Emagz/Floraison.webp"
 import AphroditeApril from "../../Image/Emagz/AphroditeApril.webp"
 import SummerMaylodies from "../../Image/Emagz/SummerMaylodies.webp"
+import JuvunescentJuly from '../../Image/Emagz/JuvunescentJuly.webp'
 
 export const magazineList = [
     {
@@ -48,5 +49,11 @@ export const magazineList = [
         title: "Summer Maylodies",
         img:SummerMaylodies,
         link:"https://heyzine.com/flip-book/a5b0ed1cb6.html"
+    },
+    {
+        id: 8,
+        title: "Juvenescent July",
+        img:JuvunescentJuly,
+        link:"https://heyzine.com/flip-book/c5dcd15dd7.html"
     },
 ]
