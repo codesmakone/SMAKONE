@@ -52,7 +52,7 @@ export const magazineList = [
     },
     {
         id: 8,
-        title: "Juvunescent July",
+        title: "Juvenescent July",
         img:JuvunescentJuly,
         link:"https://heyzine.com/flip-book/c5dcd15dd7.html"
     },
