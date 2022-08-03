@@ -33,7 +33,7 @@ const Home = () => {
       <div className='col-span-6 flex flex-col justify-start text-left mt-28 '>
         <div className='px-5 md:px-10 lg:px-16 xl:px-20 pt-10 lg:pt-20 pb-12  md:pb-24 lg:pb-24 xl:pb-44'>
         <h1 className='text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black'>We are SMAK 1's OSIS</h1>
-          <h4 className='text-base xl:text-2xl lg:text-xl sm:text-xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berpresestasi</h4>
+          <h4 className='text-base xl:text-2xl lg:text-xl sm:text-xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berprestasi</h4>
           {/* ini yang bener V */}
           {/* <div className="flex flex-col gap-5">
           <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[3.5rem] font-black leading-tight">ALL NEW 10<sup>th</sup> GRADERS</h1>
