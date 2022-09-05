@@ -23,6 +23,7 @@ import kriza from "../../Image/Home/Kegiatan/kriza.webp"
 import kehidupan from "../../Image/Home/Kehidupan/kehidupan.webp"
 import tips from "../../Image/Home/Kehidupan/tips.webp"
 import kegiatan from "../../Image/Home/Kehidupan/kegiatan.webp"
+import STN from "../../Image/Home/STN.webp"
 // import { Link } from "react-router-dom"
 
 const Home = () => {
@@ -44,6 +45,51 @@ const Home = () => {
           </div>
           </div> */}
           
+        </div>
+      </div>
+
+      <div className=' text-black w-full h-auto px-3 pt-12 xl:pb-10'>
+        <div className='container mx-auto'>
+            <div className='justify-center  text-center font-bold mb-12 px-3 '>
+              <div className='text-3xl sm:text-4xl md:text-5xl xl:text-[4.5rem] pb-10 '>
+                  <div>30 September 2022</div>
+                  <div className="text-xl sm:text-3xl xl:text-5xl font-bold">Smukiez Theatre Night</div>
+              </div>
+              <div className="container mx-auto flex flex-col lg:flex-row xl:mt-16 lg:mt-4">
+                    <img src={ STN } className="md:mx-36 lg:mx-[0.1rem] object-cover w-full md:h-[26rem] md:w-[26rem] lg:h-[30rem] lg:w-full xl:h-[30rem] rounded-2xl"alt={ STN } />
+                  <div className="ml-0 md:ml-8 lg:ml-12 md:mr-8 lg:mr-10 xl:mr-8 mt-4 sm:mt-8 md:mt-10 lg:mt-4 xl:mt-2 mx-auto">
+                      <div className="text-xl md:text-[1.4rem] lg:text-lg xl:text-2xl font-medium text-justify flex flex-col gap-4 xl:mt-6">
+                        <div>
+                        Di sebuah desa, ada seorang pemuda yang tangguh dan dapat selalu diandalkan penduduk desanya. Pada suatu saat, Ia bertemu bidadari dan kemudian mengambil selendang miliknya untuk disimpan. Sebuah babak baru dari kehidupan sang pemuda akan segera di mulai!
+                        </div>
+                        <div>
+                            SMUKIEZ THEATRE NIGHT 2022 mempersembahkan "Janji" yang mengangkatcerita adaptasi dari 'Jaka Tarub dan 7 Bidadari'
+                        </div>
+                        <div>
+                          Bersiap dan nantikanlah penjualan tiket untuk menyaksikan penampilan STN pada tanggal 30 September 2022!!
+                        </div>
+                      </div>
+                      <div className="text-lg lg:text-xl mt-8 sm:mt-12 lg:mt-14 xl:mt-12">
+                        <a href="https://tickets.smakone.org/" target="blank" className="text-center py-4 lg:py-3 xl:py-4 px-12 lg:px-10 xl:px-12 bg-dark-blue hover:bg-dark-blue-hover rounded-full text-white text-xl ">
+                          <button >Beli tiket di sini</button>
+                        </a>
+                      </div>
+                  </div>
+              </div>
+              {/* <div className=' text-2xl sm:text-3xl lg:text-4xl xl:text-5xl leading-normal'>
+                  <div>Smukiez Theatre Night 🎭</div>
+              </div> */}
+            </div>
+            {/* <div className="flex flex-col items-center justify-center mx-96">
+                <div>
+                  <img src={STN} alt="STN" className="rounded-xl"/>
+                </div>
+                <div className="mt-10 ">
+                  <button className="text-center py-4 lg:py-5 px-12 lg:px-16 bg-dark-blue hover:bg-dark-blue-hover rounded-full text-white text-xl ">
+                    <a href="https://tickets.smakone.org/" target="blank">Buy Tickets Here</a>
+                  </button>
+                </div>
+            </div> */}
         </div>
       </div>
 
