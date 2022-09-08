@@ -6,6 +6,7 @@ import Floraison from "../../Image/Emagz/Floraison.webp"
 import AphroditeApril from "../../Image/Emagz/AphroditeApril.webp"
 import SummerMaylodies from "../../Image/Emagz/SummerMaylodies.webp"
 import JuvunescentJuly from '../../Image/Emagz/JuvunescentJuly.webp'
+import InspirationLatitude from '../../Image/Emagz/InspirationLatitude.webp'
 
 export const magazineList = [
     {
@@ -55,5 +56,11 @@ export const magazineList = [
         title: "Juvenescent July",
         img:JuvunescentJuly,
         link:"https://heyzine.com/flip-book/c5dcd15dd7.html"
+    },
+    {
+        id: 9,
+        title: "Inspiration Latitude",
+        img:InspirationLatitude,
+        link: "https://heyzine.com/flip-book/48beb98269.html"
     },
 ]
