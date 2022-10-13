@@ -48,7 +48,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=' text-black w-full h-auto px-3 pt-12 xl:pb-10'>
+      {/* <div className=' text-black w-full h-auto px-3 pt-12 xl:pb-10'>
         <div className='container mx-auto'>
             <div className='justify-center  text-center font-bold mb-12 px-3 '>
               <div className='text-3xl sm:text-4xl md:text-5xl xl:text-[4.5rem] pb-10 '>
@@ -76,11 +76,8 @@ const Home = () => {
                       </div>
                   </div>
               </div>
-              {/* <div className=' text-2xl sm:text-3xl lg:text-4xl xl:text-5xl leading-normal'>
-                  <div>Smukiez Theatre Night 🎭</div>
-              </div> */}
             </div>
-            {/* <div className="flex flex-col items-center justify-center mx-96">
+            <div className="flex flex-col items-center justify-center mx-96">
                 <div>
                   <img src={STN} alt="STN" className="rounded-xl"/>
                 </div>
@@ -89,9 +86,9 @@ const Home = () => {
                     <a href="https://tickets.smakone.org/" target="blank">Buy Tickets Here</a>
                   </button>
                 </div>
-            </div> */}
+            </div>
         </div>
-      </div>
+      </div> */}
 
       <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24' id="Alasan">
         <div className='container mx-auto'>
