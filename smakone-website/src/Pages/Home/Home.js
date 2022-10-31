@@ -23,7 +23,6 @@ import kriza from "../../Image/Home/Kegiatan/kriza.webp"
 import kehidupan from "../../Image/Home/Kehidupan/kehidupan.webp"
 import tips from "../../Image/Home/Kehidupan/tips.webp"
 import kegiatan from "../../Image/Home/Kehidupan/kegiatan.webp"
-import STN from "../../Image/Home/STN.webp"
 // import { Link } from "react-router-dom"
 
 const Home = () => {
