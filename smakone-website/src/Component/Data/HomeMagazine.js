@@ -1,6 +1,6 @@
 import JuvunescentJuly from "../../Image/Emagz/JuvunescentJuly.webp"
 import InspirationLatitude from "../../Image/Emagz/InspirationLatitude.webp"
-import AphroditeApril from "../../Image/Emagz/AphroditeApril.webp"
+import AutumnSonata from '../../Image/Emagz/AutumnSonata.webp'
 import SummerMaylodies from "../../Image/Emagz/SummerMaylodies.webp"
 
 export const HomeMagazine = [
