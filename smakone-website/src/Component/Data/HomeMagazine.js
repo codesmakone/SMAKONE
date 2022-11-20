@@ -26,6 +26,6 @@ export const HomeMagazine = [
         id:4,
         title: "Autumn Sonata",
         img:AutumnSonata,
-        link: "https://heyzine.com/flip-book/c0d5e83656.html"
+        link: "https://heyzine.com/flip-book/ca5d67add9.html"
     }
 ]
