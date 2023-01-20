@@ -7,6 +7,7 @@ import AphroditeApril from "../../Image/Emagz/AphroditeApril.webp"
 import SummerMaylodies from "../../Image/Emagz/SummerMaylodies.webp"
 import JuvunescentJuly from '../../Image/Emagz/JuvunescentJuly.webp'
 import InspirationLatitude from '../../Image/Emagz/InspirationLatitude.webp'
+import AutumnSonata from '../../Image/Emagz/AutumnSonata.webp'
 
 export const magazineList = [
     {
@@ -63,4 +64,10 @@ export const magazineList = [
         img:InspirationLatitude,
         link: "https://heyzine.com/flip-book/48beb98269.html"
     },
+    {
+        id:10,
+        title: "Autumn Sonata",
+        img:AutumnSonata,
+        link: "https://heyzine.com/flip-book/ca5d67add9.html"
+    }
 ]
