@@ -5,9 +5,9 @@ import BidangSection from '../../../Component/Osis/BidangSection'
 import OsisTeam from '../../../Component/Osis/OsisTeam'
 
 // Import Image
-import Erika from '../../../Image/Osis/Bidang_8/Erika.webp'
-import Czar from '../../../Image/Osis/Bidang_8/Czar.webp'
-import Yoel from '../../../Image/Osis/Bidang_8/Yoel.webp'
+import CZar from '../../../Image/Osis/Bidang_8/CZar.webp'
+import BIG from '../../../Image/Osis/Bidang_8/BIG.webp'
+import Krislyn from '../../../Image/Osis/Bidang_8/Krislyn.webp'
 
 
 const OSIS_8 = () => {
@@ -16,9 +16,9 @@ const OSIS_8 = () => {
       <OsisTeam
         bidang="Bidang 8"
         desc="Bidang Pembinaan Sastra dan Budaya"
-        person1={<BidangSection img={Erika} alt="Erika Gabriella Ramiel" name="Erika Gabriella Ramiel" desc="Halo semuanyaaa, kenalin namaku Erika Gabriella Ramiel, atau singkatnya bisa dipanggil Erika. Selain bergabung di OSIS aku juga ikut beberapa organisasi lainnya, seperti SOC, TEDx, dan Smukiez Choir. Hobi aku dengerin lagu di spotify dan 1 fun fact about me, aku suka banget nonton film horror, yuk nobar kapan-kapan hehe! Salam kenal ya semuaa jangan malu buat nanya and you can reach me out di @erikagabrllarmiel!"/>}
-        person2={<BidangSection img={Czar} alt="C'zar Salomo Parlindungan Lumban Gaol" name="C'zar Salomo Parlindungan Lumban Gaol" desc="Halo semuanya! Nama lengkap aku C'zar Salomo Parlindungan Lumban Gaol, biar gampang panggil aja zar. Hobi 'bagus' aku desain, tapi sehari-hari sih sukanya rebahan sambil baca manga & dengerin lagu. Aku juga ngikutin NBA & baru-baru ini NFL. Feel free to ask me anything you want to know on @czar.lg!"/>}
-        person3={<BidangSection img={Yoel} alt="Yoel Kyocera Antony" name="Yoel Kyocera Antony" desc="Halo semuanyaa, nama aku Yoel Kyocera Antony atau biasa dipanggil Yoel. Hobi aku itu rebahan dan nonton film “anime”, drakor, serial barat, horror dan apapun itu yang penting film hehe. Salam kenal yaa, kalo ada pertanyaan and other things, you can have me on @yoel_kyocera"/>}
+        person1={<BidangSection img={CZar} alt="CZar" name="C’zar Salomo Parlindungan" desc="HALLLOOOOOOOOOOO! Salken smua nama aku C’zar, koordinator bidang 8. Aku suka dengerin musik, makan saksang, & jadi budak desain smuki :O. follow ig @czar.lg lesgo"/>}
+        person2={<BidangSection img={BIG} alt="BIG" name="Brian Indrawan Gunhardi" desc="Hello gaess!! Salken aku Brian Indrawan Gunhardi, biasanya dipanggil Brian, Bri, ato BIG karena kalo namaku disingkat jadi BIG HAHAH + aku orangnya ya bisa dibilang gede jadi cocok lah ya. Hobi aku sehari-hari nonton, main game, main musik dan kadang-kadang olahraga aja contoh basket tapi gak jago-jago banget. Fun fact about me, aku sebenernya kecil les piano, cuman sekarang disekolah main bass, tapi di rumah main gitar jadi gitu de. Oh aku juga suka denger lagu-lagu fusion. Kalo mau tanya-tanya apa aja bisa contanct aku ya di instagram @brianig_ "/>}
+        person3={<BidangSection img={Krislyn} alt="Krislyn" name="Krislyn Winny Riyadi	" desc="Hello everyone! Salam kenal semuanya. Perkenalkan, nama aku Krislyn, biasanya aku dipanggil Ilyn. Saat ini, aku duduk di kelas 10 MIPA dan di angkatan ini, aku adalah anggota OSIS bidang 8. Hobi aku ga ada yang spesifik sih HEHE, tapi aku suka ngobrol, berenang, dan nonton drakor. Jadi kalo kalian ada rekomendasi film atau kalian mau ngobrol/curcol, feel free to reach me out @krislynwryd_ welcome banget ya guys :) Selain OSIS, di SMUKIE juga ada banyak banget loh organisasi dan clubnya. Ayo guys join guyss!! I believe it will be one of the best experiences and learnings you can have. Kalo kalian tertarik buat join, dan mau tanya-tanya seputar SMUKIE, jangan sungkan untuk contact aku yaa. I’d love to share and answer your questions. Last but not least, Let's grow together in SMUKIE <33 Cheers! "/>}
         Description={true}
         DescBid="Selamat datang di Bidang 8 yaitu Bidang Pembinaan Sastra dan Budaya. Bidang ini bertanggung jawab mengenai kegiatan non-akademik di bidang kesenian, sastra, dan budaya. Bidang 8 juga mendukung siswa-siswi SMAK 1 dalam menyalurkan talenta kesenian pada acara STN ( Smukiez Theatre Night), kemampuan memproduksi short movie pada SMURF, dan bidang jurnalistik pada program PENS1L. Selain itu, bidang 8 juga memantau dan mempersiapkan regenerasi club-club di SMAK 1 serta masih banyak program bidang 8 yang menarik seperti Birthday Calendar, CNYxVals, dan RESONANSI."
         Program={true}

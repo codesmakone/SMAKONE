@@ -8,7 +8,7 @@ const BidangSection = (props) => {
           <div>
             <div className='text-left mt-6 mb-12 lg:mt-0 lg:mb-0 xl:pr-10 xl:mt-6 xl:mb-12'>
               <h1 className='font-semibold text-xl md:text-2xl lg:text-3xl sm:text-center xl:text-left'>{props.name}</h1>
-              <p className='font-medium text-justify text-base xl:text-lg leading-relaxed lg:leading-1 xl:leading-relaxed mt-6 lg:mt-3 xl:mt-6'>{props.desc}</p>
+              <p className='font-medium text-justify text-base xl:text-lg leading-relaxed lg:leading-1 xl:leading-relaxed mt-6 lg:mt-3 '>{props.desc}</p>
             </div>
           </div>
       </div>

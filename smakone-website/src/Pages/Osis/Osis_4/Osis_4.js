@@ -5,9 +5,9 @@ import BidangSection from '../../../Component/Osis/BidangSection'
 import OsisTeam from '../../../Component/Osis/OsisTeam'
 
 // Import Image
-import Michael from '../../../Image/Osis/Bidang_4/Michael.webp'
-import Geoffrey from '../../../Image/Osis/Bidang_4/Geoffrey.webp'
 import Grant from '../../../Image/Osis/Bidang_4/Grant.webp'
+import BWong from '../../../Image/Osis/Bidang_4/BWong.webp'
+import Callista from '../../../Image/Osis/Bidang_4/Callista.webp'
 
 const OSIS_4 = () => {
   return (
@@ -15,9 +15,9 @@ const OSIS_4 = () => {
       <OsisTeam
         bidang="Bidang 4"
         desc="Bidang Pembinaan Prestasi Akademik dan Ilmu Pengetahuan dan Teknologi (IPTEK)"
-        person1={<BidangSection img={Michael} alt="Michael Evan Djunaidi" name="Michael Evan Djunaidi" desc="Halo semuanyaaa, kenalin namaku Michael Evan Djunaidi, atau singkatnya bisa dipanggil ME. Selain bergabung di OSIS aku juga ikut beberapa organisasi lainnya, seperti SOC, dan juga TEDx. Hobi aku main musik dan fun fact about gua, gua harus tidur siang. Kalo mao ada tanya-tanya di @m.evan.d."/>}
-        person2={<BidangSection img={Geoffrey} alt="Geoffrey Li" name="Geoffrey Li" desc="Hai semuanya,perkenalkan namaku Geoffrey Li atau biasa dipanggil Gio. Hobi aku itu olahraga dan bermain game. Fun fact tentang aku , kalau kak michael paling suka tidur siang aku paling anti tidur siang hehehehe. Kalau mau tanya-tanya lagi di @geoffrey.gio.li"/>}
-        person3={<BidangSection img={Grant} alt="Grant Wendra Halim" name="Grant Wendra Halim" desc="Hai semua, perkenalkan nama aku Grant Wendra Halim, biasanya dipanggil Grant. Saat ini aku lagi duduk di kelas 10 MIPA. Hobi aku main basket, dan main game. Fun fact about aku, aku kalo lagi nulis pasti mulutnya ikutan gerak. Kalau ada yang mau kalian tanyakan, boleh contact aku di IG @granthalim"/>}
+        person1={<BidangSection img={Grant} alt="Grant" name="Grant Wendra Halim	" desc="Halo semuanyaa namaku Grant Wendra Halim, biasa dipanggil Grant. Selain OSIS, aku juga bergabung di organisasi lain seperti DA, TEDx, dan SOC. Aku suka makan xiao long bao dan jadi babu perkap smukie. Kalo mau tanya-tanya di ig @granthalim yes"/>}
+        person2={<BidangSection img={BWong} alt="BWong" name="Brian Wong Wei Xiang	" desc="Hallo semua! Salam kenal, nama aku Brian Wong Wei Xiang, biasanya dipanggil Bwong. Saat ini aku sedang duduk di kelas 11 MIPA. Hobi aku bervariasi dari nonton, dengerin musik, sampai bermain game, fun fact tentang aku, aku pas pagi selalu masih setengah sadar. Kalo kalian ada pertanyaan mengenai apapun, boleh langsung dm aku di IG @bwooonggg"/>}
+        person3={<BidangSection img={Callista} alt="Callista" name="  Callista Princessa Tjhia 	" desc="hello!! Salam kenal semuaa, aku Callista sebagai anggota bidang 4 :) I have lots of hobbies and jalan-jalan adalah salah satunya hehehe… Aku suka banget hunting tempat baru and foto-foto. Kalo kalian punya rekomendasi tempat atau mau explore bareng, yuks don’t hesitate to DM me ajaa @princessa_callista. I’d love to respond to your chats☺️ Have fun and enjoy di SMUKIE!! Semangatt"/>}
         Description={true}
         DescBid="Bidang 4 atau Bidang Pembinaan Prestasi Akademik dan Ilmu Pengetahuan dan Teknologi (IPTEK) adalah bidang yang bertanggungjawab dan berkolaborasi dengan sekolah dalam mendukung perkembangan prestasi siswa dan pemanfaatan IPTEK dalam proses belajar. Bidang 4 menyediakan wadah bagi siswa-siswi untuk mencari ilmu di luar jam belajar mengajar di kelas seperti program TTS yang mewadahi siswa untuk belajar dan mengajar teman-teman tentang bahan pelajaran, yang tentunya tidak dikenai biaya tambahan. Selain itu ada juga DollarxCent yang menjadi media bagi siswa/i untuk memperluas wawasan pengetahuan umum dan kemampuan berpikir out of the box. Tidak hanya terbatas pada pengembangan hard skills loh, tapi juga pengembangan soft skills seperti contohnya di TEDxYouth@SmakOne dimana siswa/i berkesempatan untuk menyampaikan ide-ide baru yang akan diperdengarkan kepada masyarakat luas. [ program Uni-assist sama ask away]"
         Program={true}

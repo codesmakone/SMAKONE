@@ -5,9 +5,10 @@ import BidangSection from '../../../Component/Osis/BidangSection'
 import OsisTeam from '../../../Component/Osis/OsisTeam'
 
 // Import Image
-import Beatrice from '../../../Image/Osis/Bidang_1/Beatrice1.webp'
 import Gabriella from '../../../Image/Osis/Bidang_1/Gabriella.webp'
-import William from '../../../Image/Osis/Bidang_1/wm.webp'
+import Kelly from '../../../Image/Osis/Bidang_1/Kelly.webp'
+import Samuel from '../../../Image/Osis/Bidang_1/Samuel.webp'
+import Gavi from '../../../Image/Osis/Bidang_1/Gavi.webp'
 
 const OSIS_1 = () => {
   return (
@@ -15,9 +16,13 @@ const OSIS_1 = () => {
       <OsisTeam
       bidang="Bidang 1"
       desc="Bidang Pembinaan Keimanan dan Ketakwaan Terhadap Tuhan Yang Maha Esa"
-      person1={<BidangSection img={Beatrice} alt="Beatrice Valerina Djayasaputra" name="Beatrice Valerina Djayasaputra" desc="Hii everyone! Namaku Beatrice, koordinator OSIS bidang 1 😊 Life in smukie has been a journey, and joining OSIS is one of the ones I don’t regret! Tapi selain OSIS, ada banyak hal” seru lainnya yang aku ikuti, salah satunya jadi speaker sekaligus event manager di TEDxYouth@SmakOne (you can check it out on TEDx’s youtube channel or @tedxyouthsmakone on IG). Di luar sekolah, ada banyak hal lainnya juga yang aku suka, seperti binge watch series / films HEHE. Lately, aku juga lagi suka bgt sama badmin! So, if you guys have the same interests (or not) feel free to reach me out @beatrice.valerinaa on Instagram karena aku jg suka ngobrol HAHAH. *mau tanya-tanya juga boleh, would be happy to help! Salam kenal semuaa!"/>}
-      person2={<BidangSection img={Gabriella} alt="Gabriella Clara Subakti" name="Gabriella Clara Subakti" desc="Hai everyone! Perkenalkan namaku Gabriella tapi biasanya dipanggil Gab. Aku berjabat sebagai anggota OSIS bidang 1. A little info about myself, aku sukaaa banget sama yang namanya knitting sama crochet. My latest project is a turtleneck vest HEHEHE. Selain itu, aku juga suka nonton TV series and lately, aku lagi suka bgt sama show Peaky Blinders nii!! So if you guys have any show recommendations, mau belajar knitting with me or simply want to talk to me, sinii yukk ngobrol😋 @gabxclara on Instagram. Oiya fun fact about me, aku tuh kebalikan Ko WM HAHAHA, aku orangnya 90% extroverted. Okay anyways, let’s be friends and welcome everyone!!"/>}
-      person3={<BidangSection img={William} alt="William Matthew" name="William Matthew" desc="Halli Hallo! Aku William Matthew, biasa dipanggil WM, anggota OSIS bidang 1. Sedikit tentang aku, aku sangat suka belajar bahasa asing, dari bahasa Korea, Mandarin, Jerman, Spanyol, Jepang… semuanya aku pelajari (walaupun sebenarnya belum bisa bisa amat). Aku juga suka nari, walaupun lagi, kagak jago-jago amat. One fun fact about me is that aku introvert, dan kalau di tes MBTI aku dapetnya gak pernah kurang dari 90% Introverted. Tapi tetep harus berjuang untuk bisa bersosialisasi di SMUKI! :’) Kalau kamu juga suka belajar bahasa ataupun mau ngobrol gak jelas juga boleh banget contact aku, @williamtthw on IG. Jia you und Hwaiting in SMAK eins!"/>}
+      person1={<BidangSection img={Gabriella} alt="Gabriella" name="Gabriella Clara Subakti" desc="Hi everyone! Perkenalkan namaku Gaby selaku koordinator OSIS bidang 1. Selain OSIS, aku juga ikut kepanitian TEDxYouth@Smakone, TOS, dan SOC. Hobi aku antara lain nonton film, dengerin music & knitting. Feel free to hit me up @gabxclara on Instagram to ask questions & get to know me better!"/>}
+      person2={<BidangSection img={Kelly} alt="Kelly" name="Kelly Elizabeth Lukman" desc="Hello! Salam kenal semuanyaa, perkenalkan namaku Kelly Elizabeth Lukman, anggota OSIS bidang 1. Sedikit tentang aku, aku suka banget nyanyi! Nyanyi itu kayak salah satu cara ku untuk refreshing, tentunya selain nonton drakor dan dengerin lagu kpop. Jadi kalau kalian mau share something about singing / rekomen drakor & lagu-lagu kpop, silahkan banget hit me up through DM @kellyylukmann !! Semoga kita bisa makin kenal dan sama-sama have fun di smuki yaa, God bless!"/>}
+      person3={<BidangSection img={Samuel} alt="Samuel" name="Samuel Nicholas Widjaja" desc="Haloo semuanya, salam kenal aku Samuel sebagai anggota OSIS di bidang 1. Hobi aku tuh main basket, pergi sama temen, and nonton film. Kalau kalian ada pertanyaan tentang bidang 1 ataupun kehidupan di smuki, boleh chat di ig aku @SamuelNW_2006. Thank you for reading and stay happy guys!"/>}
+      person4={<BidangSection img={Gavi} alt="Gavi" name="Gavi Samohaga Marunduri" desc="Haiii guyss!! Salam kenal aku Gavi dari kelas XA6. Tahun ini aku menjabat sebagai anggota bidang 1. Walaupun proses seleksinya sengit, tapi aku bersyukur bisa masuk ke dalam bagian dari OSIS SMUKIE. Di waktu luang, aku suka main musik sambil nyanyi. Kadang aku iseng coba buat lagu sendiri, tapi hasilnya masih jauh dari kata bagus. Yang penting berkarya ya guys!! Selain itu, aku suka sama sepak bola. I love Barcelona ❤. Bagi kalian yang sama-sama decul merapat ke aku yahh. Ohhyaa aku ada satu gombalan nih.
+      Tau ngak fungsinya belajar peluang di pelajaran Matematika? 
+      Jadi fungsinya buat hitung kalau peluang aku dapetin kamu itu 100%
+      Oke cukup desc aku sampai di sini. Have fun di SMUKIE ya guyss!!"/>}
       Description={true}
       DescBid="Bidang 1 adalah bidang yang berperan dan bertanggung jawab dalam pembinaan kegiatan keagamaan Kristen di sekolah, salah satunya melalui kegiatan kebaktian yang rutin diadakan 1x dalam sebulan yang diikuti oleh seluruh guru, karyawan, dan siswa SMAK 1. Selain itu, melalui program kerja lainnya seperti R4G, SOG, dan Bible Trivia pengurus terus berusaha untuk mendorong pertumbuhan rohani seluruh warga SMAK 1."
       Program={true}
