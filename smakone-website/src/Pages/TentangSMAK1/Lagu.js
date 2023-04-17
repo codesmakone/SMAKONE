@@ -14,7 +14,7 @@ const Lagu = () => {
                     title = 'Lagu Tema'
                 />
                 <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 mb-12'>
-                    <div className="">
+                    <div className="xl:mx-10">
                         <div>
                             <div className="mt-4 mb-8 iframe-container grid place-items-center">
                             <iframe
@@ -61,7 +61,7 @@ const Lagu = () => {
                         </div>
                     </div>
                     <hr className='lg:hidden'/>
-                    <div>
+                    <div className='xl:mx-10'>
                         <div className="mt-4 mb-8 iframe-container grid place-items-center">
                             <iframe
                                 className="object-cover sm:w-[80%] sm:h-[300px] md:h-[360px] lg:w-[90%] lg:h-[300px] xl:w-full  xl:h-[350px] "
