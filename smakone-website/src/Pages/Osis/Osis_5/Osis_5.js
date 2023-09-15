@@ -5,7 +5,7 @@ import BidangSection from '../../../Component/Osis/BidangSection'
 import OsisTeam from '../../../Component/Osis/OsisTeam'
 
 // Import Image
-import Charmaine from '../../../Image/Osis/Bidang_5/Charmaine.webp'
+import Charmaine from '../../../Image/Osis/Bidang_5/charmaine.webp'
 import Valerie from '../../../Image/Osis/Bidang_5/Valerie.webp'
 import Kaitlynn from '../../../Image/Osis/Bidang_5/Kaitlynn.webp'
 

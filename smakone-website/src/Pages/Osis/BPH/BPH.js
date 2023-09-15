@@ -8,7 +8,7 @@ import OsisTeam from '../../../Component/Osis/OsisTeam'
 import Aline from '../../../Image/Osis/BPH/aline.webp'
 import Kimberly from '../../../Image/Osis/BPH/Kimberly.webp'
 import Florentina from '../../../Image/Osis/BPH/Florentina.webp'
-import Amanda from '../../../Image/Osis/BPH/Amanda.webp'
+import Amanda from '../../../Image/Osis/BPH/amanda.webp'
 import Jejo from '../../../Image/Osis/BPH/Jejo.webp'
 
 const BPH = () => {

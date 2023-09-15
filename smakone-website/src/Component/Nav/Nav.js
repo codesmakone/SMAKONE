@@ -29,16 +29,12 @@ import {GiLightBulb} from 'react-icons/gi'
 import {GiThrowingBall} from 'react-icons/gi'
 import {IoSchool} from 'react-icons/io5'
 import {FaRunning} from 'react-icons/fa'
-import {FaTrophy} from 'react-icons/fa'
 import {SiGooglepodcasts} from 'react-icons/si'
 import {MdTheaters} from 'react-icons/md'
 import {IoIosBasketball} from 'react-icons/io'
 import {BsFillBrushFill} from 'react-icons/bs'
 import {IoFlaskSharp} from 'react-icons/io5'
 import {GiPublicSpeaker} from 'react-icons/gi'
-import {BsFillMicFill} from 'react-icons/bs'
-import {GiCampfire} from 'react-icons/gi'
-import {GiTiedScroll} from 'react-icons/gi'
 
 const Nav = (props) => {
     const location = useLocation();

@@ -5,7 +5,7 @@ import BidangSection from '../../../Component/Osis/BidangSection'
 import OsisTeam from '../../../Component/Osis/OsisTeam'
 
 // Import Image
-import CZar from '../../../Image/Osis/Bidang_8/CZar.webp'
+import CZar from '../../../Image/Osis/Bidang_8/Czar.webp'
 import BIG from '../../../Image/Osis/Bidang_8/BIG.webp'
 import Krislyn from '../../../Image/Osis/Bidang_8/Krislyn.webp'
 
