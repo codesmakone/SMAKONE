@@ -30,6 +30,16 @@ const Ass1st = () => {
                     Hello Smukierz, sebentar lagi kita akan segera menapaki perjalanan kita di tingkat perkuliahan. Tapi, masih banyak dari kita yang ragu akan memilih jurusan kuliah. Tapi jangan khawatir karena kami hadir dengan program ASS1ST. Apa itu ASS1ST? ASS1ST ini adalah program OSIS bidang 4 yang isinya merupakan penjelasan mengenai jurusan kuliah serta nama-nama universitas yang mengusai di jurusan tersebut. Jadi, harapannya dengan adanya ASS1ST ini maka akan mempermudah kalian dalam menentukan jurusan kuliah yang kalian inginkan.
                     </h4>
                 </div>
+                <div className='mt-12'>
+                  <h1 className='text-2xl xl:text-4xl sm:text-3xl font-bold my-4'>
+                    Testimoni Para Alumni
+                  </h1>
+                  <iframe className="object-cover w-full h-[300px] lg:h-[558px] sm:h-[350px]"  
+                          src="https://drive.google.com/file/d/13AcgF746ax02aq9jRAsVisfcvhS3tr4Y/preview" 
+                          title="Welcome to SMAK ONE." 
+                          frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+                </iframe>
+                </div>
             </div>
         </div>
 
