@@ -5,9 +5,10 @@ import BidangSection from '../../../Component/Osis/BidangSection'
 import OsisTeam from '../../../Component/Osis/OsisTeam'
 
 // Import Image
-import enrichie from '../../../Image/Osis/Bidang_9/enrichie.webp'
 import Edward from '../../../Image/Osis/Bidang_9/Edward.webp'
 import Michelle from '../../../Image/Osis/Bidang_9/Michelle.webp'
+import Grant from '../../../Image/Osis/Bidang_9/Grant.webp'
+import Justin from '../../../Image/Osis/Bidang_9/Justin.webp'
 
 const OSIS_9 = () => {
   return (
@@ -15,15 +16,16 @@ const OSIS_9 = () => {
       <OsisTeam
         bidang="Bidang 9"
         desc="Bidang Pembinaan Teknologi Informasi dan Komunikasi (TIK)"
-        person1={<BidangSection img={enrichie} alt="enrichie" name="Enrichie Gracia" desc="Halo semuanya!!! Perkenalkan namaku Enrichie. Tahun ini, aku menjabat sebagai koordinator bidang 9 dan sebagai salah satu babu smukie wkwkkwkw 😂😂. Di waktu luang, aku suka berenang dan juga membuat karya 3 dimensi menggunakan software Blender dan Unreal Engine 5. Kalau kalian tertarik untuk melihat karya yang sudah dibuat oleh aku, kalian bisa mengunjungi Instagram aku @enrichie_gracia. Satu funfact tentang aku adalah aku kalo minum kopi bukannya malah melek tapi malah makin ngantuk 😴😴😴"/>}
-        person2={<BidangSection img={Edward} alt="Edward" name="Edward Putera Rusli" desc="Halo semua! Kenalin nama aku Edward. Sekarang, aku lagi ada di kelas 10 dan menjabat sebagai anggota pengurus OSIS bidang 9. Saat ada waktu luang, aku suka main piano, programming, dan sebagainya. Kalo mau ngechat tentang apapun, langsung contact aja di IG aku, @edward_p_rusli!"/>}
-        person3={<BidangSection img={Michelle} alt="Michelle" name="Michelle Liu" desc="Halo semuanya kenalin aku Michelle. Di waktu waktu luang biasanya aku lebih sering mainin laptop sambil dengerin lagu atau ngelukis pemandangan random yang ada di pinterest. Oiya kalo kalian mau kenal aku lebih deket bisa langsung cari aku di  instagram @michele_1iu"/>}
+        person1={<BidangSection img={Edward} alt="Edward" name="Edward Putera Rusli" desc="Halo semua!! Kenalin nama aku Edward 👋. Sekarang, aku lagi di kelas 11 dan menjabat sebagai koordinator OSIS bidang 9! Saat ada waktu luang, aku suka fotografi/videografi, main piano, programming, dan sebagainya, pokoknya banyak deh hobbynya 🦆. Kalo mau ngobrol tentang apapun, langsung chat aja di IG aku, @edward_p_rusli!"/>}
+        person2={<BidangSection img={Michelle} alt='Michelle' name='Michelle Liu' desc='Hello everyone🤩, salam kenal semuanya. Perkenalkan aku Michelle, biasa dipanggil Michelle/chell/Liu. Saat ini aku menjabat sebagai anggota bidang 9, Selain aktif di OSIS aku juga aktif di berbagai kepanitiaan kayak SOC, STN, Bazone dan kawan kawannya. Karena hobi aku gak nentu jadi kita skip bagian itu dehhh, Gantinya fun fact aja kali yaaa, aku lahir di hari nyepi✌️and one of my favorite destination itu Bali🏝️. Also, aku orangnya lumayan pendiem so kalo misalnya at one time aku ngeliatin kalian lama gitu itu artinya aku lagi mikir “sapa ato engga ya?”. Even though aku pendiem, aku tetep suka ngobrol kok so don’t hesitate to reach me out through DM @michele_1iu. Enjoy your moment in SMUKIE!!'/>}
+        person3={<BidangSection img={Grant} alt='Grant' name='Grant Favor Tanudjaja' desc='Halo semuanya, perkenalkan nama aku Grant Favor Tanudjaja, biasanya aku dipanggil Grant. Sekarang aku duduk di kelas X5 dan sebagai anggota dari OSIS bidang 9. Hobi aku antara lain main game, workout, main musik, dll. Kalau mau nanya apa-apa atau kenalan, dm aj ke @grantfavr'/>}
+        person4={<BidangSection img={Justin} alt='Justin' name='Justin Revaldo Widjaja' desc='Haihaii, kenalin nama aku justinn..! sekarang aku adalah siswa dari kelas X6 dan disini sbg anggota bid 9 🤩🤩klo ada spare time sih aku suka netflix/GYMM/codingg gitu,, if u need anything bisa dm ke @justinrevaldo‼️ anywayy SALAM KENALL SMUANYA '/>}
         Description={true}
-        DescBid="Bidang 9, Bidang Pembinaan Teknologi Informasi dan Komunikasi (TIK) adalah bidang yang bertanggung jawab mengenai pemanfaatan TIK untuk melancarkan kegiatan-kegiatan ataupun acara di sekolah, seperti menjadi tim multimedia saat ada seminar. Selain itu, bidang 9 menggunakan TIK sebagai sumber informasi bagi para siswa agar dapat mengenal OSIS SMAK 1 lebih dalam lagi. Bidang 9 juga peduli akan talenta siswa-siswi SMAK 1. Salah satu bentuk kepeduliannya adalah dengan mewadahi siswa-siswi yang ingin mengembangkan talentanya di bidang desain dan perfilman dengan Monograph dan Shutterone.
-        "
+        DescBid="Bidang 9, Bidang Pembinaan Teknologi Informasi dan Komunikasi (TIK) adalah bidang yang bertanggung jawab mengenai pemanfaatan TIK untuk melancarkan kegiatan-kegiatan ataupun acara di sekolah, seperti menjadi tim multimedia saat ada seminar. Selain itu, bidang 9 menggunakan TIK sebagai sumber informasi bagi para siswa agar dapat mengenal OSIS SMAK 1 lebih dalam lagi. Bidang 9 juga peduli akan talenta siswa-siswi SMAK 1. Salah satu bentuk kepeduliannya adalah dengan mewadahi siswa-siswi yang ingin mengembangkan talentanya di bidang desain dan perfilman dengan Monograph dan Shutterone."
         Program={true}
         ProgramList={
           [
+            //PENDING
             'Website: Website merupakan program situs resmi OSIS SMAK 1 PENABUR Jakarta dimana terdapat informasi mengenai OSIS SMAK 1 dan acara-acara OSIS yang sudah maupun akan diadakan.',
             'Shutter One: Organisasi naungan OSIS SMAK 1 PENABUR Jakarta yang beranggotakan siswa-siswi bertalenta dalam video editing dan mendokumentasi foto maupun video dari sebuah acara.',
             'SMAK One Social Network: Sosial media (Instagram, Line, dan Youtube) resmi OSIS SMAK 1 PENABUR Jakarta yang memberikan konten mengenai program OSIS dan tempat untuk lebih berinteraktif antara OSIS dengan warga SMAK 1.',
