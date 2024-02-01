@@ -5,10 +5,11 @@ import BidangSection from '../../../Component/Osis/BidangSection'
 import OsisTeam from '../../../Component/Osis/OsisTeam'
 
 // Import Image
-import Gabriella from '../../../Image/Osis/Bidang_1/Gabriella.webp'
-import Kelly from '../../../Image/Osis/Bidang_1/Kelly.webp'
-import Samuel from '../../../Image/Osis/Bidang_1/Samuel.webp'
 import Gavi from '../../../Image/Osis/Bidang_1/Gavi.webp'
+import Rafael from '../../../Image/Osis/Bidang_1/Rafael.webp'
+import Tyra from '../../../Image/Osis/Bidang_1/Tyra.webp'
+import Elaene from '../../../Image/Osis/Bidang_1/Elaene.webp'
+import Emily from '../../../Image/Osis/Bidang_1/Emily.webp'
 
 const OSIS_1 = () => {
   return (
@@ -16,18 +17,24 @@ const OSIS_1 = () => {
       <OsisTeam
       bidang="Bidang 1"
       desc="Bidang Pembinaan Keimanan dan Ketakwaan Terhadap Tuhan Yang Maha Esa"
-      person1={<BidangSection img={Gabriella} alt="Gabriella" name="Gabriella Clara Subakti" desc="Hi everyone! Perkenalkan namaku Gaby selaku koordinator OSIS bidang 1. Selain OSIS, aku juga ikut kepanitian TEDxYouth@Smakone, TOS, dan SOC. Hobi aku antara lain nonton film, dengerin music & knitting. Feel free to hit me up @gabxclara on Instagram to ask questions & get to know me better!"/>}
-      person2={<BidangSection img={Kelly} alt="Kelly" name="Kelly Elizabeth Lukman" desc="Hello! Salam kenal semuanyaa, perkenalkan namaku Kelly Elizabeth Lukman, anggota OSIS bidang 1. Sedikit tentang aku, aku suka banget nyanyi! Nyanyi itu kayak salah satu cara ku untuk refreshing, tentunya selain nonton drakor dan dengerin lagu kpop. Jadi kalau kalian mau share something about singing / rekomen drakor & lagu-lagu kpop, silahkan banget hit me up through DM @kellyylukmann !! Semoga kita bisa makin kenal dan sama-sama have fun di smuki yaa, God bless!"/>}
-      person3={<BidangSection img={Samuel} alt="Samuel" name="Samuel Nicholas Widjaja" desc="Haloo semuanya, salam kenal aku Samuel sebagai anggota OSIS di bidang 1. Hobi aku tuh main basket, pergi sama temen, and nonton film. Kalau kalian ada pertanyaan tentang bidang 1 ataupun kehidupan di smuki, boleh chat di ig aku @SamuelNW_2006. Thank you for reading and stay happy guys!"/>}
-      person4={<BidangSection img={Gavi} alt="Gavi" name="Gavi Samohaga Marunduri" desc="Haiii guyss!! Salam kenal aku Gavi dari kelas XA6. Tahun ini aku menjabat sebagai anggota bidang 1. Walaupun proses seleksinya sengit, tapi aku bersyukur bisa masuk ke dalam bagian dari OSIS SMUKIE. Di waktu luang, aku suka main musik sambil nyanyi. Kadang aku iseng coba buat lagu sendiri, tapi hasilnya masih jauh dari kata bagus. Yang penting berkarya ya guys!! Selain itu, aku suka sama sepak bola. I love Barcelona ❤. Bagi kalian yang sama-sama decul merapat ke aku yahh. Ohhyaa aku ada satu gombalan nih.
-      Tau ngak fungsinya belajar peluang di pelajaran Matematika? 
-      Jadi fungsinya buat hitung kalau peluang aku dapetin kamu itu 100%
-      Oke cukup desc aku sampai di sini. Have fun di SMUKIE ya guyss!!"/>}
+      person1={<BidangSection img={Gavi} alt='Gavi' name='Gavi Samohaga Marunduri' desc='Haiii guyss!! Salam kenal aku Gavi. Tahun ini aku menjabat sebagai koordinator bidang 1 dan aku bersyukur bisa masuk ke dalam bagian dari OSIS SMUKIE. Fyi di waktu luang, aku suka main musik sambil nyanyi. Kadang aku iseng coba buat lagu sendiri, tapi hasilnya masih jauh dari kata bagus. Yang penting berkarya ya guys!! Selain itu, aku suka sama sepak bola. I love Barcelona ❤. Bagi kalian yang sama-sama decul merapat ke aku yahh. Btw kalau kalian mau nanya something ke aku, boleh banget dm aku di @gavi_samohaga. Ohhyaa aku ada satu gombalan nih. Tau ngak fungsinya belajar peluang di pelajaran Matematika? Jadi fungsinya buat hitung kalau peluang aku dapetin kamu itu 100% Oke cukup desc aku sampai di sini. Have fun di SMUKIE ya guyss!!'/>}
+      person2={<BidangSection img={Rafael} alt='Rafael' name='Rafael Jose Alexandre Parengkuan' desc="Hi all!!, kenalin aku Rafael, anggota OSIS Bidang 1. Welcome to SMUKIE, semoga kalian tetep semangat 3 tahun disini. Sebenernya tidak ada yang unik tentang aku. Cuma hobi dengerin lagu sama fansnya Pidi Baiq. Ya walau begitu, feel free to hit me up dimana aja kalau kita ketemu. Thanku y'all, have fun smukiers! GBU!"/>}
+      person3={<BidangSection img={Tyra} alt='Tyra' name='Tyra Ellena' desc="Hi hii salam kenal semuaa! Kenalin aku Tyra Ellena dari kelas XIS2. Bisanya dipangil tyra atau tyrong hahaha. A little info about me is that i love to read books, yang romance pastinya hahaha terus suka banget nonton dracin (zhang lurang's biggestt fan) terus aku suka bangett nyanyi sambil main gitar atau piano hehe! anyways kalau kalian punya recommendation buat lagu lagu jamming/dracin atau mau kenalan, please hit me up @tyraellena on instagram yaa!!"/>}
+      person4={<BidangSection img={Elaene} alt='Elaene' name='Elaene Lee' desc='Hii semuanyaa!!! aku Elaene, anggota dari bidang 1, biasa aku dipanggil len. Sekarang, aku ada di kelas X-2. Kalo ada free time, biasanya aku main hp ato ngga tidurrr 💤😴, tapi aku juga suka main piano kadang2. anw, feel free to dm mee on ig @el.aene'/>}
+      person5={<BidangSection img={Emily} alt='Emily' name='Emily Jane Martanegara' desc='helloo everyonee!! nama aku Emily Jane, biasanya aku di panggil Emi, tapi apa aja boleh. selain OSIS, aku juga ada di DA Pramuka + organisasi luar sekolah. aku suka beberapa hal, yaitu; dengerin queen & the beatles, kuromi, dan ngomongin binatang orca. selain itu, hobi aku itu makan dimsum & nonton film horror. fun fact about me itu aku lahirnya di Shanghai & i love and care about the environment (especially the sea). if you want to get to know me better, feel free to dm me on ig @emilymartanegara, don’t be shy! karena aku orang nya suka di ajak ngobrol, deep talk, or kamu simply nanya-nanya tentang smukie juga gapapaa ♡ hmu if u wanna be my dimsum eating buddy! hehehe, have a good time di smukie yaa <3'/>}
+      
+      
+
+      
+      
+      
+      
       Description={true}
       DescBid="Bidang 1 adalah bidang yang berperan dan bertanggung jawab dalam pembinaan kegiatan keagamaan Kristen di sekolah, salah satunya melalui kegiatan kebaktian yang rutin diadakan 1x dalam sebulan yang diikuti oleh seluruh guru, karyawan, dan siswa SMAK 1. Selain itu, melalui program kerja lainnya seperti R4G, SOG, dan Bible Trivia pengurus terus berusaha untuk mendorong pertumbuhan rohani seluruh warga SMAK 1."
       Program={true}
       ProgramList={
         [
+          //PENDING
         'R4G (Radio for God) - R4G merupakan proker bidang 1 berupa pemutaran lagu rohani sesuai jadwal tertentu melalui radio sekolah dan spotify (online) [ Find out more about this program on our spotify @smukiee !]',
         'SOG (Servant of God) - Melalui SOG, dibuka kesempatan bagi siswa-siswi yang memiliki panggilan melayani dalam setiap kebaktian sebagai penatalayan (singer, WL, pemusik)',
         'Bible Trivia - Program ini bertujuan untuk memperdalam pengetahuan siswa-siswi SMAK 1 mengenai Alkitab dalam bentuk pertanyaan quiz [ Find out more about this program on our instagram stories @smukiee ! ]',
