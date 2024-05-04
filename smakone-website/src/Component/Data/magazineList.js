@@ -82,12 +82,12 @@ export const magazineList = [
         id:12,
         title: "Cornucopia",
         img:Cornucopia,
-        link: ""
+        link: "https://heyzine.com/flip-book/f7f5a00488.html"
     },
     {
         id:13,
         title: "BlossomLuminance",
         img:BlossomLuminance,
-        link: ""
+        link: "https://heyzine.com/flip-book/dddac7ea5d.html"
     }
 ]
