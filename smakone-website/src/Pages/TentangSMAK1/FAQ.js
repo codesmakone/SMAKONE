@@ -5,20 +5,14 @@ import Footer from '../../Component/Footer/Footer'
 import ContentHeader from '../../Component/Content/ContentHeader'
 import ContentText from '../../Component/Content/ContentText'
 
-const TentangSMAK1 = () => {
+const FAQ = () => {
     return(
         <div>
             <Nav/>
             <div className="container w-full h-full mx-auto justify-center mt-28">
-                <ContentHeader
-                    title = 'Sekilas Tentang SMAK 1'
-                    iframe={true}
-                />
-                <ContentText
-                    text = "SMAK 1 PENABUR merupakan sekolah Kristen bergengsi di wilayah Tanjung Duren, Jakarta. Dengan visi untuk mewujudnyatakan sekolah unggul yang bermotivasi dalam iman, ilmu dan pelayanan, SMAK 1 bertujuan untuk mengembangkan potensi para peserta didik secara optimal berdasarkan teladan nilai Kristiani. Program pembelajaran SMAK 1 memberi pemahaman bagi siswa-siswi melalui penggunaan kurikulum nasional. Selain itu, siswa-siswi juga dibekali dengan pembelajaran non-akademik, misalnya melalui kegiatan ekstrakurikuler dan acara-acara sekolah. Proses pembelajaran didukung dan ditunjang oleh guru-guru yang kompeten, bimbingan konseling dan fasilitas yang lengkap. SMAK 1 pun dikenal dengan prestasi-prestasi yang cemerlang baik di bidang akademis maupun non-akademis, internasional maupun nasional."
-                />
+                
 
-                <div className="font-black text-left mx-6 sm:ml-16 xl:ml-28 text-2xl xl:text-3xl mt-12">Pertanyaan yang Sering Ditanyakan</div>
+                <div className="font-black text-left mx-6 sm:ml-16 xl:ml-28 text-4xl xl:text-6xl mt-12">FAQs</div>
 
                 <ContentText
                     title = "Apakah pelajaran di SMAK 1 sulit?"
@@ -75,4 +69,4 @@ const TentangSMAK1 = () => {
     )
 }
 
-export default TentangSMAK1
+export default FAQ

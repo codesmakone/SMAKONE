@@ -30,7 +30,7 @@ import Psikologi from './Pages/Ass1st/Jurusan/Psikologi'
 import Sipil from './Pages/Ass1st/Jurusan/Sipil'
 import Pertambangan from './Pages/Ass1st/Jurusan/Pertambangan'
 
-import TentangKami from './Pages/TentangSMAK1/TentangSMAK1'
+import TentangKami from './Pages/TentangSMAK1/FAQ'
 import Sejarah from './Pages/TentangSMAK1/Sejarah'
 import Fasilitas from './Pages/TentangSMAK1/Fasilitas'
 import Logo from './Pages/TentangSMAK1/Logo'
