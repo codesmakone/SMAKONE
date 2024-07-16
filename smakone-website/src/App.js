@@ -30,7 +30,7 @@ import Psikologi from './Pages/Ass1st/Jurusan/Psikologi'
 import Sipil from './Pages/Ass1st/Jurusan/Sipil'
 import Pertambangan from './Pages/Ass1st/Jurusan/Pertambangan'
 
-import TentangKami from './Pages/TentangSMAK1/FAQ'
+import FAQ from './Pages/TentangSMAK1/FAQ'
 import Sejarah from './Pages/TentangSMAK1/Sejarah'
 import Fasilitas from './Pages/TentangSMAK1/Fasilitas'
 import Logo from './Pages/TentangSMAK1/Logo'
@@ -92,7 +92,7 @@ function App() {
             <Route path='/alasan/Berwyn' element={<Berwyn1/>}/>
             <Route path='/alasan/MattheusBryanDjahtranto' element={<MattheusBryanDjahtranto/>}/>
 
-          <Route path="/tentang_smak1" element={<TentangKami/>}/>
+          <Route path="/tentang_smak1/faq" element={<FAQ/>}/>
           <Route path="/tentang_smak1/sejarah" element={<Sejarah/>}/>
           <Route path="/tentang_smak1/fasilitas" element={<Fasilitas/>}/>
           <Route path="/tentang_smak1/logo" element={<Logo/>}/>

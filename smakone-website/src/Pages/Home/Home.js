@@ -11,6 +11,7 @@ import Footer from '../../Component/Footer/Footer'
 
 import ContentHeader from '../../Component/Content/ContentHeader'
 import ContentText from '../../Component/Content/ContentText'
+import ContentHeader_NoPadding from "../../Component/Content/ContentHeader_NoPadding";
 
 
 // Import Image
@@ -102,8 +103,8 @@ const Home = () => {
 
       <div className='w-full h-auto mt-8 px-3 py-16'>
         <div className='container mx-auto'>
-            <div className="container w-full h-full mx-auto justify-center mt-28">
-                <ContentHeader
+            <div className="container w-full h-full mx-auto justify-center">
+                <ContentHeader_NoPadding
                     title = 'Sekilas Tentang SMAK 1'
                     iframe={true}
                 />
