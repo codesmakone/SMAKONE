@@ -12,7 +12,7 @@ module.exports = {
       'light-blue' : '#1D77FF',
     },
     backgroundImage: {
-      'footer-image': "url('./Image/Background_Footer.webp')"
+      'footer-image': "url('./Image/Background_Footer.webp')",
     },
   },
 

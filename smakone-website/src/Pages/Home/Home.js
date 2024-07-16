@@ -30,7 +30,7 @@ const Home = () => {
     <div className="overflow-hidden">
       <Nav />
       <div
-        className="col-span-6 flex flex-col justify-start text-left mt-27 h-screen bg-no-repeat bg-cover"
+        className="col-span-6 flex flex-col justify-start text-left mt-27 h-screen bg-fixed bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${heroImg})` }}
       >
         <div className="px-5 md:px-10 lg:px-16 xl:px-20 pt-10 lg:pt-20 pb-12 md:pb-24 lg:pb-24 xl:pb-44">
