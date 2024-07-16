@@ -52,7 +52,7 @@ const Nav = (props) => {
 
   const pathSMAK1 =
     path === "" ||
-    path === "/tentang_smak1" ||
+    path === "/tentang_smak1/faq" ||
     path === "/tentang_smak1/sejarah" ||
     path === "/tentang_smak1/fasilitas" ||
     path === "/tentang_smak1/logo" ||
@@ -270,12 +270,12 @@ const Nav = (props) => {
                 >
                   <button
                     className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/tentang_smak1" ? "font-bold" : "text-gray-500"
+                      path === "/tentang_smak1/faq" ? "font-bold" : "text-gray-500"
                     }`}
                   >
                     <IoEyeSharp size={24} />
                     <p className="text-base leading-4  ">
-                      <Link to="/tentang_smak1">Sekilas Pandang</Link>
+                      <Link to="/tentang_smak1/Faq">FAQ</Link>
                     </p>
                   </button>
                   <button
@@ -672,7 +672,7 @@ const Nav = (props) => {
                 title="Tentang SMAK 1"
                 class={`md:px-3 py-2 transition duration-200 border-b-2 border-transparent link-underline-black cursor-pointer text-xs sm:text-base lg:text-lg xl:text-xl 
                     ${
-                      path === "/tentang_smak1" ||
+                      path === "/tentang_smak1/faq" ||
                       path === "/tentang_smak1/sejarah" ||
                       path === "/tentang_smak1/fasilitas" ||
                       path === "/tentang_smak1/logo" ||
@@ -680,12 +680,12 @@ const Nav = (props) => {
                         ? "link-underline-static drop-shadow-[0_15px_12px_rgba(0,0,0,0.25)]"
                         : "link-underline"
                     }`}
-                dir1="/tentang_smak1"
+                dir1="/tentang_smak1/Faq"
                 dir2="/tentang_smak1/Sejarah"
                 dir3="/tentang_smak1/Fasilitas"
                 dir4="/tentang_smak1/Logo"
                 dir5="/tentang_smak1/Lagu"
-                menu1="Sekilas Pandang"
+                menu1="FAQ"
                 menu2="Sejarah, Visi, dan Misi"
                 menu3="Fasilitas"
                 menu4="Logo"

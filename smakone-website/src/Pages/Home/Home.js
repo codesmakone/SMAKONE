@@ -1,13 +1,17 @@
 import React from "react";
 
 // Import Component
-import AlasanCard from "../../Component/Home/AlasanCard";
-import Checklist from "../../Component/Home/Checklist";
-import Kegiatan from "../../Component/Home/Kegiatan";
-import SelukBeluk from "../../Component/Home/SelukBeluk";
-import FeatEmagz from "../../Component/Home/FeatEmagz";
-import Nav from "../../Component/Nav/Nav";
-import Footer from "../../Component/Footer/Footer";
+import AlasanCard from "../../Component/Home/AlasanCard"
+import Checklist from "../../Component/Home/Checklist"
+import Kegiatan from "../../Component/Home/Kegiatan"
+import SelukBeluk from "../../Component/Home/SelukBeluk"
+import FeatEmagz from "../../Component/Home/FeatEmagz"
+import Nav from '../../Component/Nav/Nav'
+import Footer from '../../Component/Footer/Footer'
+
+import ContentHeader from '../../Component/Content/ContentHeader'
+import ContentText from '../../Component/Content/ContentText'
+
 
 // Import Image
 import EnrichieGracia from "../../Image/Home/Alasan/Enrichie1.webp";
@@ -96,13 +100,27 @@ const Home = () => {
         </div>
       </div> */}
 
-      <div
-        className="bg-dark-blue w-full h-auto text-white px-3 py-24"
-        id="Alasan"
-      >
-        <div className="container mx-auto">
-          <div className="justify-center text-white text-center font-bold mb-12 px-3 sm:px-12 md:px-24 lg:px-32 xl:px-40">
-            <div className="text-white mb-5 content-center text-lg">
+      <div className='w-full h-auto mt-8 px-3 py-16'>
+        <div className='container mx-auto'>
+            <div className="container w-full h-full mx-auto justify-center mt-28">
+                <ContentHeader
+                    title = 'Sekilas Tentang SMAK 1'
+                    iframe={true}
+                />
+                {/* v Context Text modified to center & smaller on mobile v */}
+                <div className="container mx-auto mt-8 text-center">
+                  <div className='px-6 sm:px-16 xl:px-28'>
+                    <div className="text-l xl:text-xl font-bold mt-10">SMAK 1 PENABUR merupakan sekolah Kristen bergengsi di wilayah Tanjung Duren, Jakarta. Dengan visi untuk mewujudnyatakan sekolah unggul yang bermotivasi dalam iman, ilmu dan pelayanan, SMAK 1 bertujuan untuk mengembangkan potensi para peserta didik secara optimal berdasarkan teladan nilai Kristiani. Program pembelajaran SMAK 1 memberi pemahaman bagi siswa-siswi melalui penggunaan kurikulum nasional. Selain itu, siswa-siswi juga dibekali dengan pembelajaran non-akademik, misalnya melalui kegiatan ekstrakurikuler dan acara-acara sekolah. Proses pembelajaran didukung dan ditunjang oleh guru-guru yang kompeten, bimbingan konseling dan fasilitas yang lengkap. SMAK 1 pun dikenal dengan prestasi-prestasi yang cemerlang baik di bidang akademis maupun non-akademis, internasional maupun nasional.</div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+      <div className='bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24' id="Alasan">
+        <div className='container mx-auto'>
+          <div className='justify-center text-white text-center font-bold mb-12 px-3 sm:px-12 md:px-24 lg:px-32 xl:px-40'>
+            <div className='text-white mb-5 content-center text-lg'>
               Dengar dari SMUKIERS
             </div>
             <div className="text-white text-2xl sm:text-3xl lg:text-4xl xl:text-5xl leading-normal">
