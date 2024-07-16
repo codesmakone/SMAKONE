@@ -178,7 +178,7 @@ const Nav = (props) => {
                 <div id="menu1" className={`${menu[0] ? 'flex' : 'hidden'} justify-start  flex-col w-full md:w-auto items-start pb-5 `}>
                     <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/tentang_smak1' ? "font-bold" : "text-gray-500"}`}>
                         <IoEyeSharp size={24} />
-                        <p className="text-base leading-4  "><Link to='/tentang_smak1'>Sekilas Pandang</Link></p>
+                        <p className="text-base leading-4  "><Link to='/tentang_smak1'>Frequently Asked Questions</Link></p>
                     </button>
                     <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/tentang_smak1/sejarah' ? "font-bold" : "text-gray-500"}`}>
                         <AiFillFlag size={24} />
@@ -345,7 +345,7 @@ const Nav = (props) => {
                     dir3='/tentang_smak1/Fasilitas'
                     dir4='/tentang_smak1/Logo'
                     dir5='/tentang_smak1/Lagu' 
-                    menu1="Sekilas Pandang"
+                    menu1="Frequently Asked Questions"
                     menu2="Sejarah, Visi, dan Misi"
                     menu3="Fasilitas"
                     menu4="Logo"
