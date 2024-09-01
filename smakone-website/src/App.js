@@ -8,14 +8,23 @@ import ScrollToTop from './Component/ScrollToTop'
 
 // Import Pages
 import Home from './Pages/Home/Home';
-import Soundscape from './Pages/Kegiatan/soundscape'
-import STN from './Pages/Kegiatan/stn'
-import Kriza from './Pages/Kegiatan/kriza'
-import SOC from './Pages/Kegiatan/soc'
 import EnrichieGracia from './Pages/Home/Alasan/Enrichie'
 import GillianSeason from './Pages/Home/Alasan/Gilian'
 import Berwyn1 from './Pages/Home/Alasan/Berwyn'
 import MattheusBryanDjahtranto from './Pages/Home/Alasan/Mattheus'
+
+import Soundscape from './Pages/Kegiatan/soundscape'
+import STN from './Pages/Kegiatan/stn'
+import SAPxSNM from './Pages/Kegiatan/SAPxSNM';
+import Kriza from './Pages/Kegiatan/kriza'
+import SOC from './Pages/Kegiatan/soc'
+import Seni from './Pages/Kegiatan/seni';
+import SClub from './Pages/Kegiatan/scj';
+import Pramuka from './Pages/Kegiatan/pramuka';
+import DoFEIA from './Pages/Kegiatan/DoFEIA';
+import Kegiatan from './Pages/Kegiatan/Kegiatan';
+import MUN from './Pages/Kegiatan/MUN';
+import OneCast from './Pages/Kegiatan/onecast';
 
 import Osis from './Pages/Osis/Osis'
 import Emagz from './Pages/Emagz/Emagz'
@@ -58,13 +67,6 @@ import AlumniPage from './Pages/Alumni/alumni'
 import Billy from './Pages/Alumni/BillyStevanus'
 import Scoot from './Pages/Alumni/ScottMoses'
 import Nicole from './Pages/Alumni/NicoleCharlene'
-import Seni from './Pages/Kegiatan/seni';
-import SClub from './Pages/Kegiatan/scj';
-import Pramuka from './Pages/Kegiatan/pramuka';
-import DoFEIA from './Pages/Kegiatan/DoFEIA';
-import Kegiatan from './Pages/Kegiatan/Kegiatan';
-import MUN from './Pages/Kegiatan/MUN';
-import OneCast from './Pages/Kegiatan/onecast';
 import BukuAcara from './Pages/Home/Buku_Acara';
 
 function App() {
@@ -79,6 +81,7 @@ function App() {
             <Route path='/kegiatan/soc' element={<SOC/>}/>
             <Route path='/kegiatan/soundscape' element={<Soundscape/>}/>
             <Route path='/kegiatan/stn' element={<STN/>}/>
+            <Route path='/kegiatan/sapxsnm' element={<SAPxSNM/>}/>
             <Route path='/kegiatan/kr1za' element={<Kriza/>}/>
             <Route path='/kegiatan/seni' element={<Seni/>}/>
             <Route path='/kegiatan/scj' element={<SClub/>}/>

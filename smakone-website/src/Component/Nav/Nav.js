@@ -99,7 +99,7 @@ const Nav = (props) => {
     path==='/kegiatan' 
     || path==='/kegiatan/soc' 
     || path==='/kegiatan/soundscape'
-    || path==="/kegiatan/stn"
+    || path==="/kegiatan/sapxsnm"
     || path==='/kegiatan/kr1za'
     || path==='/kegiatan/seni'
     || path==='/kegiatan/scj'
@@ -291,9 +291,9 @@ const Nav = (props) => {
                     <SiGooglepodcasts size={24} />
                     <p className="text-base leading-4  "><Link to='/Kegiatan/Soundscape'>Soundscape</Link></p>
                 </button>
-                <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/stn' ? "font-bold" : "text-gray-500"}`}>
+                <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/sapxsnm' ? "font-bold" : "text-gray-500"}`}>
                     <MdTheaters size={24} />
-                    <p className="text-base leading-4  "><Link to='/Kegiatan/STN'>Smukiez Theater Night</Link></p>
+                    <p className="text-base leading-4  "><Link to='/Kegiatan/SAPxSNM'>SAPxSNM</Link></p>
                 </button>
                 <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/kr1za' ? "font-bold" : "text-gray-500"}`}>
                     <IoIosBasketball size={24} />
@@ -420,7 +420,7 @@ const Nav = (props) => {
                     path==='/kegiatan' 
                     || path==='/kegiatan/soc' 
                     || path==='/kegiatan/soundscape'
-                    || path==="/kegiatan/stn"
+                    || path==="/kegiatan/sapxsnm"
                     || path==='/kegiatan/kr1za'
                     || path==='/kegiatan/seni'
                     || path==='/kegiatan/scj'
@@ -434,7 +434,7 @@ const Nav = (props) => {
                     dir1='/Kegiatan'
                     dir2='/Kegiatan/SOC'
                     dir3='/Kegiatan/Soundscape'
-                    dir4="/Kegiatan/STN"
+                    dir4="/Kegiatan/SAPxSNM"
                     dir5='/Kegiatan/KR1ZA'
                     dir6='/Kegiatan/Seni'
                     dir7='/Kegiatan/SCJ'
@@ -446,7 +446,7 @@ const Nav = (props) => {
                     menu1='Kegiatan'
                     menu2='Smakonecup'
                     menu3='Soundscape'
-                    menu4='Smukiez Theater Night'
+                    menu4='Smukiez Art Performance & Night Market'
                     menu5='KR1ZA'
                     menu6='Seni'
                     menu7='Science Club'

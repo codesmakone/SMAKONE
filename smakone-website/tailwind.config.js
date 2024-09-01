@@ -11,8 +11,11 @@ module.exports = {
       'dark-blue-hover' : '#03139e',
       'light-blue' : '#1D77FF',
     },
-    backgroundImage: {
+      backgroundImage: {
       'footer-image': "url('./Image/Background_Footer.webp')"
+    },
+      gridTemplateColumns: {
+      '14': 'repeat(14, minmax(0, 1fr))',
     },
   },
 
