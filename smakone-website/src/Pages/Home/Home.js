@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 
 // Import Component
 import AlasanCard from "../../Component/Home/AlasanCard";
@@ -22,29 +22,27 @@ import kriza from "../../Image/Home/Kegiatan/kriza.webp";
 import kehidupan from "../../Image/Home/Kehidupan/kehidupan.webp";
 import tips from "../../Image/Home/Kehidupan/tips.webp";
 import kegiatan from "../../Image/Home/Kehidupan/kegiatan.webp";
+import stn_splash from "../../Image/Home/STN_Splash.webp"
 import { Link } from "react-router-dom";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+
+
+
 const Home = () => {
+  const [carouselCurrentSlide, setCarouselCurrentSlide] = useState()
+  
   return (
-<<<<<<< Updated upstream
-    <div className='overflow-hidden'>
-      <Nav/>
-      <div className='col-span-6 flex flex-col justify-start text-left mt-28 '>
-        <div className='px-5 md:px-10 lg:px-16 xl:px-20 pt-10 lg:pt-20 pb-12  md:pb-24 lg:pb-24 xl:pb-44'>
-        <h1 className='text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black'>We are SMAK 1's OSIS</h1>
-          <h4 className='text-base xl:text-2xl lg:text-xl sm:text-xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berprestasi</h4>
-          {/* ini yang bener V */}
-          {/* <div className="mt-2 md:mt-3 flex flex-col gap-5">
-          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[3.5rem] font-black leading-tight">ALL NEW 10<sup>th</sup> GRADERS</h1>
-          <div className="sm:mt-5 md:mt-0 lg:mt-2">
-=======
     <div>
-      <Nav />
-      <div className="col-span-6 flex flex-col justify-start text-left mt-24">
+      <Nav carouselCurrentSlide={carouselCurrentSlide} />
+      {/* <div className="col-span-6 flex flex-col justify-start text-left pt-24 bg-slate-400 "> */}
+      <div>
         <Carousel
+          autoPlay={true}
+          autoPlaySpeed={1000}
+          customButtonGroup={null}
           responsive={{
             superLargeDesktop: {
               // the naming can be any, depends on you.
@@ -64,36 +62,25 @@ const Home = () => {
               items: 1,
             },
           }}
+          beforeChange={(nextSlide, { currentSlide, onMove }) => {
+            setCarouselCurrentSlide(nextSlide)
+            
+          }}
         >
-          <div className="px-5 md:px-10 lg:px-16 xl:px-20 pt-10 lg:pt-20 pb-12  md:pb-24 lg:pb-24 xl:pb-44 w-screen">
-            <h1 className="text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black">We are SMAK 1's OSIS</h1>
-            <h4 className="text-base xl:text-2xl lg:text-xl sm:text-xl font-bold">Sekolah terbaik dengan siswa-siswi yang berprestasi</h4>
-            {/* ini yang bener V */}
-            {/* <div className="mt-2 md:mt-3 flex flex-col gap-5">
-            <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[3.5rem] font-black leading-tight">ALL NEW 10<sup>th</sup> GRADERS</h1>
-            <div className="sm:mt-5 md:mt-0 lg:mt-2">
->>>>>>> Stashed changes
-            <Link to="/BukuAcara" target="blank" className="hover:bg-gray-700 text-white bg-black font-bold rounded-full text-md sm:text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2">
-            CLICK HERE
-            </Link>
-            </div>
-            </div> */}
+        
+          <div className='px-5 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-12  md:pb-24 lg:pb-24 xl:pb-44'>
+            <h1 className='text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black'>We are SMAK 1's OSIS</h1>
+            <h4 className='text-base xl:text-2xl lg:text-xl sm:text-xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berprestasi</h4>
           </div>
-<<<<<<< Updated upstream
-          </div> */}
-          
-        </div>
-=======
-          {/* <div className="px-5 pt-10 pb-28 flex flex-col items-center bg-slate-400">
-            <h1 className="text-4xl font-black">Lorem ipsum</h1>
-            <img className="w-96 border-dotted border-4 border-orange-500" src={Berwyn}></img>
-            <p className="mx-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perferendis numquam eligendi sequi modi quaerat ex excepturi, quod, distinctio hic exercitationem pariatur aliquid dolor aperiam dicta animi voluptatum veritatis? Recusandae!</p>
+          <div style={{'--image-url': `url(${stn_splash})`}} className="px-32 pt-28 pb-16 lg:px-28 lg:pt-36 xl:px-40 xl:pt-40 xl:pb-24 bg-[image:var(--image-url)] bg-cover">
+            <article className="text-justify w-[300px] md:w-[400px] lg:w-[500px] xl:w-[600px]">
+              <h1 className="text-5xl lg:text-6xl xl:text-8xl font-black underline text-white">SAPxSNM</h1>
+              <h5 className="text-lg lg:text-xl xl:text-2xl font-normal leading-snug text-white space">Menyelenggarakan sebuah acara yang memikat dengan pertunjukan teater yang meliputi berbagai bentuk seni, seperti tari, musik, seni visual, dan vokal. <br /><br /> Selain itu, acara ini juga menawarkan pengalaman yang menyenangkan melalui sajian kuliner tradisional serta permainan arcade di SMAK 1 Penabur.</h5>
+            </article>
+            <button className="bg-white mt-12 px-8 py-1 rounded-full font-bold text-2xl
+                                          lg:mt-16 lg:px-10 lg:py-1.5 lg:text-3xl xl:mt-20 xl:px-12 xl:py-2 xl:text-4xl">BOOK NOW</button>
           </div>
-          <div className="px-5 pt-10 pb-28 flex flex-col items-center bg-slate-400">
-            <p className="mx-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perferendis numquam eligendi sequi modi quaerat ex excepturi, quod, distinctio hic exercitationem pariatur aliquid dolor aperiam dicta animi voluptatum veritatis? Recusandae!</p>
-          </div> */}
         </Carousel>
->>>>>>> Stashed changes
       </div>
 
       {/* <div className=' text-black w-full h-auto px-3 pt-12 xl:pb-10'>
