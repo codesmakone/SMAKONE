@@ -21,6 +21,9 @@ const SAPxSNM = () => {
             umkm1 = "Lorem sang ipsum"
             umkm2 = ""
             imgMerch1 = {theater}
+            merch1 = "Lorem Ipsum"
+            merch2 = "Lorem Ipsum"
+            merch3 = "Lorem Ipsum"
             imgMerch2 = {theater}
             imgMerch3 = {theater}
             imgStage = {theater}
