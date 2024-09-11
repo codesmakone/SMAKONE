@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 
 // Import Component
 import AlasanCard from "../../Component/Home/AlasanCard";
@@ -22,18 +22,16 @@ import kriza from "../../Image/Home/Kegiatan/kriza.webp";
 import kehidupan from "../../Image/Home/Kehidupan/kehidupan.webp";
 import tips from "../../Image/Home/Kehidupan/tips.webp";
 import kegiatan from "../../Image/Home/Kehidupan/kegiatan.webp";
-import stn_splash from "../../Image/Home/STN_Splash.webp"
+import stn_splash from "../../Image/Home/STN_Splash.webp";
+import stn_splash_mobile from "../../Image/Home/STN_Splash_Mobile.webp";
 import { Link } from "react-router-dom";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-
-
-
 const Home = () => {
-  const [carouselCurrentSlide, setCarouselCurrentSlide] = useState()
-  
+  const [carouselCurrentSlide, setCarouselCurrentSlide] = useState();
+
   return (
     <div>
       <Nav carouselCurrentSlide={carouselCurrentSlide} />
@@ -41,8 +39,10 @@ const Home = () => {
       <div>
         <Carousel
           autoPlay={true}
-          autoPlaySpeed={1000}
+          autoPlaySpeed={5000}
+          infinite={false}
           customButtonGroup={null}
+          arrows={false}
           responsive={{
             superLargeDesktop: {
               // the naming can be any, depends on you.
@@ -63,22 +63,27 @@ const Home = () => {
             },
           }}
           beforeChange={(nextSlide, { currentSlide, onMove }) => {
-            setCarouselCurrentSlide(nextSlide)
-            
+            setCarouselCurrentSlide(nextSlide);
           }}
         >
-        
-          <div className='px-5 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-12  md:pb-24 lg:pb-24 xl:pb-44'>
-            <h1 className='text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black'>We are SMAK 1's OSIS</h1>
-            <h4 className='text-base xl:text-2xl lg:text-xl sm:text-xl font-bold'>Sekolah terbaik dengan siswa-siswi yang berprestasi</h4>
+          <div className="px-5 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-12 md:pb-24 lg:pb-24 xl:pb-44">
+            <h1 className="text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black">We are SMAK 1's OSIS</h1>
+            <h4 className="text-base xl:text-2xl lg:text-xl sm:text-xl font-bold">Sekolah terbaik dengan siswa-siswi yang berprestasi</h4>
           </div>
-          <div style={{'--image-url': `url(${stn_splash})`}} className="px-32 pt-28 pb-16 lg:px-28 lg:pt-36 xl:px-40 xl:pt-40 xl:pb-24 bg-[image:var(--image-url)] bg-cover">
-            <article className="text-justify w-[300px] md:w-[400px] lg:w-[500px] xl:w-[600px]">
+          <div style={{ "--image-url": `url(${stn_splash})`, "--image-url-mobile": `url(${stn_splash_mobile})` }} className="px-8 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-16 xl:pb-24 bg-[image:var(--image-url-mobile)] md:bg-[image:var(--image-url)] bg-cover bg-top">
+            <article className="text-left w-[300px] md:w-[300px] lg:w-[450px] xl:w-[600px]">
               <h1 className="text-5xl lg:text-6xl xl:text-8xl font-black underline text-white">SAPxSNM</h1>
-              <h5 className="text-lg lg:text-xl xl:text-2xl font-normal leading-snug text-white space">Menyelenggarakan sebuah acara yang memikat dengan pertunjukan teater yang meliputi berbagai bentuk seni, seperti tari, musik, seni visual, dan vokal. <br /><br /> Selain itu, acara ini juga menawarkan pengalaman yang menyenangkan melalui sajian kuliner tradisional serta permainan arcade di SMAK 1 Penabur.</h5>
+              <h5 className="text-lg lg:text-xl xl:text-2xl font-normal leading-snug text-white space">
+                Menyelenggarakan sebuah acara yang memikat dengan pertunjukan teater yang meliputi berbagai bentuk seni, seperti tari, musik, seni visual, dan vokal. <br />
+                <span className="hidden lg:block">
+                  <br />
+                  Selain itu, acara ini juga menawarkan pengalaman yang menyenangkan melalui sajian kuliner tradisional serta permainan arcade di SMAK 1 Penabur.
+                </span>
+              </h5>
             </article>
-            <button className="bg-white mt-12 px-8 py-1 rounded-full font-bold text-2xl
-                                          lg:mt-16 lg:px-10 lg:py-1.5 lg:text-3xl xl:mt-20 xl:px-12 xl:py-2 xl:text-4xl">BOOK NOW</button>
+            <a href="https://tickets.smakone.org">
+              <button className="bg-white mt-12 lg:mt-16 xl:mt-20 px-8 lg:px-10 xl:px-12 py-1 lg:py-1.5 xl:py-2 rounded-full font-bold text-2xl lg:text-3xl xl:text-4xl">BOOK NOW</button>
+            </a>
           </div>
         </Carousel>
       </div>
