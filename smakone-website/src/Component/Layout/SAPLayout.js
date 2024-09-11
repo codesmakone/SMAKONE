@@ -6,6 +6,23 @@ import { useNavigate,Link } from 'react-router-dom';
 const Layout = (props) => {
     const navigate = useNavigate()
 
+const imgNews = [
+    {src:"../../Image/Home/Kegiatan/theater.webp", title:"News1"},
+    {src:"../../Image/Home/Kegiatan/theater.webp", title:"News2"},
+]
+
+function Slideshow() {
+    const [index, setIndex] = React.useState(0);
+    const timeoutRef = React.useRef(null);
+
+    function resetTimeout() {
+        if (timeoutRef.current) {
+            clearTimeout(timeoutRef.current);
+        }
+    }
+
+}
+
   return (
         <div className='bg-gradient-to-b from-[#1a2632] to-black'>
             <Nav/>
@@ -110,7 +127,7 @@ const Layout = (props) => {
                         <h1 className='text-center text-4xl xl:text-6xl font-black leading-9 pb-5'>SAPxSNM Merchandise</h1>
                         <div className='lg:grid lg:grid-cols-3 lg:gap-12'>
                             <div className='grid grid-cols-2'>
-                                <div className='text-center'>
+                                <div className='text-center lg:col-span-2'>
                                     {props.imgMerch1 && 
                                         <img src={ props.imgMerch1 } className="object-cover h-auto float-left w-full rounded-xl lg:rounded-3xl mt-6" alt={props.alt}/>
                                     }
@@ -121,7 +138,7 @@ const Layout = (props) => {
                             </div>
                             
                             <div className='grid grid-cols-2'>
-                                <div className='text-center'>
+                                <div className='text-center lg:col-span-2'>
                                     {props.imgMerch1 && 
                                         <img src={ props.imgMerch1 } className="object-cover h-auto float-left w-full rounded-xl lg:rounded-3xl mt-6" alt={props.alt}/>
                                     }
@@ -132,7 +149,7 @@ const Layout = (props) => {
                             </div>
 
                             <div className='grid grid-cols-2'>
-                                <div className='text-center'>
+                                <div className='text-center lg:col-span-2'>
                                     {props.imgMerch1 && 
                                         <img src={ props.imgMerch1 } className="object-cover h-auto float-left w-full rounded-xl lg:rounded-3xl mt-6" alt={props.alt}/>
                                     }
@@ -152,12 +169,48 @@ const Layout = (props) => {
                         </div> 
                     </div>
 
+                    {/* News */}
+                    <div className='py-10 pb-24'>
+                        <h1 className='text-center text-4xl xl:text-6xl font-black leading-9 pb-5'>News</h1>
+                            <div className='grid grid-cols-2 gap-10'>
+                                <div className='text-center col-span-2 lg:col-span-1'>
+                                    {props.imgNews1 && 
+                                        <img src={ props.imgNews1 } className="object-cover h-auto w-full lg:rounded-3xl mt-6" alt={props.alt}/>
+                                    }
+                                </div>
+                                <div className='text-center hidden lg:block'>
+                                    {props.imgNews2 && 
+                                        <img src={ props.imgNews2 } className="object-cover h-auto w-full lg:rounded-3xl mt-6" alt={props.alt}/>
+                                    }
+                                </div>
+                            </div>
+                            <div className='pt-8 lg:pt-10 text-center mx-24 font-semibold underline text-xl [text-underline-offset:1.5px] [text-decoration-thickness:1px]'>
+                                {props.descNews1}
+                            </div>
+
+                            <div className='grid grid-cols-2 gap-10'>
+                                <div className='text-center hidden lg:block'>
+                                    {props.imgNews1 && 
+                                        <img src={ props.imgNews1 } className="object-cover h-auto w-full lg:rounded-3xl mt-6" alt={props.alt}/>
+                                    }
+                                </div>
+                                <div className='text-center col-span-2 lg:col-span-1'>
+                                    {props.imgNews2 && 
+                                        <img src={ props.imgNews2 } className="object-cover h-auto w-full lg:rounded-3xl mt-6" alt={props.alt}/>
+                                    }
+                                </div>
+                            </div>
+                            <div className='pt-8 lg:pt-10 text-center mx-24 font-semibold underline text-xl [text-underline-offset:1.5px] [text-decoration-thickness:1px]'>
+                                {props.descNews1}
+                            </div>
+                    </div>
+
                     {/* stage view */}
                     <div className='py-10'>
                         <h1 className='text-center text-4xl xl:text-6xl font-black leading-9 pb-3'>Stage View</h1>
                         <div className='flex justify-center'>
                             {props.imgStage && 
-                                <img src={ props.imgStage } className="object-cover h-auto w-full lg:w-[75%] rounded-3xl mt-6" alt={props.alt}/>
+                                <img src={ props.imgStage } className="object-cover h-auto w-full lg:w-[75%] lg:rounded-3xl mt-6" alt={props.alt}/>
                             }
                         </div>
                     </div>

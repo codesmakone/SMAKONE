@@ -26,6 +26,9 @@ const SAPxSNM = () => {
             merch3 = "Lorem Ipsum"
             imgMerch2 = {theater}
             imgMerch3 = {theater}
+            imgNews1 = {theater}
+            imgNews2 = {theater}
+            descNews1 = "Pada suatu hari lorem ipsum menemukan teman sejatinya pada delman yang dia naiki pada hari minggu dimana ia turut ayah ke kota sembari duduk di depan muka kuda."
             imgStage = {theater}
             dir="/Kegiatan/KR1ZA"
         />
