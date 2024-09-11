@@ -41,7 +41,7 @@ function Slideshow() {
                 
                 <div className='pt-12 md:px-8 lg:px-10 xl:px-12 pt-10 text-justify'>
 
-                    {/* Row1 */}
+                    {/* SAPxSNM title */}
                     <div className='pt-8 md:px-8 lg:px-10 xl:px-12 pt-10 text-justify'>
                     {   props.img1 && 
                             <img src={ props.img1 } className="object-cover min-h-[100px] h-auto w-full lg:w-[47%] lg:rounded-3xl mb-8 lg:mb-2 mr-6 lg:float-left" alt={props.alt}/>
@@ -49,11 +49,11 @@ function Slideshow() {
                     </div>
                     <h1 className='px-8 text-4xl text-left xl:text-6xl font-black leading-9 xl:leading-[3.5rem] pb-3'>{ props.title }</h1>
                     <div className='font-medium sm:px-2'>
-                        <div className='text-lg px-8 mb-6 mt-2'>
-                            { props.latterPar1 }
+                        <div className='text-lg px-8 mb-8 mt-2'>
+                            { props.titleDesc }
                         </div>
 
-                        {/* Row2 */}
+                        {/* AboutSAP */}
                         <div className='lg:hidden '>
                             {props.img2 && 
                                 <img src={ props.img2 } className="object-cover h-auto w-full lg:w-[90%] lg:rounded-3xl mt-6 mb-2 lg:ml-10" alt={props.alt}/>
@@ -64,7 +64,7 @@ function Slideshow() {
                                 <span className='font-black'>About SAP</span><br></br>
                                 { props.AboutSAP }
                             </div>
-                            <div className='text-lg my-6 mx-3 pl-[50px] col-span-3 lg:col-span-3'>
+                            <div className='text-lg self-center my-6 mx-3 pl-[50px] col-span-3 lg:col-span-3'>
                                 <span className='font-black'>Performances</span>
                                 <li>{props.performance1}</li>
                                 <li>{props.performance2}</li>
@@ -82,7 +82,7 @@ function Slideshow() {
                             </div>
                         </div>
 
-                        {/* Row3 */}
+                        {/* AboutSNM */}
                         <div className='lg:hidden '>
                             {props.img3 && 
                                 <img src={ props.img3 } className="object-cover h-auto w-full lg:w-[90%] lg:rounded-3xl mt-6 mb-2 lg:ml-10" alt={props.alt}/>
@@ -98,7 +98,7 @@ function Slideshow() {
                                 <span className='font-black'>About SNM</span><br></br>
                                 { props.AboutSNM }
                             </div>
-                            <div className='text-lg my-6 mx-3 col-span-5 pl-[20px] lg:pl-[30px] lg:col-span-3'>
+                            <div className='text-lg self-center my-6 mx-3 col-span-5 pl-[20px] lg:pl-[30px] lg:col-span-3'>
                                 <span className='font-black'>UMKM</span>
                                 <li>{props.umkm1}</li>
                                 <li>{props.umkm2}</li>
@@ -139,23 +139,23 @@ function Slideshow() {
                             
                             <div className='grid grid-cols-2'>
                                 <div className='text-center lg:col-span-2'>
-                                    {props.imgMerch1 && 
-                                        <img src={ props.imgMerch1 } className="object-cover h-auto float-left w-full rounded-xl lg:rounded-3xl mt-6" alt={props.alt}/>
+                                    {props.imgMerch2 && 
+                                        <img src={ props.imgMerch2 } className="object-cover h-auto float-left w-full rounded-xl lg:rounded-3xl mt-6" alt={props.alt}/>
                                     }
                                 </div>
                                 <div className='px-8 lg:hidden text-2xl text-center self-center font-black leading-9 pb-3'>
-                                {props.merch1}
+                                {props.merch2}
                                 </div>
                             </div>
 
                             <div className='grid grid-cols-2'>
                                 <div className='text-center lg:col-span-2'>
-                                    {props.imgMerch1 && 
-                                        <img src={ props.imgMerch1 } className="object-cover h-auto float-left w-full rounded-xl lg:rounded-3xl mt-6" alt={props.alt}/>
+                                    {props.imgMerch3 && 
+                                        <img src={ props.imgMerch3 } className="object-cover h-auto float-left w-full rounded-xl lg:rounded-3xl mt-6" alt={props.alt}/>
                                     }
                                 </div>
                                 <div className='px-8 lg:hidden text-2xl text-center self-center font-black leading-9 pb-3'>
-                                {props.merch1}
+                                {props.merch3}
                                 </div>
                             </div>
                             
@@ -184,7 +184,7 @@ function Slideshow() {
                                     }
                                 </div>
                             </div>
-                            <div className='pt-8 lg:pt-10 text-center mx-24 font-semibold underline text-xl [text-underline-offset:1.5px] [text-decoration-thickness:1px]'>
+                            <div className='py-8 lg:pt-10 text-center mx-24 font-semibold underline text-xl [text-underline-offset:1.5px] [text-decoration-thickness:1px]'>
                                 {props.descNews1}
                             </div>
 
@@ -200,8 +200,8 @@ function Slideshow() {
                                     }
                                 </div>
                             </div>
-                            <div className='pt-8 lg:pt-10 text-center mx-24 font-semibold underline text-xl [text-underline-offset:1.5px] [text-decoration-thickness:1px]'>
-                                {props.descNews1}
+                            <div className='py-8 lg:pt-10 text-center mx-24 font-semibold underline text-xl [text-underline-offset:1.5px] [text-decoration-thickness:1px]'>
+                                {props.descNews2}
                             </div>
                     </div>
 
