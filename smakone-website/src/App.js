@@ -9,6 +9,7 @@ import ScrollToTop from "./Component/ScrollToTop";
 import Home from "./Pages/Home/Home";
 import Soundscape from "./Pages/Kegiatan/soundscape";
 import STN from "./Pages/Kegiatan/stn";
+import SAPxSNM from "./Pages/Kegiatan/SAPxSNM";
 import Kriza from "./Pages/Kegiatan/kriza";
 import SOC from "./Pages/Kegiatan/soc";
 import EnrichieGracia from "./Pages/Home/Alasan/Enrichie";
@@ -77,6 +78,7 @@ function App() {
         <Route path="/kegiatan/soc" element={<SOC />} />
         <Route path="/kegiatan/soundscape" element={<Soundscape />} />
         <Route path="/kegiatan/stn" element={<STN />} />
+        <Route path="/kegiatan/sapxsnm" element={<SAPxSNM />} />
         <Route path="/kegiatan/kr1za" element={<Kriza />} />
         <Route path="/kegiatan/seni" element={<Seni />} />
         <Route path="/kegiatan/scj" element={<SClub />} />
