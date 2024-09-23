@@ -4,9 +4,11 @@ import theater from '../../Image/Home/Kegiatan/theater.webp'
 import baju from '../../Image/SAPxSNM/baju.png'
 import buttonPin from '../../Image/SAPxSNM/buttonpin.png'
 import gelang from '../../Image/SAPxSNM/gelang.png'
-import phoneStrap from '../../Image/SAPxSNM/phonestrap.PNG'
+import phoneStrap from '../../Image/SAPxSNM/phonestrap.png'
 import sticker from '../../Image/SAPxSNM/sticker.png'
 import tas from '../../Image/SAPxSNM/tas.png'
+import stageview_image from '../../Image/SAPxSNM/stageview_image.jpg'
+import sap_image from '../../Image/SAPxSNM/sap_image.jpg'
 
 const SAPxSNM = () => {
     return(
@@ -15,9 +17,9 @@ const SAPxSNM = () => {
             title = "Smukiez Art Performance x Smukiez Night Market"
             quote = 'Smukiez Art Perforance x Smukiez Night Market: Saat Berbagai Seni Dipadukan dan Menghasilkan Sebuah Karya yang Memukau'
             titleDesc = ""
-            img1 = {theater}
-            img2 = {theater}
-            img3 = {theater}
+            img1 = {sap_image}
+            img2 = {sap_image}
+            img3 = {sap_image}
             alt = "SAPxSNM"
             performance1 = "Mask" 
             performance2 = "Smukiez Choir"
@@ -51,7 +53,7 @@ const SAPxSNM = () => {
             imgNews2 = {theater}
             descNews1 = "Pada suatu hari lorem ipsum menemukan teman sejatinya pada delman yang dia naiki pada hari minggu dimana ia turut ayah ke kota sembari duduk di depan muka kuda."
             descNews2 = "Pada suatu hari lorem ipsum menemukan teman sejatinya pada delman yang dia naiki pada hari minggu dimana ia turut ayah ke kota sembari duduk di depan muka kuda."
-            imgStage = {theater}
+            imgStage = {stageview_image}
             dir_merch="https://bit.ly/POMERCHSAPXSNM2"
             dir_ticket="https://tickets.smakone.org"
             dir="/kegiatan/KR1ZA"

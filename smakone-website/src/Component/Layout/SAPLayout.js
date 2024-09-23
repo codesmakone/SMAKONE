@@ -92,7 +92,7 @@ const Layout = (props) => {
             {/* <div className="text-lg px-8 mb-8 mt-2">{props.titleDesc}</div> */}
 
             {/* AboutSAP */}
-            <div className="lg:hidden ">{props.img2 && <img src={props.img2} className="object-cover h-auto w-full lg:w-[90%] lg:rounded-3xl mt-6 mb-2 lg:ml-10" alt={props.alt} />}</div>
+            <div className="lg:hidden ">{props.img1 && <img src={props.img1} className="object-cover h-auto w-full lg:w-[90%] lg:rounded-3xl mt-6 mb-2 lg:ml-10" alt={props.alt} />}</div>
             <div className="grid grid-cols-12 px-8">
               <div className="text-lg my-6 mr-3 col-span-7 lg:col-span-4">
                 <span className="font-black">About SAP</span>
@@ -113,9 +113,9 @@ const Layout = (props) => {
             </div>
 
             {/* AboutSNM */}
-            <div className="lg:hidden ">{props.img3 && <img src={props.img3} className="object-cover h-auto w-full lg:w-[90%] lg:rounded-3xl mt-6 mb-2 lg:ml-10" alt={props.alt} />}</div>
+            <div className="lg:hidden ">{props.img2 && <img src={props.img2} className="object-cover h-auto w-full lg:w-[90%] lg:rounded-3xl mt-6 mb-2 lg:ml-10" alt={props.alt} />}</div>
             <div className="grid grid-cols-14 px-8">
-              <div className="text-center hidden lg:flex lg:col-span-7">{props.img3 && <img src={props.img3} className="object-cover h-auto w-full lg:w-[95%] lg:rounded-3xl mt-6 mb-2 mr-3" alt={props.alt} />}</div>
+              <div className="text-center hidden lg:flex lg:col-span-7">{props.img2 && <img src={props.img2} className="object-cover h-auto w-full lg:w-[95%] lg:rounded-3xl mt-6 mb-2 mr-3" alt={props.alt} />}</div>
               <div className="text-lg my-6 mr-10 lg:ml-12 col-span-9 lg:col-span-4">
                 <span className="font-black">About SNM</span>
                 <br></br>
