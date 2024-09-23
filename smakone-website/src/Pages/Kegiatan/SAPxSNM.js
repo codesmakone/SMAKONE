@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../../Component/Layout/SAPLayout'
 import theater from '../../Image/Home/Kegiatan/theater.webp'
 import baju from '../../Image/SAPxSNM/baju.png'
-import buttonPin from '../../Image/SAPxSNM/buttonpin.jpg'
+import buttonPin from '../../Image/SAPxSNM/buttonpin.png'
 import gelang from '../../Image/SAPxSNM/gelang.png'
 import phoneStrap from '../../Image/SAPxSNM/phonestrap.PNG'
 import sticker from '../../Image/SAPxSNM/sticker.png'
@@ -13,36 +13,48 @@ const SAPxSNM = () => {
         <Layout
             cat = "Kegiatan"
             title = "Smukiez Art Performance x Smukiez Night Market"
-            quote = '"Saat Berbagai Seni Dipadukan dan Menghasilkan Sebuah Karya yang Memukau"'
-            titleDesc = "Smukiez Theater Night (STN) adalah sebuah pertunjukan seni yang ditampilkan oleh murid-murid teater untuk siswa-siswi SMAK 1 PENABUR. STN merupakan wadah bagi siswa-siswi SMAK 1 untuk dapat berkarya dan mengembangkan kreativitas dalam bidang kesenian. STN diadakan satu tahun sekali."
+            quote = 'Smukiez Art Perforance x Smukiez Night Market: Saat Berbagai Seni Dipadukan dan Menghasilkan Sebuah Karya yang Memukau'
+            titleDesc = ""
             img1 = {theater}
             img2 = {theater}
             img3 = {theater}
             alt = "SAPxSNM"
-            performance1 = "Lorem si ipsum" 
-            performance2 = ""
-            AboutSAP = "Puncak acara STN adalah pertunjukan dari MASK, klub teater SMAK 1. Namun diluar itu, STN juga dimeriahkan oleh berbagai pertunjukan lainnya, seperti Crescendo tim band SMAK 1, serta pertunjukan tarian dari Serenity dan First."
+            performance1 = "Mask" 
+            performance2 = "Smukiez Choir"
+            performance3 = "Smukiez Youth Chamber"
+            performance4 = "Seren1ty"
+            performance5 = "Cressendo"
+            performance6 = "F1RST"
+            performance7 = "Smukiez Guitar Ensemble"
+            AboutSAP = "Sebuah inisiatif yang dirancang untuk mengasah serta menampilkan potensi, kreativitas, dan bakat seni siswa/i SMAK 1 PENABUR Jakarta. Acara ini memberikan kesempatan bagi siswa/i untuk memamerkan karya seni mereka sebagai wujud dari dedikasi dan semangat yang tinggi."
             AboutSNM = "Puncak acara STN adalah pertunjukan dari MASK, klub teater SMAK 1. Namun diluar itu, STN juga dimeriahkan oleh berbagai pertunjukan lainnya, seperti Crescendo tim band SMAK 1, serta pertunjukan tarian dari Serenity dan First."
-            umkm1 = "Lorem sang ipsum"
+            umkm1 = ""
             umkm2 = ""
+            umkm3 = ""
+            umkm4 = ""
+            umkm5 = ""
+            umkm6 = ""
+            umkm7 = ""
             imgMerch1 = {baju}
-            merch1 = "Lorem Ipsum"
+            merch1 = "T-Shirt"
             imgMerch2 = {buttonPin}
-            merch2 = "Lorem Ipsum"
+            merch2 = "Button Pin"
             imgMerch3 = {gelang}
-            merch3 = "Lorem Ipsum"
+            merch3 = "Gelang"
             imgMerch4 = {phoneStrap}
-            merch4 = "Lorem Ipsum"
+            merch4 = "Phone Strap"
             imgMerch5 = {sticker}
-            merch5 = "Lorem Ipsum"
+            merch5 = "Stickers"
             imgMerch6 = {tas}
-            merch6 = "Lorem Ipsum"
+            merch6 = "Bag"
             imgNews1 = {theater}
             imgNews2 = {theater}
             descNews1 = "Pada suatu hari lorem ipsum menemukan teman sejatinya pada delman yang dia naiki pada hari minggu dimana ia turut ayah ke kota sembari duduk di depan muka kuda."
             descNews2 = "Pada suatu hari lorem ipsum menemukan teman sejatinya pada delman yang dia naiki pada hari minggu dimana ia turut ayah ke kota sembari duduk di depan muka kuda."
             imgStage = {theater}
-            dir="/Kegiatan/KR1ZA"
+            dir_merch="https://bit.ly/POMERCHSAPXSNM2"
+            dir_ticket="https://tickets.smakone.org"
+            dir="/kegiatan/KR1ZA"
         />
     )
 }
