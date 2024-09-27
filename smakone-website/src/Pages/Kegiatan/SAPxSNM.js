@@ -9,6 +9,7 @@ import sticker from '../../Image/SAPxSNM/sticker.png'
 import tas from '../../Image/SAPxSNM/tas.png'
 import stageview_image from '../../Image/SAPxSNM/stageview_image.jpg'
 import sap_image from '../../Image/SAPxSNM/sap_image.jpg'
+import snm_image from '../../Image/SAPxSNM/snm_image.jpg'
 
 const SAPxSNM = () => {
     return(
@@ -18,8 +19,8 @@ const SAPxSNM = () => {
             quote = 'Smukiez Art Perforance x Smukiez Night Market: Saat Berbagai Seni Dipadukan dan Menghasilkan Sebuah Karya yang Memukau'
             titleDesc = ""
             img1 = {sap_image}
-            img2 = {sap_image}
-            img3 = {sap_image}
+            img2 = {snm_image}
+            
             alt = "SAPxSNM"
             performance1 = "Mask" 
             performance2 = "Smukiez Choir"
@@ -29,7 +30,7 @@ const SAPxSNM = () => {
             performance6 = "F1RST"
             performance7 = "Smukiez Guitar Ensemble"
             AboutSAP = "Sebuah inisiatif yang dirancang untuk mengasah serta menampilkan potensi, kreativitas, dan bakat seni siswa/i SMAK 1 PENABUR Jakarta. Acara ini memberikan kesempatan bagi siswa/i untuk memamerkan karya seni mereka sebagai wujud dari dedikasi dan semangat yang tinggi."
-            AboutSNM = "Puncak acara STN adalah pertunjukan dari MASK, klub teater SMAK 1. Namun diluar itu, STN juga dimeriahkan oleh berbagai pertunjukan lainnya, seperti Crescendo tim band SMAK 1, serta pertunjukan tarian dari Serenity dan First."
+            AboutSNM = "SMUKIEZ NIGHT MARKET adalah acara yang dirancang untuk sarana menampilkan makanan khas Indonesia yang dijual oleh UMKM sehingga dapat mendorong pertumbuhan UMKM khususnya yang bergerak di bidang kuliner. SNM memperkenalkan dan melestarikan makanan khas serta mempererat hubungan antar sesama dengan melakukan berbagai kegiatan hiburan."
             umkm1 = ""
             umkm2 = ""
             umkm3 = ""

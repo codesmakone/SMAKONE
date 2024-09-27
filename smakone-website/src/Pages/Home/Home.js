@@ -81,9 +81,9 @@ const Home = () => {
                 </span>
               </h5>
             </article>
-            <a href="https://tickets.smakone.org">
-              <button className="bg-white mt-12 lg:mt-16 xl:mt-20 px-8 lg:px-10 xl:px-12 py-1 lg:py-1.5 xl:py-2 rounded-full font-bold text-2xl lg:text-3xl xl:text-4xl">BOOK NOW</button>
-            </a>
+            <Link to="/Kegiatan/sapxsnm" >
+              <button className="bg-white mt-12 lg:mt-16 xl:mt-20 px-8 lg:px-10 xl:px-12 py-1 lg:py-1.5 xl:py-2 rounded-full font-bold text-2xl lg:text-3xl xl:text-4xl">Learn More</button>
+            </Link>
           </div>
         </Carousel>
       </div>
@@ -188,7 +188,6 @@ const Home = () => {
           <div className="justify-items-center gap-3 mt-8">
             <Kegiatan img={soc} title="Smakonecup" desc="Acara tahunan yang penuh sinar matahari, keringat, dan kejutan" dir="/Kegiatan/SOC" />
             <Kegiatan img={soundscape} title="Soundscape" desc="Pertunjukan spektakuler di akhir Smakonecup" dir="/Kegiatan/Soundscape" />
-            <Kegiatan img={theater} title="SMUKIEZ Theater Night" desc="Saat berbagai seni dipadukan dan menghasilkan sebuah karya yang memukau" dir="/Kegiatan/STN" />
             <Kegiatan img={kriza} title="KR1ZA" desc="Terus berlatih dan raih prestasi" dir="/Kegiatan/KR1ZA" />
           </div>
         </div>

@@ -109,27 +109,27 @@ const Layout = (props) => {
                 <li>{props.performance6}</li>
                 <li>{props.performance7}</li>
               </div>
-              <div className="hidden align-self lg:col-span-5 lg:flex">{props.img2 && <img src={props.img2} className="object-cover h-auto w-full lg:w-[90%] lg:rounded-3xl mt-6 mb-2 ml-10" alt={props.alt} />}</div>
+              <div className="hidden align-self lg:col-span-5 lg:flex">{props.img1 && <img src={props.img1} className="object-cover h-auto w-full lg:w-[90%] lg:rounded-3xl mt-6 mb-2 ml-10" alt={props.alt} />}</div>
             </div>
 
             {/* AboutSNM */}
             <div className="lg:hidden ">{props.img2 && <img src={props.img2} className="object-cover h-auto w-full lg:w-[90%] lg:rounded-3xl mt-6 mb-2 lg:ml-10" alt={props.alt} />}</div>
             <div className="grid grid-cols-14 px-8">
               <div className="text-center hidden lg:flex lg:col-span-7">{props.img2 && <img src={props.img2} className="object-cover h-auto w-full lg:w-[95%] lg:rounded-3xl mt-6 mb-2 mr-3" alt={props.alt} />}</div>
-              <div className="text-lg my-6 mr-10 lg:ml-12 col-span-9 lg:col-span-4">
+              <div className="text-lg my-6 mr-10 lg:ml-12 col-span-14 lg:col-span-7">
                 <span className="font-black">About SNM</span>
                 <br></br>
                 {props.AboutSNM}
               </div>
-              <div className="text-lg self-center my-6 mx-3 col-span-5 pl-[20px] lg:pl-[30px] lg:col-span-3">
+              {/* <div className="text-lg self-center my-6 mx-3 col-span-5 pl-[20px] lg:pl-[30px] lg:col-span-3">
                 <span className="font-black">UMKM</span>
-                {/* <li>{props.umkm1}</li>
+                <li>{props.umkm1}</li>
                 <li>{props.umkm2}</li>
                 <li>{props.umkm3}</li>
                 <li>{props.umkm4}</li>
                 <li>{props.umkm5}</li>
                 <li>{props.umkm6}</li>
-                <li>{props.umkm7}</li> */}
+                <li>{props.umkm7}</li>
                 <li>{props.performance1}</li>
                 <li>{props.performance2}</li>
                 <li>{props.performance3}</li>
@@ -137,7 +137,7 @@ const Layout = (props) => {
                 <li>{props.performance5}</li>
                 <li>{props.performance6}</li>
                 <li>{props.performance7}</li>
-              </div>
+              </div> */}
             </div>
 
             <div className="text-lg my-6 mr-3">{props.latterPar3}</div>
