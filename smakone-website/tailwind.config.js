@@ -14,6 +14,9 @@ module.exports = {
     backgroundImage: {
       'footer-image': "url('./Image/Background_Footer.webp')",
     },
+      gridTemplateColumns: {
+      '14': 'repeat(14, minmax(0, 1fr))',
+    },
   },
 
     fontSize: {

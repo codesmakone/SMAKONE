@@ -1,0 +1,15 @@
+{
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.preferences": {
+
+    },
+    "tailwindCSS.includeLanguages": {
+        "javascript": "javascript",
+        "html": "HTML"
+      },
+      "editor.quickSuggestions": {
+        "strings": true
+      }
+}
