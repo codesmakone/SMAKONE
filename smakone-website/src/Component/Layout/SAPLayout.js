@@ -74,8 +74,8 @@ const Layout = (props) => {
 
   return (
     <div className="bg-gradient-to-b from-[#1a2632] to-black">
-      <Nav />
-      <div className="container mx-auto mt-10 lg:mt-24 text-white">
+      <Nav forceNavbar={true} />
+      <div className="container mx-auto mt-10 lg:mt-20 text-white">
         <div className="px-6 md:px-8 lg:px-10 xl:px-12 pt-10 justify-center text-center">
           <h2 className="text-xl font-medium">{props.cat}</h2>
           <h1 className="text-6xl xl:text-10xl font-semibold underline [text-underline-offset:8px] [text-decoration-thickness:4px]">
