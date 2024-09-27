@@ -17,7 +17,6 @@ import MattheusBryanDjahtranto from "../../Image/Home/Alasan/Mattheus1.webp";
 import Lobby_SMAK1 from "../../Image/Home/Lobby_SMAK1.webp";
 import soc from "../../Image/Home/Kegiatan/soc.webp";
 import soundscape from "../../Image/Home/Kegiatan/soundscape.webp";
-import theater from "../../Image/Home/Kegiatan/theater.webp";
 import kriza from "../../Image/Home/Kegiatan/kriza.webp";
 import kehidupan from "../../Image/Home/Kehidupan/kehidupan.webp";
 import tips from "../../Image/Home/Kehidupan/tips.webp";
@@ -39,8 +38,8 @@ const Home = () => {
       <div>
         <Carousel
           autoPlay={true}
-          autoPlaySpeed={5000}
-          infinite={false}
+          autoPlaySpeed={3000}
+          infinite={true}
           customButtonGroup={null}
           arrows={false}
           responsive={{

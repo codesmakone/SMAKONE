@@ -75,11 +75,11 @@ const Layout = (props) => {
   return (
     <div className="bg-gradient-to-b from-[#1a2632] to-black">
       <Nav />
-      <div className="container mx-auto mt-28 text-white">
+      <div className="container mx-auto mt-10 lg:mt-24 text-white">
         <div className="px-6 md:px-8 lg:px-10 xl:px-12 pt-10 justify-center text-center">
           <h2 className="text-xl font-medium">{props.cat}</h2>
-          <h1 className="text-7xl xl:text-10xl font-semibold underline [text-underline-offset:8px] [text-decoration-thickness:4px]">
-            SAP<span className="font-normal text-8xl">x</span>SNM
+          <h1 className="text-6xl xl:text-10xl font-semibold underline [text-underline-offset:8px] [text-decoration-thickness:4px]">
+            SAP<span className="font-normal text-5xl xl:text-8xl">x</span>SNM
           </h1>
           {props.quote && <h4 className="text-xl font-medium">{props.quote}</h4>}
           {props.desc && <h4 className="text-lg xl:text-xl font-semibold">{props.desc}</h4>}
@@ -94,20 +94,20 @@ const Layout = (props) => {
             {/* AboutSAP */}
             <div className="lg:hidden ">{props.img1 && <img src={props.img1} className="object-cover h-auto w-full lg:w-[90%] lg:rounded-3xl mt-6 mb-2 lg:ml-10" alt={props.alt} />}</div>
             <div className="grid grid-cols-12 px-8">
-              <div className="text-lg my-6 mr-3 col-span-7 lg:col-span-4">
+              <div className="text-lg my-6 mr-3 col-span-full lg:col-span-4">
                 <span className="font-black">About SAP</span>
                 <br></br>
                 {props.AboutSAP}
               </div>
-              <div className="text-lg self-center my-6 mx-3 pl-[50px] col-span-3 lg:col-span-3">
+              <div className="text-lg self-center my-6 mx-auto lg:mx-3 lg:pl-[50px] col-span-full lg:col-span-3">
                 <span className="font-black">Performances</span>
-                <li>{props.performance1}</li>
-                <li>{props.performance2}</li>
-                <li>{props.performance3}</li>
-                <li>{props.performance4}</li>
-                <li>{props.performance5}</li>
-                <li>{props.performance6}</li>
-                <li>{props.performance7}</li>
+                <li className="text-left">{props.performance1}</li>
+                <li className="text-left">{props.performance2}</li>
+                <li className="text-left">{props.performance3}</li>
+                <li className="text-left">{props.performance4}</li>
+                <li className="text-left">{props.performance5}</li>
+                <li className="text-left">{props.performance6}</li>
+                <li className="text-left">{props.performance7}</li>
               </div>
               <div className="hidden align-self lg:col-span-5 lg:flex">{props.img1 && <img src={props.img1} className="object-cover h-auto w-full lg:w-[90%] lg:rounded-3xl mt-6 mb-2 ml-10" alt={props.alt} />}</div>
             </div>
@@ -116,7 +116,7 @@ const Layout = (props) => {
             <div className="lg:hidden ">{props.img2 && <img src={props.img2} className="object-cover h-auto w-full lg:w-[90%] lg:rounded-3xl mt-6 mb-2 lg:ml-10" alt={props.alt} />}</div>
             <div className="grid grid-cols-14 px-8">
               <div className="text-center hidden lg:flex lg:col-span-7">{props.img2 && <img src={props.img2} className="object-cover h-auto w-full lg:w-[95%] lg:rounded-3xl mt-6 mb-2 mr-3" alt={props.alt} />}</div>
-              <div className="text-lg my-6 mr-10 lg:ml-12 col-span-14 lg:col-span-7">
+              <div className="text-lg my-6 lg:mr-10 lg:ml-12 col-span-full lg:col-span-7">
                 <span className="font-black">About SNM</span>
                 <br></br>
                 {props.AboutSNM}
@@ -149,7 +149,7 @@ const Layout = (props) => {
           <div className="py-10 px-8 lg:py-20 lg:px-0" onMouseEnter={() => setIsHovered(true)}   // Show arrows when hovering
       onMouseLeave={() => setIsHovered(false)}>
             <h1 className="text-center text-4xl xl:text-6xl font-black leading-9 pb-5">SAPxSNM Merchandise</h1>
-            <Carousel autoPlay={true} autoPlaySpeed={5000} infinite={true} customButtonGroup={null} responsive={responsive} customLeftArrow={<CustomLeftArrow />}
+            <Carousel autoPlay={true} autoPlaySpeed={3000} infinite={true} customButtonGroup={null} responsive={responsive} customLeftArrow={<CustomLeftArrow />}
         customRightArrow={<CustomRightArrow />}>
               <div>
                   <div className="text-center">{props.imgMerch1 && <img src={props.imgMerch1} className="object-contain h-[500px] w-[95%] rounded-xl lg:rounded-3xl mt-6" alt={props.alt} />}</div>
