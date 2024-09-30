@@ -12,6 +12,7 @@ import JubileeJuly from "../../Image/Emagz/JubileeJuly.webp";
 import Cornucopia from "../../Image/Emagz/Cornucopia.webp";
 import BlossomLuminance from "../../Image/Emagz/BlossomLuminance.webp";
 import ReadySetSucceed from "../../Image/Emagz/ReadySetSucceed.webp";
+import CrimsonChronicles from "../../Image/Emagz/CrimsonChronicles.webp";
 export const magazineList = [
   {
     id: 1,
@@ -96,5 +97,11 @@ export const magazineList = [
     title: "Ready, Set, Succeed!",
     img: ReadySetSucceed,
     link: "https://heyzine.com/flip-book/89dd4504be.html",
+  },
+  {
+    id: 15,
+    title: "Crimson Chronicles",
+    img: CrimsonChronicles,
+    link: "https://heyzine.com/flip-book/8db67922f7.html",
   },
 ];
