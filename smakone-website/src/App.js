@@ -9,9 +9,15 @@ import ScrollToTop from "./Component/ScrollToTop";
 import Home from "./Pages/Home/Home";
 import Soundscape from "./Pages/Kegiatan/soundscape";
 import STN from "./Pages/Kegiatan/stn";
-import SAPxSNM from "./Pages/Kegiatan/SAPxSNM";
+import SAPxSNM from "./Pages/Kegiatan/SAPxSNM/SAPxSNM";
+import Paintings from "./Pages/Kegiatan/SAPxSNM/Paintings";
 import Kriza from "./Pages/Kegiatan/kriza";
 import SOC from "./Pages/Kegiatan/soc";
+import Kegiatan from "./Pages/Kegiatan/Kegiatan";
+import MUN from "./Pages/Kegiatan/MUN";
+import OneCast from "./Pages/Kegiatan/onecast";
+import BukuAcara from "./Pages/Home/Buku_Acara";
+
 import EnrichieGracia from "./Pages/Home/Alasan/Enrichie";
 import GillianSeason from "./Pages/Home/Alasan/Gilian";
 import Berwyn1 from "./Pages/Home/Alasan/Berwyn";
@@ -62,10 +68,6 @@ import Seni from "./Pages/Kegiatan/seni";
 import SClub from "./Pages/Kegiatan/scj";
 import Pramuka from "./Pages/Kegiatan/pramuka";
 import DoFEIA from "./Pages/Kegiatan/DoFEIA";
-import Kegiatan from "./Pages/Kegiatan/Kegiatan";
-import MUN from "./Pages/Kegiatan/MUN";
-import OneCast from "./Pages/Kegiatan/onecast";
-import BukuAcara from "./Pages/Home/Buku_Acara";
 
 function App() {
   return (
@@ -79,6 +81,7 @@ function App() {
         <Route path="/kegiatan/soundscape" element={<Soundscape />} />
         <Route path="/kegiatan/stn" element={<STN />} />
         <Route path="/kegiatan/sapxsnm" element={<SAPxSNM />} />
+        <Route path="/kegiatan/sapxsnm/paintings" element={<Paintings />} />
         <Route path="/kegiatan/kr1za" element={<Kriza />} />
         <Route path="/kegiatan/seni" element={<Seni />} />
         <Route path="/kegiatan/scj" element={<SClub />} />
