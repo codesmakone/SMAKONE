@@ -9,7 +9,9 @@ import ScrollToTop from "./Component/ScrollToTop";
 import Home from "./Pages/Home/Home";
 import Soundscape from "./Pages/Kegiatan/soundscape";
 import STN from "./Pages/Kegiatan/stn";
-import SAPxSNM from "./Pages/Kegiatan/SAPxSNM";
+import SAPxSNM from "./Pages/Kegiatan/SAPxSNM/SAPxSNM";
+import Paintings from "./Pages/Kegiatan/SAPxSNM/Paintings";
+import PaintingDetails from "./Pages/Kegiatan/SAPxSNM/PaintingDetails";
 import Kriza from "./Pages/Kegiatan/kriza";
 import SOC from "./Pages/Kegiatan/soc";
 import EnrichieGracia from "./Pages/Home/Alasan/Enrichie";
@@ -79,6 +81,8 @@ function App() {
         <Route path="/kegiatan/soundscape" element={<Soundscape />} />
         <Route path="/kegiatan/stn" element={<STN />} />
         <Route path="/kegiatan/sapxsnm" element={<SAPxSNM />} />
+        <Route path="/kegiatan/sapxsnm/paintings" element={<Paintings />} />
+        <Route path="/kegiatan/sapxsnm/paintings/:id" element={<PaintingDetails />} />
         <Route path="/kegiatan/kr1za" element={<Kriza />} />
         <Route path="/kegiatan/seni" element={<Seni />} />
         <Route path="/kegiatan/scj" element={<SClub />} />
