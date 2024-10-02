@@ -81,8 +81,9 @@ function App() {
         <Route path="/kegiatan/soundscape" element={<Soundscape />} />
         <Route path="/kegiatan/stn" element={<STN />} />
         <Route path="/kegiatan/sapxsnm" element={<SAPxSNM />} />
-        <Route path="/kegiatan/sapxsnm/paintings" element={<Paintings />} />
-        <Route path="/kegiatan/sapxsnm/paintings/:id" element={<PaintingDetails />} />
+        <Route path="/kegiatan/sapxsnm/artwork" element={<Paintings />} /> 
+        {/* ketuker istilah artwork sama paintings pas bikin */}
+        <Route path="/kegiatan/sapxsnm/artwork/:id" element={<PaintingDetails />} />
         <Route path="/kegiatan/kr1za" element={<Kriza />} />
         <Route path="/kegiatan/seni" element={<Seni />} />
         <Route path="/kegiatan/scj" element={<SClub />} />

@@ -16,7 +16,7 @@ const Paintings = () => {
                 <div>
                 { paintingListLeft.map((painting, i) => 
                     <div className="text-left">
-                        <a href={'paintings/'+painting.id}><img className="" src={painting.img} alt=""/></a>
+                        <a href={'artwork/'+painting.id}><img className="" src={painting.img} alt=""/></a>
                         <div className="my-6 mr-3 col-h2-full lg:col-h2-4">
                             <h2 className="font-black text-xl">{painting.title}</h2>
                             <span className="text-l">{painting.artist}</span>
@@ -27,7 +27,7 @@ const Paintings = () => {
                 <div>
                 { paintingListRight.map((painting, i) => 
                     <div className="text-left">
-                        <a href={'paintings/'+painting.id}><img className="" src={painting.img} alt=""/></a>
+                        <a href={'artwork/'+painting.id}><img className="" src={painting.img} alt=""/></a>
                         <div className="my-6 mr-3 col-h2-full lg:col-h2-4">
                             <h2 className="font-black text-xl">{painting.title}</h2>
                             <span className="text-l">{painting.artist}</span>

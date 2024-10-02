@@ -37,7 +37,7 @@ const PaintingDetail = () => {
                   <p>Contact: {painting.contact}</p>
                 <br />
                 <br />
-                <a className='font-bold rounded-full bg-light-blue text-white py-4 px-6' href="/kegiatan/sapxsnm/paintings">Back to Collection</a>    
+                <a className='font-bold rounded-full bg-light-blue text-white py-4 px-6' href="/kegiatan/sapxsnm/artwork">Back to Collection</a>    
             </div>
               
           </div>
