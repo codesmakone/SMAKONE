@@ -59,7 +59,7 @@ export const paintingData = [
         kelastahun:"XIIA7 - 2023",
         medium:"Kanvas 30 x 40, cat akrlik",
         desc:"Giant, cold, grey hands rip and rip at her body. Her beautiful, beautiful soul pours out and it paints its colorful hues on the black and empty canvas that is the unforgiving world. She is torn and she is rotting, but the beam on her face never wavers — that's what they want to see. It's frozen, and she's still smiling. Tangan-tangan raksasa, dingin, dan abu-abu merobek tubuhnya. Jiwanya yang indah, begitu indah, mengalir keluar dan melukis warna-warna cerahnya sendiri di atas kanvas hitam yang kosong, yang adalah dunia tanpa ampun. Dia terkoyak dan membusuk, namun senyum di wajahnya tak pernah pudar — itulah yang mereka ingin lihat. Wajahnya membeku, dan dia masih tersenyum.",
-        price:"450k",
+        price:"Rp450.000",
         contact:"08111911500",
     },
 {
@@ -70,7 +70,7 @@ export const paintingData = [
         kelastahun:"XIIA7 - 2024",
         medium:"canson A3, watercolor",
         desc:"Medusa dulunya wanita cantik, namun setelah diserang oleh Poseidon di kuil Athena, ia dikutuk oleh dewi Athena. Rambutnya berubah menjadi ular, dan tatapannya bisa mengubah siapa pun menjadi batu. Hidupnya penuh kesendirian dan ketakutan, dijauhi oleh dunia karena kutukan yang tidak dimintanya. Namun dibalik sosoknya yang menyeramkan medusa memiliki kesedihan tersendiri dalam hidupnya yang mendalam.",
-        price:"250 ribu",
+        price:"Rp250.000",
         contact:"081386899822",
     },
 {
@@ -81,7 +81,7 @@ export const paintingData = [
         kelastahun:"XIIA2 - 2024",
         medium:"Kertas watercolor A3(29,7 x 42,0 cm), cat air",
         desc:"Athena adalah dewi kebijaksanaan, strategi perang, seni, dan keterampilan. Dewi Athena seringkali dideskripsikan sebagai seseorang yang bijak, percaya diri, bertekad, dan sering membantu. Di karya ini, saya melukiskan Athena sebagai sosok yang terlihat pintar dan baik hati. Di karya ini, saya juga menggambarkan senjata Athena yaitu sebuah tombak dan juga perisainya untuk menunjukan bahwa ia adalah sosok yang kuat dan berpengalaman dalam hal perperangan. Di atas perisai, terdapat burung hantu yang menjadi simbol kebijakan dan juga kepintaran yang terdapat pada sosok Athena. Sedangkan daun olive yang terdapat sebagai bingkai merupakan tanaman pemberian Athena terhadap kota Athens sebagai simbol perlindungan Athena dan perdamaian. Sedangkan bunga tiger lily seringkali digambarkan sebagai simbol kekuatan dan kepercayaan diri.",
-        price:"270",
+        price:"Rp270.000",
         contact:"08118141007",
     },
 {
@@ -92,7 +92,7 @@ export const paintingData = [
         kelastahun:"XIIA7 - 2023",
         medium:"Kertas watercolor A3, cat watercolor",
         desc:"She stares longingly from the beachside into the unreachable horizon. Birds sing, flowers bloom, waves splash and looking around, this is the perfect home. But the peace quickly turns to deafening silence and she can only stare longingly as another one-sided love leaves her behind. Dia menatap dengan penuh kerinduan dari tepi pantai ke cakrawala yang tak terjangkau. Burung-burung bernyanyi, bunga-bunga bermekaran, ombak berdebur, dan melihat sekeliling, ini adalah pulau yang sempurna. Namun, kedamaian itu dengan cepat berubah menjadi keheningan yang memekakkan, dan dia hanya bisa menatap dengan penuh kerinduan saat cinta yang tak terbalas kembali meninggalkannya.",
-        price:"1 jt.  -teman2ku",
+        price:"Rp1.000.000",
         contact:"08111911500",
     },
 {
@@ -114,7 +114,7 @@ export const paintingData = [
         kelastahun:"XI7 - 2024",
         medium:"Watercolor paper size A3, cat air",
         desc:"Karya ini menggambarkan seekor chameleon/bunglon yang berada di zona nyamannya saat ia lelah dimana ia sangat nyaman dengan tempatnya yaitu pada pohon dan warna hijau (warna biasa bunglon). Yang saya ingin sampaikan dari gambar ini adalah ketika kita capek dalam meraih sesuatu dll, tidak ada salahnya jika kita beristirahat dan mengisi ulang energi kita untuk sebentar. Jangan terlalu memaksakan diri terus-menerus tanpa memberi waktu untuk istirahat. Memberi diri kita waktu untuk beristirahat justru bisa membuat kita lebih produktif dan fokus ketika kita kembali berusaha.",
-        price:"Rp.250.000",
+        price:"Rp250.000",
         contact:"08118787767",
     },
 {
@@ -136,7 +136,7 @@ export const paintingData = [
         kelastahun:"XIIA7 - 2024",
         medium:"kertas 30x42, watercolor",
         desc:" Lukisan cat air ini menangkap suasana ramai di sebuah pasar tradisional. . Latar belakang menampilkan gedung-gedung warga dengan jendela dan pintu pernuh warna. Suasana hiruk-pikuk pasar terasa damai dan romantis, mencerminkan kehidupan sehari-hari masyarakat lokal dengan kehangatan dan keceriaan.",
-        price:"200rb",
+        price:"Rp 200.000",
         contact:"081910112007",
     },
 {
@@ -147,7 +147,7 @@ export const paintingData = [
         kelastahun:"XIIA2 - 2024",
         medium:"Canson 29,5 x 41,5 cm, pensil warna, cat akrilik, cat air",
         desc:`Inspired by "honkai impact 3rd", this painting tells a story about a girl that want to become like her teacher and becoming the world's savior. Until one day, her teacher died sacrificing her life to protect the world. She then follow her footsteps and become the new world savior.`,
-        price:"Rp 800.000,00",
+        price:"Rp800.000,00",
         contact:"0818872874",
     },
 {
@@ -158,7 +158,7 @@ export const paintingData = [
         kelastahun:"X6 - 2024",
         medium:"Kertas gambar a3, pensil",
         desc:"Salah satu potret sisi kehidupan di masa lalu.  Mengingat masa kecil oma saya (1966an). Dimana jaman dahulu kala orang-orang masih minum air dari teko/kendi.",
-        price:"-",
+        price:"Tidak Dijual",
         contact:"081513377840",
     },
 {
@@ -202,7 +202,7 @@ export const paintingData = [
         kelastahun:"XI9 - 2024",
         medium:"Kertas watercolour 30 x 40cm, cat watercolour",
         desc:"Whilst finding inspiration I had stumbled upon a picture of an otter. It's bright eyes had almost brightened the murky waters around it, making the photograph all the more vivid and bright. As I painted each individual strand of fur, the realization of why I felt so strongly about painting this otter came to me. I had realized that my goal with this piece was simply to recreate the simple joy I felt when I first found this picture, with bright colors and even brighter eyes. ",
-        price:"-",
+        price:"Tidak Dijual",
         contact:"08118905258",
     },
 {
@@ -213,11 +213,11 @@ export const paintingData = [
         kelastahun:"XIIA6 - 2024",
         medium:"Kertas A3, water color dan pensil warna",
         desc:"Di tengah langit biru yang cerah, sebuah balon udara berbentuk mata melayang tinggi, seolah-olah mengamati dunia di bawahnya. Mata ini melambangkan cara kita melihat dan memahami dunia di sekitar kita. Pemandangan di bawahnya, dengan laut dan pepohonan, mengingatkan kita betapa luasnya dunia yang bisa kita jelajahi jika kita mau melihat lebih jauh.",
-        price:"200rb",
+        price:"Rp200.000",
         contact:"08118801502",
     },
 {
-        title:"Kehudupan yang Terus Mengalir",
+        title:"Kehidupan yang Terus Mengalir",
         id:"2rE1N0S",
         img:img_2rE1N0S,
         artist:"Valeria Christy Abuku",
@@ -246,7 +246,7 @@ export const paintingData = [
         kelastahun:"XI8 - 2024",
         medium:"Kertas A3, cat air",
         desc:"Karya ini adalah lukisan stilasi yang berbentuk hewan ubur - ubur dengan pattern batik. Saya sanggat suka melihat biota laut ubur ubur menurut saya mereka sanggatlah unik dan indah. Saya juga sanggat suka dengan pattern batik, batik menurut saya merupakan kesenian tradisional indonesia yang sanggatlah indah untuk di nikmati mata. ",
-        price:"120",
+        price:"Rp120.000",
         contact:"081212952285",
     },
 {
@@ -268,7 +268,7 @@ export const paintingData = [
         kelastahun:"X6 - 2024",
         medium:"Kertas gambar A3, pensil 2B&HB",
         desc:"Karya ini menggambarkan keheningan. Keheningan yang hadir di antara benda yang ditemukan sehari-hari. Dengan permainan bayangan yang halus, karya ini menekankan pentingnya momen sederhana dalam kehidupan.",
-        price:"-",
+        price:"Tidak Dijual",
         contact:"08111095380",
     },
 {
@@ -279,7 +279,7 @@ export const paintingData = [
         kelastahun:"XIIA2 - 2024",
         medium:"Watercolor paper A3, cat airMimpi",
         desc:"Siapa bilang mimpi datang dengan sendirinya? Sosok gadis yang sedang menjahit merupakan simbol dari kerja keras dan dedikasi dalam meraih impian. Hal ini menunjukkan bahwa mimpi tidak dapat dicapai hanya dengan berleha-leha, melainkan melalui perjuangan, pengorbanan waktu, dan usaha yang konsisten.",
-        price:"300",
+        price:"Rp300.000",
         contact:"081297359738",
     },
 {
@@ -301,7 +301,7 @@ export const paintingData = [
         kelastahun:"XIIA2 - 2024",
         medium:"Watercolor paper A3, cat air",
         desc:"Dewi Demeter, penguasa kesuburan dan pertanian yang sedang terbenam dalam kesedihan karena putrinya, Persephone diculik oleh Hades. Dengan penuh harapan, Demeter menantikan kepulangan sang buah hati, disertai dengan peralihan musim semi yang indah.",
-        price:"750",
+        price:"Rp750.000",
         contact:"081297359738",
     },
 {
@@ -312,7 +312,7 @@ export const paintingData = [
         kelastahun:"XIIA2 - 2024",
         medium:"Watercolor paper A3, cat air",
         desc:"Lukisan ini menggambarkan interaksi antara landak dan bebek, simbol dari perbedaan yang saling melengkapi. Landak, dengan duri tajamnya berusaha beradaptasi dan membuka diri, sedangkan bebek mewakili kehangatan dan penerimaan. Karya ini mengingatkan kita bahwa, dalam kehidupan sehari-hari, sangat penting untuk belajar beradaptasi dan saling menerima agar kita dapat hidup harmonis di tengah masyarakat yang beragam.",
-        price:"500",
+        price:"Rp500.000",
         contact:"081297359738",
     },
 {
@@ -323,7 +323,7 @@ export const paintingData = [
         kelastahun:"XI8 - 2024",
         medium:"watercolor paper A3, watercolor ",
         desc:`"Tale from Above" depicts two giraffes of different heights, with the taller one seems to be enjoying the view above while the shorter one munched on the leaves it just harvested. Their distinct coat patterns—playful spots on the taller giraffe and softer lines on the shorter—highlight their uniqueness. The taller giraffe exudes a sense of freedom, while the shorter one embodies curiosity, and grumpiness, showcasing how their heights influence their experiences in the savanna.`,
-        price:"-",
+        price:"Tidak Dijual",
         contact:"08118848191",
     },
 {
@@ -334,7 +334,7 @@ export const paintingData = [
         kelastahun:"XIIS2 - 2024",
         medium:"30 x 40 cm, cat akrilik",
         desc:"The Innocent Spacegoat bercerita tentang seorang anak yang masih lugu dan polos, sehingga ia tidak tahu bahwa ia sedang dijadikan “kambing hitam“ oleh orang-orang terdekatnya yang hanya memanfaatkan kebaikan nya. Ketika suatu masalah datang, anak tersebut selalu menjadi orang yang disalahkan, tidak bisa melawan dan hanya bisa menerima kenyataan bahwa ia hanyalah anak yang lemah dan gampang dimanfaatkan. Akan tetapi dibalik semua itu, ada sedikit cahaya harapan dari benak anak tersebut, harapan untuk kehidupan yang lebih baik. ",
-        price:"800000",
+        price:"Rp800.000",
         contact:"081288883249",
     },
 {
@@ -356,7 +356,7 @@ export const paintingData = [
         kelastahun:"XIIA6 - 2024",
         medium:"Kertas Canson 30 x 40 cm, cat air",
         desc:"Nick dan Judy, dua sosok yang berbeda namun saling melengkapi, telah melewati berbagai rintangan bersama. Awalnya, mereka hanyalah sekutu karena keadaan, namun persahabatan mereka tumbuh kuat seiring waktu. Setiap tantangan yang dihadapi semakin memperkuat ikatan mereka, membuktikan bahwa kerja sama dan kepercayaan adalah kunci dalam menghadapi dunia yang penuh dengan kejutan.",
-        price:"300",
+        price:"Rp300.000",
         contact:"08989643192",
     },
 {
@@ -367,7 +367,7 @@ export const paintingData = [
         kelastahun:"XI1 - 2024",
         medium:"Buku gambar A3, cat air, pensil, pulpen",
         desc:"Kakatua, dengan bulunya yang cerah dan eksotis, sering dihubungkan dengan keindahan alam dan harmoni dalam keberagaman. Lukisan ini dapat mencerminkan pentingnya menghargai perbedaan dan menikmati keunikan yang ada di sekitar kita. Dalam budaya tertentu, burung yang berwarna-warni dianggap sebagai pembawa pesan atau lambang harapan dan kebahagiaan.",
-        price:"Rp. 200.000 ",
+        price:"Rp 200.000 ",
         contact:"082189136599",
     },
 {
@@ -378,7 +378,7 @@ export const paintingData = [
         kelastahun:"XIIS2 - 2024",
         medium:"Kertas A3, watercolour",
         desc:"Selene adalah dewi bulan dalam mitologi Yunani yang merupakan anak dari Tutan Hyperon dan Theia. Ia yang mempunyai kemampuan untuk menarik bulan melintasi langit dengan kudanya untuk memberikan cahay terang di langit yang gelap. Ia juga dapat  membuat manusia tertidur dan mengunjungi mimpi manusia tersebut untuk memberikan jawaban atas pertanyaan yang mungkin sedang mereka tanyakan. ",
-        price:"2.500.000",
+        price:"Rp2.500.000",
         contact:"081288883249",
     },
 {
@@ -400,7 +400,7 @@ export const paintingData = [
         kelastahun:"XI7 - 2024",
         medium:"Kertas 29.5 X 41.5 cm, cat watercolour & poster colour",
         desc:`"Transforming disarray into art." Karya ini menggambarkan rusa, rusa terbuat dari sampah dan bahan bekas. Karya ini menunjukkan bahwa bahkan hal-hal yang biasanya kita sebut sampah, dapat diubah menjadi sebuah gambaran yang indah, ataupun sebuah karya seni.`,
-        price:"250.000",
+        price:"Rp250.000",
         contact:"0813-1818-7933",
     },
 {
@@ -411,7 +411,7 @@ export const paintingData = [
         kelastahun:"XIIA7 - 2024",
         medium:"Kertas watercolor A3, cat watercolor",
         desc:"Reaching out, the hand of cold bone touches and transforms the hand of warm flesh in its final moments. Bubbles surround them and a black hole awaits beneath them, swirling with colour. They represent a single promise: we all become creatures of death in the end. Mengulurkan tangan, tulang dingin menyentuh dan mengubah tangan dari daging hangat di saat-saat terakhirnya. Gelembung-gelembung mengelilingi dan sebuah lubang hitam menanti di bawah mereka, berputar dengan warna-warna. Mereka mewakili satu janji: kita semua akan menjadi makhluk kematian pada akhirnya.",
-        price:"350k",
+        price:"Rp350.000",
         contact:"08111911500",
     },
 {
@@ -421,8 +421,8 @@ export const paintingData = [
         artist:"Christabel Kinori",
         kelastahun:"XI1 - 2024",
         medium:"Kertas A3, Cat air",
-        desc:"Karya ini melukiskan seekor paus yang meluncur dari atas ombak laut pada sore hari.  Terinspirasi dari paus yang pergi ke permukaan air untuk mengambil udara.  ",
-        price:"-",
+        desc:"Karya ini melukiskan seekor paus yang meluncur dari atas ombak laut pada sore hari.  Terinspirasi dari paus yang pergi ke permukaan air untuk mengambil udara.",
+        price:"Tidak Dijual",
         contact:"0857 7502 6665",
     },
 {
@@ -433,7 +433,7 @@ export const paintingData = [
         kelastahun:"XI1 - 2024",
         medium:"kertas A3",
         desc:"In a forest, there lived a very beautiful peacock. His feathers are colorful, emitting gold, green and blue sparkles that amaze every creature that sees him, including attracting the attention of females that he likes. Every morning, when the sun begins to rise, the peacock will open its tail and dance in the sunlight, showing off its beauty to the world.",
-        price:"-",
+        price:"Tidak Dijual",
         contact:"08119568818",
     },
 {
@@ -444,7 +444,7 @@ export const paintingData = [
         kelastahun:"X3 - 2024",
         medium:"kertas 30 x 42 cm, pensil 2b, pensil 4b, pensil 6b",
         desc:"Di dalam gambar ini, teko dan cangkir melambangkan sebuah kesederhanaan karena kedua barang terbuat dari tanah liat. Teko digunakan untuk membuat teh dan lemon memberikan tambahan kesegaran yang tiada tara. Teh di tuang ke dalam cangkir untuk dinikmati setiap tegukannya dalam kebersamaan. Gambar ini menunjukkan bahwa adanya keindahan dan kebersamaan dalam kesederhanaan yang akan membuat momen-momen kecil di dalam hidup kita berharga.",
-        price:"Rp. 150.000",
+        price:"Rp150.000",
         contact:"08170917806",
     },
 {
@@ -455,7 +455,7 @@ export const paintingData = [
         kelastahun:"XIIA8 - 2024",
         medium:"watercolour paper A3 (29.7 x 42 cm), cat air",
         desc:"Sebuah lukisan mengenai kota yang sangat indah dan terkenal akan budaya serta pemandangannya. It's London. Kota yang sangat ingin saya jumpai namun belum bisa terwujudkan. It really is a city that i long to visit.",
-        price:"500",
+        price:"Rp500.000",
         contact:"0811402000",
     },
 {
@@ -466,7 +466,7 @@ export const paintingData = [
         kelastahun:"XIIA2 - 2024",
         medium:"kanvas 30 x 40, cat akrilik",
         desc:`"Swan Serenade in a Dreamy Oasis" adalah lukisan yang menggambarkan angsa anggun yang meluncur di atas danau terpenuhi bunga teratai. Dengan cahaya lembut yang menyinari pemandangan, lukisan ini menciptakan suasana damai. Bunga teratai berwarna tampak seolah menari bersama angsa di permukaan air, menambah keindahan alam yang tenang ini.`,
-        price:"500",
+        price:"Rp500.000",
         contact:"085161173676",
     },
 {
@@ -477,7 +477,7 @@ export const paintingData = [
         kelastahun:"XI9 - 2023-2024",
         medium:"Kertas aquarel A3 (29,7 x 42 cm), pensil warna",
         desc:`"In the dull and monotonous world where hope shrivels and despair blossoms, I wish to be a rainbow in your cloud..." This artwork features a portrait of black and white hue, combined with vibrant colors. In a universe where colors are forbidden, the character is reflecting on her last bit of her liveliest moments before her colors are bleached by the dreary and monochromatic reality of hustle and bustle. `,
-        price:"IDR 500k",
+        price:"Rp500.000",
         contact:"08121008215",
     },
 {
@@ -488,7 +488,7 @@ export const paintingData = [
         kelastahun:"XI9 - 2024",
         medium:"29.7 x 42 cm, cat air",
         desc:"Seekor burung merak ini berbeda dari burung merak lainnya. Merak ini adalah merak biru yang dikenal kecantikan bulunya. Merak ini memiliki warna yang lebih cerah dan pola yang cukup sempurna. ",
-        price:"100",
+        price:"Rp100.000",
         contact:"087876102689",
     },
 {
@@ -510,7 +510,7 @@ export const paintingData = [
         kelastahun:"XIIS2 - 2024",
         medium:"Kertas A3, gouache",
         desc:"Karya ini terinspirasi dari film inside out 2, bercerita tentang seorang anak yang mulai beranjak remaja. Masa remaja ini digambarkan sebagai sebuah portal kaca dengan berbagai emosi yang mulai dialami remaja, yang didominasi oleh kecemasan, dan emosi lain nya seperti emosi cemas,iri, bosan, dan malu. Emosi ini saling berpantulan, dan emosi kebahagiaan yang mulai perlahan tertutupi oleh kecemasan.",
-        price:"1.000.000",
+        price:"Rp1.000.000",
         contact:"081288883249",
     },
 {
@@ -521,7 +521,7 @@ export const paintingData = [
         kelastahun:"XI9 - 2024",
         medium:"Kertas HVS 30 x 40cm, pen ",
         desc:"I had found a photograph from the 90s a while ago. It was of an older couple dancing in what seemed to be an old wedding dress and suit. They had both seemed so comfortable, so used to their steps and their dance that it made me think that this couldn't have been the first time they had danced together. I wanted to capture that nostalgia and show the comfort that these people have with each other through this piece. ",
-        price:"-",
+        price:"Tidak Dijual",
         contact:"08118905258",
     },
 {
@@ -532,7 +532,7 @@ export const paintingData = [
         kelastahun:"XI6 - 2024",
         medium:"30 x 40cm, pensil warna",
         desc:"Dalam dunia yang penuh warna, seekor badak memilih untuk menampilkan diri dengan balutan warna-warni cerah yang mencerminkan rohnya yang berani. Setiap pola dan garis yang menghiasi tubuhnya adalah simbol dari perjalanan hidupnya yang penuh tantangan dan kegembiraan. Lukisan ini mengajak kita untuk merayakan keberanian dalam menampilkan keunikan diri dan keindahan dalam keberagaman.",
-        price:"0",
+        price:"Tidak Dijual",
         contact:"HP: 081381462734 WA:‪ 081212567583‬",
     },
 {
@@ -543,7 +543,7 @@ export const paintingData = [
         kelastahun:"XIIA4 - 2024",
         medium:"kertas 29,7 x 42 cm, krayon dan pensil warna",
         desc:"Karya ini mengisahkan kehidupan di desa tropis yang berada dalam kesederhanaan dan keharmonisan dengan alam. Jalan setapak yang terdapat di tengah gambar diterangi sinar matahari sore dan dikelilingi pohon-pohon tinggi yang kemudian menuntun kita ke suasana hangat dan tenang dari lingkungan kehidupan yang sederhana. Makna dari karya ini menawarkan pelarian dari keramaian kehidupan modern, dan kembali menghargai momen kehidupan yang dekat dengan alam.",
-        price:"Rp. 300.000,00",
+        price:"Rp300.000,00",
         contact:"087856795030",
     },
 {
@@ -554,25 +554,28 @@ export const paintingData = [
         kelastahun:"XI7 - 2024",
         medium:"Kertas A3 29,7 cm x 42 cm, cat air",
         desc:"Tahukah kalian bahwa berang-berang adalah salah satu spesies hewan yang paling setia dan senang bersosialisasi? Ya, begitulah kenyataannya, kendati demikian karya ini ingin mengangkat sisi lainnya yakni berupa pribadi berang-berang yang berdiri di lapisan es dan sedang akan memakan ikan; latar belakang berwarna biru identik dengan habitat berang-berang yang tinggal di air. Karya ini terinspirasi dari sosok berang-berang yang saya anggap sangat menggemaskan dan ternyata menyimpan berbagai sifat-sifat unik. Secara tidak langsung, karya ini ingin menyampaikan bahwa seringkali kebahagiaan dapat kita peroleh dari hal yang sederhana, seperti berang-berang yang tampak begitu bahagia hanya karena seekor ikan di tangannya.",
-        price:"100",
+        price:"Rp100.000",
         contact:"082119064796",
     },
-{
-        title:"From Predator to Prey",
-        id:"2Py7B5H",
-        img:img_2Py7B5H,
-        artist:"Dillon Jasper Gunawan",
-        kelastahun:"XIIA8 - 2024",
-        medium:"kertas 30 x 42 cm, cat air",
-        desc:"Sains membuktikan bahwa nenek moyang burung adalah dinosaurus. Salah satu contoh adalah struktur tulang ayam memiliki banyak kemiripan dengan struktur tulang T-rex. Sungguh mengejutkan bahwa terjadi perubahan dari predator yang besar dan kuat menjadi mangsa yang kecil dan lemah. T rex seekor predator menjadi ayam yang menjadi mangsa bagi burung lain yang juga keturunan dinosaurus. ",
-        price:"Rp 750.000",
-        id:"6Tt8U6b",
+    {
+        title: "From Predator to Prey",
+        id: "2Py7B5H",
+        img: img_2Py7B5H,
+        artist: "Dillon Jasper Gunawan",
+        kelastahun: "XIIA8 - 2024",
+        medium: "kertas 30 x 42 cm, cat air",
+        desc: "Sains membuktikan bahwa nenek moyang burung adalah dinosaurus. Salah satu contoh adalah struktur tulang ayam memiliki banyak kemiripan dengan struktur tulang T-rex. Sungguh mengejutkan bahwa terjadi perubahan dari predator yang besar dan kuat menjadi mangsa yang kecil dan lemah. T rex seekor predator menjadi ayam yang menjadi mangsa bagi burung lain yang juga keturunan dinosaurus. ",
+        price: "Rp 750.000",
+    },
+    {
+        title:"Zenosyne",
+        id: "6Tt8U6b",
         img:img_6Tt8U6b,
         artist:"Catherine Nicole Yuen",
         kelastahun:"XI9 - 2024",
         medium:"Kertas watercolour 30 x 40cm, cat watercolour",
         desc:`"Zenosyne", meaning that time appears to be moving faster and faster, speeding towards an inevitable conclusion that will arrive unexpectedly soon. The owls remind me of that. It's eyes which distort the life around it, heralds of death that promise something ominous. I wanted to portray that feeling of something that's not quite organic, not quite alive. `,
-        price:"-",
+        price:"Tidak Dijual",
         contact:"08118905258",
     },
 {
@@ -583,7 +586,7 @@ export const paintingData = [
         kelastahun:"XIIS1 - 2023",
         medium:"kanvas 30x40 cm, cat akrilik",
         desc:"Menjelaskan mengenai indahnya mimpi dibanding realita. Banyaknya realita yang tidak sesuai dengan ekspektasi membuat mimpi menjadi tempat nyaman untuk pulang.",
-        price:"50",
+        price:"Rp50.000",
         contact:"085770309510",
     },
 ]
