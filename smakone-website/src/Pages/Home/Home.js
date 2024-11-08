@@ -10,10 +10,10 @@ import Nav from "../../Component/Nav/Nav";
 import Footer from "../../Component/Footer/Footer";
 
 // Import Image
-import EnrichieGracia from "../../Image/Home/Alasan/Enrichie1.webp";
-import GillianSeason from "../../Image/Home/Alasan/Gilian1.webp";
-import Berwyn from "../../Image/Home/Alasan/Berwyn.webp";
-import MattheusBryanDjahtranto from "../../Image/Home/Alasan/Mattheus1.webp";
+import Edward from "../../Image/Home/Alasan/Edward1.jpg";
+import Emily from "../../Image/Home/Alasan/Emily1.jpg";
+import Rania from "../../Image/Home/Alasan/Rania1.jpg";
+import Jayden from "../../Image/Home/Alasan/Jayden1.jpg";
 import Lobby_SMAK1 from "../../Image/Home/Lobby_SMAK1.webp";
 import soc from "../../Image/Home/Kegiatan/soc.webp";
 import soundscape from "../../Image/Home/Kegiatan/soundscape.webp";
@@ -36,7 +36,8 @@ const Home = () => {
       <Nav carouselCurrentSlide={carouselCurrentSlide} />
       {/* <div className="col-span-6 flex flex-col justify-start text-left pt-24 bg-slate-400 "> */}
       <div>
-        <Carousel
+        {/* uncomment the 2 carousel segments to enable */}
+        {/* <Carousel
           autoPlay={true}
           autoPlaySpeed={3000}
           infinite={true}
@@ -64,12 +65,12 @@ const Home = () => {
           beforeChange={(nextSlide, { currentSlide, onMove }) => {
             setCarouselCurrentSlide(nextSlide);
           }}
-        >
+        > */}
           <div className="px-5 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-12 md:pb-24 lg:pb-24 xl:pb-44">
             <h1 className="text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black">We are SMAK 1's OSIS</h1>
             <h4 className="text-base xl:text-2xl lg:text-xl sm:text-xl font-bold">Sekolah terbaik dengan siswa-siswi yang berprestasi</h4>
           </div>
-          <div style={{ "--image-url": `url(${stn_splash})`, "--image-url-mobile": `url(${stn_splash_mobile})` }} className="px-8 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-16 xl:pb-24 bg-[image:var(--image-url-mobile)] md:bg-[image:var(--image-url)] bg-cover bg-top">
+          {/* <div style={{ "--image-url": `url(${stn_splash})`, "--image-url-mobile": `url(${stn_splash_mobile})` }} className="px-8 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-16 xl:pb-24 bg-[image:var(--image-url-mobile)] md:bg-[image:var(--image-url)] bg-cover bg-top">
             <article className="text-left w-[300px] md:w-[300px] lg:w-[450px] xl:w-[600px]">
               <h1 className="text-5xl lg:text-6xl xl:text-8xl font-black underline text-white">SAPxSNM</h1>
               <h5 className="text-lg lg:text-xl xl:text-2xl font-normal leading-snug text-white space">
@@ -83,8 +84,8 @@ const Home = () => {
             <Link to="/Kegiatan/sapxsnm" >
               <button className="bg-white mt-12 lg:mt-16 xl:mt-20 px-8 lg:px-10 xl:px-12 py-1 lg:py-1.5 xl:py-2 rounded-full font-bold text-2xl lg:text-3xl xl:text-4xl">Learn More</button>
             </Link>
-          </div>
-        </Carousel>
+          </div> */}
+        {/* </Carousel> */}
       </div>
 
       {/* <div className=' text-black w-full h-auto px-3 pt-12 xl:pb-10'>
@@ -139,10 +140,10 @@ const Home = () => {
             </div>
           </div>
           <div className="grid grid-cols-none md:grid-cols-2 xl:grid-cols-4 lg:grid-rows-none justify-items-center gap-3 mt-12">
-            <AlasanCard img={EnrichieGracia} alt="Enrichie Gracia" desc="Siswa kreatif yang aktif berorganisasi." dir="Alasan/EnrichieGracia" />
-            <AlasanCard img={GillianSeason} alt="Gillian Season" desc="Seorang aktivis lingkungan dengan kesadaran tentang isu-isu global." dir="/Alasan/GillianSeason" />
-            <AlasanCard img={Berwyn} alt="Berwyn" desc="Fisikawan yang mewakili Indonesia di panggung internasional." dir="/Alasan/Berwyn" />
-            <AlasanCard img={MattheusBryanDjahtranto} alt="Mattheus Bryan Djahtranto" desc="A prestigious debater with tens of awards." dir="/Alasan/MattheusBryanDjahtranto" />
+            <AlasanCard img={Edward} alt="Edward Rusli" desc="Siswa kreatif yang aktif berorganisasi." dir="Alasan/Edward" />
+            <AlasanCard img={Emily} alt="Emily Jane" desc="Pekerja Keras yang Aktif Bersukarela" dir="/Alasan/Emily" />
+            <AlasanCard img={Rania} alt="Rania Kusumadinata" desc="Siswi Multi-Interest yang Berprestasi" dir="/Alasan/Rania" />
+            <AlasanCard img={Jayden} alt="Jayden Jurianto" desc="Mengukir Prestasi dengan Dedikasi" dir="/Alasan/Jayden" />
           </div>
         </div>
       </div>

@@ -33,7 +33,7 @@ const Layout = (props) => {
                     <img src={ props.imgAlasan } className="object-cover h-auto md:h-[26rem] lg:h-[30rem] xl:h-[32rem] max-w-auto mx-auto rounded-3xl mt-6" alt={props.altAlasan}/>}
                     <div className='font-medium sm:px-2'>
                     <div className='text-lg mb-6 mt-9'>
-                        { props.latterPar1 }
+                    {props.latterPar1}
                     </div>
                     <div className='text-lg my-6'>
                         { props.latterPar2 }
@@ -46,6 +46,12 @@ const Layout = (props) => {
                     </div>
                     <div className='text-lg my-6'>
                         { props.latterPar5 }
+                    </div>
+                    <div className='text-lg my-6'>
+                        { props.latterPar6 }
+                    </div>
+                    <div className='text-lg my-6'>
+                        { props.latterPar7 }
                     </div>
                     </div>
                     {props.quoteAlumni &&

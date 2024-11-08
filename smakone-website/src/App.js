@@ -14,10 +14,11 @@ import Paintings from "./Pages/Kegiatan/SAPxSNM/Paintings";
 import PaintingDetails from "./Pages/Kegiatan/SAPxSNM/PaintingDetails";
 import Kriza from "./Pages/Kegiatan/kriza";
 import SOC from "./Pages/Kegiatan/soc";
-import EnrichieGracia from "./Pages/Home/Alasan/Enrichie";
-import GillianSeason from "./Pages/Home/Alasan/Gilian";
-import Berwyn1 from "./Pages/Home/Alasan/Berwyn";
-import MattheusBryanDjahtranto from "./Pages/Home/Alasan/Mattheus";
+
+import Edward from "./Pages/Home/Alasan/Edward";
+import Emily from "./Pages/Home/Alasan/Emily";
+import Rania from "./Pages/Home/Alasan/Rania";
+import Jayden from "./Pages/Home/Alasan/Jayden";
 
 import Osis from "./Pages/Osis/Osis";
 import Emagz from "./Pages/Emagz/Emagz";
@@ -92,10 +93,10 @@ function App() {
         <Route path="/kegiatan/DoFE" element={<DoFEIA />} />
         <Route path="/kegiatan/muneds" element={<MUN />} />
 
-        <Route path="/alasan/EnrichieGracia" element={<EnrichieGracia />} />
-        <Route path="/alasan/GillianSeason" element={<GillianSeason />} />
-        <Route path="/alasan/Berwyn" element={<Berwyn1 />} />
-        <Route path="/alasan/MattheusBryanDjahtranto" element={<MattheusBryanDjahtranto />} />
+        <Route path="/alasan/Edward" element={<Edward />} />
+        <Route path="/alasan/Emily" element={<Emily />} />
+        <Route path="/alasan/Rania" element={<Rania />} />
+        <Route path="/alasan/Jayden" element={<Jayden />} />
 
         <Route path="/tentang_smak1" element={<TentangKami />} />
         <Route path="/tentang_smak1/sejarah" element={<Sejarah />} />
