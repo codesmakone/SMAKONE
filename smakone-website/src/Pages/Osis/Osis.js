@@ -8,7 +8,7 @@ import Nav from '../../Component/Nav/Nav'
 import Footer from '../../Component/Footer/Footer'
 
 // Image
-import Osis_Image from '../../Image/Osis/OSIS_Pelantikan.webp' //OUTDATED SEJAK 2022 :(
+import Osis_Image from '../../Image/Osis/OSIS_Pelantikan.webp'
 
 import bph from '../../Image/Osis/Logo/bph.webp'
 import bid_1 from '../../Image/Osis/Logo/bid1.webp'

@@ -21,6 +21,7 @@ import Rania from "./Pages/Home/Alasan/Rania";
 import Jayden from "./Pages/Home/Alasan/Jayden";
 
 import Osis from "./Pages/Osis/Osis";
+import SeleksiOsis from "./Pages/Osis/SeleksiOsis";
 import Emagz from "./Pages/Emagz/Emagz";
 import Ass1st from "./Pages/Ass1st/Ass1st";
 import Kedokteran from "./Pages/Ass1st/Jurusan/Kedokteran";
@@ -113,6 +114,7 @@ function App() {
         <Route path="/Kehidupan_smukiers/Alumni/NicoleCharlene" element={<Nicole />} />
 
         <Route path="/OSIS" element={<Osis />} />
+        <Route path="/OSIS/seleksi_1_osis_2025" element={<SeleksiOsis />} />
         <Route path="/OSIS/bph" element={<BPH />} />
         <Route path="/OSIS/bidang1" element={<OSIS_1 />} />
         <Route path="/OSIS/bidang2" element={<OSIS_2 />} />

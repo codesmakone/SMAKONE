@@ -10,10 +10,10 @@ import Nav from "../../Component/Nav/Nav";
 import Footer from "../../Component/Footer/Footer";
 
 // Import Image
-import Edward from "../../Image/Home/Alasan/Edward1.jpg";
-import Emily from "../../Image/Home/Alasan/Emily1.jpg";
-import Rania from "../../Image/Home/Alasan/Rania1.jpg";
-import Jayden from "../../Image/Home/Alasan/Jayden1.jpg";
+import Edward from "../../Image/Home/Alasan/Edward1.webp";
+import Emily from "../../Image/Home/Alasan/Emily1.webp";
+import Rania from "../../Image/Home/Alasan/Rania1.webp";
+import Jayden from "../../Image/Home/Alasan/Jayden1.webp";
 import Lobby_SMAK1 from "../../Image/Home/Lobby_SMAK1.webp";
 import soc from "../../Image/Home/Kegiatan/soc.webp";
 import soundscape from "../../Image/Home/Kegiatan/soundscape.webp";

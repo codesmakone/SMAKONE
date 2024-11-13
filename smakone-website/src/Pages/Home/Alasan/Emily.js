@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../../Component/Layout/ArticleLayout'
-import Emily from "../../../Image/Home/Alasan/Emily2.jpg"
+import Emily from "../../../Image/Home/Alasan/Emily2.webp"
 
 const Emily1 = () => {
   return (
