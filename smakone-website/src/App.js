@@ -21,7 +21,10 @@ import Rania from "./Pages/Home/Alasan/Rania";
 import Jayden from "./Pages/Home/Alasan/Jayden";
 
 import Osis from "./Pages/Osis/Osis";
-import SeleksiOsis from "./Pages/Osis/SeleksiOsis";
+
+import SeleksiOsis from "./Pages/Osis/ListKepanitiaan/Seleksi1Osis2024";
+import PanitiaBazone2024 from "./Pages/Osis/ListKepanitiaan/Bazone2024";
+
 import Emagz from "./Pages/Emagz/Emagz";
 import Ass1st from "./Pages/Ass1st/Ass1st";
 import Kedokteran from "./Pages/Ass1st/Jurusan/Kedokteran";
@@ -71,6 +74,7 @@ import MUN from "./Pages/Kegiatan/MUN";
 import OneCast from "./Pages/Kegiatan/onecast";
 import BukuAcara from "./Pages/Home/Buku_Acara";
 
+
 function App() {
   return (
     <div className="w-full h-full font-Product">
@@ -83,8 +87,7 @@ function App() {
         <Route path="/kegiatan/soundscape" element={<Soundscape />} />
         <Route path="/kegiatan/stn" element={<STN />} />
         <Route path="/kegiatan/sapxsnm" element={<SAPxSNM />} />
-        <Route path="/kegiatan/sapxsnm/artwork" element={<Paintings />} /> 
-        {/* ketuker istilah artwork sama paintings pas bikin */}
+        <Route path="/kegiatan/sapxsnm/artwork" element={<Paintings />} /> {/* ketuker istilah artwork sama paintings pas bikin */}
         <Route path="/kegiatan/sapxsnm/artwork/:id" element={<PaintingDetails />} />
         <Route path="/kegiatan/kr1za" element={<Kriza />} />
         <Route path="/kegiatan/seni" element={<Seni />} />
@@ -114,7 +117,10 @@ function App() {
         <Route path="/Kehidupan_smukiers/Alumni/NicoleCharlene" element={<Nicole />} />
 
         <Route path="/OSIS" element={<Osis />} />
+
+        <Route path="/OSIS/panitiabazone2024" element={<PanitiaBazone2024 />} />
         <Route path="/OSIS/seleksi_1_osis_2025" element={<SeleksiOsis />} />
+        
         <Route path="/OSIS/bph" element={<BPH />} />
         <Route path="/OSIS/bidang1" element={<OSIS_1 />} />
         <Route path="/OSIS/bidang2" element={<OSIS_2 />} />

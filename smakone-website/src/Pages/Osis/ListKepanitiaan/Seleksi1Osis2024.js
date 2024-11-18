@@ -2,9 +2,9 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 
 // Component
-import Nav from '../../Component/Nav/Nav'
-import Footer from '../../Component/Footer/Footer'
-import SeleksiGrid from '../../Component/Osis/SeleksiGrid';
+import Nav from '../../../Component/Nav/Nav'
+import Footer from '../../../Component/Footer/Footer'
+import SeleksiGrid from '../../../Component/Osis/SeleksiGrid';
 
 const SeleksiOsis = () => {
   return (
@@ -13,7 +13,7 @@ const SeleksiOsis = () => {
       <div className='mt-28 mx-auto'>
         <h1 className='text-center text-2xl sm:text-4xl md:text-5xl xl:text-6xl font-black'>Daftar Calon Lolos Tahap 1</h1>
         <h1 className='text-center text-2xl sm:text-4xl md:text-5xl xl:text-6xl font-black mb-4'>Seleksi OSIS 2025</h1>
-        <SeleksiGrid bidang={1} content={[
+        <SeleksiGrid title="Bidang 1" content={[
           [1,'Lionel Keane','X-3'],
           [2,'Janice Leticia','X7'],
           [3,'Naya Patreginia Mesah','X4'],
@@ -28,7 +28,7 @@ const SeleksiOsis = () => {
           [12,'Obediah Honest Kurniawan','XI8'],
           ]
         }></SeleksiGrid>
-        <SeleksiGrid bidang={2} content={[
+        <SeleksiGrid title="Bidang 2" content={[
           [1,'Putu Acyntia Kanaya Ardani','X1'],
           [2,'Merlyn Eunice Chang','X1'],
           [3,'Karen edline simon','X3'],
@@ -45,12 +45,12 @@ const SeleksiOsis = () => {
           [14,'Madelyn Nathania Panadi ','X1'],
           ]
         }></SeleksiGrid>
-        <SeleksiGrid bidang={3} content={[
+        <SeleksiGrid title="Bidang 3" content={[
           [1,'Kezia Adelynn Phondiadi','X2'],
           [2,'Elvaretta Amabel Aurellia Simbolon','X5'],
           ]
         }></SeleksiGrid>
-        <SeleksiGrid bidang={4} content={[
+        <SeleksiGrid title="Bidang 4" content={[
           [1,'Jesslyn Clarissa Tamin','XI1'],
           [2,'Raphael David Siaw','XI3'],
           [3,'Jonathan Calen Kho','XI7'],
@@ -63,7 +63,7 @@ const SeleksiOsis = () => {
           [10,'Diego Marvel Maxwell','X8'],
           ]
         }></SeleksiGrid>
-        <SeleksiGrid bidang={5} content={[
+        <SeleksiGrid title="Bidang 5" content={[
           [1,'Eunike Alexandra Tanusaputera','X5'],
           [2,'Vivian Aurelia Augusta ','XI3'],
           [3,'Verena Sheridan ','X6'],
@@ -83,7 +83,7 @@ const SeleksiOsis = () => {
           [17,'Angelica Shelyn Nathania','XI3'],
           ]
         }></SeleksiGrid>
-        <SeleksiGrid bidang={6} content={[
+        <SeleksiGrid title="Bidang 6" content={[
           [1,'Aurel Jolyn Japutra','X4'],
           [2,'Jonathan Kendrick','XI4'],
           [3,'Chan Andrew Wirawan ','X3'],
@@ -118,7 +118,7 @@ const SeleksiOsis = () => {
           [32,'Adeline Alexandra Emmanuella Goh','X9'],
           ]
         }></SeleksiGrid>
-        <SeleksiGrid bidang={7} content={[
+        <SeleksiGrid title="Bidang 7" content={[
           [1,'Willard Ricxie Phanagara','X1'],
           [2,'Joyce Avrill Miracle','X5'],
           [3,'Malvin Reswanda Rahardjo','XI4'],
@@ -131,7 +131,7 @@ const SeleksiOsis = () => {
           [10,'Isakhar Kaleb Mulyadi','X5'],
           ]
         }></SeleksiGrid>
-        <SeleksiGrid bidang={8} content={[
+        <SeleksiGrid title="Bidang 8" content={[
           [1,'Catherine Kimberly Ng ','X7'],
           [2,'Nadine Gunawan','X9'],
           [3,'Kihana Mandy Rade Sihombing','X4'],
@@ -148,7 +148,7 @@ const SeleksiOsis = () => {
           [14,'Karen Mikaela Nurtanio','X8'],
           ]
         }></SeleksiGrid>
-        <SeleksiGrid bidang={9} content={[
+        <SeleksiGrid title="Bidang 9" content={[
           [1,'Joanne Gisella Yusmita','X4'],
           [2,'Darren Nathanael Bachtiar','X6'],
           [3,'Nicholas Reynald Lawanto','X8'],
@@ -166,7 +166,7 @@ const SeleksiOsis = () => {
           [15,'Shenny Pannya Lowis','X8'],
           ]
         }></SeleksiGrid>
-        <SeleksiGrid bidang={10} content={[
+        <SeleksiGrid title="Bidang 10" content={[
           [1,'Joshua Widjaja','X8'],
           [2,'Gabrio Aaron Wijaya','X1'],
           [3,'Ivana Roxanne Subakti','X1'],
