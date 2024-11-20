@@ -11,7 +11,7 @@ const SeleksiOsis = () => {
     <div>
       <Nav/>
       <div className='mt-28 mx-auto'>
-        <h1 className='text-center text-2xl sm:text-4xl md:text-5xl xl:text-6xl font-black'>Daftar Calon Lolos Tahap 1</h1>
+        <h1 className='text-center text-2xl sm:text-4xl md:text-5xl xl:text-6xl font-black'>Daftar Calon Lolos SJT FGD</h1>
         <h1 className='text-center text-2xl sm:text-4xl md:text-5xl xl:text-6xl font-black mb-4'>Seleksi OSIS 2025</h1>
         <SeleksiGrid title='Bidang 1' content={[[1,'Lionel Keane','X3'],[2,'Naya Patreginia Mesah','X4'],[3,'Joshua Christian Kurniawan','XI2'],[4,'Gabriella Clementine Situmorang','X8'],[5,'Obediah Honest Kurniawan','XI8'],]}></SeleksiGrid>
 <SeleksiGrid title='Bidang 2' content={[[1,'Putu Acyntia Kanaya Ardani','X1'],[2,'Merlyn Eunice Chang','X1'],[3,'Jessica Faustine Karnali','X3'],[4,'Jennifer Elizabeth','X1'],[5,'Clairence Ilona Tanu','X2'],[6,'Chika Letischa','X1'],]}></SeleksiGrid>

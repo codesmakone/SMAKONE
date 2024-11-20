@@ -119,7 +119,7 @@ function App() {
         <Route path="/OSIS" element={<Osis />} />
 
         <Route path="/OSIS/panitiabazone2024" element={<PanitiaBazone2024 />} />
-        <Route path="/OSIS/seleksi2osis2025" element={<SeleksiOsis />} />
+        <Route path="/OSIS/PengumumanSJTFGD" element={<SeleksiOsis />} />
         
         <Route path="/OSIS/bph" element={<BPH />} />
         <Route path="/OSIS/bidang1" element={<OSIS_1 />} />
