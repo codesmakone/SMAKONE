@@ -22,7 +22,7 @@ import Jayden from "./Pages/Home/Alasan/Jayden";
 
 import Osis from "./Pages/Osis/Osis";
 
-import SeleksiOsis from "./Pages/Osis/ListKepanitiaan/Seleksi2Osis2024";
+import SeleksiOsis from "./Pages/Osis/ListKepanitiaan/Osis2025";
 import PanitiaBazone2024 from "./Pages/Osis/ListKepanitiaan/Bazone2024";
 
 import Emagz from "./Pages/Emagz/Emagz";
@@ -119,7 +119,7 @@ function App() {
         <Route path="/OSIS" element={<Osis />} />
 
         <Route path="/OSIS/panitiabazone2024" element={<PanitiaBazone2024 />} />
-        <Route path="/OSIS/PengumumanSJTFGD" element={<SeleksiOsis />} />
+        <Route path="/OSIS/PengumumanOSIS2025" element={<SeleksiOsis />} />
         
         <Route path="/OSIS/bph" element={<BPH />} />
         <Route path="/OSIS/bidang1" element={<OSIS_1 />} />
