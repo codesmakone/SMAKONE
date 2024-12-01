@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
+import ttdyy from "../../../Image/Osis/ttd yy.png";
+
 // Component
 import Nav from '../../../Component/Nav/Nav'
 import Footer from '../../../Component/Footer/Footer'
@@ -23,6 +25,14 @@ const SeleksiOsis = () => {
         <SeleksiGrid title='Bidang 8' content={[[1,'Laurensia Edeline Santosa','X1'],[2,'Jordana Utama','X4'],]}></SeleksiGrid>
         <SeleksiGrid title='Bidang 9' content={[[1,'Joanne Gisella Yusmita','X4'],[2,'Shenny Pannya Lowis','X8'],]}></SeleksiGrid>
         <SeleksiGrid title='Bidang 10' content={[[1,'Ivana Roxanne Subakti','X1'],[2,'Jaclyn Aditya The','X9'],]}></SeleksiGrid>
+      </div>
+      <div className='flex flex-col items-center'>
+        <p className='text-lg font-bold'>1 Desember 2024</p>
+        <p>⠀</p>
+        <p className='text-lg font-bold'>Mengetahui,</p>
+        <img className='w-1/2 lg:w-1/6' src={ttdyy}></img>
+        <p className='text-lg font-bold'>Yendra Yohannes</p>
+        <p className='text-lg font-bold'>Wakil Kesiswaan</p>
       </div>
       <Footer/>
     </div>
