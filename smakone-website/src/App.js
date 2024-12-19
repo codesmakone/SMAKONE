@@ -75,7 +75,8 @@ import OneCast from "./Pages/Kegiatan/onecast";
 import BukuAcara from "./Pages/Home/Buku_Acara";
 
 import CodeOne from "./Pages/Clubs/CodeOne";
-import Monograph from "./Pages/Clubs/Monograph";
+import Monograph from "./Pages/Clubs/Monograph/Monograph";
+
 
 function App() {
   return (
@@ -89,12 +90,8 @@ function App() {
         <Route path="/kegiatan/soundscape" element={<Soundscape />} />
         <Route path="/kegiatan/stn" element={<STN />} />
         <Route path="/kegiatan/sapxsnm" element={<SAPxSNM />} />
-        <Route path="/kegiatan/sapxsnm/artwork" element={<Paintings />} />{" "}
-        {/* ketuker istilah artwork sama paintings pas bikin */}
-        <Route
-          path="/kegiatan/sapxsnm/artwork/:id"
-          element={<PaintingDetails />}
-        />
+        <Route path="/kegiatan/sapxsnm/artwork" element={<Paintings />} /> {/* ketuker istilah artwork sama paintings pas bikin */}
+        <Route path="/kegiatan/sapxsnm/artwork/:id" element={<PaintingDetails />} />
         <Route path="/kegiatan/kr1za" element={<Kriza />} />
         <Route path="/kegiatan/seni" element={<Seni />} />
         <Route path="/kegiatan/scj" element={<SClub />} />
@@ -102,39 +99,34 @@ function App() {
         <Route path="/kegiatan/onecast" element={<OneCast />} />
         <Route path="/kegiatan/DoFE" element={<DoFEIA />} />
         <Route path="/kegiatan/muneds" element={<MUN />} />
+
         <Route path="/clubs/codeone" element={<CodeOne />} />
         <Route path="/clubs/monograph" element={<Monograph />} />
+
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />
         <Route path="/alasan/Rania" element={<Rania />} />
         <Route path="/alasan/Jayden" element={<Jayden />} />
+
         <Route path="/tentang_smak1" element={<TentangKami />} />
         <Route path="/tentang_smak1/sejarah" element={<Sejarah />} />
         <Route path="/tentang_smak1/fasilitas" element={<Fasilitas />} />
         <Route path="/tentang_smak1/logo" element={<Logo />} />
         <Route path="/tentang_smak1/lagu" element={<Lagu />} />
+
         <Route path="/Kehidupan_smukiers" element={<KehidupanSmukiers />} />
         <Route path="/Kehidupan_smukiers/tips" element={<TipsBelajar />} />
-        <Route
-          path="/Kehidupan_smukiers/kegiatan"
-          element={<KegiatanSetelahKelas />}
-        />
+        <Route path="/Kehidupan_smukiers/kegiatan" element={<KegiatanSetelahKelas />} />
         <Route path="/Kehidupan_smukiers/Alumni" element={<AlumniPage />} />
-        <Route
-          path="/Kehidupan_smukiers/Alumni/BillyStevanus"
-          element={<Billy />}
-        />
-        <Route
-          path="/Kehidupan_smukiers/Alumni/ScottMoses"
-          element={<Scoot />}
-        />
-        <Route
-          path="/Kehidupan_smukiers/Alumni/NicoleCharlene"
-          element={<Nicole />}
-        />
+        <Route path="/Kehidupan_smukiers/Alumni/BillyStevanus" element={<Billy />} />
+        <Route path="/Kehidupan_smukiers/Alumni/ScottMoses" element={<Scoot />} />
+        <Route path="/Kehidupan_smukiers/Alumni/NicoleCharlene" element={<Nicole />} />
+
         <Route path="/OSIS" element={<Osis />} />
+
         <Route path="/OSIS/panitiabazone2024" element={<PanitiaBazone2024 />} />
         <Route path="/OSIS/PengumumanOSIS2025" element={<SeleksiOsis />} />
+        
         <Route path="/OSIS/bph" element={<BPH />} />
         <Route path="/OSIS/bidang1" element={<OSIS_1 />} />
         <Route path="/OSIS/bidang2" element={<OSIS_2 />} />
@@ -157,6 +149,7 @@ function App() {
         <Route path="/OSIS/ASS1ST/Psikologi" element={<Psikologi />} />
         <Route path="/OSIS/ASS1ST/Teknik_sipil" element={<Sipil />} />
         <Route path="/OSIS/ASS1ST/Pertambangan" element={<Pertambangan />} />
+
         <Route path="*" element={<NoMatchPages />} />
       </Routes>
     </div>
