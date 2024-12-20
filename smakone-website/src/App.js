@@ -76,6 +76,7 @@ import BukuAcara from "./Pages/Home/Buku_Acara";
 
 import CodeOne from "./Pages/Clubs/CodeOne";
 import F1RST from "./Pages/Clubs/F1RST";
+import Monograph from "./Pages/Clubs/Monograph/Monograph";
 
 
 function App() {
@@ -102,6 +103,7 @@ function App() {
 
         <Route path="/clubs/codeone" element={<CodeOne />} />
         <Route path="/clubs/f1rst" element={<F1RST />} />
+        <Route path="/clubs/monograph" element={<Monograph />} />
 
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />
