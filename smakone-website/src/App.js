@@ -75,6 +75,7 @@ import OneCast from "./Pages/Kegiatan/onecast";
 import BukuAcara from "./Pages/Home/Buku_Acara";
 
 import CodeOne from "./Pages/Clubs/CodeOne";
+import Serenity from "./Pages/Clubs/Serenity";
 
 
 function App() {
@@ -100,6 +101,7 @@ function App() {
         <Route path="/kegiatan/muneds" element={<MUN />} />
 
         <Route path="/clubs/codeone" element={<CodeOne />} />
+        <Route path="/clubs/Serenity" element={<Serenity />} />
 
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />
