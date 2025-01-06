@@ -20,8 +20,12 @@ module.exports = {
         thumb: "#555",
         thumbRounded: "10px",
       },
+      textIndent: {
+        sm: "0.5rem", // Indent kecil
+        md: "1rem",   // Indent sedang
+        lg: "2rem",   // Indent besar
+      },
     },
-
     fontSize: {
       xs: ".75rem",
       sm: ".875rem",
@@ -42,9 +46,11 @@ module.exports = {
       12: "12px",
     },
     fontFamily: {
-      sans: ["Roboto", defaultTheme.fontFamily.sans],
+      sans: ["Roboto", ...defaultTheme.fontFamily.sans],
       Product: ["Product-sans", ...defaultTheme.fontFamily.sans],
     },
   },
-  plugins: [require("tailwind-scrollbar")],
+  plugins: [
+    require("tailwind-scrollbar"),
+  ],
 };
