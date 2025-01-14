@@ -74,6 +74,9 @@ const PesertaTOS = () => {
           2024 dan tes wawancara serta praktek mengajar (microteaching), yang
           diadakan pada tanggal 19 November - 4 Desember 2024.
         </p>
+        <p className="text-lg font-bold">Jakarta, 13 Januari 2024</p>
+        <p>⠀</p>
+        <p className="text-lg font-bold mb-9">Mengetahui,</p>
 
         <div className="flex flex-col md:flex-row justify-between items-center p-6 space-y-14 md:space-y-0 md:space-x-20">
           <div className="flex flex-col items-center">
