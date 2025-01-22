@@ -18,6 +18,7 @@ const OSIS_2 = () => {
       <OsisTeam
         bidang="Bidang 2"
         desc="Bidang Pembinaan Budi Pekerti Luhur dan Akhlak Mulia"
+
         person1={<BidangSection img={Regina} alt='Regina' name='Regina Lucky Surjadi' desc='Haiii all!! Salam kenal, aku Regina Lucky Surjadi sebagai koordinator OSIS bidang 2 ✌🏻. Kalian bisa panggil aku Gina or Regi 😆. I have a lot of hobbies like dancing, traveling, watercolor painting, and esp making contents and ig stories/reels untuk panitia publikasi!! 🤳🏻😍 Aku juga merupakan anggota F1rst, jadi kalau F1rst lagi tampil wajib bgtt nyorakin kitaa!! 💙 Kalau mau ngobrol” and be mutuals bolehh banget ke ig akuu @reginaluckysurjadi! Have a blast and enjoy your unforgettable experience in smukiee!! 🤩🔥'/>}
         person2={<BidangSection img={Joshua} alt='Joshua' name='Joshua Nathanael Yang' desc="Salken, nama aku Joshua, biasa dipanggil Joshua atau Josh. Hobi aku olahraga sih kecuali berenang. Kalo mau ngobrol/tau lebih banyak tentang aku, boleh cek ig aku aja ya @joshua.n.y Nice to meet u all!"/>}
         person3={<BidangSection img={Putu} alt='Putu' name='Putu Acyntia Kanaya Ardani' desc='Haihaii 👋🏼! Kenalin, aku Putu Acyntia Kanaya Ardani, atau biasa dipanggil cyntia! Aku dari kelas X1 and anggota osis bidang 2! Something about me is that aku paling gabisa hidup tanpa musik hehee. Aku suka bangett main piano/gitar sambil nyanyi, dengerin musik kapanpun n dimanapun, tapi juga suka baca fantasy novels 🫣! Fun fact about me is that I still love those old barbie movies and songs (because they were peak childhood) 🙂‍↕️ If you guys wanna talk, atau punya book recs, don’t hesitate to hmu on my ig @cyntia_ardani! I promise I’m not as nonchalant as i look in my pic 😭🫶🏼'/>}
@@ -30,15 +31,14 @@ const OSIS_2 = () => {
         ProgramList={
           [
             //UPDATED 2024
-          'Tutorial for Others yang adalah program pengajaran bagi anak-anak kurang beruntung yang diadakan bersama Yayasan Sahabat Anak cabang Grogol (SAG), di mana para peserta didik sebagai tutor akan mengajarkan anak-anak di SAG pelajaran seperti bahasa inggris, IPTEK, fun games, dan lain-lain.',
-          '5S (Senyum, Sapa, Salam, Sopan, dan Santun) adalah program terjadwal yang melibatkan MPK dan OSIS untuk menanamkan kebiasaan, nilai-nilai sopan santun, dan pengimplementasian karakter BEST kepada seluruh warga sekolah. Program ini dilakukan setiap hari aktif sekolah mulai dari jam 06:00 - 06:25 dengan pembagian tugas 2 orang MPK dan 2 orang OSIS setiap harinya secara bergiliran.',
-          'Bukber (Buka Bersama) adalah program yang mewujudkan nilai-nilai toleransi, kepedulian, dan empati di lingkungan komplek SMAK 1, terutama untuk karyawan SMAK 1 sebagai bentuk kasih kami yang dilakukan saat bulan puasa.',
-          'Live in adalah program yang dilakukan di lingkungan (rumah-rumah) masyarakat pedesaan dimana setiap peserta mengikuti seluruh kegiatan yang dilakukan oleh masing-masing keluarga yang mereka tempati, mengenal budaya di lingkungan setempat dan melakukan pengabdian masyarakat. Para peserta akan mendapat pengalaman-pengalaman baru yang dapat digunakan untuk kehidupannya di masa depan.',
-          'Food Bank adalah program kolaborasi antar bidang 2 dan bidang 5 yang bekerja sama dengan Food Bank Indonesia dalam penyaluran makanan-makanan yang dikumpulkan siswa/i SMAK 1 kepada orang-orang yang membutuhkan yang dilakukan setiap 3 bulan sekali.',
+            "Tutorial For Others (TOS) - Memberi kesempatan bagi siswa-siswi yang bersedia untuk melakukan pengajaran dan berbagi dengan anak-anak dari Yayasan Sahabat Anak Grogol",
+            "Buka Bersama - Kegiatan buka puasa bersama yang dilakukan di kantin SMAK 1 PENABUR Jakarta dan diikuti oleh seluruh karyawan (satpam, cleaning service, gardener, sopir, dan teknisi)",
+            "Live In - Kegiatan yang dilaksanakan di desa, untuk memberi para pendaftar (peserta didik) sebuah kesempatan untuk membantu warga-warga di desa dan juga sebagai wadah bagi mereka untuk dapat mengedalikan diri mereka di tempat yang baru",
+            "5S - Program Senyum, Salam, Sapa, Sopan, Santun yang dilaksanakan setiap hari oleh OSIS & MPK di depan pintu lobby",
           ]
         }
         dir="/OSIS/bidang3"
-        />
+      />
     </div>
   )
 }

@@ -25,14 +25,15 @@ const OSIS_1 = () => {
         Program={true}
         ProgramList={[
           //PENDING
-          "R4G (Radio for God) - R4G merupakan proker bidang 1 berupa pemutaran lagu rohani sesuai jadwal tertentu melalui radio sekolah dan spotify (online) [ Find out more about this program on our spotify @smukiee !]",
-          "SOG (Servant of God) - Melalui SOG, dibuka kesempatan bagi siswa-siswi yang memiliki panggilan melayani dalam setiap kebaktian sebagai penatalayan (singer, WL, pemusik)",
-          "Bible Trivia - Program ini bertujuan untuk memperdalam pengetahuan siswa-siswi SMAK 1 mengenai Alkitab dalam bentuk pertanyaan quiz [ Find out more about this program on our instagram stories @smukiee ! ]",
-          "Kebaktian Rutin - Siswa-siswi mendapat kesempatan untuk bersekutu bersama dan belajar Firman Tuhan melalui kebaktian rutin sehingga dapat menerapkannya dalam kehidupan sehari-hari",
-          "Kebaktian Natal - Menyediakan wadah bagi siswa-siswi untuk merayakan dan memperingati Natal sekaligus menutup tahun",
-          "Doa Syafaat US, UAS, UN - Memotivasi serta menguatkan siswa-siswi untuk menghadapi UAS, US, dan UN dengan berserah kepada Tuhan",
-          "Kebaktian Paskah - Merayakan dan memperingati Paskah sebagai sebuah bentuk ucapan syukur atas kasih Allah",
-          "Praise & Bound - Kebaktian yang diselenggarakan dengan menekankan pada pujian & penyembahan kepada Tuhan",
+          "Kebaktian Rutin - Kebaktian rutin yang dilaksanakan sehari dalam setiap bulan pada hari Kamis, kebaktian diadakan di aula",
+          "Kebaktian Natal - Kebaktian untuk merayakan hari Natal yang dilakukan pada bulan Desember bersamaan dengan aksi sosial",
+          "Kebaktian persiapan PAS, PAT, US, TO - Kebaktian yang diadakan sebelum PAS, PAT, US, dan TO untuk memberikan semangat motivasi & penyertaan Tuhan dalam menjalani ujian",
+          "Kebaktian Paskah - Kebaktian untuk memperingati hari kematian Tuhan Yesus bagi umatNya, yakni Paskah",
+          "R4G (Radio for God) - Membantu siswa-siswi dalam mengenali lagu-lagu rohani, dengan memutarkannya setiap pagi sebelum renungan pagi",
+          "SOG (Servant of God) - Wadah bagi siswa-siswi kelas X dan XI yang memiliki kerinduan untuk melayani Tuhan dengan mempersembahkan talenta",
+          "Workshop Penatalayan - workshop yang diadakan untuk para pendaftar SOG unutk melayani Tuhan dengan antusias dan baik",
+          "One Ins1ght - Konten motivasi harian, fakta-fakta Alkitab & informasi-informasi tentang bidang 1 seperti informasi ibadah yang akan di unggah di instagram",
+          "Praise & Bound - Ibadah yang memfokuskan pada pujian dan penyembahan",
         ]}
         dir="/OSIS/bidang2"
       />
