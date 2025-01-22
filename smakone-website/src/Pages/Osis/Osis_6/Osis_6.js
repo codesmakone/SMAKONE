@@ -5,10 +5,10 @@ import BidangSection from '../../../Component/Osis/BidangSection'
 import OsisTeam from '../../../Component/Osis/OsisTeam'
 
 // Import Image
-import Tesalonika from '../../../Image/Osis/Bidang_6/Tesalonika.webp'
-import Radoslaw from '../../../Image/Osis/Bidang_6/Radoslaw.webp'
 import Annette from '../../../Image/Osis/Bidang_6/Annette.webp'
 import Jesslyn from '../../../Image/Osis/Bidang_6/Jesslyn.webp'
+import Cecylia from '../../../Image/Osis/Bidang_6/Cecylia.webp'
+import Tristan from '../../../Image/Osis/Bidang_6/Tristan.webp'
 
 
 const OSIS_6 = () => {
@@ -17,10 +17,12 @@ const OSIS_6 = () => {
       <OsisTeam
         bidang="Bidang 6"
         desc="Bidang Kreativitas, Keterampilan, dan Kewirausahaan"
-        person1={<BidangSection img={Tesalonika} alt='Tesalonika' name='Tesalonika Manuela Lay Ginting' desc='halo semuaaa! kenalin, nama aku Tesalonika, biasa dipanggil Tesa, dan di tahun ini, aku menjadi koordinator dari OSIS Bidang 6. hmmm hobi aku banyaak sih, tapi yang paling aku sukaa itu nyanyi sama nonton!! selain di OSIS, aku jugaa ikut beberapa organisasi and club, seperti Dewan Ambalan Pramuka, SOC, BBPB, SOG, dan Smukiez Choir. kalau kalian ada yang mau tanya atau ngobrol ngobrol, ataau mutualan spotify, pokoknya apa ajaa dehh, BOLEH BANGEET bisaaa dm aku di @tesalonikamanuelaa yaa! welcome semua, goodluck di SMUKIE <3' />}
-        person2={<BidangSection img={Radoslaw} alt='Radoslaw' name='Radoslaw Aryananda' desc='Salam kenal semua nama aku Radoslaw biasa dipanggil Rado. Aku suka foto dan travelling. Fun fact aku juga suka banget olahraga badminton walaupun gak jago jago banget hehe. Kalo kalian suka sama foto foto juga boleh banget follow ig aku @radoslw_' />}
-        person3={<BidangSection img={Annette} alt='Annette' name='Annette Chloe Hidayat' desc="Hii semua!! salam kenal, nama aku Annette Chloe dipanggilnya anet juga si hehe. Tahun ini aku kelas X5 dan aku anggota bidang 6 💥💥. Hobby aku ada banyakk, aku suka nyanyi, dengerin musik sampe ketiduran, nonton especially horror movies dan main sama kucing 🐈🐈 and of course i'm always open to try new thingss. I also enjoy doing things that are beauty related 🫢🫢. Selain OSIS aku juga ikut SOG dan beberapa kepengurusan di gereja. username IG aku @annxttez._ kalau kalian mau ngobrol-ngobrol atau mutualan bolee banget so don't be scared to reach out. semangat teruss di SMUKIE tapi jangan lupa untuk have fun juga 👋👋" />}
-        person4={<BidangSection img={Jesslyn} alt='Jesslyn' name='Jesslyn Milkha Hongdiyanto' desc='Hai semuaaa 👋 !  Aku Jesslyn Milkha Hongdiyanto atau yang bisa dipanggil Jess/Jesslyn. Aku tuh pencinta musik, gambar, nonton, dan kamuu (eaa) ❤️. Im also a swiftie at heart because the best people in life are freeeeee ✨️. Aku juga hobi main valorant meski cupu tapi gapapa yang penting have fun ya kansss. Aku orangnya extrovert garis keras so kalau kalian ketemu dan mau nyapa/ngobrol ngobrol, langsung aja ya! Atau lewat dm instagram di @blubambii juga boleh hehe (pasti dibales kokkk) 🫶🏻' />}
+
+        person1={<BidangSection img={Jesslyn} alt='Jesslyn' name='Jesslyn Milkha Hongdiyanto' desc='Haiii! 👋 Kenalin aku Jesslyn, dan tahun ini aku diberi kesempatan untuk menjadi koordinator bidang 6 yeyeyeyey 💥. Selain OSIS, im also a part of berbagai kepanitiaan di smukie, seperti SOC, SNM, Bazone, dsb ✌️ (I LOVE DEKLAP!!!). A few things about me, i LOVE music. Yang biasanya aku dengerin tuh Taylor Swift (basic i knowww), Gracie Abrams, a little bit of Conan Gray and many more. Suka nyanyi dan main gitar jugaaa (meski cupu si). Kalo lagi free, i love watching movies/shows (some of my favorites recently are arcane, stranger things, both of the hauntings, the half of it, house md, and many more) and i play games like valorant, phasmophobia, and basically games yang bisa chill rame rame wkwkwk. I also love art and drawing 💌. Funfact aku orangnya WOA abissss. Im generally a pretty chill and open minded person, jadi kalau mau ngobrol atau nanya nanya FEEL FREE TO REACH OUT YAAAA @Blubambii di instagram hehe 😋. Semangat terus ya di smukie all! 🫶🏻'/>}
+        person2={<BidangSection img={Annette} alt='Annette' name='Annette Chloe Hidayat' desc="haloo semua !! salam kenal, nama aku Annette Chloe dan biasanya dipanngil anet / net hehe. Tahun ini aku menjadi anggota bidang 6️⃣ and i'm beyond grateful and excited to be apart of the upcoming journey. Hobby aku ada banyak and i enjoy doing new things tapi aku paling suka nyanyi, dengerin musik, nonton (esp horror), nyemil, main sama kucing 🐈🐈 & i also enjoy things that are beauty related 🤭. selain OSIS aku juga ikut beberapa organisasi / panit seperti SOG. OYAA kalau kalian mau ngobrol atau mutualan feel free to follow @annxttez._ on ig. HAVE FUN DI SMUKIEE 😼"/>}
+        person3={<BidangSection img={Cecylia} alt='Cecylia' name='Cecylia Kyrie' desc='hii semuaa! Nama aku Cecylia, bisa dipanggil cecyl atau cyl. Hobi aku banyak dan ganti ganti sii hehe tapi aku paling suka combat sports grappling, nonton movie and tidur😅 kalo kalian mau tanya tanya atau mutualan sama akuu bisa bangett ke ig aku @cecylia.kyriee, salam kenal semua and goodluckk di smukiee‼️'/>}
+        person4={<BidangSection img={Tristan} alt='Tristan' name='Tristan Axel Kosen' desc='Halo semuaaanya, kenalin aku Tristan Axel Kosen, biasanyaa dipanggil axel ato xel, anggota dari bidang 6. Di waktu kosong biasanya aku olahragaa baskett atau ga pingpongg, kadang main game jugaa kayak pubg sm valo. '/>}
+
         Description={true}
         DescBid="OSIS Bidang 6 merupakan seksi dalam organisasi OSIS yang bertujuan untuk membina kreativitas, keterampilan, dan kewirausahaan untuk siswa/i SMAK 1 PENABUR Jakarta. Kami memiliki beberapa program kerja yang bertujuan untuk meningkatkan kreativitas dan keterampilan siswa serta meningkatkan usaha koperasi siswa."
         Program={true}
