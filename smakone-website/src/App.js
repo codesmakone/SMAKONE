@@ -44,6 +44,7 @@ import Logo from "./Pages/TentangSMAK1/Logo";
 import Lagu from "./Pages/TentangSMAK1/Lagu";
 
 import KehidupanSmukiers from "./Pages/Smukiers/KehidupanSmukiers";
+import Clubpage from "./Pages/Clubs/Clubpage";
 import TipsBelajar from "./Pages/Smukiers/TipsBelajar";
 import KegiatanSetelahKelas from "./Pages/Smukiers/KegiatanSetelahKelas";
 
@@ -117,6 +118,7 @@ function App() {
         <Route path="/tentang_smak1/lagu" element={<Lagu />} />
 
         <Route path="/Kehidupan_smukiers" element={<KehidupanSmukiers />} />
+        <Route path="/Clubs" element={<Clubpage />} />
         <Route path="/Kehidupan_smukiers/tips" element={<TipsBelajar />} />
         <Route path="/Kehidupan_smukiers/kegiatan" element={<KegiatanSetelahKelas />} />
         <Route path="/Kehidupan_smukiers/Alumni" element={<AlumniPage />} />
