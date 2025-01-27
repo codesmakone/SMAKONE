@@ -4,7 +4,7 @@ import theater from "../../../Image/Home/Kegiatan/theater.webp";
 import baju from "../../../Image/SAPxSNM/baju.png";
 import buttonPin from "../../../Image/SAPxSNM/buttonpin.png";
 import gelang from "../../../Image/SAPxSNM/gelang.png";
-import phoneStrap from "../../../Image/SAPxSNM/phonestrap.PNG";
+import phoneStrap from "../../../Image/SAPxSNM/phonestrap.png";
 import sticker from "../../../Image/SAPxSNM/sticker.png";
 import tas from "../../../Image/SAPxSNM/tas.png";
 import stageview_image from "../../../Image/SAPxSNM/stageview_image.jpg";

@@ -45,6 +45,7 @@ import Logo from "./Pages/TentangSMAK1/Logo";
 import Lagu from "./Pages/TentangSMAK1/Lagu";
 
 import KehidupanSmukiers from "./Pages/Smukiers/KehidupanSmukiers";
+import Clubpage from "./Pages/Clubs/Clubpage";
 import TipsBelajar from "./Pages/Smukiers/TipsBelajar";
 import KegiatanSetelahKelas from "./Pages/Smukiers/KegiatanSetelahKelas";
 
@@ -108,6 +109,7 @@ function App() {
         <Route path="/kegiatan/DoFE" element={<DoFEIA />} />
         <Route path="/kegiatan/muneds" element={<MUN />} />
         {/* Clubs */}
+        <Route path="/Clubs" element={<Clubpage />} />
         <Route path="/clubs/codeone" element={<CodeOne />} />
         <Route path="/clubs/f1rst" element={<F1RST />} />
         <Route path="/clubs/monograph" element={<Monograph />} />
