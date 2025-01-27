@@ -40,8 +40,7 @@ const SmukiezChoir = () => {
       <img
         src={Image1}
         alt="Choir Logo"
-        style={imageSizes.Image1}
-        className="mx-auto rounded-lg shadow-md mb-6"
+        className="w-full h-auto max-w-[1500px] mx-auto rounded-lg shadow-md mb-6"
       />
 
       {/* WHAT IS SC Section */}
@@ -97,12 +96,11 @@ const SmukiezChoir = () => {
       {/* WEEKLY PRACTICE Section */}
       <section>
         <h2 className="text-3xl font-semibold mb-6 text-center">WEEKLY PRACTICE</h2>
-        <img
+      <img
           src={Image4}
           alt="Practice"
-          style={imageSizes.Image4}
-          className="mx-auto rounded-lg shadow-md mb-6"
-        />
+        className="w-full h-auto max-w-[1500px] mx-auto rounded-lg shadow-md mb-6"
+      />
         <p className="text-gray-700 text-lg leading-8 text-justify indent-lg">
           Demi meraih prestasi yang memukau, Smukiez Choir menjalani latihan yang rutin dan
           intensif setiap minggunya. Mengingat tuntutan akademis yang tinggi di sekolah,
@@ -138,8 +136,7 @@ const SmukiezChoir = () => {
         <img
           src={Image6}
           alt="PICF Award"
-          style={imageSizes.Image6}
-          className="mx-auto rounded-lg shadow-md mb-6"
+          className="w-full h-auto max-w-[1500px] mx-auto rounded-lg shadow-md mb-6"
         />
        <p className="text-gray-700 text-lg leading-8 text-justify indent-lg">
           Seperti yang telah disinggung sebelumnya, kelompok paduan suara kebanggaan 
@@ -193,8 +190,7 @@ const SmukiezChoir = () => {
         <img
           src={Image8}
           alt="Performance"
-          style={imageSizes.Image8}
-          className="mx-auto rounded-lg shadow-md mb-6"
+          className="w-full h-auto max-w-[1500px] mx-auto rounded-lg shadow-md mb-6"
         />
         <p className="text-gray-700 text-lg leading-8 text-justify indent-lg">
           Selain deretan prestasi gemilang yang berhasil diraih, Smukiez Choir, sebagai 
