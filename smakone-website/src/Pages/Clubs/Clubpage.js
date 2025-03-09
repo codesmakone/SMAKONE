@@ -4,8 +4,6 @@ import ContentHeader from '../../Component/Content/ContentHeader';
 import Nav from '../../Component/Nav/Nav';
 import Footer from '../../Component/Footer/Footer';
 
-import placeholder from '../../Image/Clubs/Clubpage/amogus.webp';
-
 import f1rst_bg from '../../Image/Clubs/Clubpage/bg_f1rst.webp';
 import mono_bg from '../../Image/Clubs/Clubpage/bg_mono.webp';
 import sc_bg from '../../Image/Clubs/Clubpage/bg_sc.webp';
@@ -84,7 +82,7 @@ const Clubpage = () => {
                     <LinkBox 
                         href="..\..\Clubs\CodeOne" 
                         title="CodeOne" 
-                        image={placeholder} 
+                        image={codeone_logo}
                         description="Club Coding" 
                         icon={codeone_logo} 
                     />
