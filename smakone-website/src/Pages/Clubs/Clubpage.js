@@ -15,6 +15,7 @@ import codeone_logo from '../../Image/Clubs/Clubpage/logo_codeone.webp';
 import mono_logo from '../../Image/Clubs/Clubpage/logo_mono.webp';
 import sc_logo from '../../Image/Clubs/Clubpage/logo_sc.webp';
 import sere_logo from '../../Image/Clubs/Clubpage/logo_sere.webp';
+import syc_logo from "../../Image/Clubs/SYC/Logo.png";
 
 const LinkBox = ({href, title, image, description, icon}) => {
     return (
@@ -77,7 +78,7 @@ const Clubpage = () => {
                         title="SYC" 
                         image={syc_bg} 
                         description="Club Orchestra" 
-                        icon={placeholder} 
+                        icon={syc_logo} 
                     />
                     <LinkBox 
                         href="..\..\Clubs\CodeOne" 
