@@ -325,6 +325,11 @@ const Nav = (props) => {
                 </button>
             </div>
             </div>
+            <div className="flex flex-col justify-start items-start px-6 w-full border-t border-white">
+                <button className={`flex justify-start items-center space-x-6 rounded py-5 w-full ${path === '/clubs' ? 'font-bold text-white' : 'text-gray-500'}`}>
+                    <p className="text-base leading-4"><Link to='/clubs' className="text-white">Clubs</Link></p>
+                </button>
+            </div>
         </div>
         </HeadlessSlideOver>
             <div className='lg:items-center lg:w-auto w-full sm:pt-1 lg:py-5 leading-normal hidden lg:block '>
@@ -456,6 +461,9 @@ const Nav = (props) => {
                     menu11='Model United Nation dan English Debate Society'
                     kegiatan={true}              
                     />
+                <button className={`md:px-3 py-2 transition duration-500 border-b-2 border-transparent cursor-pointer text-xs sm:text-base lg:text-lg xl:text-xl bg-transparent text-black relative after:content-[""] after:absolute after:w-full after:scale-x-0 after:h-[3px] after:bottom-0 after:left-0 after:bg-black after:origin-bottom-left after:transition-transform after:duration-500 hover:after:scale-x-100 hover:after:origin-bottom-left ${path === '/clubs' ? 'after:scale-x-100 drop-shadow-[0_4px_4px_rgba(0,0,0,0.125)]' : ''}`}>
+                    <p className={`${path === '/clubs' ? 'drop-shadow-[0_4px_4px_rgba(0,0,0,0.125)]' : ''}`}><Link to='/clubs'>Clubs</Link></p>
+                </button>
                 </div>
             </div>
         </div>
