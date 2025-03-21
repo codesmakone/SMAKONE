@@ -82,6 +82,7 @@ import Monograph from "./Pages/Clubs/Monograph/Monograph";
 import SYC from "./Pages/Clubs/SYC/SYC";
 import SmukiezChoir from "./Pages/Clubs/SmukiezChoir/SmukiezChoir";
 import Serenity from "./Pages/Clubs/Serenity";
+import Flashone from "./Pages/Clubs/Flashone";
 
 function App() {
   return (
@@ -116,6 +117,7 @@ function App() {
         <Route path="/clubs/SYC" element={<SYC />} />
         <Route path="/clubs/smukiezchoir" element={<SmukiezChoir />} />
         <Route path="/clubs/serenity" element={<Serenity />} />
+        <Route path="/clubs/Flashone" element={<Flashone />} />
         {/* Alasan */}
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />

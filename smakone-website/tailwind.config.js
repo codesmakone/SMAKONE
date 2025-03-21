@@ -22,8 +22,8 @@ module.exports = {
       },
       textIndent: {
         sm: "0.5rem", // Indent kecil
-        md: "1rem",   // Indent sedang
-        lg: "2rem",   // Indent besar
+        md: "1rem", // Indent sedang
+        lg: "2rem", // Indent besar
       },
     },
     fontSize: {
@@ -50,7 +50,5 @@ module.exports = {
       Product: ["Product-sans", ...defaultTheme.fontFamily.sans],
     },
   },
-  plugins: [
-    require("tailwind-scrollbar"),
-  ],
+  plugins: [require("tailwind-scrollbar")],
 };
