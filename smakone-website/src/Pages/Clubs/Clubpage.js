@@ -11,6 +11,7 @@ import sere_bg from "../../Image/Clubs/Clubpage/bg_sere.webp";
 import syc_bg from "../../Image/Clubs/SYC/2024-2025.jpg";
 import flashone_bg from "../../Image/Clubs/Flashone/thumbnail.jpeg";
 import cressendo_bg from "../../Image/Clubs/Clubpage/bg_cressendo.webp";
+import shutterone_bg from '../../Image/Clubs/Shutterone/Shutterone.jpg'
 
 import f1rst_logo from "../../Image/Clubs/Clubpage/logo_f1rst.webp";
 import codeone_logo from "../../Image/Clubs/Clubpage/logo_codeone.webp";
@@ -20,6 +21,7 @@ import sere_logo from "../../Image/Clubs/Clubpage/logo_sere.webp";
 import syc_logo from "../../Image/Clubs/SYC/Logo.png";
 import flashone_logo from "../../Image/Clubs/Clubpage/logo_flashone.png";
 import cressendo_logo from "../../Image/Clubs/Clubpage/logo_cressendo.webp";
+import shutterone_logo from "../../Image/Clubs/Clubpage/ShutteroneLogo.PNG";
 
 const LinkBox = ({ href, title, image, description, icon }) => {
   return (
@@ -114,6 +116,13 @@ const Clubpage = () => {
             image={cressendo_bg}
             description="Club Band"
             icon={cressendo_logo}
+          />
+          <LinkBox
+            href="..\..\Clubs\Shutterone"
+            title="Shutterone"
+            image={shutterone_bg}
+            description="Club Dokumentasi Acara"
+            icon={shutterone_logo}
           />
         </div>
       </div>

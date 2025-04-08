@@ -79,6 +79,7 @@ import BukuAcara from "./Pages/Home/Buku_Acara";
 import CodeOne from "./Pages/Clubs/CodeOne";
 import F1RST from "./Pages/Clubs/F1RST";
 import Monograph from "./Pages/Clubs/Monograph/Monograph";
+import Shutterone from "./Pages/Clubs/Shutterone";
 import SYC from "./Pages/Clubs/SYC/SYC";
 import SmukiezChoir from "./Pages/Clubs/SmukiezChoir/SmukiezChoir";
 import Serenity from "./Pages/Clubs/Serenity";
@@ -110,16 +111,19 @@ function App() {
         <Route path="/kegiatan/onecast" element={<OneCast />} />
         <Route path="/kegiatan/DoFE" element={<DoFEIA />} />
         <Route path="/kegiatan/muneds" element={<MUN />} />
+          
         {/* Clubs */}
         <Route path="/Clubs" element={<Clubpage />} />
         <Route path="/clubs/codeone" element={<CodeOne />} />
         <Route path="/clubs/f1rst" element={<F1RST />} />
         <Route path="/clubs/monograph" element={<Monograph />} />
+        <Route path="/clubs/shutterone" element={<Shutterone />} />
         <Route path="/clubs/SYC" element={<SYC />} />
         <Route path="/clubs/smukiezchoir" element={<SmukiezChoir />} />
         <Route path="/clubs/serenity" element={<Serenity />} />
         <Route path="/clubs/Flashone" element={<Flashone />} />
         <Route path="/clubs/Cressendo" element={<Cressendo />} />
+          
         {/* Alasan */}
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />
@@ -131,6 +135,7 @@ function App() {
         <Route path="/tentang_smak1/logo" element={<Logo />} />
         <Route path="/tentang_smak1/lagu" element={<Lagu />} />
         <Route path="/Kehidupan_smukiers" element={<KehidupanSmukiers />} />
+        <Route path="/Clubs" element={<Clubpage />} />
         <Route path="/Kehidupan_smukiers/tips" element={<TipsBelajar />} />
         <Route
           path="/Kehidupan_smukiers/kegiatan"
