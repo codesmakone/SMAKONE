@@ -5,6 +5,7 @@ import Nav from "../../Component/Nav/Nav";
 import Footer from "../../Component/Footer/Footer";
 
 import f1rst_bg from "../../Image/Clubs/Clubpage/bg_f1rst.webp";
+import codeone_bg from "../../Image/Clubs/Clubpage/bg_codeone.webp";
 import mono_bg from "../../Image/Clubs/Clubpage/bg_mono.webp";
 import sc_bg from "../../Image/Clubs/Clubpage/bg_sc.webp";
 import sere_bg from "../../Image/Clubs/Clubpage/bg_sere.webp";
@@ -92,7 +93,7 @@ const Clubpage = () => {
           <LinkBox
             href="..\..\Clubs\CodeOne"
             title="CodeOne"
-            image={codeone_logo}
+            image={codeone_bg}
             description="Club Coding"
             icon={codeone_logo}
           />
