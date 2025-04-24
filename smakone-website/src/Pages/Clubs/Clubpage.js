@@ -24,6 +24,7 @@ import flashone_logo from "../../Image/Clubs/Clubpage/logo_flashone.png";
 import cressendo_logo from "../../Image/Clubs/Clubpage/logo_cressendo.webp";
 import shutterone_logo from "../../Image/Clubs/Clubpage/ShutteroneLogo.PNG";
 
+
 const LinkBox = ({ href, title, image, description, icon }) => {
   return (
     <a
@@ -111,6 +112,7 @@ const Clubpage = () => {
             description="Club Paskibra"
             icon={flashone_logo}
           />
+
           <LinkBox
             href="..\..\Clubs\Cressendo"
             title="Cressendo"
