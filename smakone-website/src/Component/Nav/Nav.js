@@ -88,6 +88,7 @@ const Nav = (props) => {
     const pathKehidupan = 
     path==='/kehidupan_smukiers' 
     || path==='/kehidupan_smukiers'
+    || path==='/clubs'
     || path==='/kehidupan_smukiers/tips'
     || path==='/kehidupan_smukiers/kegiatan'
     || path==='/kehidupan_smukiers/alumni'
@@ -254,6 +255,10 @@ const Nav = (props) => {
                     <IoIosPaperPlane size={24} />
                     <p className="text-base leading-4  "><Link to='/Kehidupan_smukiers'>Kehidupan SMUKIERS</Link></p>
                 </button>
+                <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/clubs' ? "font-bold" : "text-gray-500"}`}>
+                    <IoIosPaperPlane size={24} />
+                    <p className="text-base leading-4  "><Link to='/Clubs'>Clubs</Link></p>
+                </button>
                 <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kehidupan_smukiers/tips' ? "font-bold" : "text-gray-500"}`}>
                     <GiLightBulb size={24} />   
                     <p className="text-base leading-4  "><Link to='/Kehidupan_smukiers/Tips'>Tips Belajar</Link></p>
@@ -400,6 +405,7 @@ const Nav = (props) => {
                     ${
                     path==='/kehidupan_smukiers' 
                     || path==='/kehidupan_smukiers'
+                    || path==='/clubs'
                     || path==='/kehidupan_smukiers/tips'
                     || path==='/kehidupan_smukiers/kegiatan'
                     || path==='/kehidupan_smukiers/alumni'
@@ -409,13 +415,15 @@ const Nav = (props) => {
                     ? "link-underline-static drop-shadow-[0_15px_12px_rgba(0,0,0,0.25)]" : "link-underline"
                     }`}
                     dir1='/Kehidupan_smukiers'
-                    dir2='/Kehidupan_smukiers/Tips'
-                    dir3='/Kehidupan_smukiers/Kegiatan'
-                    dir4='/Kehidupan_smukiers/Alumni'
+                    dir2='/Clubs'
+                    dir3='/Kehidupan_smukiers/Tips'
+                    dir4='/Kehidupan_smukiers/Kegiatan'
+                    dir5='/Kehidupan_smukiers/Alumni'
                     menu1='Kehidupan SMUKIERS'
-                    menu2='Tips Belajar'
-                    menu3='Kegiatan Setelah Kelas'
-                    menu4='Alumni'
+                    menu2='Clubs'
+                    menu3='Tips Belajar'
+                    menu4='Kegiatan Setelah Kelas'
+                    menu5='Alumni'
                     Kehidupan ={true}
                 />
                 <Dropdown
