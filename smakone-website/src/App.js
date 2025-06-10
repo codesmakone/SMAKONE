@@ -26,6 +26,12 @@ import SeleksiOsis from "./Pages/Osis/ListKepanitiaan/Osis2025";
 import PanitiaBazone2024 from "./Pages/Osis/ListKepanitiaan/Bazone2024";
 import PesertaTOS from "./Pages/Osis/ListKepanitiaan/TOS2025";
 import CuratorsTedx from "./Pages/Osis/ListKepanitiaan/curatorsTedx2025";
+import SOCTahap12025 from "./Pages/Osis/ListKepanitiaan/SOCTahap12025";
+import OneJournal25 from "./Pages/Osis/ListKepanitiaan/oneJournal25";
+import KrizaEsports25 from "./Pages/Osis/ListKepanitiaan/krizaEsports25";
+import OneFM from "./Pages/Osis/ListKepanitiaan/onefm2025.js";
+import Sapxsms25 from "./Pages/Osis/ListKepanitiaan/sapxsms2025.js";
+import Sapext25 from "./Pages/Osis/ListKepanitiaan/sapextend25.js";
 
 import Emagz from "./Pages/Emagz/Emagz";
 import Ass1st from "./Pages/Ass1st/Ass1st";
@@ -154,10 +160,17 @@ function App() {
           element={<Nicole />}
         />
         {/* Hasil Seleksi Kepanitiaan */}
+        {/* Hasil Seleksi Kepanitiaan */}
         <Route path="/OSIS/panitiabazone2024" element={<PanitiaBazone2024 />} />
         <Route path="/OSIS/PengumumanOSIS2025" element={<SeleksiOsis />} />
         <Route path="/OSIS/PesertaTOS2025" element={<PesertaTOS />} />
         <Route path="/OSIS/CuratorsTEDx2025" element={<CuratorsTedx />} />
+        <Route path="/OSIS/SOCTahap12025" element={<SOCTahap12025 />} />
+        <Route path="/OSIS/onejournal2025" element={<OneJournal25 />} />
+        <Route path="/OSIS/krizaesports2025" element={<KrizaEsports25 />} />
+        <Route path="/OSIS/onefm2025" element={<OneFM />} />
+        <Route path="/OSIS/sapxsms2025" element={<Sapxsms25 />} />
+        <Route path="/OSIS/sapxsms2025-extended" element={<Sapext25 />} />
         {/* OSIS */}
         <Route path="/OSIS" element={<Osis />} />
         <Route path="/OSIS/bph" element={<BPH />} />
