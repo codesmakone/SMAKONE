@@ -160,6 +160,7 @@ function App() {
           element={<Nicole />}
         />
         {/* Hasil Seleksi Kepanitiaan */}
+        {/* Hasil Seleksi Kepanitiaan */}
         <Route path="/OSIS/panitiabazone2024" element={<PanitiaBazone2024 />} />
         <Route path="/OSIS/PengumumanOSIS2025" element={<SeleksiOsis />} />
         <Route path="/OSIS/PesertaTOS2025" element={<PesertaTOS />} />
