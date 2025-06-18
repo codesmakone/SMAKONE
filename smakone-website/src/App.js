@@ -165,7 +165,7 @@ function App() {
         <Route path="/OSIS/PengumumanOSIS2025" element={<SeleksiOsis />} />
         <Route path="/OSIS/PesertaTOS2025" element={<PesertaTOS />} />
         <Route path="/OSIS/CuratorsTEDx2025" element={<CuratorsTedx />} />
-        <Route path="/OSIS/SOCTahap12025" element={<SOCTahap12025 />} />
+        <Route path="/OSIS/SOC2025" element={<SOCTahap12025 />} />
         <Route path="/OSIS/onejournal2025" element={<OneJournal25 />} />
         <Route path="/OSIS/krizaesports2025" element={<KrizaEsports25 />} />
         <Route path="/OSIS/onefm2025" element={<OneFM />} />
