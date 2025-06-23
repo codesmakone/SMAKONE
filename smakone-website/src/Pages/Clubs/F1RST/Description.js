@@ -9,13 +9,14 @@ F1RST merupakan sebuah club tari dengan genre modern dance di bawah naungan eksk
 
 const Section = () => {
   return (
-    <section className="px-10 xl:px-0 mx-auto -mt-28 relative z-3 bottom-0 flex flex-col max-w-[75rem] w-[100%] md:-mt-20">
+    <section className="px-10 xl:px-0 mx-auto relative z-3 bottom-0 flex flex-col max-w-[75rem] w-[100%]">
+      <h1 class='my-[1rem] xl:my-[3rem] text-center font-bold text-5xl'>F1RST</h1>
       <img
         className="object-cover w-full h-[14rem] rounded-[2rem] sm:h-[20rem] md:h-[34rem]"
         src={Members}
         alt="F1RST Members"
       />
-      <p className="-mt-12 z-4 top-[85%] bg-white px-[1.2rem] py-[1.25rem] rounded-[2rem] shadow-2xl text-[0.75rem] sm:text-[1rem] leading-[17px] sm:leading-[20px] md:leading-8 md:text-[1.5rem] md:px-[2rem] md:py-[1.5rem] flex flex-col gap-3">
+      <p className="mt-5 z-4 top-[85%] px-[1.2rem] py-[1.25rem] text-[0.75rem] sm:text-[1rem] leading-[17px] sm:leading-[20px] md:leading-8 md:text-[1.5rem] md:px-[2rem] md:py-[1.5rem] flex flex-col gap-3">
         {TEXT}
         <div className="flex gap-3 items-center justify-end">
           <div className="flex items-center gap-1">
