@@ -83,7 +83,7 @@ import Shutterone from "./Pages/Clubs/Shutterone/Shutterone";
 import SYC from "./Pages/Clubs/SYC/SYC";
 import SmukiezChoir from "./Pages/Clubs/SmukiezChoir/SmukiezChoir";
 import Serenity from "./Pages/Clubs/Serenity";
-import Flashone from "./Pages/Clubs/Flashone";
+import Flashone from "./Pages/Clubs/Flashone/Flashone";
 import Cressendo from "./Pages/Clubs/Cressendo/Cressendo";
 
 function App() {
