@@ -5,13 +5,14 @@ import Nav from "../../Component/Nav/Nav";
 import Footer from "../../Component/Footer/Footer";
 
 import f1rst_bg from "../../Image/Clubs/Clubpage/bg_f1rst.webp";
+import codeone_bg from "../../Image/Clubs/Clubpage/bg_codeone.webp";
 import mono_bg from "../../Image/Clubs/Clubpage/bg_mono.webp";
 import sc_bg from "../../Image/Clubs/Clubpage/bg_sc.webp";
 import sere_bg from "../../Image/Clubs/Clubpage/bg_sere.webp";
 import syc_bg from "../../Image/Clubs/SYC/2024-2025.jpg";
 import flashone_bg from "../../Image/Clubs/Flashone/thumbnail.jpeg";
 import cressendo_bg from "../../Image/Clubs/Clubpage/bg_cressendo.webp";
-import shutterone_bg from '../../Image/Clubs/Shutterone/Shutterone.jpg'
+import shutterone_bg from "../../Image/Clubs/Shutterone/Shutterone.jpg";
 
 import f1rst_logo from "../../Image/Clubs/Clubpage/logo_f1rst.webp";
 import codeone_logo from "../../Image/Clubs/Clubpage/logo_codeone.webp";
@@ -22,6 +23,7 @@ import syc_logo from "../../Image/Clubs/SYC/Logo.png";
 import flashone_logo from "../../Image/Clubs/Clubpage/logo_flashone.png";
 import cressendo_logo from "../../Image/Clubs/Clubpage/logo_cressendo.webp";
 import shutterone_logo from "../../Image/Clubs/Clubpage/ShutteroneLogo.PNG";
+
 
 const LinkBox = ({ href, title, image, description, icon }) => {
   return (
@@ -59,7 +61,7 @@ const Clubpage = () => {
           title="Clubs"
           quote="Siswa-siswi SMAK 1 memiliki banyak kesempatan untuk mengembangkan diri melalui berbagai club yang seru dan inspiratif. Dari seni, olahraga, hingga teknologi, setiap klub dirancang untuk memperluas keterampilan, kreatifitas, juga pengalaman siswa dan siswi. Selain itu dengan mengikuti clubs yang ada, siswa dan siswi dapat memperkuat portofolio agar memiliki peluang yang lebih besar untuk diterima di kampus favorit. Beberapa club yang dapat diikuti yaitu : F1RST, SERENITY, Mask, Smukiez Choir, Smukiez Youth Chamber (SYC), Cressendo, CodeOne, ShutterOne, dan banyak lagi. Baca deskripsi clubs dibawah ini untuk mengetahui lebih lanjut!"
         />
-        <ContentHeader title="Deskripsi Clubs" />
+        <ContentHeader title="Daftar Clubs" />
         <div className="pt-12 px-6 md:px-12 lg:px-16 xl:px-28 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 content-evenly">
           <LinkBox
             href="..\..\Clubs\f1rst"
@@ -92,7 +94,7 @@ const Clubpage = () => {
           <LinkBox
             href="..\..\Clubs\CodeOne"
             title="CodeOne"
-            image={codeone_logo}
+            image={codeone_bg}
             description="Club Coding"
             icon={codeone_logo}
           />
@@ -110,6 +112,7 @@ const Clubpage = () => {
             description="Club Paskibra"
             icon={flashone_logo}
           />
+
           <LinkBox
             href="..\..\Clubs\Cressendo"
             title="Cressendo"
