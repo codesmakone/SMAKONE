@@ -18,7 +18,7 @@ const Main = () => {
           </div>
         </div>
         <img
-          className="absolute top-[0.5rem] md:top-[2rem] xl:top-[1rem] left-[50%] -translate-x-[50%] z-2 w-[15rem] sm:w-[15rem] md:w-[25rem] xl:w-[25rem]"
+          className="absolute top-[0.5rem] md:top-[2rem] xl:top-0 left-[50%] -translate-x-[50%] z-2 w-[20rem] sm:w-[21rem] md:w-[26rem] xl:w-[31rem]"
           src={Logo}
           alt="OneMUN Logo"
         />
