@@ -24,6 +24,10 @@ import Team from "../../../Image/Clubs/OneMUN/Team.webp";
 const Section = () => {
   return (
     <div className="flex flex-col gap-7 px-[3rem] mt-[2rem] md:mt-[4rem] items-center justify-center w-[60rem] max-w-[100%] mx-auto">
+      <div className="flex flex-col items-center justify-center">
+        <h2 className="text-xl font-semibold">Clubs</h2>
+        <h1 className="text-4xl xl:text-6xl font-black">OneMUN</h1>
+      </div>
       <img
         className="object-cover w-full rounded-[1rem]"
         src={Team}
@@ -42,5 +46,27 @@ const Section = () => {
     </div>
   );
 };
+
+// const Section = () => {
+//   return (
+//     <div className="mt-[-5rem] ">
+//       <Layout
+//         cat="Clubs"
+//         title="OneMUN"
+//         latterPar1="ONE MUN (Model United Nations) is one of the extracurriculars held in
+//         SMAK 1 PENABUR Jakarta. In ONE MUN, students can learn the art of
+//         delegating for countries as well as mastering the skills needed for
+//         diplomacy, including negotiating, public speaking, and so much more. ONE
+//         MUN is also the perfect community to discuss & update about ongoing
+//         global issues. Make sure you're not missing out! ONEMUN is held every
+//         Saturday for 3 hours of pure fun from 9 - 12 P.M. Don't miss out on the
+//         fun! Be the ONE with ONEMUN!"
+//         img={Team}
+//         alt="f1rst"
+//         dir="/Clubs/CodeOne"
+//       />
+//     </div>
+//   );
+// };
 
 export default Section;
