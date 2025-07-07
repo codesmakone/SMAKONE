@@ -16,7 +16,7 @@ const Section = () => {
   return (
     <section className="px-10 xl:px-0 mx-auto -mt-28 relative mb-[3rem] z-3 bottom-0 flex flex-col max-w-[75rem] w-[100%] md:-mt-20">
       <img
-        className="object-cover w-full h-[14rem] rounded-[2rem] md:h-[24rem]"
+        className="object-cover w-full h-[21rem] rounded-[2rem] md:h-[30rem]"
         src={Team}
         alt="Monograph Team"
       />
