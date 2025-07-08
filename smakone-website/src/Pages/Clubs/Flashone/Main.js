@@ -18,7 +18,7 @@ const Main = () => {
           </div>
         </div>
         <img
-          className="absolute top-[3rem] sm:top-[3rem] md:top-[5rem] xl:top-[5rem] left-[50%] -translate-x-[50%] z-2 w-[12rem] md:w-[17rem] xl:w-[20rem]"
+          className="absolute top-[5rem] left-[50%] -translate-x-[50%] z-2 w-[6rem] md:w-[11rem] xl:w-[14rem]"
           src={Logo}
           alt="Logo Flashone"
         />
