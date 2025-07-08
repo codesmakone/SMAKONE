@@ -32,12 +32,6 @@ import KrizaEsports25 from "./Pages/Osis/ListKepanitiaan/krizaEsports25";
 import OneFM from "./Pages/Osis/ListKepanitiaan/onefm2025.js";
 import Sapxsms25 from "./Pages/Osis/ListKepanitiaan/sapxsms2025.js";
 import Sapext25 from "./Pages/Osis/ListKepanitiaan/sapextend25.js";
-import SOCTahap12025 from "./Pages/Osis/ListKepanitiaan/SOCTahap12025";
-import OneJournal25 from "./Pages/Osis/ListKepanitiaan/oneJournal25";
-import KrizaEsports25 from "./Pages/Osis/ListKepanitiaan/krizaEsports25";
-import OneFM from "./Pages/Osis/ListKepanitiaan/onefm2025.js";
-import Sapxsms25 from "./Pages/Osis/ListKepanitiaan/sapxsms2025.js";
-import Sapext25 from "./Pages/Osis/ListKepanitiaan/sapextend25.js";
 
 import Emagz from "./Pages/Emagz/Emagz";
 import Ass1st from "./Pages/Ass1st/Ass1st";
@@ -99,6 +93,7 @@ import Serenity from "./Pages/Clubs/Serenity";
 import Flashone from "./Pages/Clubs/Flashone";
 import Cressendo from "./Pages/Clubs/Cressendo/Cressendo";
 import OneMUN from "./Pages/Clubs/OneMUN/OneMUN";
+import EDS from "./Pages/Clubs/EDS/EDS";
 
 function App() {
   return (
@@ -137,6 +132,7 @@ function App() {
         <Route path="/clubs/Flashone" element={<Flashone />} />
         <Route path="/clubs/Cressendo" element={<Cressendo />} />
         <Route path="/clubs/OneMUN" element={<OneMUN />} />
+        <Route path="/clubs/EDS" element={<EDS />} />
         {/* Alasan */}
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />
