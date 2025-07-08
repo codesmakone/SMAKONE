@@ -32,12 +32,6 @@ import KrizaEsports25 from "./Pages/Osis/ListKepanitiaan/krizaEsports25";
 import OneFM from "./Pages/Osis/ListKepanitiaan/onefm2025.js";
 import Sapxsms25 from "./Pages/Osis/ListKepanitiaan/sapxsms2025.js";
 import Sapext25 from "./Pages/Osis/ListKepanitiaan/sapextend25.js";
-import SOCTahap12025 from "./Pages/Osis/ListKepanitiaan/SOCTahap12025";
-import OneJournal25 from "./Pages/Osis/ListKepanitiaan/oneJournal25";
-import KrizaEsports25 from "./Pages/Osis/ListKepanitiaan/krizaEsports25";
-import OneFM from "./Pages/Osis/ListKepanitiaan/onefm2025.js";
-import Sapxsms25 from "./Pages/Osis/ListKepanitiaan/sapxsms2025.js";
-import Sapext25 from "./Pages/Osis/ListKepanitiaan/sapextend25.js";
 
 import Emagz from "./Pages/Emagz/Emagz";
 import Ass1st from "./Pages/Ass1st/Ass1st";
@@ -90,13 +84,13 @@ import OneCast from "./Pages/Kegiatan/onecast";
 import BukuAcara from "./Pages/Home/Buku_Acara";
 
 import CodeOne from "./Pages/Clubs/CodeOne";
-import F1RST from "./Pages/Clubs/F1RST";
+import F1RST from "./Pages/Clubs/F1RST/F1RST";
 import Monograph from "./Pages/Clubs/Monograph/Monograph";
-import Shutterone from "./Pages/Clubs/Shutterone";
+import Shutterone from "./Pages/Clubs/Shutterone/Shutterone";
 import SYC from "./Pages/Clubs/SYC/SYC";
 import SmukiezChoir from "./Pages/Clubs/SmukiezChoir/SmukiezChoir";
 import Serenity from "./Pages/Clubs/Serenity";
-import Flashone from "./Pages/Clubs/Flashone";
+import Flashone from "./Pages/Clubs/Flashone/Flashone";
 import Cressendo from "./Pages/Clubs/Cressendo/Cressendo";
 import OneMUN from "./Pages/Clubs/OneMUN/OneMUN";
 
