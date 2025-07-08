@@ -28,6 +28,10 @@ Kami harus menyamakan langkah kaki kami ketika berjalan, bahkan menyamakan ayuna
 const Description = () => {
   return (
     <section className="px-10 xl:px-0 mx-auto relative z-3 bottom-0 flex flex-col max-w-[75rem] w-[100%]">
+      <div class="px-6 md:px-12 lg:px-16 xl:px-20 pt-10 justify-center text-center">
+        <h2 class="text-xl font-semibold">Clubs</h2>
+        <h1 class="text-4xl xl:text-6xl font-black">Flashone</h1>
+      </div>
       <img
         className="object-cover w-full h-[14rem] rounded-[2rem] sm:h-[20rem] md:h-[34rem]"
         src={Members1}
