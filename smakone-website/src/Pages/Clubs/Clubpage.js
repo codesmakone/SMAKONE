@@ -14,6 +14,7 @@ import flashone_bg from "../../Image/Clubs/Flashone/thumbnail.jpeg";
 import cressendo_bg from "../../Image/Clubs/Clubpage/bg_cressendo.webp";
 import shutterone_bg from "../../Image/Clubs/Shutterone/Shutterone.jpg";
 import oneMUN_bg from "../../Image/Clubs/Clubpage/bg_onemun.webp";
+import onejournal_bg from "../../Image/Clubs/Clubpage/bg_onejournal.webp";
 
 import f1rst_logo from "../../Image/Clubs/Clubpage/logo_f1rst.webp";
 import codeone_logo from "../../Image/Clubs/Clubpage/logo_codeone.webp";
@@ -25,6 +26,7 @@ import flashone_logo from "../../Image/Clubs/Clubpage/logo_flashone.png";
 import cressendo_logo from "../../Image/Clubs/Clubpage/logo_cressendo.webp";
 import shutterone_logo from "../../Image/Clubs/Clubpage/ShutteroneLogo.PNG";
 import oneMUN_logo from "../../Image/Clubs/Clubpage/logo_onemun.webp";
+import onejournal_logo from "../../Image/Clubs/Clubpage/logo_onejournal.webp";
 
 const LinkBox = ({ href, title, image, description, icon }) => {
   return (
@@ -135,6 +137,14 @@ const Clubpage = () => {
             image={oneMUN_bg}
             description="Club Model United Nations"
             icon={oneMUN_logo}
+          />
+
+          <LinkBox
+            href="..\..\Clubs\OneJournal"
+            title="OneJournal"
+            image={onejournal_bg}
+            description="Club Jurnalistik"
+            icon={onejournal_logo}
           />
         </div>
       </div>
