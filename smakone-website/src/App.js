@@ -92,6 +92,8 @@ import Cressendo from "./Pages/Clubs/Cressendo/Cressendo";
 import SClub from "./Pages/Clubs/scj";
 import MUN from "./Pages/Clubs/MUN";
 import Kriza from "./Pages/Clubs/kriza";
+import EDS from "./Pages/Clubs/EDS/EDS";
+import OneMUN from "./Pages/Clubs/OneMUN/OneMUN";
 
 
 function App() {
