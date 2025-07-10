@@ -81,19 +81,21 @@ import OneCast from "./Pages/Kegiatan/onecast";
 import BukuAcara from "./Pages/Home/Buku_Acara";
 
 import CodeOne from "./Pages/Clubs/CodeOne";
-import F1RST from "./Pages/Clubs/F1RST";
+import F1RST from "./Pages/Clubs/F1RST/F1RST";
 import Monograph from "./Pages/Clubs/Monograph/Monograph";
-import Shutterone from "./Pages/Clubs/Shutterone";
+import Shutterone from "./Pages/Clubs/Shutterone/Shutterone";
 import SYC from "./Pages/Clubs/SYC/SYC";
 import SmukiezChoir from "./Pages/Clubs/SmukiezChoir/SmukiezChoir";
 import Serenity from "./Pages/Clubs/Serenity";
-import Flashone from "./Pages/Clubs/Flashone";
+import Flashone from "./Pages/Clubs/Flashone/Flashone";
 import Cressendo from "./Pages/Clubs/Cressendo/Cressendo";
 import SClub from "./Pages/Clubs/scj";
 import MUN from "./Pages/Clubs/MUN";
 import Kriza from "./Pages/Clubs/kriza";
 import EDS from "./Pages/Clubs/EDS/EDS";
 import OneMUN from "./Pages/Clubs/OneMUN/OneMUN";
+import OneJournal from "./Pages/Clubs/OneJournal/OneJournal";
+import OneAID from "./Pages/Clubs/OneAID";
 
 
 function App() {
@@ -135,6 +137,9 @@ function App() {
         <Route path="/clubs/Cressendo" element={<Cressendo />} />
         <Route path="/clubs/OneMUN" element={<OneMUN />} />
         <Route path="/clubs/EDS" element={<EDS />} />
+        <Route path="/clubs/OneJournal" element={<OneJournal />} />
+        <Route path="/clubs/oneaid" element={<OneAID />} />
+          
         {/* Alasan */}
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />
