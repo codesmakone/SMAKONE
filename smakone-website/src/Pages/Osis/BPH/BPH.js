@@ -5,11 +5,11 @@ import BidangSection from "../../../Component/Osis/BidangSection";
 import OsisTeam from "../../../Component/Osis/OsisTeam";
 
 //Import Image
-import Angelica from "../../../Image/Osis/Bidang_BPH/Angelica.webp";
-import Catherine from "../../../Image/Osis/Bidang_BPH/Catherine.webp";
-import Jordana from "../../../Image/Osis/Bidang_BPH/Jordana.webp";
-import Joyce from "../../../Image/Osis/Bidang_BPH/Joyce.webp";
-import Benedict from "../../../Image/Osis/Bidang_BPH/Benedict.webp";
+import Angelica from "../../../Image/Osis/Bidang_BPH/Angelica.jpeg";
+import Catherine from "../../../Image/Osis/Bidang_BPH/Catherine.jpg";
+import Jordana from "../../../Image/Osis/Bidang_BPH/Jordana.jpg";
+import Joyce from "../../../Image/Osis/Bidang_BPH/Joyce.png";
+import Benedict from "../../../Image/Osis/Bidang_BPH/Benedict.png";
 
 const BPH = () => {
   return (
