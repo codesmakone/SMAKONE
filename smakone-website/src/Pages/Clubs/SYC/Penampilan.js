@@ -6,11 +6,10 @@ import TentangSYC from "../../../Image/Clubs/SYC/TentangSYC.png";
 const Penampilan = () => {
 
     return(
-        <div className="container mx-auto mt-10 md:mt-6 px-8 md:px-16 lg:px-24 xl:px-32 pt-10 justify-center">
-            
+        <div className="container mx-auto md:mt-6 px-8 md:px-16 lg:px-24 xl:px-32 pt-10 justify-center">
             <div>
-                <h2 className="mt-14 text-xl md:text-2xl xl:text-2xl font-semibold text-center">Clubs</h2>
-                <h1 className="text-3xl md:text-5xl xl:text-5xl font-black text-center">Smukiez Choir</h1>
+                <h2 className=" text-xl md:text-2xl xl:text-2xl font-semibold text-center">Clubs</h2>
+                <h1 className="text-3xl md:text-5xl xl:text-5xl font-black text-center">Smukiez Youth Chamber</h1>
                 <img src={TentangSYC} className="object-cover h-auto md:h-[20rem] lg:h-[32rem] xl:h-[30rem] max-w-auto mx-auto rounded-3xl my-6"/>
                 <p className="text-lg  mt-3 text-justify xl:px-10" >
                 SYC atau Smukiez Youth Chambers adalah klub orchestra SMAK 1 Penabur Jakarta yang memainkan berbagai genre lagu, meliputi klasik, pop, OST, game OST, dan lainnya. Dalam SYC, kita tidak hanya memainkan musik, tetapi juga mempelajari cara menciptakan lagu, mengaransemen, dan melatih/conducting latihan dan penampilan.

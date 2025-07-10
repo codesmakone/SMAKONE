@@ -14,17 +14,20 @@ import flashone_bg from "../../Image/Clubs/Flashone/thumbnail.jpeg";
 import cressendo_bg from "../../Image/Clubs/Clubpage/bg_cressendo.webp";
 import shutterone_bg from "../../Image/Clubs/Shutterone/Shutterone.jpg";
 import oneMUN_bg from "../../Image/Clubs/Clubpage/bg_onemun.webp";
+import eds_bg from "../../Image/Clubs/Clubpage/bg_eds.webp";
 
 import f1rst_logo from "../../Image/Clubs/Clubpage/logo_f1rst.webp";
 import codeone_logo from "../../Image/Clubs/Clubpage/logo_codeone.webp";
 import mono_logo from "../../Image/Clubs/Clubpage/logo_mono.webp";
 import sc_logo from "../../Image/Clubs/Clubpage/logo_sc.webp";
 import sere_logo from "../../Image/Clubs/Clubpage/logo_sere.webp";
-import syc_logo from "../../Image/Clubs/SYC/Logo.png";
+import syc_logo from "../../Image/Clubs/Clubpage/logo_syc.webp";
 import flashone_logo from "../../Image/Clubs/Clubpage/logo_flashone.png";
 import cressendo_logo from "../../Image/Clubs/Clubpage/logo_cressendo.webp";
 import shutterone_logo from "../../Image/Clubs/Clubpage/ShutteroneLogo.PNG";
 import oneMUN_logo from "../../Image/Clubs/Clubpage/logo_onemun.webp";
+import eds_logo from "../../Image/Clubs/Clubpage/logo_eds.webp";
+
 
 const LinkBox = ({ href, title, image, description, icon }) => {
   return (
@@ -136,6 +139,15 @@ const Clubpage = () => {
             description="Club Model United Nations"
             icon={oneMUN_logo}
           />
+
+          <LinkBox
+            href="..\..\Clubs\EDS"
+            title="EDS"
+            image={eds_bg}
+            description="Club English Debate Society"
+            icon={eds_logo}
+          />
+
         </div>
       </div>
       <Footer />
