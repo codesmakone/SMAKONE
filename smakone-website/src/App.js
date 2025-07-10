@@ -84,14 +84,16 @@ import OneCast from "./Pages/Kegiatan/onecast";
 import BukuAcara from "./Pages/Home/Buku_Acara";
 
 import CodeOne from "./Pages/Clubs/CodeOne";
-import F1RST from "./Pages/Clubs/F1RST";
+import F1RST from "./Pages/Clubs/F1RST/F1RST";
 import Monograph from "./Pages/Clubs/Monograph/Monograph";
-import Shutterone from "./Pages/Clubs/Shutterone";
+import Shutterone from "./Pages/Clubs/Shutterone/Shutterone";
 import SYC from "./Pages/Clubs/SYC/SYC";
 import SmukiezChoir from "./Pages/Clubs/SmukiezChoir/SmukiezChoir";
 import Serenity from "./Pages/Clubs/Serenity";
-import Flashone from "./Pages/Clubs/Flashone";
+import Flashone from "./Pages/Clubs/Flashone/Flashone";
 import Cressendo from "./Pages/Clubs/Cressendo/Cressendo";
+import OneMUN from "./Pages/Clubs/OneMUN/OneMUN";
+import OneJournal from "./Pages/Clubs/OneJournal/OneJournal";
 import OneAID from "./Pages/Clubs/OneAID";
 
 function App() {
@@ -130,6 +132,8 @@ function App() {
         <Route path="/clubs/serenity" element={<Serenity />} />
         <Route path="/clubs/Flashone" element={<Flashone />} />
         <Route path="/clubs/Cressendo" element={<Cressendo />} />
+        <Route path="/clubs/OneMUN" element={<OneMUN />} />
+        <Route path="/clubs/OneJournal" element={<OneJournal />} />
         <Route path="/clubs/oneaid" element={<OneAID />} />
         {/* Alasan */}
         <Route path="/alasan/Edward" element={<Edward />} />
@@ -163,11 +167,12 @@ function App() {
         />
         {/* Hasil Seleksi Kepanitiaan */}
         {/* Hasil Seleksi Kepanitiaan */}
+        {/* Hasil Seleksi Kepanitiaan */}
         <Route path="/OSIS/panitiabazone2024" element={<PanitiaBazone2024 />} />
         <Route path="/OSIS/PengumumanOSIS2025" element={<SeleksiOsis />} />
         <Route path="/OSIS/PesertaTOS2025" element={<PesertaTOS />} />
         <Route path="/OSIS/CuratorsTEDx2025" element={<CuratorsTedx />} />
-        <Route path="/OSIS/SOCTahap12025" element={<SOCTahap12025 />} />
+        <Route path="/OSIS/SOC2025" element={<SOCTahap12025 />} />
         <Route path="/OSIS/onejournal2025" element={<OneJournal25 />} />
         <Route path="/OSIS/krizaesports2025" element={<KrizaEsports25 />} />
         <Route path="/OSIS/onefm2025" element={<OneFM />} />

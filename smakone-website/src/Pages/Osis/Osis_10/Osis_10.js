@@ -5,9 +5,9 @@ import BidangSection from "../../../Component/Osis/BidangSection";
 import OsisTeam from "../../../Component/Osis/OsisTeam";
 
 // Import Image
-import Michelle from "../../../Image/Osis/Bidang_10/Michelle.webp";
-import Ivana from "../../../Image/Osis/Bidang_10/Ivana.webp";
-import Jaclyn from "../../../Image/Osis/Bidang_10/Jaclyn.webp";
+import Michelle from "../../../Image/Osis/Bidang_10/Michelle.jpeg";
+import Ivana from "../../../Image/Osis/Bidang_10/Ivana.jpg";
+import Jaclyn from "../../../Image/Osis/Bidang_10/Jaclyn.png";
 
 const OSIS_10 = () => {
   return (
@@ -22,7 +22,7 @@ const OSIS_10 = () => {
             img={Michelle}
             alt="Michelle"
             name="Michelle Huang"
-            desc="Hi everyone! I‘m Michelle but people normally call me Elle!! Currently I‘m section 10‘s coordinator, and I hope you all enjoy our programs! I enjoy travelling, strolling around a park, and being with my family & friends 💌 Probably a small funfact abt me is that i listen to rock lol (scorpions, the police, etc) If you‘re reading this till here, make sure to check out my friend Rachelle from section 4😉"
+            desc="Hi everyone! I‘m Michelle but people normally call me Elle!! Currently I‘m section 10‘s coordinator, and I hope you all enjoy our programs! I enjoy travelling, strolling around a park, and being with my family & friends 💌 Probably a small funfact abt me is that i listen to rock lol (scorpions, the police, etc) Btw u can check all my travel moments at @laviestellee !! (Active and always updated!) If you‘re reading this till here, make sure to check out my friend Rachelle from section 4😉"
           />
         }
         person2={
@@ -30,7 +30,7 @@ const OSIS_10 = () => {
             img={Ivana}
             alt="Ivana"
             name="Ivana Roxanne Subakti"
-            desc="Hii, namaku Ivana and this year I'm in X-1, if you have any questions about me atau apa aja feel free to hit me up on instagram @ivv.rs"
+            desc="Hii semuaa 👋🏻, kenalin saya Ivana, boleh manggil vana atau iv aja kokk, tahun ini aku berada di kelas X-1‼️ Hobi aku biasanya nonton filmm 🎥 kalo mau kasih film recommendation boleh banget 🤩 aku si semua genre gas nonton‼️ Aku juga suka dengerin musik kalo lagi nugass, jujur aku gaada favorite artist karena setiap minggu ganti teruss 😥 Anywayss kalo kalian ada any questions about me atau apa aja feel free to hit me up on my instagramm @ivv.rs "
           />
         }
         person3={
@@ -38,7 +38,7 @@ const OSIS_10 = () => {
             img={Jaclyn}
             alt="Jaclyn"
             name="Jaclyn Aditya The"
-            desc="Haii semuanyaa!! Kenalin nama aku Jaclyn dari kelas X9, tapi panggil aja Jac atau Jekii. Tahun ini aku menjabat sebagai anggota OSIS bidang 10 🫡 A little about mee, I have a lot of hobbies like watching movies, listening to music, baking, and reading. Fun fact dikitt, aku suka dengerin genre musik apapunn hehe ☺️tapi my favorite is Gracie Abrams and The Neighborhood. Jalo kalian mau kasih rekomendasi film atau buku, or even mau ngobrol ajaa, feel free to contact mee @jacc.adity See youu and have fun in Smukiee! 💖"
+            desc="Haii semuanyaa!! Kenalin nama aku Jaclyn dari kelas X9, tapi panggil aja Jac atau Jekii. Tahun ini aku menjabat sebagai anggota OSIS bidang 10 🫡 A little about mee, I have a lot of hobbies like watching movies, listening to music, and baking. Fun fact dikitt, aku suka dengerin genre musik apapunn hehe 😚 tapi my current favorites are The Neighborhood and Lana del Rey 🎧 Kalo kalian mau kasih rekomendasi film atau lagu, or even mau ngobrol ajaa, feel free to contact mee di ig @jacc.adity See youu and have fun in Smukiee! 💖💥"
           />
         }
         Description={true}

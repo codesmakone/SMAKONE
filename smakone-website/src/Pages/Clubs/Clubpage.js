@@ -13,6 +13,8 @@ import syc_bg from "../../Image/Clubs/SYC/2024-2025.jpg";
 import flashone_bg from "../../Image/Clubs/Flashone/thumbnail.jpeg";
 import cressendo_bg from "../../Image/Clubs/Clubpage/bg_cressendo.webp";
 import shutterone_bg from "../../Image/Clubs/Shutterone/Shutterone.jpg";
+import oneMUN_bg from "../../Image/Clubs/Clubpage/bg_onemun.webp";
+import onejournal_bg from "../../Image/Clubs/Clubpage/bg_onejournal.webp";
 import oneaid_bg from "../../Image/Clubs/Clubpage/bg_oneaid.jpeg";
 
 import f1rst_logo from "../../Image/Clubs/Clubpage/logo_f1rst.webp";
@@ -24,6 +26,8 @@ import syc_logo from "../../Image/Clubs/SYC/Logo.png";
 import flashone_logo from "../../Image/Clubs/Clubpage/logo_flashone.png";
 import cressendo_logo from "../../Image/Clubs/Clubpage/logo_cressendo.webp";
 import shutterone_logo from "../../Image/Clubs/Clubpage/ShutteroneLogo.PNG";
+import oneMUN_logo from "../../Image/Clubs/Clubpage/logo_onemun.webp";
+import onejournal_logo from "../../Image/Clubs/Clubpage/logo_onejournal.webp";
 import oneaid_logo from "../../Image/Clubs/OneAID/oneaid_logo.jpeg";
 
 
@@ -104,7 +108,7 @@ const Clubpage = () => {
             href="..\..\Clubs\Monograph"
             title="Monograph"
             image={mono_bg}
-            description="Club Design Gratis"
+            description="Club Design Grafis"
             icon={mono_logo}
           />
           <LinkBox
@@ -129,13 +133,30 @@ const Clubpage = () => {
             description="Club Dokumentasi Acara"
             icon={shutterone_logo}
           />
+              
+          <LinkBox
+            href="..\..\Clubs\OneMUN"
+            title="OneMUN"
+            image={oneMUN_bg}
+            description="Club Model United Nations"
+            icon={oneMUN_logo}
+          />
+
+          <LinkBox
+            href="..\..\Clubs\OneJournal"
+            title="OneJournal"
+            image={onejournal_bg}
+            description="Club Jurnalistik"
+            icon={onejournal_logo}
+          />
+              
           <LinkBox
             href="..\..\Clubs\OneAID"
             title="OneAID"
             image={oneaid_bg}
             description="Club Palang Merah Remaja SMAK 1"
             icon={oneaid_logo}
-          />
+           />
         </div>
       </div>
       <Footer />
