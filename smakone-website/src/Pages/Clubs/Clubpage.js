@@ -153,7 +153,7 @@ const Clubpage = () => {
             icon={eds_logo}
           />
 
-
+          <LinkBox
             href="..\..\Clubs\OneJournal"
             title="OneJournal"
             image={onejournal_bg}
