@@ -94,6 +94,7 @@ import Flashone from "./Pages/Clubs/Flashone/Flashone";
 import Cressendo from "./Pages/Clubs/Cressendo/Cressendo";
 import OneMUN from "./Pages/Clubs/OneMUN/OneMUN";
 import OneJournal from "./Pages/Clubs/OneJournal/OneJournal";
+import OneAID from "./Pages/Clubs/OneAID";
 
 function App() {
   return (
@@ -133,6 +134,7 @@ function App() {
         <Route path="/clubs/Cressendo" element={<Cressendo />} />
         <Route path="/clubs/OneMUN" element={<OneMUN />} />
         <Route path="/clubs/OneJournal" element={<OneJournal />} />
+        <Route path="/clubs/oneaid" element={<OneAID />} />
         {/* Alasan */}
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />

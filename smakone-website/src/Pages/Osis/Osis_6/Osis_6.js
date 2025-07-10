@@ -8,7 +8,7 @@ import OsisTeam from '../../../Component/Osis/OsisTeam'
 import Annette from '../../../Image/Osis/Bidang_6/Annette.webp'
 import Jesslyn from '../../../Image/Osis/Bidang_6/Jesslyn.webp'
 import Cecylia from '../../../Image/Osis/Bidang_6/Cecylia.webp'
-import Tristan from '../../../Image/Osis/Bidang_6/Tristan.webp'
+import Tristan from '../../../Image/Osis/Bidang_6/Axel.webp'
 
 
 const OSIS_6 = () => {

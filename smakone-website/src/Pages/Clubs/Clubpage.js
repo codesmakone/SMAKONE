@@ -15,6 +15,7 @@ import cressendo_bg from "../../Image/Clubs/Clubpage/bg_cressendo.webp";
 import shutterone_bg from "../../Image/Clubs/Shutterone/Shutterone.jpg";
 import oneMUN_bg from "../../Image/Clubs/Clubpage/bg_onemun.webp";
 import onejournal_bg from "../../Image/Clubs/Clubpage/bg_onejournal.webp";
+import oneaid_bg from "../../Image/Clubs/Clubpage/bg_oneaid.jpeg";
 
 import f1rst_logo from "../../Image/Clubs/Clubpage/logo_f1rst.webp";
 import codeone_logo from "../../Image/Clubs/Clubpage/logo_codeone.webp";
@@ -27,6 +28,8 @@ import cressendo_logo from "../../Image/Clubs/Clubpage/logo_cressendo.webp";
 import shutterone_logo from "../../Image/Clubs/Clubpage/ShutteroneLogo.PNG";
 import oneMUN_logo from "../../Image/Clubs/Clubpage/logo_onemun.webp";
 import onejournal_logo from "../../Image/Clubs/Clubpage/logo_onejournal.webp";
+import oneaid_logo from "../../Image/Clubs/OneAID/oneaid_logo.jpeg";
+
 
 const LinkBox = ({ href, title, image, description, icon }) => {
   return (
@@ -130,7 +133,7 @@ const Clubpage = () => {
             description="Club Dokumentasi Acara"
             icon={shutterone_logo}
           />
-
+              
           <LinkBox
             href="..\..\Clubs\OneMUN"
             title="OneMUN"
@@ -146,6 +149,14 @@ const Clubpage = () => {
             description="Club Jurnalistik"
             icon={onejournal_logo}
           />
+              
+          <LinkBox
+            href="..\..\Clubs\OneAID"
+            title="OneAID"
+            image={oneaid_bg}
+            description="Club Palang Merah Remaja SMAK 1"
+            icon={oneaid_logo}
+           />
         </div>
       </div>
       <Footer />
