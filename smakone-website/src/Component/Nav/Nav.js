@@ -58,64 +58,60 @@ const Nav = (props) => {
     path === "/tentang_smak1/logo" ||
     path === "/tentang_smak1/lagu";
 
-  const pathOSIS =
-    path === "/osis" ||
-    path === "/osis/bph" ||
-    path === "/osis/bidang1" ||
-    path === "/osis/bidang2" ||
-    path === "/osis/bidang3" ||
-    path === "/osis/bidang4" ||
-    path === "/osis/bidang5" ||
-    path === "/osis/bidang6" ||
-    path === "/osis/bidang7" ||
-    path === "/osis/bidang8" ||
-    path === "/osis/bidang9" ||
-    path === "/osis/bidang10" ||
-    path === "/osis/emagz" ||
-    path === "/osis/ass1st" ||
-    path === "/osis/ass1st/kedokteran" ||
-    path === "/osis/ass1st/farmasi" ||
-    path === "/osis/ass1st/keguruan" ||
-    path === "/osis/ass1st/sosiologi" ||
-    path === "/osis/ass1st/akutansi" ||
-    path === "/osis/ass1st/hukum" ||
-    path === "/osis/ass1st/psikologi" ||
-    path === "/osis/ass1st/teknik_sipil" ||
-    path === "/osis/ass1st/pertambangan";
-
-  const pathKehidupan =
-    path === "/kehidupan_smukiers" ||
-    path === "/kehidupan_smukiers" ||
-    path === "/clubs" ||
-    path === "/kehidupan_smukiers/tips" ||
-    path === "/kehidupan_smukiers/kegiatan" ||
-    path === "/kehidupan_smukiers/alumni" ||
-    path === "/kehidupan_smukiers/alumni/billystevanus" ||
-    path === "/kehidupan_smukiers/alumni/scottmoses" ||
-    path === "/kehidupan_smukiers/alumni/nicolecharlene";
-
-  const pathKegiatan =
-    path === "/kegiatan" ||
-    path === "/kegiatan/soc" ||
-    path === "/kegiatan/soundscape" ||
-    path === "/kegiatan/stn" ||
-    path === "/kegiatan/kr1za" ||
-    path === "/kegiatan/seni" ||
-    path === "/kegiatan/scj" ||
-    path === "/kegiatan/pramuka" ||
-    path === "/kegiatan/onecast" ||
-    path === "/kegiatan/dofe" ||
-    path === "/kegiatan/muneds" ||
-    path === "/kegiatan/lainnya";
-
-  let menuArray = [pathSMAK1, pathOSIS, pathKehidupan, pathKegiatan];
-  const [menu, setMenu] = useState(menuArray);
-  const [isHeadlessOpen, setIsHeadlessOpen] = useState(false);
-  const setMenuValue = (props) => {
-    let newArr = [...menu];
-    newArr[props] = !newArr[props];
-    setMenu(newArr);
-  };
+    const pathOSIS = 
+    path==='/osis' 
+    || path==='/osis/bph' 
+    || path==='/osis/bidang1' 
+    || path==='/osis/bidang2'
+    || path==='/osis/bidang3'
+    || path==='/osis/bidang4'
+    || path==='/osis/bidang5' 
+    || path==='/osis/bidang6'
+    || path==='/osis/bidang7' 
+    || path==='/osis/bidang8' 
+    || path==='/osis/bidang9' 
+    || path==='/osis/bidang10'
+    || path==='/osis/emagz'
+    || path==='/osis/ass1st' 
+    || path==='/osis/ass1st/kedokteran' 
+    || path==='/osis/ass1st/farmasi' 
+    || path==='/osis/ass1st/keguruan' 
+    || path==='/osis/ass1st/sosiologi'
+    || path==='/osis/ass1st/akutansi' 
+    || path==='/osis/ass1st/hukum'
+    || path==='/osis/ass1st/psikologi' 
+    || path==='/osis/ass1st/teknik_sipil' 
+    || path==='/osis/ass1st/pertambangan'
+    
+    const pathKehidupan = 
+    path==='/kehidupan_smukiers' 
+    || path==='/kehidupan_smukiers'
+    || path==='/kehidupan_smukiers/tips'
+    || path==='/kehidupan_smukiers/kegiatan'
+    || path==='/kehidupan_smukiers/alumni'
+    || path==='/kehidupan_smukiers/alumni/billystevanus'
+    || path==='/kehidupan_smukiers/alumni/scottmoses'
+    || path==='/kehidupan_smukiers/alumni/nicolecharlene'
+    
+    const pathKegiatan = 
+    path==='/kegiatan' 
+    || path==='/kegiatan/soc' 
+    || path==='/kegiatan/soundscape'
+    || path==="/kegiatan/stn"
+    || path==='/kegiatan/seni'
+    || path==='/kegiatan/pramuka'
+    || path==='/kegiatan/onecast'
+    || path==='/kegiatan/dofe'
+    || path==='/kegiatan/lainnya'
+     
+    let menuArray = [pathSMAK1, pathOSIS, pathKehidupan, pathKegiatan];
+        const [menu, setMenu] = useState(menuArray);
+        const [isHeadlessOpen, setIsHeadlessOpen] = useState(false);
+        const setMenuValue = (props) => {
+            let newArr = [...menu];
+            newArr[props] = !newArr[props];
+            setMenu(newArr);
+        }
 
   function openHandler() {
     setIsHeadlessOpen(true);
@@ -587,107 +583,29 @@ const Nav = (props) => {
                     }`}
                   >
                     <MdTheaters size={24} />
-                    <p className="text-base leading-4  ">
-                      <Link to="/Kegiatan/STN">Smukiez Theater Night</Link>
-                    </p>
-                  </button>
-                  <button
-                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/kegiatan/kr1za" ? "font-bold" : "text-gray-500"
-                    }`}
-                  >
-                    <IoIosBasketball size={24} />
-                    <p className="text-base leading-4  ">
-                      <Link to="/Kegiatan/KR1ZA">KR1ZA</Link>
-                    </p>
-                  </button>
-                  <button
-                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/kegiatan/seni" ? "font-bold" : "text-gray-500"
-                    }`}
-                  >
+                    <p className="text-base leading-4  "><Link to='/Kegiatan/STN'>Smukiez Theater Night</Link></p>
+                </button>
+                <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/seni' ? "font-bold" : "text-gray-500"}`}>
                     <BsFillBrushFill size={24} />
-                    <p className="text-base leading-4  ">
-                      <Link to="/Kegiatan/Seni">Seni</Link>
-                    </p>
-                  </button>
-                  <button
-                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/kegiatan/scj" ? "font-bold" : "text-gray-500"
-                    }`}
-                  >
-                    <IoFlaskSharp size={24} />
-                    <p className="text-base leading-4  ">
-                      <Link to="/Kegiatan/SCJ">Science Club</Link>
-                    </p>
-                  </button>
-                  <button
-                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/kegiatan/pramuka"
-                        ? "font-bold"
-                        : "text-gray-500"
-                    }`}
-                  >
-                    <img src={Pramukaks} alt="Pramuka" className=" h-6 w-6" />
-                    <p className="text-base leading-4  ">
-                      <Link to="/Kegiatan/Pramuka">Pramuka</Link>
-                    </p>
-                  </button>
-                  <button
-                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/kegiatan/onecast"
-                        ? "font-bold"
-                        : "text-gray-500"
-                    }`}
-                  >
-                    <img
-                      src={OneCast}
-                      alt="OneCast"
-                      className="grayscale h-6 w-6"
-                    />
-                    <p className="text-base leading-4  ">
-                      <Link to="/Kegiatan/OneCast">OneCast</Link>
-                    </p>
-                  </button>
-                  <button
-                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/kegiatan/dofe" ? "font-bold" : "text-gray-500"
-                    }`}
-                  >
-                    <img
-                      src={DoFE}
-                      alt="DoFEIA"
-                      className="grayscale h-6 w-6"
-                    />
-                    <p className="text-base leading-4  ">
-                      <Link to="/Kegiatan/DofE">DofE</Link>
-                    </p>
-                  </button>
-                  <button
-                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/kegiatan/muneds"
-                        ? "font-bold"
-                        : "text-gray-500"
-                    }`}
-                  >
-                    <GiPublicSpeaker size={24} />
-                    <p className="text-base leading-4  ">
-                      <Link to="/Kegiatan/MUNEDS">MUNEDS</Link>
-                    </p>
-                  </button>
-                </div>
-              </div>
-              <div className="flex flex-col justify-start items-start px-6 w-full border-t border-white">
-                <button
-                  className={`flex justify-start items-center space-x-6 rounded py-5 w-full ${
-                    path === "/clubs" ? "font-bold text-white" : "text-gray-500"
-                  }`}
-                >
-                  <p className="text-base leading-4">
-                    <Link to="/clubs" className="text-white">
-                      Clubs
-                    </Link>
-                  </p>
+                    <p className="text-base leading-4  "><Link to='/Kegiatan/Seni'>Seni</Link></p>
+                </button>
+                <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/pramuka' ? "font-bold" : "text-gray-500"}`}>
+                    <img src={Pramukaks} alt="Pramuka" className=' h-6 w-6'/>
+                    <p className="text-base leading-4  "><Link to='/Kegiatan/Pramuka'>Pramuka</Link></p>
+                </button>
+                <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/onecast' ? "font-bold" : "text-gray-500"}`}>
+                    <img src={OneCast} alt="OneCast" className='grayscale h-6 w-6'/>
+                    <p className="text-base leading-4  "><Link to='/Kegiatan/OneCast'>OneCast</Link></p>
+                </button>
+                <button className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${path==='/kegiatan/dofe' ? "font-bold" : "text-gray-500"}`}>
+                    <img src={DoFE} alt="DoFEIA" className='grayscale h-6 w-6'/>
+                    <p className="text-base leading-4  "><Link to='/Kegiatan/DofE'>DofE</Link></p>
+                </button>
+            </div>
+            </div>
+            <div className="flex flex-col justify-start items-start px-6 w-full border-t border-white">
+                <button className={`flex justify-start items-center space-x-6 rounded py-5 w-full ${path === '/clubs' ? 'font-bold text-white' : 'text-gray-500'}`}>
+                    <p className="text-base leading-4"><Link to='/clubs' className="text-white">Clubs</Link></p>
                 </button>
               </div>
             </div>
@@ -788,65 +706,41 @@ const Nav = (props) => {
                 title="Kegiatan"
                 class={`md:px-3 py-2 transition duration-200 border-b-2 border-transparent  link-underline-black cursor-pointer text-xs sm:text-base lg:text-lg xl:text-xl 
                     ${
-                      path === "/kegiatan" ||
-                      path === "/kegiatan/soc" ||
-                      path === "/kegiatan/soundscape" ||
-                      path === "/kegiatan/stn" ||
-                      path === "/kegiatan/kr1za" ||
-                      path === "/kegiatan/seni" ||
-                      path === "/kegiatan/scj" ||
-                      path === "/kegiatan/pramuka" ||
-                      path === "/kegiatan/onecast" ||
-                      path === "/kegiatan/dofe" ||
-                      path === "/kegiatan/muneds" ||
-                      path === "/kegiatan/lainnya"
-                        ? "link-underline-static drop-shadow-[0_15px_12px_rgba(0,0,0,0.5)]"
-                        : "link-underline"
+                    path==='/kegiatan' 
+                    || path==='/kegiatan/soc' 
+                    || path==='/kegiatan/soundscape'
+                    || path==="/kegiatan/stn"
+                    || path==='/kegiatan/seni'
+                    || path==='/kegiatan/pramuka'
+                    || path==='/kegiatan/onecast'
+                    || path==='/kegiatan/dofe'
+                    || path==='/kegiatan/lainnya' 
+                    ? "link-underline-static drop-shadow-[0_15px_12px_rgba(0,0,0,0.5)]" : "link-underline"
                     }`}
-                dir1="/Kegiatan"
-                dir2="/Kegiatan/SOC"
-                dir3="/Kegiatan/Soundscape"
-                dir4="/Kegiatan/STN"
-                dir5="/Kegiatan/KR1ZA"
-                dir6="/Kegiatan/Seni"
-                dir7="/Kegiatan/SCJ"
-                dir8="/Kegiatan/Pramuka"
-                dir9="/Kegiatan/OneCast"
-                dir10="/Kegiatan/DofE"
-                dir11="/Kegiatan/MUNEDS"
-                dir12="/Kegiatan/Lainnya"
-                menu1="Kegiatan"
-                menu2="Smakonecup"
-                menu3="Soundscape"
-                menu4="Smukiez Theater Night"
-                menu5="KR1ZA"
-                menu6="Seni"
-                menu7="Science Club"
-                menu8="Pramuka"
-                menu9="OneCast"
-                menu10="The Duke of Edinburgh’s International Award"
-                menu11="Model United Nation dan English Debate Society"
-                kegiatan={true}
-              />
-              <button
-                className={`md:px-3 py-2 transition duration-500 border-b-2 border-transparent cursor-pointer text-xs sm:text-base lg:text-lg xl:text-xl bg-transparent text-black relative after:content-[""] after:absolute after:w-full after:scale-x-0 after:h-[3px] after:bottom-0 after:left-0 after:bg-black after:origin-bottom-left after:transition-transform after:duration-500 hover:after:scale-x-100 hover:after:origin-bottom-left ${
-                  path === "/clubs"
-                    ? "after:scale-x-100 drop-shadow-[0_4px_4px_rgba(0,0,0,0.125)]"
-                    : ""
-                }`}
-              >
-                <p
-                  className={`${
-                    path === "/clubs"
-                      ? "drop-shadow-[0_4px_4px_rgba(0,0,0,0.125)]"
-                      : ""
-                  }`}
-                >
-                  <Link to="/clubs">Clubs</Link>
-                </p>
-              </button>
+                    dir1='/Kegiatan'
+                    dir2='/Kegiatan/SOC'
+                    dir3='/Kegiatan/Soundscape'
+                    dir4="/Kegiatan/STN"
+                    dir5='/Kegiatan/Seni'
+                    dir6='/Kegiatan/Pramuka'
+                    dir7='/Kegiatan/OneCast'
+                    dir8='/Kegiatan/DofE'
+                    dir9='/Kegiatan/Lainnya'
+                    menu1='Kegiatan'
+                    menu2='Smakonecup'
+                    menu3='Soundscape'
+                    menu4='Smukiez Theater Night'
+                    menu5='Seni'
+                    menu6='Pramuka'
+                    menu7='OneCast'
+                    menu8='The Duke of Edinburgh’s International Award'
+                    kegiatan={true}              
+                    />
+                <button className={`md:px-3 py-2 transition duration-500 border-b-2 border-transparent cursor-pointer text-xs sm:text-base lg:text-lg xl:text-xl bg-transparent text-black relative after:content-[""] after:absolute after:w-full after:scale-x-0 after:h-[3px] after:bottom-0 after:left-0 after:bg-black after:origin-bottom-left after:transition-transform after:duration-500 hover:after:scale-x-100 hover:after:origin-bottom-left ${path === '/clubs' ? 'after:scale-x-100 drop-shadow-[0_4px_4px_rgba(0,0,0,0.125)]' : ''}`}>
+                    <p className={`${path === '/clubs' ? 'drop-shadow-[0_4px_4px_rgba(0,0,0,0.125)]' : ''}`}><Link to='/clubs'>Clubs</Link></p>
+                </button>
+                </div>
             </div>
-          </div>
         </div>
       </nav>
     </>

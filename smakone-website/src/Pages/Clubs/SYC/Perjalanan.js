@@ -10,8 +10,7 @@ const Perjalanan = () => {
     {
       image: Tahun2020_2022,
       alt: "2020-2022",
-      title: "Pada Masa Pandemi",
-      subtitle: "2020/2021, 2021/2022",
+      title: "2020/2021, 2021/2022",
       content: `Pada masa COVID-19, SYC mengalami sedikit kesulitan dalam mencari anggota dan mempersiapkan acara. Dengan hanya beranggotakan sekitar 12 anggota, SYC berusaha untuk lebih terbuka dan menjangkau genre lagu yang lebih luas untuk diaransemen. Akhirnya, SYC dapat tampil sekitar 4-5 kali dalam setahun. SYC masih berjalan secara online. Saat itu, anggota SYC pada zaman COVID tersebut berkurang banyak karena adanya kesulitan untuk melaksanakan ekskul & club secara online. Selama online, setiap penampilan SYC dan klub lainnya ditampilkan dalam bentuk video yang akan ditayangkan dalam zoom saat ada acara sekolah. Setiap tampil, anggota SYC harus berlatih di rumah masing-masing, lalu merekam penampilan mereka menggunakan metronome agar bisa di-edit menjadi satu video. Prosesnya memakan lebih banyak waktu bila dibandingkan dengan tampil secara onsite.`,
     },
     {
@@ -35,17 +34,17 @@ const Perjalanan = () => {
   ];
 
   return (
-    <div className="container mx-auto mt-4 px-6 md:px-12 lg:px-16 xl:px-20 pt-10 justify-center">
+    <div className="container mx-auto mt-4 px-8 md:px-16 lg:px-28 xl:px-32 pt-10 justify-center">
       <h1 className="font-bold text-3xl text-center md:text-5xl">Perjalanan SYC</h1>
       {perjalananData.map((data, index) => (
         <div className="mb-14" key={index}>
           <img
             src={data.image}
-            className="object-cover h-auto md:h-[26rem] lg:h-[30rem] xl:h-[34rem] max-w-auto mx-auto rounded-3xl my-6"
+            className="object-cover h-auto sm:h-[18rem] md:h-[20rem] lg:h-[32rem] xl:h-[30rem]  mx-auto rounded-3xl my-6"
             alt={data.alt}
           />
-          <h2 className="text-xl md:text-2xl font-bold mb-2 xl:px-10">{data.title}</h2>
-          {data.subtitle && <h3 className="text-lg md:text-2xl font-semibold mb-2 xl:px-10">{data.subtitle}</h3>}
+          <h2 className="text-xl md:text-xl font-bold mb-2 xl:px-10">{data.title}</h2>
+          {data.subtitle && <h3 className="text-lg md:text-xl font-semibold mb-2 xl:px-10">{data.subtitle}</h3>}
           <p className="text-lg mt-3 text-justify xl:px-10">{data.content}</p>
         </div>
       ))}
