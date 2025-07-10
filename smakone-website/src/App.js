@@ -12,7 +12,6 @@ import STN from "./Pages/Kegiatan/stn";
 import SAPxSNM from "./Pages/Kegiatan/SAPxSNM/SAPxSNM";
 import Paintings from "./Pages/Kegiatan/SAPxSNM/Paintings";
 import PaintingDetails from "./Pages/Kegiatan/SAPxSNM/PaintingDetails";
-import Kriza from "./Pages/Kegiatan/kriza";
 import SOC from "./Pages/Kegiatan/soc";
 
 import Edward from "./Pages/Home/Alasan/Edward";
@@ -75,11 +74,9 @@ import Billy from "./Pages/Alumni/BillyStevanus";
 import Scoot from "./Pages/Alumni/ScottMoses";
 import Nicole from "./Pages/Alumni/NicoleCharlene";
 import Seni from "./Pages/Kegiatan/seni";
-import SClub from "./Pages/Kegiatan/scj";
 import Pramuka from "./Pages/Kegiatan/pramuka";
 import DoFEIA from "./Pages/Kegiatan/DoFEIA";
 import Kegiatan from "./Pages/Kegiatan/Kegiatan";
-import MUN from "./Pages/Kegiatan/MUN";
 import OneCast from "./Pages/Kegiatan/onecast";
 import BukuAcara from "./Pages/Home/Buku_Acara";
 
@@ -92,9 +89,14 @@ import SmukiezChoir from "./Pages/Clubs/SmukiezChoir/SmukiezChoir";
 import Serenity from "./Pages/Clubs/Serenity";
 import Flashone from "./Pages/Clubs/Flashone/Flashone";
 import Cressendo from "./Pages/Clubs/Cressendo/Cressendo";
+import SClub from "./Pages/Clubs/scj";
+import MUN from "./Pages/Clubs/MUN";
+import Kriza from "./Pages/Clubs/kriza";
+import EDS from "./Pages/Clubs/EDS/EDS";
 import OneMUN from "./Pages/Clubs/OneMUN/OneMUN";
 import OneJournal from "./Pages/Clubs/OneJournal/OneJournal";
 import OneAID from "./Pages/Clubs/OneAID";
+
 
 function App() {
   return (
@@ -114,14 +116,15 @@ function App() {
           path="/kegiatan/sapxsnm/artwork/:id"
           element={<PaintingDetails />}
         />
-        <Route path="/kegiatan/kr1za" element={<Kriza />} />
         <Route path="/kegiatan/seni" element={<Seni />} />
         <Route path="/kegiatan/scj" element={<SClub />} />
         <Route path="/kegiatan/pramuka" element={<Pramuka />} />
         <Route path="/kegiatan/onecast" element={<OneCast />} />
         <Route path="/kegiatan/DoFE" element={<DoFEIA />} />
-        <Route path="/kegiatan/muneds" element={<MUN />} />
         {/* Clubs */}
+        <Route path="/clubs/scj" element={<SClub />} />
+        <Route path="/clubs/muneds" element={<MUN />} />
+        <Route path="/clubs/kriza" element={<Kriza />} />
         <Route path="/Clubs" element={<Clubpage />} />
         <Route path="/clubs/codeone" element={<CodeOne />} />
         <Route path="/clubs/f1rst" element={<F1RST />} />
@@ -133,8 +136,10 @@ function App() {
         <Route path="/clubs/Flashone" element={<Flashone />} />
         <Route path="/clubs/Cressendo" element={<Cressendo />} />
         <Route path="/clubs/OneMUN" element={<OneMUN />} />
+        <Route path="/clubs/EDS" element={<EDS />} />
         <Route path="/clubs/OneJournal" element={<OneJournal />} />
         <Route path="/clubs/oneaid" element={<OneAID />} />
+          
         {/* Alasan */}
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />
