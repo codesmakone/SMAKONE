@@ -36,7 +36,7 @@ const Ass1st = () => {
                   </h1>
                   <iframe 
                       className="object-cover w-full h-[300px] lg:h-[558px] sm:h-[350px]"
-                      src="https://www.youtube.com/embed/3zfcJS-e_Oo" title="How’s it like to study in OHIO?? | UNI ASS1ST VLOG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                      src="https://www.youtube.com/embed/3zfcJS-e_Oo" title="How’s it like to study in OHIO?? | UNI ASS1ST VLOG" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  referrerPolicy="strict-origin-when-cross-origin" allowFullScreen>
 
                   </iframe>
                   <a className="underline mt-2 inline-block" 

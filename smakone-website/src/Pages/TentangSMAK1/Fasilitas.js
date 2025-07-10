@@ -3,7 +3,7 @@ import ContentHeader from '../../Component/Content/ContentHeader'
 import Nav from '../../Component/Nav/Nav'
 import Footer from '../../Component/Footer/Footer'
 
-import gedung from "../../Image/Fasilitas/GEDUNG SEKOLAH.webp"
+import gedung from "../../Image/Home/depan1.jpg";
 import aula from "../../Image/Fasilitas/AULA.webp"
 import audittari from "../../Image/Fasilitas/AUDITORIUM SENI TARI.webp"
 import auditvokal from "../../Image/Fasilitas/AUDITORIUM SENI VOKAL.webp"

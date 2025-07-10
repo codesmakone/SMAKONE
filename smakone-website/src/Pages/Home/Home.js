@@ -14,7 +14,7 @@ import Edward from "../../Image/Home/Alasan/Edward1.webp";
 import Emily from "../../Image/Home/Alasan/Emily1.webp";
 import Rania from "../../Image/Home/Alasan/Rania1.webp";
 import Jayden from "../../Image/Home/Alasan/Jayden1.webp";
-import Lobby_SMAK1 from "../../Image/Home/Lobby_SMAK1.webp";
+import Lobby_SMAK1 from "../../Image/Home/gedung_sekolah.jpg";
 import soc from "../../Image/Home/Kegiatan/soc.webp";
 import soundscape from "../../Image/Home/Kegiatan/soundscape.webp";
 import kriza from "../../Image/Home/Kegiatan/kriza.webp";
@@ -35,7 +35,8 @@ const Home = () => {
     <div>
       <Nav carouselCurrentSlide={carouselCurrentSlide} />
       {/* <div className="col-span-6 flex flex-col justify-start text-left pt-24 bg-slate-400 "> */}
-      <div>
+      <div className="col-span-6 flex flex-col justify-start text-left mt-28">
+        <div className='px-5 md:px-10 lg:px-16 xl:px-20 pt-10 lg:pt-20 pb-12  md:pb-24 lg:pb-24 xl:pb-44'>
         {/* uncomment the 2 carousel segments to enable */}
         {/* <Carousel
           autoPlay={true}
@@ -66,10 +67,27 @@ const Home = () => {
             setCarouselCurrentSlide(nextSlide);
           }}
         > */}
-          <div className="px-5 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-12 md:pb-24 lg:pb-24 xl:pb-44">
+          {/* <div className="px-5 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-12 md:pb-24 lg:pb-24 xl:pb-44">
             <h1 className="text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black">We are SMAK 1's OSIS</h1>
             <h4 className="text-base xl:text-2xl lg:text-xl sm:text-xl font-bold">Sekolah terbaik dengan siswa-siswi yang berprestasi</h4>
+          </div> */}
+          {/* <div className="px-5 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-12 md:pb-24 lg:pb-24 xl:pb-45">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[3.5rem] font-black leading-tight">ALL NEW 10<sup>th</sup> GRADERS</h1>
+            <div className="mt-10">
+              <Link to="/BukuAcara" target="blank" className="hover:bg-gray-700 text-white bg-black font-bold rounded-full text-md sm:text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2">
+                CLICK HERE
+              </Link>
+            </div>
+          </div  */}
+          <div className="mt-2 md:mt-3 flex flex-col gap-5">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[3.5rem] font-black leading-tight">ALL NEW 10<sup>th</sup> GRADERS</h1>
+            <div className="sm:mt-5 md:mt-0 lg:mt-2">
+              <Link to="/BukuAcara" target="blank" className="hover:bg-gray-700 text-white bg-black font-bold rounded-full text-md sm:text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2">
+                CLICK HERE
+              </Link>
+            </div>
           </div>
+        </div>
           {/* <div style={{ "--image-url": `url(${stn_splash})`, "--image-url-mobile": `url(${stn_splash_mobile})` }} className="px-8 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-16 xl:pb-24 bg-[image:var(--image-url-mobile)] md:bg-[image:var(--image-url)] bg-cover bg-top">
             <article className="text-left w-[300px] md:w-[300px] lg:w-[450px] xl:w-[600px]">
               <h1 className="text-5xl lg:text-6xl xl:text-8xl font-black underline text-white">SAPxSNM</h1>
@@ -151,7 +169,7 @@ const Home = () => {
       <div className="w-full h-auto mt-8 px-3 py-16">
         <div className="container mx-auto">
           <div className="grid sm:grid-rows-2 grid-cols-none lg:grid-cols-2 lg:grid-rows-none">
-            <div className="pl-12 lg:pl-20 pr-12 mx-auto rounded-lg">
+            <div className="pl-12 lg:pl-20 pr-12 mt-14 mx-auto rounded-lg">
               <img src={Lobby_SMAK1} alt="Lobby_SMAK1" className="sm:h-auto w-full rounded-3xl justify-center lg:justify-end" />
             </div>
             <div className="container mx-auto mt-10 sm:mt-0">

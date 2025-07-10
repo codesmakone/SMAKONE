@@ -10,9 +10,9 @@ import Dropdown from "./Dropdown";
 //Import Image
 import Logo_SMAK1 from "../../Image/Logo_SMAK1.webp";
 import SOC from "../../Image/Nav/SMAKONECUP.webp";
-import Pramukaks from "../../Image/Nav/Pramuka.webp";
+// import Pramukaks from "../../Image/Nav/Pramuka.webp";
 import DoFE from "../../Image/Nav/DofE.webp";
-import OneCast from "../../Image/Nav/Onecast.webp";
+// import OneCast from "../../Image/Nav/Onecast.webp";
 
 //Import icons
 import { IoEyeSharp } from "react-icons/io5";
@@ -33,7 +33,7 @@ import { MdTheaters } from "react-icons/md";
 import { IoIosBasketball } from "react-icons/io";
 import { BsFillBrushFill } from "react-icons/bs";
 import { IoFlaskSharp } from "react-icons/io5";
-import { GiPublicSpeaker } from "react-icons/gi";
+// import { GiPublicSpeaker } from "react-icons/gi";
 
 const Nav = (props) => {
   const location = useLocation();
@@ -98,7 +98,7 @@ const Nav = (props) => {
     path === "/kegiatan" ||
     path === "/kegiatan/soc" ||
     path === "/kegiatan/soundscape" ||
-    path === "/kegiatan/stn" ||
+    path === "/kegiatan/sap" ||
     path === "/kegiatan/kr1za" ||
     path === "/kegiatan/seni" ||
     path === "/kegiatan/scj" ||
@@ -394,7 +394,7 @@ const Nav = (props) => {
                   >
                     <BsBookFill size={24} />
                     <p className="text-base leading-4  ">
-                      <Link to="/OSIS/Emagz">E-Magazine</Link>
+                      <Link to="/OSIS/Emagz">E-Magazine (Archived)</Link>
                     </p>
                   </button>
                   <button
@@ -465,16 +465,6 @@ const Nav = (props) => {
                       <Link to="/Kehidupan_smukiers">Kehidupan SMUKIERS</Link>
                     </p>
                   </button>
-                  {/* <button
-                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/clubs" ? "font-bold" : "text-gray-500"
-                    }`}
-                  >
-                    <IoIosPaperPlane size={24} />
-                    <p className="text-base leading-4  ">
-                      <Link to="/Clubs">Clubs</Link>
-                    </p>
-                  </button> */}
                   <button
                     className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
                       path === "/kehidupan_smukiers/tips"
@@ -583,12 +573,12 @@ const Nav = (props) => {
                   </button>
                   <button
                     className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/kegiatan/stn" ? "font-bold" : "text-gray-500"
+                      path === "/kegiatan/sap" ? "font-bold" : "text-gray-500"
                     }`}
                   >
                     <MdTheaters size={24} />
                     <p className="text-base leading-4  ">
-                      <Link to="/Kegiatan/STN">Smukiez Theater Night</Link>
+                      <Link to="/Kegiatan/SAP">Smukiez Art Performance</Link>
                     </p>
                   </button>
                   <button
@@ -621,7 +611,7 @@ const Nav = (props) => {
                       <Link to="/Kegiatan/SCJ">Science Club</Link>
                     </p>
                   </button>
-                  <button
+                  {/* <button
                     className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
                       path === "/kegiatan/pramuka"
                         ? "font-bold"
@@ -648,7 +638,7 @@ const Nav = (props) => {
                     <p className="text-base leading-4  ">
                       <Link to="/Kegiatan/OneCast">OneCast</Link>
                     </p>
-                  </button>
+                  </button> */}
                   <button
                     className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
                       path === "/kegiatan/dofe" ? "font-bold" : "text-gray-500"
@@ -663,7 +653,7 @@ const Nav = (props) => {
                       <Link to="/Kegiatan/DofE">DofE</Link>
                     </p>
                   </button>
-                  <button
+                  {/* <button
                     className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
                       path === "/kegiatan/muneds"
                         ? "font-bold"
@@ -674,7 +664,7 @@ const Nav = (props) => {
                     <p className="text-base leading-4  ">
                       <Link to="/Kegiatan/MUNEDS">MUNEDS</Link>
                     </p>
-                  </button>
+                  </button> */}
                 </div>
               </div>
               <div className="flex flex-col justify-start items-center md:items-start px-6 w-full border-t border-gray-600">
@@ -749,9 +739,11 @@ const Nav = (props) => {
                 dir1="/OSIS"
                 dir2="/OSIS/Emagz"
                 dir3="/OSIS/ASS1ST"
+                // dir3=""
                 menu1="Tentang Osis"
-                menu2="E-Magazine"
+                menu2="E-Magazine (Archived)"
                 menu3="Ass1st"
+                // menu3=""
                 osis={true}
               />
               <Dropdown
@@ -789,12 +781,12 @@ const Nav = (props) => {
                       path === "/kegiatan" ||
                       path === "/kegiatan/soc" ||
                       path === "/kegiatan/soundscape" ||
-                      path === "/kegiatan/stn" ||
+                      path === "/kegiatan/sap" ||
                       path === "/kegiatan/kr1za" ||
                       path === "/kegiatan/seni" ||
                       path === "/kegiatan/scj" ||
-                      path === "/kegiatan/pramuka" ||
-                      path === "/kegiatan/onecast" ||
+                      // path === "/kegiatan/pramuka" ||
+                      // path === "/kegiatan/onecast" ||
                       path === "/kegiatan/dofe" ||
                       path === "/kegiatan/muneds" ||
                       path === "/kegiatan/lainnya"
@@ -804,26 +796,23 @@ const Nav = (props) => {
                 dir1="/Kegiatan"
                 dir2="/Kegiatan/SOC"
                 dir3="/Kegiatan/Soundscape"
-                dir4="/Kegiatan/STN"
+                dir4="/Kegiatan/sap"
                 dir5="/Kegiatan/KR1ZA"
                 dir6="/Kegiatan/Seni"
                 dir7="/Kegiatan/SCJ"
-                dir8="/Kegiatan/Pramuka"
-                dir9="/Kegiatan/OneCast"
-                dir10="/Kegiatan/DofE"
-                dir11="/Kegiatan/MUNEDS"
-                dir12="/Kegiatan/Lainnya"
+                // dir8="/Kegiatan/Pramuka"
+                // dir9="/Kegiatan/OneCast"
+                dir8="/Kegiatan/DofE"
+                dir9="/Kegiatan/MUNEDS"
+                dir10="/Kegiatan/Lainnya"
                 menu1="Kegiatan"
                 menu2="Smakonecup"
                 menu3="Soundscape"
-                menu4="Smukiez Theater Night"
+                menu4="Smukiez Art Performance"
                 menu5="KR1ZA"
                 menu6="Seni"
                 menu7="Science Club"
-                menu8="Pramuka"
-                menu9="OneCast"
-                menu10="The Duke of Edinburgh’s International Award"
-                menu11="Model United Nation dan English Debate Society"
+                menu8="The Duke of Edinburgh’s International Award"
                 kegiatan={true}
               />
               <button
