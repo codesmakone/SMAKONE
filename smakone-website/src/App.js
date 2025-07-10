@@ -108,7 +108,7 @@ function App() {
         <Route path="/kegiatan/" element={<Kegiatan />} />
         <Route path="/kegiatan/soc" element={<SOC />} />
         <Route path="/kegiatan/soundscape" element={<Soundscape />} />
-        <Route path="/kegiatan/stn" element={<STN />} />
+        <Route path="/kegiatan/sap" element={<STN />} />
         <Route path="/kegiatan/sapxsnm" element={<SAPxSNM />} />
         <Route path="/kegiatan/sapxsnm/artwork" element={<Paintings />} />{" "}
         {/* ketuker istilah artwork sama paintings pas bikin */}

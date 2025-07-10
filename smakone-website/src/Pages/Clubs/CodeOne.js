@@ -1,7 +1,7 @@
 import React from "react";
 
 import Picture from "../../Image/Clubs/CodeOne/codeone_member.webp";
-import codeone_bg from "../../Image/Clubs/CodeOne/codeone_bg.JPG";
+import codeone_bg from "../../Image/Clubs/CodeOne/codeone_logo.png";
 import codeone_logo from "../../Image/Clubs/CodeOne/codeone_lg.png";
 import github_logo from "../../Image/Clubs/CodeOne/Github-Logo.png";
 import Nav from '../../Component/Nav/Nav';
@@ -14,21 +14,21 @@ const CodeOne = () => {
             <div className="relative">
                 <div className="relative overflow-hidden inline-block w-screen h-[21rem] md:h-[30rem]">
                     <div
-                        className="w-full h-full pointer-events-none bg-gradient-to-t from-white via-white/0 to-white/0 absolute bottom-0 left-0"
+                        className="w-full h-full pointer-events-none absolute bottom-0 left-0"
                         style={{ height: '8rem', zIndex: 1 }}
                     />
                     <img
                         src={codeone_bg}
                         alt="CodeOne Team"
-                        className="relative -top-1 w-full h-[calc(100%+20px)] object-cover brightness-50"
+                        className="relative -top-1 w-full h-[calc(100%+20px)] object-cover"
                     />
-                    <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+                    {/* <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
                         <img
                             className="w-[120vw] h-[120vw] md:w-[120vw] md:h-[120vw] max-w-[120rem] max-h-[120rem] md:max-w-[120rem] md:max-h-[120rem] object-contain"
                             src={codeone_logo}
                             alt="CodeOne Logo"
                         />
-                    </div>
+                    </div> */}
                 </div>
                 <div className="px-4 sm:px-10 xl:px-0 mx-auto -mt-28 relative mb-12 z-10 flex flex-col max-w-4xl w-full md:-mt-20">
                     <img
@@ -50,7 +50,7 @@ const CodeOne = () => {
                                 href="https://github.com/codesmakone/SMAKONE"
                                 className="text-blue-500 underline hover:text-blue-700 transition-colors duration-200"
                             >
-                                github
+                                Github
                             </a>.
                         </span>
                         <span className="flex items-center justify-end gap-2 mt-4">
