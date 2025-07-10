@@ -92,6 +92,7 @@ import SmukiezChoir from "./Pages/Clubs/SmukiezChoir/SmukiezChoir";
 import Serenity from "./Pages/Clubs/Serenity";
 import Flashone from "./Pages/Clubs/Flashone";
 import Cressendo from "./Pages/Clubs/Cressendo/Cressendo";
+import OneAID from "./Pages/Clubs/OneAID";
 
 function App() {
   return (
@@ -129,6 +130,7 @@ function App() {
         <Route path="/clubs/serenity" element={<Serenity />} />
         <Route path="/clubs/Flashone" element={<Flashone />} />
         <Route path="/clubs/Cressendo" element={<Cressendo />} />
+        <Route path="/clubs/oneaid" element={<OneAID />} />
         {/* Alasan */}
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />
