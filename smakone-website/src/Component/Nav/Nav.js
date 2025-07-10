@@ -465,7 +465,7 @@ const Nav = (props) => {
                       <Link to="/Kehidupan_smukiers">Kehidupan SMUKIERS</Link>
                     </p>
                   </button>
-                  <button
+                  {/* <button
                     className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
                       path === "/clubs" ? "font-bold" : "text-gray-500"
                     }`}
@@ -474,7 +474,7 @@ const Nav = (props) => {
                     <p className="text-base leading-4  ">
                       <Link to="/Clubs">Clubs</Link>
                     </p>
-                  </button>
+                  </button> */}
                   <button
                     className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
                       path === "/kehidupan_smukiers/tips"
@@ -677,15 +677,13 @@ const Nav = (props) => {
                   </button>
                 </div>
               </div>
-              <div className="flex flex-col justify-start items-start px-6 w-full border-t border-white">
+              <div className="flex flex-col justify-start items-center md:items-start px-6 w-full border-t border-gray-600">
                 <button
-                  className={`flex justify-start items-center space-x-6 rounded py-5 w-full ${
-                    path === "/clubs" ? "font-bold text-white" : "text-gray-500"
-                  }`}
+                  className={`text-black flex justify-between items-center w-full py-5 space-x-14`}
                 >
                   <p className="text-base leading-4">
-                    <Link to="/clubs" className="text-white">
-                      Clubs
+                    <Link to="/clubs" className="text-sm leading-5 uppercase">
+                      CLUBS
                     </Link>
                   </p>
                 </button>
@@ -762,7 +760,7 @@ const Nav = (props) => {
                     ${
                       path === "/kehidupan_smukiers" ||
                       path === "/kehidupan_smukiers" ||
-                      path === "/clubs" ||
+                      // path === "/clubs" ||
                       path === "/kehidupan_smukiers/tips" ||
                       path === "/kehidupan_smukiers/kegiatan" ||
                       path === "/kehidupan_smukiers/alumni" ||
@@ -773,15 +771,15 @@ const Nav = (props) => {
                         : "link-underline"
                     }`}
                 dir1="/Kehidupan_smukiers"
-                dir2="/Clubs"
-                dir3="/Kehidupan_smukiers/Tips"
-                dir4="/Kehidupan_smukiers/Kegiatan"
-                dir5="/Kehidupan_smukiers/Alumni"
+                // dir2="/Clubs"
+                dir2="/Kehidupan_smukiers/Tips"
+                dir3="/Kehidupan_smukiers/Kegiatan"
+                dir4="/Kehidupan_smukiers/Alumni"
                 menu1="Kehidupan SMUKIERS"
-                menu2="Clubs"
-                menu3="Tips Belajar"
-                menu4="Kegiatan Setelah Kelas"
-                menu5="Alumni"
+                // menu2="Clubs"
+                menu2="Tips Belajar"
+                menu3="Kegiatan Setelah Kelas"
+                menu4="Alumni"
                 Kehidupan={true}
               />
               <Dropdown

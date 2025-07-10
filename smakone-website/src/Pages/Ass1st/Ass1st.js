@@ -34,11 +34,15 @@ const Ass1st = () => {
                   <h1 className='text-2xl xl:text-4xl sm:text-3xl font-bold my-4'>
                     Testimoni Para Alumni
                   </h1>
-                  <iframe className="object-cover w-full h-[300px] lg:h-[558px] sm:h-[350px]"  
-                          src="https://drive.google.com/file/d/13AcgF746ax02aq9jRAsVisfcvhS3tr4Y/preview" 
-                          title="Welcome to SMAK ONE." 
-                          frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
-                </iframe>
+                  <iframe 
+                      className="object-cover w-full h-[300px] lg:h-[558px] sm:h-[350px]"
+                      src="https://www.youtube.com/embed/3zfcJS-e_Oo" title="How’s it like to study in OHIO?? | UNI ASS1ST VLOG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+                  </iframe>
+                  <a className="underline mt-2 inline-block" 
+                      href="https://www.youtube.com/watch?v=BfHU-ghxvcY&list=PLwKfVxwmLODCUWFwb-KQrpQ0g4OpIpRI8"
+                      target="_blank"
+                      rel="noreferrer noopener">Lihat selengkapnya</a>
                 </div>
             </div>
         </div>
