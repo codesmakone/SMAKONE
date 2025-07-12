@@ -96,6 +96,7 @@ import EDS from "./Pages/Clubs/EDS/EDS";
 import OneMUN from "./Pages/Clubs/OneMUN/OneMUN";
 import OneJournal from "./Pages/Clubs/OneJournal/OneJournal";
 import OneAID from "./Pages/Clubs/OneAID";
+import Mask from "./Pages/Clubs/Mask/Mask";
 
 
 function App() {
@@ -139,7 +140,8 @@ function App() {
         <Route path="/clubs/EDS" element={<EDS />} />
         <Route path="/clubs/OneJournal" element={<OneJournal />} />
         <Route path="/clubs/oneaid" element={<OneAID />} />
-          
+        <Route path="/clubs/Mask" element={<Mask />} />
+
         {/* Alasan */}
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />
