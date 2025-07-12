@@ -1,6 +1,6 @@
 import React from "react";
 
-import Team from "../../../Image/Clubs/Mask/mask1.webp";
+import Team from "../../../Image/Clubs/Mask/mask2.JPG";
 import Logo from "../../../Image/Clubs/Mask/logo.png";
 import Section from "./Section";
 
