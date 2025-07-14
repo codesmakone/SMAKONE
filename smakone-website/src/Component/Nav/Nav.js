@@ -99,7 +99,7 @@ const Nav = (props) => {
     path === "/kegiatan/soc" ||
     path === "/kegiatan/soundscape" ||
     path === "/kegiatan/sap" ||
-    path === "/kegiatan/kr1za" ||
+    path === "/clubs/kr1za" ||
     path === "/kegiatan/seni" ||
     path === "/kegiatan/scj" ||
     path === "/kegiatan/pramuka" ||
@@ -583,12 +583,12 @@ const Nav = (props) => {
                   </button>
                   <button
                     className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/kegiatan/kr1za" ? "font-bold" : "text-gray-500"
+                      path === "/clubs/kr1za" ? "font-bold" : "text-gray-500"
                     }`}
                   >
                     <IoIosBasketball size={24} />
                     <p className="text-base leading-4  ">
-                      <Link to="/Kegiatan/KR1ZA">KR1ZA</Link>
+                      <Link to="/clubs/KR1ZA">KR1ZA</Link>
                     </p>
                   </button>
                   <button
@@ -782,7 +782,7 @@ const Nav = (props) => {
                       path === "/kegiatan/soc" ||
                       path === "/kegiatan/soundscape" ||
                       path === "/kegiatan/sap" ||
-                      path === "/kegiatan/kr1za" ||
+                      path === "/clubs/kr1za" ||
                       path === "/kegiatan/seni" ||
                       path === "/kegiatan/scj" ||
                       // path === "/kegiatan/pramuka" ||
@@ -797,7 +797,7 @@ const Nav = (props) => {
                 dir2="/Kegiatan/SOC"
                 dir3="/Kegiatan/Soundscape"
                 dir4="/Kegiatan/sap"
-                dir5="/Kegiatan/KR1ZA"
+                dir5="/clubs/KR1ZA"
                 dir6="/Kegiatan/Seni"
                 dir7="/Kegiatan/SCJ"
                 // dir8="/Kegiatan/Pramuka"

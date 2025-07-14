@@ -125,7 +125,7 @@ function App() {
         {/* Clubs */}
         <Route path="/clubs/scj" element={<SClub />} />
         <Route path="/clubs/muneds" element={<MUN />} />
-        <Route path="/clubs/kriza" element={<Kriza />} />
+        <Route path="/clubs/kr1za" element={<Kriza />} />
         <Route path="/Clubs" element={<Clubpage />} />
         <Route path="/clubs/codeone" element={<CodeOne />} />
         <Route path="/clubs/f1rst" element={<F1RST />} />
