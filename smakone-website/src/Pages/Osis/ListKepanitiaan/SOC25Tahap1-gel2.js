@@ -209,19 +209,6 @@ const data = [
       ]
     },
     {
-      bidang: "Voli",
-      members: [
-        { name: "Matthew Segara", kelas: "XI3" },
-        { name: "Jordana Utama", kelas: "X4" },
-        { name: "Devon Fillanov Juliansyah", kelas: "XI1" },
-        { name: "Jayden Surlaya", kelas: "XI1" },
-        { name: "Abbigayle Jaya Halim", kelas: "X5" },
-        { name: "Chelsea Setiawan", kelas: "XI8" },
-        { name: "Henry Arelian", kelas: "XI1" },
-        { name: "Gabriella Hillary", kelas: "X2" },
-      ]
-    },
-    {
       bidang: "Acara",
       members: [
         { name: "Diego Leander Wilbert", kelas: "X4" },
