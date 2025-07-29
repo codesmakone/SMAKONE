@@ -12,7 +12,7 @@ const data = [
     {
       bidang: "Badminton",
       members: [
-        { name: "Stevia Sufriady", kelas: "X9" },
+        { name: "Stevia Sufriady", kelas: "X6" },
         { name: "Jennifer Elizabeth", kelas: "XI7" },
         { name: "Darren Carlisle Nathaniel", kelas: "XI5" },
         { name: "Nicole Tokyo Liongdra", kelas: "X4" },
@@ -236,6 +236,12 @@ const data = [
         { name: "vanessa madeleine mulyo", kelas: "XII1" },
         { name: "Myra Theresia Penanian Hutahaean", kelas: "X10" },
         { name: "Abigail Lorraine Hanel", kelas: "XI1" },
+        { name: "Adeline Valerie Handoko", kelas: "X7" },
+        { name: "Darius Theodore Bong", kelas: "X2" },
+        { name: "Selly Florencia Mok", kelas: "X10" },
+        { name: "Kenneth William Sugianto ", kelas: "X9" },
+        { name: "Christopher Matthew Lasmana ", kelas: "XI1" },
+        { name: "Nicholas Hugo Iswandy", kelas: "X1" },
       ]
     },
     {
