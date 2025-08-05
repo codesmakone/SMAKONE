@@ -29,8 +29,8 @@ const SmukiezChoir = () => {
     <div className="max-w-[75rem] mx-auto px-6 space-y-10">
       {/* Header Section */}
       <header className="text-center py-8">
-        <h6 className="text-4xl font-bold mb-4">Clubs</h6>
-        <h1 className="text-5xl font-bold mb-4">Smukiez Choir</h1>
+        <h2 className=" text-xl md:text-2xl xl:text-2xl font-semibold text-center">Clubs</h2>
+        <h1 className="text-3xl md:text-5xl xl:text-5xl font-black text-center">Smukiez Choir</h1>
         <hr className="border-t-2 border-gray-300 mb-6" />
         <h3 className="text-3xl font-semibold mb-6">
           Smukiez Choir, Ikon Paduan Suara Indonesia dengan Prestasi Gemilang
