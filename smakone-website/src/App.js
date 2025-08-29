@@ -110,11 +110,11 @@ function App() {
         <Route path="/kegiatan/soc" element={<SOC />} />
         <Route path="/kegiatan/soundscape" element={<Soundscape />} />
         <Route path="/kegiatan/sap" element={<STN />} />
-        <Route path="/kegiatan/sapxsnm" element={<SAPxSNM />} />
-        <Route path="/kegiatan/sapxsnm/artwork" element={<Paintings />} />{" "}
+        <Route path="/kegiatan/sapxsms" element={<SAPxSNM />} />
+        <Route path="/kegiatan/sapxsms/artwork" element={<Paintings />} />{" "}
         {/* ketuker istilah artwork sama paintings pas bikin */}
         <Route
-          path="/kegiatan/sapxsnm/artwork/:id"
+          path="/kegiatan/sapxsms/artwork/:id"
           element={<PaintingDetails />}
         />
         <Route path="/kegiatan/seni" element={<Seni />} />
