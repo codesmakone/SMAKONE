@@ -98,7 +98,7 @@ const Nav = (props) => {
     path === "/kegiatan" ||
     path === "/kegiatan/soc" ||
     path === "/kegiatan/soundscape" ||
-    path === "/kegiatan/sap" ||
+    path === "/kegiatan/sapxsnm" ||
     path === "/clubs/kr1za" ||
     path === "/kegiatan/seni" ||
     path === "/kegiatan/scj" ||
@@ -573,12 +573,12 @@ const Nav = (props) => {
                   </button>
                   <button
                     className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/kegiatan/sap" ? "font-bold" : "text-gray-500"
+                      path === "/kegiatan/sapxsnm" ? "font-bold" : "text-gray-500"
                     }`}
                   >
                     <MdTheaters size={24} />
                     <p className="text-base leading-4  ">
-                      <Link to="/Kegiatan/SAP">Smukiez Art Performance</Link>
+                      <Link to="/kegiatan/sapxsnm">Smukiez Art Performance</Link>
                     </p>
                   </button>
                   <button
@@ -796,7 +796,7 @@ const Nav = (props) => {
                 dir1="/Kegiatan"
                 dir2="/Kegiatan/SOC"
                 dir3="/Kegiatan/Soundscape"
-                dir4="/Kegiatan/sap"
+                dir4="/kegiatan/sapxsnm"
                 dir5="/clubs/KR1ZA"
                 dir6="/Kegiatan/Seni"
                 dir7="/Kegiatan/SCJ"
