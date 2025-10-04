@@ -112,21 +112,44 @@ const Home = () => {
           </div> */}
         </div>
 
-        {/* <div style={{ "--image-url": `url(${stn_splash})`, "--image-url-mobile": `url(${stn_splash_mobile})` }} className="px-8 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-16 xl:pb-24 bg-[image:var(--image-url-mobile)] md:bg-[image:var(--image-url)] bg-cover bg-top">
-            <article className="text-left w-[300px] md:w-[300px] lg:w-[450px] xl:w-[600px]">
-              <h1 className="text-5xl lg:text-6xl xl:text-8xl font-black underline text-white">SAPxSNM</h1>
-              <h5 className="text-lg lg:text-xl xl:text-2xl font-normal leading-snug text-white space">
-                Menyelenggarakan sebuah acara yang memikat dengan pertunjukan teater yang meliputi berbagai bentuk seni, seperti tari, musik, seni visual, dan vokal. <br />
-                <span className="hidden lg:block">
-                  <br />
-                  Selain itu, acara ini juga menawarkan pengalaman yang menyenangkan melalui sajian kuliner tradisional serta permainan arcade di SMAK 1 Penabur.
-                </span>
-              </h5>
-            </article>
-            <Link to="/Kegiatan/sapxsnm" >
-              <button className="bg-white mt-12 lg:mt-16 xl:mt-20 px-8 lg:px-10 xl:px-12 py-1 lg:py-1.5 xl:py-2 rounded-full font-bold text-2xl lg:text-3xl xl:text-4xl">Learn More</button>
-            </Link>
-          </div> */}
+        <div
+          style={{
+            "--image-url": `url(${stn_splash})`,
+            "--image-url-mobile": `url(${stn_splash_mobile})`,
+          }}
+          className="px-8 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-16 xl:pb-24 bg-[image:var(--image-url-mobile)] md:bg-[image:var(--image-url)] bg-cover bg-top"
+        >
+          <article className="text-left w-[300px] md:w-[300px] lg:w-[450px] xl:w-[600px]">
+            <h1 className="text-3xl lg:text-5xl xl:text-6xl font-black underline text-white">
+              HUT KE-75 SMAK 1
+            </h1>
+            <h5 className="text-lg lg:text-xl xl:text-2xl font-normal leading-snug text-white space">
+              SMAK 1 merayakan 75 tahun iman, pembelajaran, dan warisan dalam
+              reuni akbar yang menyatukan alumni dari generasi pertama hingga
+              siswa masa kini. <br />
+              <span className="hidden lg:block">
+                <br />
+                Perayaan ini dimeriahkan oleh teater, musik, tari, dan seni
+                visual yang mencerminkan kreativitas serta semangat SMAK 1.
+              </span>
+            </h5>
+          </article>
+
+          {/* link to kegiatan */}
+          {/* <Link to="/Kegiatan/sapxsnm">
+            <button className="bg-white mt-12 lg:mt-16 xl:mt-20 px-8 lg:px-10 xl:px-12 py-1 lg:py-1.5 xl:py-2 rounded-full font-bold text-2xl lg:text-3xl xl:text-4xl">
+              Learn More
+            </button>
+          </Link> */}
+
+          {/* link to other web */}
+          <button
+            onClick={() => window.open("http://75smak1.hallayak.com", "_blank")}
+            className="bg-white mt-12 lg:mt-16 xl:mt-20 px-8 lg:px-10 xl:px-12 py-1 lg:py-1.5 xl:py-2 rounded-full font-bold text-2xl lg:text-3xl xl:text-4xl"
+          >
+            Click Here
+          </button>
+        </div>
         {/* </Carousel> */}
       </div>
 
