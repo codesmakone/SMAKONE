@@ -79,7 +79,7 @@ const Layout = (props) => {
         <div className="px-6 md:px-8 lg:px-10 xl:px-12 pt-10 justify-center text-center">
           <h2 className="text-xl font-medium">{props.cat}</h2>
           <h1 className="text-6xl xl:text-10xl font-semibold underline [text-underline-offset:8px] [text-decoration-thickness:4px]">
-            SAP<span className="font-normal text-5xl xl:text-8xl">x</span>SNM
+            SAP<span className="font-normal text-5xl xl:text-8xl">x</span>SMS
           </h1>
           {props.quote && <h4 className="text-xl font-medium">{props.quote}</h4>}
           {props.desc && <h4 className="text-lg xl:text-xl font-semibold">{props.desc}</h4>}

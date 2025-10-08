@@ -11,16 +11,16 @@ import stageview_image from "../../../Image/SAPxSNM/stageview_image.jpg";
 import sap_image from "../../../Image/SAPxSNM/sap_image.jpg";
 import snm_image from "../../../Image/SAPxSNM/snm_image.jpg";
 
-const SAPxSNM = () => {
+const SAPxSMS = () => {
   return (
     <Layout
       cat="Kegiatan"
-      title="Smukiez Art Performance x Smukiez Night Market"
-      quote="Smukiez Art Perforance x Smukiez Night Market: Saat Berbagai Seni Dipadukan dan Menghasilkan Sebuah Karya yang Memukau"
+      title="Smukiez Art Performance x Smukiez Market Square"
+      quote="Smukiez Art Perforance x Smukiez Market Square: Saat Berbagai Seni Dipadukan dan Menghasilkan Sebuah Karya yang Memukau"
       titleDesc=""
       img1={sap_image}
       img2={snm_image}
-      alt="SAPxSNM"
+      alt="SAPxSMS"
       performance1="Mask"
       performance2="Smukiez Choir"
       performance3="Smukiez Youth Chamber"
@@ -29,7 +29,7 @@ const SAPxSNM = () => {
       performance6="F1RST"
       performance7="Smukiez Guitar Ensemble"
       AboutSAP="Sebuah inisiatif yang dirancang untuk mengasah serta menampilkan potensi, kreativitas, dan bakat seni siswa/i SMAK 1 PENABUR Jakarta. Acara ini memberikan kesempatan bagi siswa/i untuk memamerkan karya seni mereka sebagai wujud dari dedikasi dan semangat yang tinggi."
-      AboutSNM="SMUKIEZ NIGHT MARKET adalah acara yang dirancang untuk sarana menampilkan makanan khas Indonesia yang dijual oleh UMKM sehingga dapat mendorong pertumbuhan UMKM khususnya yang bergerak di bidang kuliner. SNM memperkenalkan dan melestarikan makanan khas serta mempererat hubungan antar sesama dengan melakukan berbagai kegiatan hiburan."
+      AboutSNM="SMUKIEZ MARKET SQUARE adalah acara yang dirancang untuk sarana menampilkan makanan khas Indonesia yang dijual oleh UMKM sehingga dapat mendorong pertumbuhan UMKM khususnya yang bergerak di bidang kuliner. SMS memperkenalkan dan melestarikan makanan khas serta mempererat hubungan antar sesama dengan melakukan berbagai kegiatan hiburan."
       umkm1=""
       umkm2=""
       umkm3=""
@@ -61,4 +61,4 @@ const SAPxSNM = () => {
   );
 };
 
-export default SAPxSNM;
+export default SAPxSMS;
