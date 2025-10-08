@@ -16,7 +16,8 @@ import img_2rE1N0S from "../../../Image/SAPxSNM/Paintings/img_2rE1N0S.jpg"
 import img_4eO6Z1u from "../../../Image/SAPxSNM/Paintings/img_4eO6Z1u.jpg"
 import img_1IR2W6q from "../../../Image/SAPxSNM/Paintings/img_1IR2W6q.jpg"
 import img_3Jz4e3W from "../../../Image/SAPxSNM/Paintings/img_3Jz4e3W.jpg"
-
+import img_1IR2W6f from "../../../Image/SAPxSNM/Paintings/img_1IR2W6f.jpg"
+import img_1IR2W6w from "../../../Image/SAPxSNM/Paintings/img_1IR2W6w.jpeg"
 
 export const paintingData = [
     {
@@ -216,5 +217,27 @@ export const paintingData = [
         desc: "Ikan cupang biru yang dulu sederhana kini menjadi simbol seni, tetap bersinar di tengah arus zaman sebagai identitas yang tak tergantikan.",
         price: "Tidak Dijual",
         contact: "08111511877",
+    },
+    {
+        title: "The Dead Composer",
+        id: "1IR2W6w",
+        img: img_1IR2W6w,
+        artist: "Candice Andrea",
+        kelastahun: "X2 - 2025",
+        medium: "Kertas, Pensil",
+        desc: "Karya berjudul The Dead Composer ini menggambarkan kematian melalui simbol-simbol seperti tengkorak, jam pasir, dan lilin yang padam. Kehadiran biola, kartu, dan mahkota melambangkan musik, permainan, serta kejayaan yang pada akhirnya akan hilang bersama waktu. Karya ini mengajak penonton merenungkan bahwa kejayaan dan karya indah sekalipun tak bisa melawan akhir kehidupan.",
+        price: "Rp 229.900",
+        contact: "085117140982",
+    },
+    {
+        title: "Literasi: Cahaya Terakhir",
+        id: "1IR2W6f",
+        img: img_1IR2W6f,
+        artist: "Nicole Tokyo Liongdra",
+        kelastahun: "2025",
+        medium: "Kertas, Krayon",
+        desc: "Di antara buku, waktu, tinta, dan lilin yang menyala membisikkan pesan: hidup mungkin berakhir, tapi jejak literasi tetap menyala.",
+        price: "Rp 199.000",
+        contact: "085891060510",
     },
 ]
