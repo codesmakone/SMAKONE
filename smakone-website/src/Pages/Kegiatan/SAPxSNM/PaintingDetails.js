@@ -15,33 +15,33 @@ const PaintingDetail = () => {
   }
 
   return (
-      <div>
-        <Nav/>
-          <div className='container mx-auto mt-28'>
-              
-              
-            <h1 className="text-left text-4xl xl:text-6xl font-black leading-9 ml-4">"{painting.title}"</h1>
-            
-            <img className='my-4' src={painting.img} alt={painting.title} />
-            <div className='text-l mx-5'>
-                  <p className='font-bold'>{painting.artist}</p>
-                  
-                  <p className='font-bold'>{painting.kelastahun}</p>
+    <div>
+      <Nav />
+      <div className='container mx-auto mt-28'>
 
-                  <br />
-                  <p>{painting.desc}</p>
-                  <br />
-                  <p>Medium: {painting.medium}</p>
-                  <p>{painting.price}</p>
-                  <br />
-                  <p>Contact: {painting.contact}</p>
-                <br />
-                <br />
-                <a className='font-bold rounded-full bg-light-blue text-white py-4 px-6' href="/kegiatan/sapxsnm/artwork">Back to Collection</a>    
-            </div>
-              
-          </div>
-          <Footer/>
+
+        <h1 className="text-left text-4xl xl:text-6xl font-black leading-9 ml-4">"{painting.title}"</h1>
+
+        <img className='my-4' src={painting.img} alt={painting.title} />
+        <div className='text-l mx-5'>
+          <p className='font-bold'>{painting.artist}</p>
+
+          <p className='font-bold'>{painting.kelastahun}</p>
+
+          <br />
+          <p>{painting.desc}</p>
+          <br />
+          <p>Medium: {painting.medium}</p>
+          <p>{painting.price}</p>
+          <br />
+          <p>Contact: {painting.contact}</p>
+          <br />
+          <br />
+          <a className='font-bold rounded-full bg-light-blue text-white py-4 px-6' href="/kegiatan/sapxsms/artwork">Back to Collection</a>
+        </div>
+
+      </div>
+      <Footer />
     </div>
   );
 };
