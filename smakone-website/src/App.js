@@ -9,7 +9,7 @@ import ScrollToTop from "./Component/ScrollToTop";
 import Home from "./Pages/Home/Home";
 import Soundscape from "./Pages/Kegiatan/soundscape";
 import STN from "./Pages/Kegiatan/stn";
-import SAPxSNM from "./Pages/Kegiatan/SAPxSNM/SAPxSNM";
+import SAPxSMS from "./Pages/Kegiatan/SAPxSNM/SAPxSMS";
 import Paintings from "./Pages/Kegiatan/SAPxSNM/Paintings";
 import PaintingDetails from "./Pages/Kegiatan/SAPxSNM/PaintingDetails";
 import SOC from "./Pages/Kegiatan/soc";
@@ -112,11 +112,11 @@ function App() {
         <Route path="/kegiatan/soc" element={<SOC />} />
         <Route path="/kegiatan/soundscape" element={<Soundscape />} />
         <Route path="/kegiatan/sap" element={<STN />} />
-        <Route path="/kegiatan/sapxsnm" element={<SAPxSNM />} />
-        <Route path="/kegiatan/sapxsnm/artwork" element={<Paintings />} />{" "}
+        <Route path="/kegiatan/sapxsms" element={<SAPxSMS />} />
+        <Route path="/kegiatan/sapxsms/artwork" element={<Paintings />} />{" "}
         {/* ketuker istilah artwork sama paintings pas bikin */}
         <Route
-          path="/kegiatan/sapxsnm/artwork/:id"
+          path="/kegiatan/sapxsms/artwork/:id"
           element={<PaintingDetails />}
         />
         <Route path="/kegiatan/seni" element={<Seni />} />
