@@ -18,6 +18,7 @@ import img_1IR2W6q from "../../../Image/SAPxSNM/Paintings/img_1IR2W6q.jpg"
 import img_3Jz4e3W from "../../../Image/SAPxSNM/Paintings/img_3Jz4e3W.jpg"
 import img_1IR2W6f from "../../../Image/SAPxSNM/Paintings/img_1IR2W6f.jpg"
 import img_1IR2W6w from "../../../Image/SAPxSNM/Paintings/img_1IR2W6w.jpeg"
+import img_3iu6HDy from "../../../Image/SAPxSNM/Paintings/img_3iu6HDy.jpeg"
 
 export const paintingData = [
     {
@@ -239,5 +240,16 @@ export const paintingData = [
         desc: "Di antara buku, waktu, tinta, dan lilin yang menyala membisikkan pesan: hidup mungkin berakhir, tapi jejak literasi tetap menyala.",
         price: "Rp 199.000",
         contact: "085891060510",
+    },
+    {
+        title: "The Innocent Spacegoat",
+        id: "ab1234",
+        img: img_3iu6HDy,
+        artist: "Darlene Felicia Sutyo",
+        kelastahun: "2024",
+        medium: "Kertas, Krayon",
+        desc: "",
+        price: "",
+        contact: "",
     },
 ]
