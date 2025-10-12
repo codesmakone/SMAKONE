@@ -112,7 +112,8 @@ const Home = () => {
           </div> */}
         </div>
 
-        <div
+        {/* HUT 75 SMAK 1 */}
+        {/* <div
           style={{
             "--image-url": `url(${stn_splash})`,
             "--image-url-mobile": `url(${stn_splash_mobile})`,
@@ -133,24 +134,25 @@ const Home = () => {
                 visual yang mencerminkan kreativitas serta semangat SMAK 1.
               </span>
             </h5>
-          </article>
+            
 
-          {/* link to kegiatan */}
-          {/* <Link to="/Kegiatan/sapxsnm">
+            LINK TO OTHER PAGE
+          </article>
+          <Link to="/Kegiatan/sapxsnm">
             <button className="bg-white mt-12 lg:mt-16 xl:mt-20 px-8 lg:px-10 xl:px-12 py-1 lg:py-1.5 xl:py-2 rounded-full font-bold text-2xl lg:text-3xl xl:text-4xl">
               Learn More
             </button>
-          </Link> */}
+          </Link>
 
-          {/* link to other web */}
+
+          LINK TO OTHER WEB
           <button
             onClick={() => window.open("http://75smak1.hallayak.com", "_blank")}
             className="bg-white mt-12 lg:mt-16 xl:mt-20 px-8 lg:px-10 xl:px-12 py-1 lg:py-1.5 xl:py-2 rounded-full font-bold text-2xl lg:text-3xl xl:text-4xl"
           >
             Click Here
           </button>
-        </div>
-        {/* </Carousel> */}
+        </div> */}
       </div>
 
       {/* <div className=' text-black w-full h-auto px-3 pt-12 xl:pb-10'>
