@@ -34,7 +34,7 @@ const ShutterOne25 = () => {
             [5, "America Juliet Sujanto", "X9"],
             [6, "Marvel Khioe", "XI9"],
             [7, "Elbert Justin Lie", "X1"],
-            [8, "Celestine Victoria wang", "X6"],
+            [8, "Celestine Victoria Wang", "X6"],
             [9, "Darren Nathanael Bachtiar ", "XI9"],
             [10, "Christopher Dale Limence", "XI4"],
             [11, "Carlton Invanio ", "X1"],
