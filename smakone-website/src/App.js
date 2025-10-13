@@ -33,6 +33,7 @@ import OneFM from "./Pages/Osis/ListKepanitiaan/onefm2025.js";
 import Sapxsms25 from "./Pages/Osis/ListKepanitiaan/sapxsms2025.js";
 import Sapext25 from "./Pages/Osis/ListKepanitiaan/sapextend25.js";
 import Sog25 from "./Pages/Osis/ListKepanitiaan/sog25.js";
+import ShutterOne25 from "./Pages/Osis/ListKepanitiaan/shutterOne25.js";
 
 import Emagz from "./Pages/Emagz/Emagz";
 import Ass1st from "./Pages/Ass1st/Ass1st";
@@ -100,7 +101,6 @@ import OneJournal from "./Pages/Clubs/OneJournal/OneJournal";
 import OneAID from "./Pages/Clubs/OneAID";
 import Mask from "./Pages/Clubs/Mask/Mask";
 
-
 function App() {
   return (
     <div className="w-full h-full font-Product">
@@ -143,7 +143,6 @@ function App() {
         <Route path="/clubs/OneJournal" element={<OneJournal />} />
         <Route path="/clubs/oneaid" element={<OneAID />} />
         <Route path="/clubs/Mask" element={<Mask />} />
-
         {/* Alasan */}
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />
@@ -188,6 +187,7 @@ function App() {
         <Route path="/OSIS/onefm2025" element={<OneFM />} />
         <Route path="/OSIS/sapxsms2025" element={<Sapxsms25 />} />
         <Route path="/OSIS/sapxsms2025-extended" element={<Sapext25 />} />
+        <Route path="/OSIS/shutterone25" element={<ShutterOne25 />} />
         <Route path="/OSIS/sog2025" element={<Sog25 />} />
         {/* OSIS */}
         <Route path="/OSIS" element={<Osis />} />
