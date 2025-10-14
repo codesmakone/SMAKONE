@@ -8,7 +8,7 @@ import OsisTeam from '../../../Component/Osis/OsisTeam'
 import Annette from '../../../Image/Osis/Bidang_6/Annette.webp'
 import Jesslyn from '../../../Image/Osis/Bidang_6/Jesslyn.webp'
 import Cecylia from '../../../Image/Osis/Bidang_6/Cecylia.webp'
-import Tristan from '../../../Image/Osis/Bidang_6/Tristan.webp'
+import Tristan from '../../../Image/Osis/Bidang_6/Axel.webp'
 
 
 const OSIS_6 = () => {
@@ -24,7 +24,7 @@ const OSIS_6 = () => {
         person4={<BidangSection img={Tristan} alt='Tristan' name='Tristan Axel Kosen' desc='Halo semuaaanya, kenalin aku Tristan Axel Kosen, biasanyaa dipanggil axel ato xel, anggota dari bidang 6. Di waktu kosong biasanya aku olahragaa baskett atau ga pingpongg, kadang main game jugaa kayak pubg sm valo. '/>}
 
         Description={true}
-        DescBid="OSIS Bidang 6 merupakan seksi dalam organisasi OSIS yang bertujuan untuk membina kreativitas, keterampilan, dan kewirausahaan untuk siswa/i SMAK 1 PENABUR Jakarta. Kami memiliki beberapa program kerja yang bertujuan untuk meningkatkan kreativitas dan keterampilan siswa serta meningkatkan usaha koperasi siswa."
+        DescBid="OSIS Bidang 6 merupakan seksi dalam organisasi OSIS yang bertujuan untuk membina kreativitas, keterampilan, dan kewirausahaan untuk siswa/i SMAK 1 PENABUR Jakarta. Hal ini ditunjukan dalam bentuk program kerja kami yang sekaligus dibangun untuk menggalang dana bagi program OSIS lainnya."
         Program={true}
         ProgramList={
           [

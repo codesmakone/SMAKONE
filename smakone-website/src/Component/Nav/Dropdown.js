@@ -128,7 +128,7 @@ const Dropdown = (props) => {
                     }
                   </div>
                   { !!props.dir7 && (
-                    <div className='h-[16.8rem] absolute left-2/4 border-light border-solid border-l-4'></div>
+                    <div className='h-[14.9rem] absolute left-2/4 border-light border-solid border-l-4'></div>
                   )}
                   <div>
                     {props.dir7 && 
