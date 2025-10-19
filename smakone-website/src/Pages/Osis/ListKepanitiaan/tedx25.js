@@ -108,12 +108,15 @@ const data = [
     {
       bidang: "Design",
       members: [
-        { name: "", kelas: "X" },
-        { name: "", kelas: "X" },
-        { name: "", kelas: "X" },
-        { name: "", kelas: "X" },
-        { name: "", kelas: "X" },
-        { name: "", kelas: "X" },
+        { name: "Jennifer Olivia Chang", kelas: "X10" },
+        { name: "Caitlyn Abigail", kelas: "X5" },
+        { name: "Faith Emanuella Rusli", kelas: "X7" },
+        { name: "Claire Santoso ", kelas: "X12" },
+        { name: "Joel Lim", kelas: "X7" },
+        { name: "Alicia", kelas: "XII4" },
+        { name: "Faye Valerie Lesley", kelas: "XI2" },
+        { name: "Vallerie Yuvelina Putri", kelas: "X8" },
+        { name: "Graciella Fiorenza Thiesman", kelas: "X4" },
       ]
     },
 ];
