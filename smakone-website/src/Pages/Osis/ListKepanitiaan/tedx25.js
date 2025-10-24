@@ -126,7 +126,7 @@ const Tedx25 = () => {
         <h1 className="text-center text-4xl sm:text-4xl md:text-5xl xl:text-5xl font-black mb-20">Hasil Seleksi Tahap 1 Open Recruitment Panitia TEDx 2025</h1>
         <div className="flex flex-col items-center">
           <p className="text-left w-3/4 ">
-            Setelah kami melakukan seleksi selama 7 hari pada <b>Senin, 13 OKtober 2025 - Minggu, 19 Oktober 2025</b>, telah ditetapkan calon panitia yang lolos ke tahap wawancara sebagai berikut:
+            Setelah kami melakukan seleksi selama 7 hari pada <b>Senin, 13 Oktober 2025 - Minggu, 19 Oktober 2025</b>, telah ditetapkan calon panitia yang lolos ke tahap wawancara sebagai berikut:
           </p>
         </div>
 
