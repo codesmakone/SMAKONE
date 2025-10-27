@@ -189,7 +189,7 @@ function App() {
         <Route path="/OSIS/onefm2025" element={<OneFM />} />
         <Route path="/OSIS/sapxsms2025" element={<Sapxsms25 />} />
         <Route path="/OSIS/sapxsms2025-extended" element={<Sapext25 />} />
-        <Route path="/OSIS/shutterone25" element={<ShutterOne25 />} />
+        <Route path="/OSIS/tahap2-shutterone25" element={<ShutterOne25 />} />
         <Route path="/OSIS/sog2025" element={<Sog25 />} />
         <Route path="/OSIS/LitClub2025" element={<Literasi25 />} />
         <Route path="/OSIS/TEDx2025-tahap1" element={<Tedx25 />} />
