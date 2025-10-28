@@ -36,6 +36,7 @@ import Sog25 from "./Pages/Osis/ListKepanitiaan/sog25.js";
 import ShutterOne25 from "./Pages/Osis/ListKepanitiaan/shutterOne25.js";
 import Literasi25 from "./Pages/Osis/ListKepanitiaan/literasi25.js";
 import Tedx25 from "./Pages/Osis/ListKepanitiaan/tedx25.js";
+import Tedxs25 from "./Pages/Osis/ListKepanitiaan/tedxs.js";
 
 import Emagz from "./Pages/Emagz/Emagz";
 import Ass1st from "./Pages/Ass1st/Ass1st";
@@ -193,6 +194,7 @@ function App() {
         <Route path="/OSIS/sog2025" element={<Sog25 />} />
         <Route path="/OSIS/LitClub2025" element={<Literasi25 />} />
         <Route path="/OSIS/TEDx2025-tahap1" element={<Tedx25 />} />
+        <Route path="/OSIS/TEDx2025-StudentSpeaker" element={<Tedxs25 />} />
         {/* OSIS */}
         <Route path="/OSIS" element={<Osis />} />
         <Route path="/OSIS/bph" element={<BPH />} />
