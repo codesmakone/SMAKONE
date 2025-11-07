@@ -34,6 +34,7 @@ import Sapxsms25 from "./Pages/Osis/ListKepanitiaan/sapxsms2025.js";
 import Sapext25 from "./Pages/Osis/ListKepanitiaan/sapextend25.js";
 import Sog25 from "./Pages/Osis/ListKepanitiaan/sog25.js";
 import ShutterOne25 from "./Pages/Osis/ListKepanitiaan/shutterOne25.js";
+import TOS25 from "./Pages/Osis/ListKepanitiaan/TOS25.js";
 import Literasi25 from "./Pages/Osis/ListKepanitiaan/literasi25.js";
 import Tedx25 from "./Pages/Osis/ListKepanitiaan/tedx25.js";
 import Tedxs25 from "./Pages/Osis/ListKepanitiaan/tedxs.js";
@@ -190,7 +191,8 @@ function App() {
         <Route path="/OSIS/onefm2025" element={<OneFM />} />
         <Route path="/OSIS/sapxsms2025" element={<Sapxsms25 />} />
         <Route path="/OSIS/sapxsms2025-extended" element={<Sapext25 />} />
-        <Route path="/OSIS/tahap2-shutterone25" element={<ShutterOne25 />} />
+        <Route path="/OSIS/tahap3-shutterone2025" element={<ShutterOne25 />} />
+        <Route path="/OSIS/tahap1-TOS25" element={<TOS25 />} />
         <Route path="/OSIS/sog2025" element={<Sog25 />} />
         <Route path="/OSIS/LitClub2025" element={<Literasi25 />} />
         <Route path="/OSIS/TEDx2025" element={<Tedx25 />} />
