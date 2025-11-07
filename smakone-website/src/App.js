@@ -193,7 +193,7 @@ function App() {
         <Route path="/OSIS/tahap2-shutterone25" element={<ShutterOne25 />} />
         <Route path="/OSIS/sog2025" element={<Sog25 />} />
         <Route path="/OSIS/LitClub2025" element={<Literasi25 />} />
-        <Route path="/OSIS/TEDx2025-tahap1" element={<Tedx25 />} />
+        <Route path="/OSIS/TEDx2025" element={<Tedx25 />} />
         <Route path="/OSIS/TEDx2025-StudentSpeaker" element={<Tedxs25 />} />
         {/* OSIS */}
         <Route path="/OSIS" element={<Osis />} />
