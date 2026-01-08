@@ -193,7 +193,7 @@ function App() {
         <Route path="/OSIS/sapxsms2025" element={<Sapxsms25 />} />
         <Route path="/OSIS/sapxsms2025-extended" element={<Sapext25 />} />
         <Route path="/OSIS/tahap3-shutterone2025" element={<ShutterOne25 />} />
-        <Route path="/OSIS/tahap1-TOS25" element={<TOS25 />} />
+        <Route path="/OSIS/tahap-final-TOS25" element={<TOS25 />} />
         <Route path="/OSIS/sog2025" element={<Sog25 />} />
         <Route path="/OSIS/LitClub2025" element={<Literasi25 />} />
         <Route path="/OSIS/TEDx2025" element={<Tedx25 />} />
