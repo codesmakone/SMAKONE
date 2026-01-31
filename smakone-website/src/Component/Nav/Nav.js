@@ -794,6 +794,7 @@ const Nav = (props) => {
                 menu2="Tips Belajar"
                 menu3="Kegiatan Setelah Kelas"
                 menu4="Alumni"
+                menu5="Calendar"
                 Kehidupan={true}
               />
               <Dropdown

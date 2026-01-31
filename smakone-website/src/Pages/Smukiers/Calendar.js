@@ -5,39 +5,44 @@ import Nav from "../../Component/Nav/Nav";
 import Footer from "../../Component/Footer/Footer";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
 const Calendar = () => {
   const [currentYear, setCurrentYear] = useState(2026);
   const [currentMonthIndex, setCurrentMonthIndex] = useState(0);
-  const [hasImage, setHasImage] = useState(true);
 
   const handleJumpToCurrent = () => {
     const now = new Date();
 
-    setHasImage(true);
     setCurrentYear(now.getFullYear());
     setCurrentMonthIndex(now.getMonth());
   };
 
-  const months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
-
-  const imagePath = `../../Image/Home/Kehidupan/Calendar/${currentYear}-${months[currentMonthIndex]}.svg`;
+  const getImage = () => {
+    try {
+      return require(
+        `../../Image/Home/Kehidupan/Calendar/${currentYear}-${months[currentMonthIndex]}.svg`,
+      );
+    } catch {
+      return undefined;
+    }
+  };
+  const calendarImage = getImage();
 
   const handleNext = () => {
-    setHasImage(true);
-
     if (currentMonthIndex === months.length - 1) {
       setCurrentMonthIndex(0);
       setCurrentYear((prev) => prev + 1);
@@ -47,8 +52,6 @@ const Calendar = () => {
   };
 
   const handleBack = () => {
-    setHasImage(true);
-
     if (currentMonthIndex === 0) {
       setCurrentMonthIndex(months.length - 1);
       setCurrentYear((prev) => prev - 1);
@@ -97,11 +100,10 @@ const Calendar = () => {
 
         {/* IMAGE CALENDAR */}
 
-        {hasImage ? (
+        {calendarImage ? (
           <img
-            src={imagePath}
+            src={calendarImage}
             alt={`${months[currentMonthIndex]} ${currentYear}`}
-            onError={() => setHasImage(false)}
             className="h-full w-full md:px-[5rem] md:w-[60rem] mx-auto"
           />
         ) : (

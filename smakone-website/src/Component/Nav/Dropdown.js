@@ -38,7 +38,7 @@ const Dropdown = (props) => {
             ${props.dir7 ? "w-[19rem]" : "w-[7.5rem] md:w-56"} 
             `}
         >
-          <div className="rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+          <div className="bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
             <div className={`${!!props.dir7 ? "grid grid-cols-2" : ""}`}>
               <div className="">
                 <Menu.Item>
@@ -47,7 +47,7 @@ const Dropdown = (props) => {
                       to={props.dir1}
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                        "block px-4 py-2 text-sm rounded-t-md"
+                        "block px-4 py-2 text-sm rounded-t-md",
                       )}
                     >
                       {props.menu1}
@@ -60,7 +60,7 @@ const Dropdown = (props) => {
                       to={props.dir2}
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                        "block px-4 py-2 text-sm"
+                        "block px-4 py-2 text-sm",
                       )}
                     >
                       {props.menu2}
@@ -75,7 +75,7 @@ const Dropdown = (props) => {
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         props.osis
                           ? "block px-4 py-2 text-sm rounded-b-md"
-                          : "block px-4 py-2 text-sm"
+                          : "block px-4 py-2 text-sm",
                       )}
                     >
                       {props.menu3}
@@ -93,7 +93,7 @@ const Dropdown = (props) => {
                             : "text-gray-700",
                           props.Kehidupan
                             ? "block px-4 py-2 text-sm rounded-b-md"
-                            : "block px-4 py-2 text-sm"
+                            : "block px-4 py-2 text-sm",
                         )}
                       >
                         {props.menu4}
@@ -112,7 +112,7 @@ const Dropdown = (props) => {
                             : "text-gray-700",
                           props.smak1
                             ? "block px-4 py-2 text-sm rounded-b-md"
-                            : "block px-4 py-2 text-sm"
+                            : "block px-4 py-2 text-sm",
                         )}
                       >
                         {props.menu5}
@@ -129,7 +129,7 @@ const Dropdown = (props) => {
                           active
                             ? "bg-gray-100 text-gray-900"
                             : "text-gray-700",
-                          "block px-4 py-2 text-sm"
+                          "block px-4 py-2 text-sm",
                         )}
                       >
                         {props.menu6}
@@ -151,7 +151,7 @@ const Dropdown = (props) => {
                           active
                             ? "bg-gray-100 text-gray-900"
                             : "text-gray-700",
-                          "block px-4 py-2 text-sm"
+                          "block px-4 py-2 text-sm",
                         )}
                       >
                         {props.menu7}
@@ -168,7 +168,7 @@ const Dropdown = (props) => {
                           active
                             ? "bg-gray-100 text-gray-900"
                             : "text-gray-700",
-                          "block px-4 py-2 text-sm"
+                          "block px-4 py-2 text-sm",
                         )}
                       >
                         {props.menu8}
@@ -185,7 +185,7 @@ const Dropdown = (props) => {
                           active
                             ? "bg-gray-100 text-gray-900"
                             : "text-gray-700",
-                          "block px-4 py-2 text-sm"
+                          "block px-4 py-2 text-sm",
                         )}
                       >
                         {props.menu9}
@@ -202,7 +202,7 @@ const Dropdown = (props) => {
                           active
                             ? "bg-gray-100 text-gray-900"
                             : "text-gray-700",
-                          "block px-4 py-2 text-sm"
+                          "block px-4 py-2 text-sm",
                         )}
                       >
                         {props.menu10}
@@ -221,7 +221,7 @@ const Dropdown = (props) => {
                             : "text-gray-700",
                           props.dir7
                             ? "block px-4 py-2 text-sm rounded-br-md"
-                            : "block px-4 py-2 text-sm"
+                            : "block px-4 py-2 text-sm",
                         )}
                       >
                         {props.menu11}
