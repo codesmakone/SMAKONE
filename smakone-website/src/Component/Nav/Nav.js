@@ -33,6 +33,8 @@ import { MdTheaters } from "react-icons/md";
 import { IoIosBasketball } from "react-icons/io";
 import { BsFillBrushFill } from "react-icons/bs";
 import { IoFlaskSharp } from "react-icons/io5";
+import { GiCalendar } from "react-icons/gi";
+
 // import { GiPublicSpeaker } from "react-icons/gi";
 
 const Nav = (props) => {
@@ -92,7 +94,8 @@ const Nav = (props) => {
     path === "/kehidupan_smukiers/alumni" ||
     path === "/kehidupan_smukiers/alumni/billystevanus" ||
     path === "/kehidupan_smukiers/alumni/scottmoses" ||
-    path === "/kehidupan_smukiers/alumni/nicolecharlene";
+    path === "/kehidupan_smukiers/alumni/nicolecharlene" ||
+    path === "/kehidupan_smukiers/calendar";
 
   const pathKegiatan =
     path === "/kegiatan" ||
@@ -136,11 +139,11 @@ const Nav = (props) => {
               scrollPosition > 0
               ? "bg-slate-100 drop-shadow-[0_15px_12px_rgba(0,0,0,0.25)]"
               : "lg:bg-inherit lg:drop-shadow-none bg-slate-100 drop-shadow-[0_15px_12px_rgba(0,0,0,0.25)]",
-            "lg:flex lg:flex-rows lg:flex-wrap items-center pt-4 sm:pt-5 sm:pb-4 md:py-5 lg:px-18 md:px-10 px-4 lg:py-0 w-full fixed top-0 left-0 justify-between z-50 transition-all duration-200"
+            "lg:flex lg:flex-rows lg:flex-wrap items-center pt-4 sm:pt-5 sm:pb-4 md:py-5 lg:px-18 md:px-10 px-4 lg:py-0 w-full fixed top-0 left-0 justify-between z-50 transition-all duration-200",
           )}
         >
-          <div className="lg:grid-cols-none grid grid-cols-3 pb-3 sm:pb-0">
-            <Link to="/" className="rounded-lg cursor-pointer col-span-2">
+          <div className="grid grid-cols-3 pb-3 lg:grid-cols-none sm:pb-0">
+            <Link to="/" className="col-span-2 rounded-lg cursor-pointer">
               <div className="">
                 <img
                   className="object-scale-down h-5 md:h-6 lg:h-7 "
@@ -151,7 +154,7 @@ const Nav = (props) => {
             </Link>
             <div
               aria-label="toggler"
-              className="flex justify-end items-center pr-2 lg:hidden"
+              className="flex items-center justify-end pr-2 lg:hidden"
             >
               <button
                 aria-label="open"
@@ -233,16 +236,16 @@ const Nav = (props) => {
               id="Main"
               className={`transform ease-in-out transition duration-500 flex justify-start items-start h-full  w-full bg-white flex-col`}
             >
-              {/* <div className="mt-6 flex flex-col justify-start items-center  pl-4 w-full border-gray-600 border-b space-y-3 pb-5 ">
-                <button className="flex jusitfy-start items-center space-x-6 w-full  focus:outline-none  focus:text-indigo-400  text-black rounded ">
+              {/* <div className="flex flex-col items-center justify-start w-full pb-5 pl-4 mt-6 space-y-3 border-b border-gray-600 ">
+                <button className="flex items-center w-full space-x-6 text-black rounded jusitfy-start focus:outline-none focus:text-indigo-400 ">
                     <svg>
                     </svg>
                     <p className="text-base leading-4 ">Placeholder</p>
                 </button> */}
-              <div className="flex flex-col justify-start items-center md:items-start px-6 border-b border-gray-600 w-full">
+              <div className="flex flex-col items-center justify-start w-full px-6 border-b border-gray-600 md:items-start">
                 <button
                   onClick={() => setMenuValue(0)}
-                  className="focus:outline-none focus:text-indigo-400  text-black flex justify-between items-center w-full py-5 space-x-14  "
+                  className="flex items-center justify-between w-full py-5 text-black focus:outline-none focus:text-indigo-400 space-x-14 "
                 >
                   <p className="text-sm leading-5 uppercase">Tentang SMAK 1</p>
                   <svg
@@ -277,7 +280,7 @@ const Nav = (props) => {
                     }`}
                   >
                     <IoEyeSharp size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/tentang_smak1">Sekilas Pandang</Link>
                     </p>
                   </button>
@@ -289,7 +292,7 @@ const Nav = (props) => {
                     }`}
                   >
                     <AiFillFlag size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/tentang_smak1/Sejarah">
                         Sejarah, Visi, dan Misi
                       </Link>
@@ -315,7 +318,7 @@ const Nav = (props) => {
                     }`}
                   >
                     <RiShieldCrossFill size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/tentang_smak1/Logo">Logo</Link>
                     </p>
                   </button>
@@ -327,16 +330,16 @@ const Nav = (props) => {
                     }`}
                   >
                     <IoMdMusicalNotes size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/tentang_smak1/Lagu">Lagu</Link>
                     </p>
                   </button>
                 </div>
               </div>
-              <div className="flex flex-col justify-start items-center md:items-start px-6 border-b border-gray-600 w-full">
+              <div className="flex flex-col items-center justify-start w-full px-6 border-b border-gray-600 md:items-start">
                 <button
                   onClick={() => setMenuValue(1)}
-                  className="focus:outline-none focus:text-indigo-400  text-black flex justify-between items-center w-full py-5 space-x-14  "
+                  className="flex items-center justify-between w-full py-5 text-black focus:outline-none focus:text-indigo-400 space-x-14 "
                 >
                   <p className="text-sm leading-5 uppercase">OSIS</p>
                   <svg
@@ -383,7 +386,7 @@ const Nav = (props) => {
                     }`}
                   >
                     <BsFillPeopleFill size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/OSIS">Tentang OSIS</Link>
                     </p>
                   </button>
@@ -393,7 +396,7 @@ const Nav = (props) => {
                     }`}
                   >
                     <BsBookFill size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/OSIS/Emagz">E-Magazine (Archived)</Link>
                     </p>
                   </button>
@@ -414,18 +417,18 @@ const Nav = (props) => {
                     }`}
                   >
                     <FaUniversity size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/OSIS/ASS1ST">Ass1st</Link>
                     </p>
                   </button>
                 </div>
               </div>
-              <div className="flex flex-col justify-start items-center md:items-start px-6 border-b border-gray-600 w-full">
+              <div className="flex flex-col items-center justify-start w-full px-6 border-b border-gray-600 md:items-start">
                 <button
                   onClick={() => setMenuValue(2)}
-                  className="focus:outline-none focus:text-indigo-400  text-black flex justify-between items-center w-full py-5 space-x-14  "
+                  className="flex items-center justify-between w-full py-5 text-black focus:outline-none focus:text-indigo-400 space-x-14 "
                 >
-                  <p className="text-sm leading-5  uppercase">
+                  <p className="text-sm leading-5 uppercase">
                     Kehidupan SMUKIERS
                   </p>
                   <svg
@@ -461,7 +464,7 @@ const Nav = (props) => {
                     }`}
                   >
                     <IoIosPaperPlane size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/Kehidupan_smukiers">Kehidupan SMUKIERS</Link>
                     </p>
                   </button>
@@ -473,7 +476,7 @@ const Nav = (props) => {
                     }`}
                   >
                     <GiLightBulb size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/Kehidupan_smukiers/Tips">Tips Belajar</Link>
                     </p>
                   </button>
@@ -485,12 +488,13 @@ const Nav = (props) => {
                     }`}
                   >
                     <GiThrowingBall size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/Kehidupan_smukiers/Kegiatan">
                         Kegiatan Setelah Kelas
                       </Link>
                     </p>
                   </button>
+
                   <button
                     className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
                       path === "/kehidupan_smukiers/alumni" ||
@@ -502,18 +506,31 @@ const Nav = (props) => {
                     }`}
                   >
                     <IoSchool size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/Kehidupan_smukiers/Alumni">Alumni</Link>
+                    </p>
+                  </button>
+
+                  <button
+                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
+                      path === "/kehidupan_smukiers/calendar"
+                        ? "font-bold"
+                        : "text-gray-500"
+                    }`}
+                  >
+                    <GiCalendar size={24} />
+                    <p className="text-base leading-4 ">
+                      <Link to="/Kehidupan_smukiers/Calendar">Calendar</Link>
                     </p>
                   </button>
                 </div>
               </div>
-              <div className="flex flex-col justify-start items-center md:items-start px-6 w-full">
+              <div className="flex flex-col items-center justify-start w-full px-6 md:items-start">
                 <button
                   onClick={() => setMenuValue(3)}
-                  className="focus:outline-none focus:text-indigo-400  text-black flex justify-between items-center w-full py-5 space-x-14  "
+                  className="flex items-center justify-between w-full py-5 text-black focus:outline-none focus:text-indigo-400 space-x-14 "
                 >
-                  <p className="text-sm leading-5  uppercase">Kegiatan</p>
+                  <p className="text-sm leading-5 uppercase">Kegiatan</p>
                   <svg
                     id="icon3"
                     className={`${
@@ -545,7 +562,7 @@ const Nav = (props) => {
                     }`}
                   >
                     <FaRunning size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/Kegiatan">Kegiatan</Link>
                     </p>
                   </button>
@@ -554,8 +571,8 @@ const Nav = (props) => {
                       path === "/kegiatan/soc" ? "font-bold" : "text-gray-500"
                     }`}
                   >
-                    <img src={SOC} alt="SOC" className="grayscale h-6 w-6" />
-                    <p className="text-base leading-4  ">
+                    <img src={SOC} alt="SOC" className="w-6 h-6 grayscale" />
+                    <p className="text-base leading-4 ">
                       <Link to="/Kegiatan/SOC">Smakonecup</Link>
                     </p>
                   </button>
@@ -567,18 +584,22 @@ const Nav = (props) => {
                     }`}
                   >
                     <SiGooglepodcasts size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/Kegiatan/Soundscape">Soundscape</Link>
                     </p>
                   </button>
                   <button
                     className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/kegiatan/sapxsms" ? "font-bold" : "text-gray-500"
+                      path === "/kegiatan/sapxsms"
+                        ? "font-bold"
+                        : "text-gray-500"
                     }`}
                   >
                     <MdTheaters size={24} />
-                    <p className="text-base leading-4  ">
-                      <Link to="/kegiatan/sapxsms">Smukiez Art Performance</Link>
+                    <p className="text-base leading-4 ">
+                      <Link to="/kegiatan/sapxsms">
+                        Smukiez Art Performance
+                      </Link>
                     </p>
                   </button>
                   <button
@@ -587,7 +608,7 @@ const Nav = (props) => {
                     }`}
                   >
                     <IoIosBasketball size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/clubs/KR1ZA">KR1ZA</Link>
                     </p>
                   </button>
@@ -597,7 +618,7 @@ const Nav = (props) => {
                     }`}
                   >
                     <BsFillBrushFill size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/Kegiatan/Seni">Seni</Link>
                     </p>
                   </button>
@@ -607,7 +628,7 @@ const Nav = (props) => {
                     }`}
                   >
                     <IoFlaskSharp size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/Kegiatan/SCJ">Science Club</Link>
                     </p>
                   </button>
@@ -618,8 +639,8 @@ const Nav = (props) => {
                         : "text-gray-500"
                     }`}
                   >
-                    <img src={Pramukaks} alt="Pramuka" className=" h-6 w-6" />
-                    <p className="text-base leading-4  ">
+                    <img src={Pramukaks} alt="Pramuka" className="w-6 h-6 " />
+                    <p className="text-base leading-4 ">
                       <Link to="/Kegiatan/Pramuka">Pramuka</Link>
                     </p>
                   </button>
@@ -633,9 +654,9 @@ const Nav = (props) => {
                     <img
                       src={OneCast}
                       alt="OneCast"
-                      className="grayscale h-6 w-6"
+                      className="w-6 h-6 grayscale"
                     />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/Kegiatan/OneCast">OneCast</Link>
                     </p>
                   </button> */}
@@ -647,9 +668,9 @@ const Nav = (props) => {
                     <img
                       src={DoFE}
                       alt="DoFEIA"
-                      className="grayscale h-6 w-6"
+                      className="w-6 h-6 grayscale"
                     />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/Kegiatan/DofE">DofE</Link>
                     </p>
                   </button>
@@ -661,13 +682,13 @@ const Nav = (props) => {
                     }`}
                   >
                     <GiPublicSpeaker size={24} />
-                    <p className="text-base leading-4  ">
+                    <p className="text-base leading-4 ">
                       <Link to="/Kegiatan/MUNEDS">MUNEDS</Link>
                     </p>
                   </button> */}
                 </div>
               </div>
-              <div className="flex flex-col justify-start items-center md:items-start px-6 w-full border-t border-gray-600">
+              <div className="flex flex-col items-center justify-start w-full px-6 border-t border-gray-600 md:items-start">
                 <button
                   className={`text-black flex justify-between items-center w-full py-5 space-x-14`}
                 >
@@ -680,8 +701,8 @@ const Nav = (props) => {
               </div>
             </div>
           </HeadlessSlideOver>
-          <div className="lg:items-center lg:w-auto w-full sm:pt-1 lg:py-5 leading-normal hidden lg:block ">
-            <div className="flex flex-rows place-items-center gap-4 sm:gap-8 md:gap-3 md:justify-end lg:justify-center">
+          <div className="hidden w-full leading-normal lg:items-center lg:w-auto sm:pt-1 lg:py-5 lg:block ">
+            <div className="flex gap-4 flex-rows place-items-center sm:gap-8 md:gap-3 md:justify-end lg:justify-center">
               <Dropdown
                 title="Tentang SMAK 1"
                 class={`md:px-3 py-2 transition duration-200 border-b-2 border-transparent link-underline-black cursor-pointer text-xs sm:text-base lg:text-lg xl:text-xl 
@@ -767,11 +788,13 @@ const Nav = (props) => {
                 dir2="/Kehidupan_smukiers/Tips"
                 dir3="/Kehidupan_smukiers/Kegiatan"
                 dir4="/Kehidupan_smukiers/Alumni"
+                dir5="/Kehidupan_smukiers/Calendar"
                 menu1="Kehidupan SMUKIERS"
                 // menu2="Clubs"
                 menu2="Tips Belajar"
                 menu3="Kegiatan Setelah Kelas"
                 menu4="Alumni"
+                menu5="Calendar"
                 Kehidupan={true}
               />
               <Dropdown
