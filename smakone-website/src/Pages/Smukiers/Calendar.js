@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 import Nav from "../../Component/Nav/Nav";
 import Footer from "../../Component/Footer/Footer";
