@@ -22,6 +22,7 @@ const OsisTeam = (props) => {
           {props.person3}
           {props.person4}
           {props.person5}
+          {props.person6}
         </div>
         {props.Description && 
         <div className='py-14'>
