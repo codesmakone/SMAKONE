@@ -5,11 +5,11 @@ import BidangSection from '../../../Component/Osis/BidangSection'
 import OsisTeam from '../../../Component/Osis/OsisTeam'
 
 // Import Image
-import Regina from '../../../Image/Osis/Bidang_2/Regina.webp'
-import Joshua from '../../../Image/Osis/Bidang_2/Joshua.webp'
-import Putu from '../../../Image/Osis/Bidang_2/Putu.webp'
-import Clairence from '../../../Image/Osis/Bidang_2/Clairence.webp'
-import Jessica from '../../../Image/Osis/Bidang_2/Jessica.webp'
+import Elena from '../../../Image/Osis/Bidang_2/Elena.png'
+import Valencia from '../../../Image/Osis/Bidang_2/Valencia.png'
+import Putu from '../../../Image/Osis/Bidang_2/Putu.JPG'
+import Carmeline from '../../../Image/Osis/Bidang_2/Carmeline.jpg'
+import Jessica from '../../../Image/Osis/Bidang_2/Jessica.png'
 
 
 const OSIS_2 = () => {
@@ -19,22 +19,23 @@ const OSIS_2 = () => {
         bidang="Bidang 2"
         desc="Bidang Pembinaan Budi Pekerti Luhur dan Akhlak Mulia"
 
-        person1={<BidangSection img={Regina} alt='Regina' name='Regina Lucky Surjadi' desc='Haiii all!! Salam kenal, aku Regina Lucky Surjadi sebagai koordinator OSIS bidang 2 ✌🏻. Kalian bisa panggil aku Gina or Regi 😆. I have a lot of hobbies like dancing, traveling, watercolor painting, and esp making contents and ig stories/reels untuk panitia publikasi!! 🤳🏻😍 Aku juga merupakan anggota F1rst, jadi kalau F1rst lagi tampil wajib bgtt nyorakin kitaa!! 💙 Kalau mau ngobrol” and be mutuals bolehh banget ke ig akuu @reginaluckysurjadi! Have a blast and enjoy your unforgettable experience in smukiee!! 🤩🔥'/>}
-        person2={<BidangSection img={Joshua} alt='Joshua' name='Joshua Nathanael Yang' desc="Salken, nama aku Joshua, biasa dipanggil Joshua atau Josh. Hobi aku olahraga sih kecuali berenang. Kalo mau ngobrol/tau lebih banyak tentang aku, boleh cek ig aku aja ya @joshua.n.y Nice to meet u all!"/>}
-        person3={<BidangSection img={Putu} alt='Putu' name='Putu Acyntia Kanaya Ardani' desc='Haihaii 👋🏼! Kenalin, aku Putu Acyntia Kanaya Ardani, atau biasa dipanggil cyntia! Aku dari kelas X1 and anggota osis bidang 2! Something about me is that aku paling gabisa hidup tanpa musik hehee. Aku suka bangett main piano/gitar sambil nyanyi, dengerin musik kapanpun n dimanapun, tapi juga suka baca fantasy novels 🫣! Fun fact about me is that I still love those old barbie movies and songs (because they were peak childhood) 🙂‍↕️ If you guys wanna talk, atau punya book recs, don’t hesitate to hmu on my ig @cyntia_ardani! I promise I’m not as nonchalant as i look in my pic 😭🫶🏼'/>}
-        person4={<BidangSection img={Clairence} alt='Clairence' name='Clairence Ilona Tanu' desc='Hi semuaa, nama aku Clairence Ilona, biasanya dipanggil Claire. Hobi aku bisa dibilang basic sih kayak nonton film, baca buku, sama dengerin musik. Kalo ngomongin musik aku suka artist kayak NIKI sama dewa 19. Aku juga kadang main gitar, tapi sampe sekarang ga jago-jago. Feel free to hit me up di @clairee.ilo !!'/>}
-        person5={<BidangSection img={Jessica} alt='Jessica' name='Jessica Faustine Karnali' desc='Haii guyss!! 👋🏻👋🏻 Nama aku Jessica Faustine and aku berasal dari kelas 10-3. Sekarang aku berkesempatan menjadi anggota osis bidang 2 ✌🏻🤞🏻. Oiyaa kalian bisa panggil aku Jess F. Hobi aku nonton, main game, sama kadang aku juga suka baking. Fun Fact tentang aku, aku suka banget banget sama matchaa 🍵. Kalauu kalian mau ngobrol/lebih kenal sama aku, bisa dm or follow ig akuu yaah @jessicaftine. Salam kenall guys, enjoy and goodluckk yaa in smukiee 💯🫡😍'/>}
+        person3={<BidangSection img={Elena} alt='Elena' name='Elena Leticia Hendrawan' desc="Hiiii everyonee!!! Salam kenal, nama aku Elena biasa dipanggil el atau ele 😁. Aku suka banget dengerin musik tapi funfact, i don't have a favorite song. Another thing that i love to do is socializing & yapping (dasarnya aja yang emang bawel 😶) soo if you ever walk past me don't hesitate to say hi!! P.s im crazy over matcha!!!!! 🌱 Feel free to hmu on my ig @eln.ltcia if you want to chit chat!!"/>}
+        person2={<BidangSection img={Valencia} alt='Valencia' name='Valencia Marvelle' desc="Haiii semuaa! Kenalinn, aku Valencia Marvelle dari X6👋🏻. Tahun ini aku diberi kesempatan untuk menjadi anggota OSIS bidang✌🏻. Fun factt, aku suka bangett sama hal-hal yang memacu adrenalin, I love challenges and new experiences. Aku juga passionate di dunia lomba dan selalu excited setiap ada kesempatan untuk ikut. Di waktu luang, aku suka banget travelling dan explore hal-hal baru ✈️🌎. Impian terbesarku adalah cobain semua jenis makanan yang ada di dunia🍕🍜🍣. Kalau mau ngobrol santai, kenalan, mabar, etc feel free to hit me up on IG @ciaa_vall! And last but not least, always do your best and keep the faith, God will do the rest‼️"/>}
+        person1={<BidangSection img={Putu} alt='Putu' name='Putu Acyntia Kanaya Ardani' desc="haiii alll! Kenalin, aku Putu Acyntia Kanaya Ardani selaku koordinator bidang 2 ✌️🐰. Kalian bisa panggil aku cyntia/cyn! One thing about me is that I have such an attachment to music 🎶. Aku suka banget nyanyi, main piano n guitar, and religiously listen to songs on spotify 🎧. Kalo kalian mau ngobrol or punya song recs, don't hesitate to hmu on my ig @cyntia_ardani! Have fun and goodluck in smukieee 🤩💕"/>}
+        person4={<BidangSection img={Carmeline} alt='Carmeline' name='Carmeline Japutra' desc="Jalan-jalan ke Berlin duluu~ kenalin aku Carmeline, tapi panggil aja Meline yaa 😆🫶🏻 Aku anggota OSIS bidang 2 🫰🏻✌🏻yang aktif tapi tetep santai hehe. Hobiku lumayan banyak sih, mulai dari main game, dengerin musik (yes, Laufey & W2E supremacy 😛🎧), nonton apa aja yang seru, sampai baca-baca. Tapii yang paling aku suka itu baca novel atau komik, kadang sampe lupa waktu 📚✨. Aku orangnya open, dan selalu happy ketemu temen baru. Jadi kalo mau mutualan, ngobrol santai, atau sekadar tukeran rekomendasi lagu, buku, atau komik feel free banget buat DM aku yaa! 💬💖 Don’t be shy, let’s be friends! @mell_linee ✌🏻"/>}
+        person5={<BidangSection img={Jessica} alt='Jessica' name='Jessica Faustine Karnali' desc="Haii semuanyaa, kenalinn nama akuu Jessica Faustine Karnali, biasanyaa orang2 panggilnya Jess F, Akuu di osis menjabat sebagai anggotaa bidang 2 🫂🫂, oyaa fun fact tentang akuu, aku suka bgtss desert maniss jadi kl ada yang rekomendasi desert yang enakk kasi tau yah 😉,  Kalauu kalian mau ngobrol/lebih kenal sama aku, bisa dm or follow ig akuu yaah @jessicaftine. Salam kenall guys, enjoy and goodluckk yaa in smukiee 💯🫡😍"/>}
 
         Description={true}
         DescBid="OSIS Bidang 2 adalah bidang pembinaan budi pekerti luhur dan akhlak mulia, sesuai namanya visi dari seksi bidang 2 adalah untuk menamakan sikap-sikap yang yang sesuai dengan budi pekerti dan nilai-nilai kristiani. Dalam rangka mewujudkan visi tersebut osis bidang 2 membuat beberapa program yaitu Christmas Carol, Quozzy, Spread the Word, dan Tutorial for Others by Smukiers. Jadi kalau teman teman berminat untuk bergabung di OSIS bidang 2 jangan lupa daftar ya saat ada pendaftaran OSIS"
         Program={true}
         ProgramList={
           [
-            //UPDATED 2024
-            "Tutorial For Others (TOS) - Memberi kesempatan bagi siswa-siswi yang bersedia untuk melakukan pengajaran dan berbagi dengan anak-anak dari Yayasan Sahabat Anak Grogol",
-            "Buka Bersama - Kegiatan buka puasa bersama yang dilakukan di kantin SMAK 1 PENABUR Jakarta dan diikuti oleh seluruh karyawan (satpam, cleaning service, gardener, sopir, dan teknisi)",
-            "Live In - Kegiatan yang dilaksanakan di desa, untuk memberi para pendaftar (peserta didik) sebuah kesempatan untuk membantu warga-warga di desa dan juga sebagai wadah bagi mereka untuk dapat mengedalikan diri mereka di tempat yang baru",
-            "5S - Program Senyum, Salam, Sapa, Sopan, Santun yang dilaksanakan setiap hari oleh OSIS & MPK di depan pintu lobby",
+            //UPDATED 2026
+            "Tutorial For Others - Memberi kesempatan bagi siswa-siswi yang berkeinginan untuk berbagi dan menyebarkan kebaikan kepada sesama dengan mengajar anak-anak di Yayasan Sahabat Anak Grogol.",
+            "⁠Buka Bersama - Kegiatan buka bersama bagi seluruh karyawan yang dilaksanakan di kantin SMAK 1 PENABUR Jakarta yang ditujukan untuk mempererat kekerabatan.",
+            "Live In - Kegiatan yang dilaksanakan di desa, untuk memberi siswa/i kesempatan untuk membantu warga-warga di desa dan juga belajar cara menyesuaikan diri di pola hidup yang berbeda.",
+            "5S - Senyum, Sapa, Salam, Sopan dan Santun yang dilaksanakan setiap pagi di depan pintu lobby oleh OSIS dan MPK.",
+            "One for Humanity - Memperluas wawasan dan kepekaan siswa-siswi dengan memberi informasi mengenai bencana yang terjadi di Indonesia serta menggalang donasi bagi korban bencana.",
           ]
         }
         dir="/OSIS/bidang3"
