@@ -5,11 +5,11 @@ import BidangSection from "../../../Component/Osis/BidangSection";
 import OsisTeam from "../../../Component/Osis/OsisTeam";
 
 //Import Image
-import Angelica from "../../../Image/Osis/Bidang_BPH/angelica.jpeg";
-import Catherine from "../../../Image/Osis/Bidang_BPH/catherine.jpg";
-import Jordana from "../../../Image/Osis/Bidang_BPH/jordana.jpg";
-import Joyce from "../../../Image/Osis/Bidang_BPH/joyce.PNG";
-import Benedict from "../../../Image/Osis/Bidang_BPH/benedict.png";
+import Jojo from "../../../Image/Osis/Bidang_BPH/jojo.webp";
+import Mimi from "../../../Image/Osis/Bidang_BPH/mimi.webp";
+import Mudit from "../../../Image/Osis/Bidang_BPH/mudit.webp";
+import Catherine from "../../../Image/Osis/Bidang_BPH/sinsin.webp";
+import Hana from "../../../Image/Osis/Bidang_BPH/hanna.webp";
 
 const BPH = () => {
   return (
@@ -18,44 +18,53 @@ const BPH = () => {
         bidang="Badan Pengurus Harian"
         person1={
           <BidangSection
-            img={Benedict}
-            alt="Benedict"
-            name="Benedict Erick Anthony"
-            desc="Hai semuaa! Kenalin, aku Erick, dan tahun ini aku menjabat sebagai ketua OSIS. Singkat cerita tentang aku, aku suka banget dengerin lagu dan main game, salah satunya mobile legends. Selain itu, aku juga open banget buat explore hal-hal yang baru dan buat temen-temen baru. Jadi, buat kalian yang mau ngajak mabar atau sekedar ngobrol-ngobrol aja, feel free to hit me up through my ig, @bndct.erick! Other than that, jangan lupa have fun di SMUKIE!!"
+            img={Jojo}
+            alt="Jojo"
+            name="Jordana Utama"
+            desc="Roses are red,
+Violets are blue.
+Page looks better now,
+Wonder why… oh, you 😉🫵
+Helooooo! Perkenalkan nama aku Jordana Utama biasa dipanggil Jordana / jojo / jor / apapun yang kamu mau bolehh kokk ;) Di tahun kedua sebagai anggota OSIS, aku menjabat menjadi ketua OSIS 🙌 ! Nahh, selain menjadi anggota OSIS di Smukie, aku juga ikut F1RST 💃 dan KR1ZA 🏐🏀 !! Aku juga ada beberapa hobby lain seperti dengerin lagu, gambar, anything yang bisa have fun deh pokonyaa! Walaupun banyak yang bilang aku awalnya serem, sebenernya aku tipe yangg suka nambah temen baruu lhoo! Jadi kaloo mau mabar / recommendations / bantuan / get to know lebih lagii, bisa dm aku di ig aku @jqrdana_ (gausa malu-malu yaa.. aku gak gigit 🙂‍↕️🤞) Itu ajaa perkenalan dari aku, let’s do our best in Smukie! ᕦ(ò_óˇ)ᕤ
+"
           />
         }
         person2={
           <BidangSection
-            img={Jordana}
-            alt="Jordana"
-            name="Jordana Utama"
-            desc="Halooo!! Perkenalkan nama aku Jordana Utama, biasa dipanggil Jordana / jojo / jor / apapun yang kamu mau bolehh kokk :) 
-                  Tahun ini, aku diterima masuk OSIS dan menjabat menjadi wakil ketua OSIS 🙌 ! Nahh, selain menjadi anggota OSIS di smukie, aku juga ikut F1RST 💃 dan KR1ZA voli 🏐 !! Aku juga ada beberapa hobby lain seperti basket, dengerin musik, gambar, having fun deh pokonyaa! Walaupun banyak orang yang bilang aku awalnya serem, sebenernya aku tipe orang yangg suka nambah temen baruu lhoo! Jadi kaloo mau mabar/recommendations/bantuan/get to know lebih lagii, bisa dm aku di ig aku @jqrdana_ (gausa takut yaa aku gak gigit 😉🤞)
-                  Itu ajaa perkenalan dari aku, let’s do our best in smukie! ᕦ(ò_óˇ)ᕤ"
+            img={Hana}
+            alt="Hana"
+            name="Stevianne Hanna Saerang"
+            desc="stroberi mangga apel, haihaii salkenn ini Hanna, tapi maunya dipanggil sayang aja dehhh angangang 🤣. tahun ini aku dipercaya menjadi wakil ketua OSIS, dan bakal banyak terlibat dalam koordinasi & jalannya kegiatan YEAYEAAAA! dari dulu aku suka bangetbangetbanget ikut komunitas/kepanitiaan because I grow best in places buzzing with people and loud energy! di smukie punnn i aktif saat dalam team seperti SOC, TOS, KR1ZA Volley (ga jago), AP1 KR1ZA, dan lain-lainnyaa yang akan terus + di tahun ini! smukie tuh penuh banget sama kesempatan and i gapernah ragu buat ikut apa aja yang bikin i berkembanggg! ❤️
+
+i hobi banget nonton rom-comssss terutama yang 90s-2000s (happy gilmore iloveu...). anywayyy aku suka kenalan & bangun relasi, kalau kamu tipe yang gampang senyum atau ketawaa, we’ll get along just fineeee! feel free to say hiiiii or hit me up on ig @steviannehs!!! 😆😆
+"
           />
         }
         person3={
           <BidangSection
             img={Catherine}
             alt="Catherine"
-            name="Catherine Nicole Yuen"
-            desc="Hi semuaa 👋 salam kenal aku Catherine tapi biasa dipanggil Cath! Tahun ini aku diberi kesempatan menjabat sebagai bendahara OSIS. In my free time aku suka masak, nulis, main game, debat, lukis dan baca novel & manga. Genre apa aja juga aku baca, but I'm a big fan of action, dystopia and philosophy! I'm always open to recommendations, so feel free untuk add aku di line: 1324is4231. Good luck and all the best in smukie, everyone! <3  "
+            name="Catherine Hannalie"
+            desc="Hey heyy!!👋🏻 Kenalin aku Catherine Hannalie, biasa dipanggil sin”/ sin kuadrat/ sincostan. Tahun ini aku diberi kesempatan buat jadi bendahara OSIS. In my free times, aku suka baking, listening to music (CAS especially), dan tentunya SHOPPING 😉😉. Fun fact about me : I like discovering and trying new things so kalau kalian ada news atau something yang bisa naikin adrenaline and dopamine levels, BOLEH BANGETT buat hit me up @catherinehannalie on ig!! Good luck in smukie y’all‼️"
           />
         }
         person4={
           <BidangSection
-            img={Joyce}
-            alt="Joyce"
-            name="Joyce Avrill Miracle"
-            desc="Haii semuaa!! Perkenalkan namaku Joyce atau bisa juga dipanggil Joy dan tahun ini aku diberi kepercayaan untuk menjadi sekretaris OSIS. Sedikit tentang aku, aku punya beberapa hobi yang mungkin kalian juga suka. Aku suka main badminton🏸, baking🧁, dan pastinya nonton konser. Selain itu, aku juga suka banget tidur dan makan karena, siapa sih yang nggak suka? 😆😆 Anywayy kalo kalian butuh temen konser, feel free to hit me up di ig akuu @joyavrlm HEHEHEHE. Have fun in smukie oll!!😋"
+            img={Mudit}
+            alt="Mudit"
+            name="Mudita Nimmala"
+            desc="stroberi mangga apel helloo salam kenall, nama aku Mudita, biasanya dipanggil Mudit atau Ditaa🤗 tahun ini, aku menjabat sebagai sekretaris and I’m beyoond grateful for this opportunity🙆‍♀️ selain OSIS, aku aktif juga di beberapa kegiatan seperti tos & syc👯‍♀️ if im not doing anything aku suka dengerin music (esp rnb)🎶, nonton film thriller, sama main game meskipun ga jago jago bgt angangang🤣🤣 
+
+kalo mauu ngobrol ngobroll or if you have any film recs, feel free to hmu @muditanimmala🙌 see you and goodluck in smukiee!!💥💥
+"
           />
         }
         person5={
           <BidangSection
-            img={Angelica}
-            alt="Angelica"
-            name="Angelica Shelyn Nathania"
-            desc="hey yall! 👋🏻 Kenalin, nama aku Angelica Shelyn, biasanya dipanggil Shelyn. Tahun ini (puji Tuhan) aku diberikan kesempatan dan kepercayaan menjabat sebagai Sekretaris woohooo 🌟 Aku bersyukur dan seneng banget bisa ketemu dan kerja sama orang-orang baru yang kece! That shows how grateful i am to be a part of the OSIS fam 🫂 Other than OSIS, i’m a part of pelayanan di gereja and kepanitiaan di smukiee. Aku ambil bagian dalam event-event menarik di smukiee seperti SOC, Bazone, and so many more. Oh yaa aku juga a part of organizations/clubs such as F1RST, SOG, TOS, OneFM, Api Kriza, pokoknya in smukiee there are tons of opportunities for us all to explore jadi jangan ragu to give it a try yaa! 😉 A bit more about me, i find myself at the best version when i’m dancing, singing, doing art stuffs like journaling, literature, watching movies, and listening to music. i’m a huge fan of the color blue, harry potter, mcu, kpop, novels, TAYLOR SWIFT!! fun fact aku orangnya expressive and bawel so if u wanna get to know me better or talk abt anything, feel free to hit me up on ig @sshelynn (my digital diary!). semangat terus yaa di smukiee, we’re in this together! <3 "
+            img={Mimi}
+            alt="Mimi"
+            name="Emily Chairmanly Afla"
+            desc="Hey y'all! Kenalin, nama aku Emily — bisa dipanggil Emi or Mimi. Biasanya, aku suka banget dengerin lagu, apalagi kalauu lagii bosen/nungguin sesuatuu. Selain itu, aku juga tergabung dalam beberapa kepanitiaan dan club MASK, which explains how much I love theatre! 🎭 Feel free yaa kalau mau ngobrol'/mutualan, langsung ajaa ke ig aku @emilychaa_. Good luck and don’t forget to have some fun in Smukie <33"
           />
         }
         dirBPH="/OSIS/bidang1"

