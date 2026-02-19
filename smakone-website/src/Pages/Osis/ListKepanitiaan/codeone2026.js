@@ -13,12 +13,12 @@ const CodeOne26 = () => {
       <Nav />
       <div className="mx-auto mt-28">
         <h1 className="mb-20 text-4xl font-black text-center sm:text-4xl md:text-5xl xl:text-5xl">
-          Hasil Seleksi Tahap 1 CodeOne 2026
+          Hasil Seleksi Tahap 2 CodeOne 2026
         </h1>
         <div className="flex flex-col items-center">
           <p className="w-3/4 text-left ">
-            Setelah kami melakukan seleksi selama 10 hari pada{" "}
-            <b> 19 - 29 Januari 2026</b>, telah ditentukan yang lolos tahap 1
+            Setelah kami melakukan seleksi selama 2 hari pada{" "}
+            <b> 9 - 10 Februari 2026</b>, telah ditentukan anggota baru CodeOne
             sebagai berikut:
           </p>
         </div>
@@ -28,16 +28,13 @@ const CodeOne26 = () => {
             [1, "Eleazar Gosdavicraka", "XI8"],
             [2, "Natasha Zheng", "X4"],
             [3, "Zefanya Michael Purnomo", "XI5"],
-            [4, "Nathanael Armantyo Hutabalian", "X8"],
-            [5, "Gad Cebrian Fabiano Teguh", "X10"],
-            [6, "Kaitlyn Kallita Kusnandar", "X3"],
-            [7, "Darlenne Steven", "XI4"],
+            [4, "Darlenne Steven", "XI4"],
           ]}
         ></SeleksiGrid>
       </div>
       <section className="max-w-3xl py-10 mx-auto font-serif leading-relaxed">
         {/* Date */}
-        <p className="px-10 text-right">Jakarta, 7 Februari 2026</p>
+        <p className="px-10 text-right">Jakarta, 19 Februari 2026</p>
 
         {/* Menyetujui */}
         <p className="mt-24 text-center">Mengetahui,</p>
