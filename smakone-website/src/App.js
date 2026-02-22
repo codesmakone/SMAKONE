@@ -33,6 +33,14 @@ import OneFM from "./Pages/Osis/ListKepanitiaan/onefm2025.js";
 import Sapxsms25 from "./Pages/Osis/ListKepanitiaan/sapxsms2025.js";
 import Sapext25 from "./Pages/Osis/ListKepanitiaan/sapextend25.js";
 import Sog25 from "./Pages/Osis/ListKepanitiaan/sog25.js";
+import ShutterOne25 from "./Pages/Osis/ListKepanitiaan/shutterOne25.js";
+import TOS25 from "./Pages/Osis/ListKepanitiaan/TOS25.js";
+import Literasi25 from "./Pages/Osis/ListKepanitiaan/literasi25.js";
+import Tedx25 from "./Pages/Osis/ListKepanitiaan/tedx25.js";
+import Tedxs25 from "./Pages/Osis/ListKepanitiaan/tedxs.js";
+import Osis26 from "./Pages/Osis/ListKepanitiaan/osis26.js";
+import CodeOne26 from "./Pages/Osis/ListKepanitiaan/codeone2026.js";
+import Mono2026 from "./Pages/Osis/ListKepanitiaan/monograph2026.js";
 
 import Emagz from "./Pages/Emagz/Emagz";
 import Ass1st from "./Pages/Ass1st/Ass1st";
@@ -56,6 +64,7 @@ import KehidupanSmukiers from "./Pages/Smukiers/KehidupanSmukiers";
 import Clubpage from "./Pages/Clubs/Clubpage";
 import TipsBelajar from "./Pages/Smukiers/TipsBelajar";
 import KegiatanSetelahKelas from "./Pages/Smukiers/KegiatanSetelahKelas";
+import Calendar from "./Pages/Smukiers/Calendar.js";
 
 import BPH from "./Pages/Osis/BPH/BPH";
 import OSIS_1 from "./Pages/Osis/Osis_1/Osis_1";
@@ -100,7 +109,6 @@ import OneJournal from "./Pages/Clubs/OneJournal/OneJournal";
 import OneAID from "./Pages/Clubs/OneAID";
 import Mask from "./Pages/Clubs/Mask/Mask";
 
-
 function App() {
   return (
     <div className="w-full h-full font-Product">
@@ -143,7 +151,6 @@ function App() {
         <Route path="/clubs/OneJournal" element={<OneJournal />} />
         <Route path="/clubs/oneaid" element={<OneAID />} />
         <Route path="/clubs/Mask" element={<Mask />} />
-
         {/* Alasan */}
         <Route path="/alasan/Edward" element={<Edward />} />
         <Route path="/alasan/Emily" element={<Emily />} />
@@ -161,6 +168,7 @@ function App() {
           path="/Kehidupan_smukiers/kegiatan"
           element={<KegiatanSetelahKelas />}
         />
+        <Route path="/Kehidupan_smukiers/calendar" element={<Calendar />} />
         <Route path="/Kehidupan_smukiers/Alumni" element={<AlumniPage />} />
         <Route
           path="/Kehidupan_smukiers/Alumni/BillyStevanus"
@@ -175,8 +183,6 @@ function App() {
           element={<Nicole />}
         />
         {/* Hasil Seleksi Kepanitiaan */}
-        {/* Hasil Seleksi Kepanitiaan */}
-        {/* Hasil Seleksi Kepanitiaan */}
         <Route path="/OSIS/panitiabazone2024" element={<PanitiaBazone2024 />} />
         <Route path="/OSIS/PengumumanOSIS2025" element={<SeleksiOsis />} />
         <Route path="/OSIS/PesertaTOS2025" element={<PesertaTOS />} />
@@ -188,7 +194,15 @@ function App() {
         <Route path="/OSIS/onefm2025" element={<OneFM />} />
         <Route path="/OSIS/sapxsms2025" element={<Sapxsms25 />} />
         <Route path="/OSIS/sapxsms2025-extended" element={<Sapext25 />} />
+        <Route path="/OSIS/tahap3-shutterone2025" element={<ShutterOne25 />} />
+        <Route path="/OSIS/seleksi-codeone2026" element={<CodeOne26 />} />
+        <Route path="/OSIS/seleksi-monograph2026" element={<Mono2026 />} />
+        <Route path="/OSIS/tahap-final-TOS25" element={<TOS25 />} />
         <Route path="/OSIS/sog2025" element={<Sog25 />} />
+        <Route path="/OSIS/LitClub2025" element={<Literasi25 />} />
+        <Route path="/OSIS/TEDx2025" element={<Tedx25 />} />
+        <Route path="/OSIS/TEDx2025-StudentSpeaker" element={<Tedxs25 />} />
+        <Route path="/OSIS/Osis2026" element={<Osis26 />} />
         {/* OSIS */}
         <Route path="/OSIS" element={<Osis />} />
         <Route path="/OSIS/bph" element={<BPH />} />
