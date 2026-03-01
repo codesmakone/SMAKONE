@@ -13,13 +13,13 @@ const Mono2026 = () => {
       <Nav />
       <div className="mx-auto mt-28">
         <h1 className="mb-20 text-4xl font-black text-center sm:text-4xl md:text-5xl xl:text-5xl">
-          Hasil Seleksi Tahap 2 Monograph 2026
+          Hasil Seleksi Tahap 3 Monograph 2026
         </h1>
         <div className="flex flex-col items-center">
           <p className="w-3/4 text-left ">
-            Setelah kami melakukan seleksi pada tanggal{" "}
-            <b> 11 - 18 Februari 2026</b>, telah ditentukan yang lolos tahap 2
-            sebagai berikut:
+            Setelah kami melakukan wawancara pada tanggal{" "}
+            <b> 25 - 27 Februari 2026</b>, telah ditentukan anggota baru
+            Monograph sebagai berikut:
           </p>
         </div>
         <SeleksiGrid
@@ -29,30 +29,26 @@ const Mono2026 = () => {
 
             [2, "Aura Crystal Santos", "X3"],
 
-            [3, "Graciella Fiorenza Thiesman", "X4"],
+            [3, "Caitlyn Abigail", "X5"],
+            [4, "Dasha Riani Pasaribu", "X5"],
+            [5, "Nomi Widjaja", "X5"],
+            [6, "Ellanor Jovanka Huang", "X5"],
 
-            [4, "Caitlyn Abigail", "X5"],
-            [5, "Dasha Riani Pasaribu", "X5"],
-            [6, "Nomi Widjaja", "X5"],
-            [7, "Ellanor Jovanka Huang", "X5"],
+            [7, "Ceravine Schneider So", "X6"],
 
-            [8, "Ceravine Schneider So", "X6"],
+            [8, "Stella Tristiana Widjaja", "XI3"],
 
-            [9, "Stella Tristiana Widjaja", "XI3"],
+            [9, "Alika Dylan Budiman", "XI4"],
 
-            [10, "Alika Dylan Budiman", "XI4"],
+            [10, "Eunike Alexandra", "XI5"],
 
-            [11, "Eunike Alexandra", "XI5"],
-
-            [12, "Jessica Aurellia Parman", "XI8"],
-
-            [13, "Keiko Kanaya Manli", "XI9"],
+            [11, "Jessica Aurellia Parman", "XI8"],
           ]}
         ></SeleksiGrid>
       </div>
       <section className="max-w-3xl py-10 mx-auto font-serif leading-relaxed">
         {/* Date */}
-        <p className="px-10 text-right">Jakarta, 23 Februari 2026</p>
+        <p className="px-10 text-right">Jakarta, 1 Maret 2026</p>
 
         {/* Menyetujui */}
         <p className="mt-24 text-center">Mengetahui,</p>

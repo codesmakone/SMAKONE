@@ -17,8 +17,6 @@ const OSIS_10 = () => {
       <OsisTeam
         bidang="Bidang 10"
         desc="Bidang Pembinaan Komunikasi dalam Bahasa Inggris"
-
-
         person1={
           <BidangSection
             img={Ivana}
@@ -62,18 +60,24 @@ const OSIS_10 = () => {
         Description={true}
         DescBid="Bidang 10 adalah bidang yang berperan dalam pembinaan komunikasi dalam Bahasa Inggris. Bidang kami mendorong warga SMAK 1 Penabur untuk menggunakan Bahasa Inggris dalam wilayah sekolah terutama dengan program English Day. Melalui program-program lain seperti One Feed, One FM dan SEED, kami juga berusaha untuk meningkatkan kemampuan warga Smak 1 dalam mendengar, memahami dan berbicara dalam Bahasa Inggris."
         Program={true}
-        ProgramList={
-          [
-            //PENDING
-            'SEED - Suatu acara yang dijalankan dengan memakai Bahasa Inggris. Melalui SEED, kita mendorong siswa/i Smak 1 untuk mendengarkan dan berinteraksi dengan Bahasa Inggris.',
-            'One FM - Bidang 10 memanfaatkan sarana radio sekolah dan memilih beberapa siswa/i untuk menjadi pembawa radio sekolah, dimana mereka bisa memutar lagu dan berbincang-bincang dalam bahasa Inggris. Program ini dijalankan setiap hari Rabu di jam istirahat kedua.',
-            'NEST - Poster dengan terjemahan bahasa Inggris yang dipajang di dinding toilet untuk meningkatkan literasi bahasa Inggris siswa-siswi.',
-            'English Day, English Day merupakan program yang dilaksanakan secara rutin setiap hari Rabu dan Jumat dimana seluruh warga SMAK 1 dihimbau untuk menggunakan Bahasa Inggris dalam proses belajar-mengajarnya. Bahasa Inggris diterapkan pada doa dan renungan pagi, salam guru, proses pengajar oleh guru, serta percakapan sehari-hari antar warga SMAK 1',
-            'Smukiez Lounge - Memberi kesempatan bagi siswa-siswi untuk memanfaatkan waktu istirahatnya dengan bermain board games yang berbasis bahasa Inggris, agar dapat membantu dalam meningkatkan skill komunikasi bahas Inggris',
-            'Literacy Club - Klub yang berfokus dalam membaca buku, menonton film, dan menulis ulasan buku & film yang akan diunggah di akun instagram REVER1E',
-          ]
-        }
+        ProgramList={[
+          //PENDING
+          "SEED - Program kegiatan yang dijalankan menggunakan Bahasa Inggris untuk mendorong siswa-siswi SMAK 1 mendengarkan serta berinteraksi aktif dalam Bahasa Inggris.",
 
+          "One FM - Program Bidang 10 yang memanfaatkan radio sekolah dengan memilih beberapa siswa sebagai penyiar untuk memutar lagu dan berbincang dalam Bahasa Inggris. Program ini dilaksanakan setiap hari Rabu pada jam istirahat kedua.",
+
+          "NEST - Poster berisi terjemahan Bahasa Inggris yang dipajang di dinding toilet sekolah untuk meningkatkan literasi Bahasa Inggris siswa-siswi.",
+
+          "English Day - Program rutin yang dilaksanakan setiap hari Rabu dan Jumat, di mana seluruh warga SMAK 1 dihimbau menggunakan Bahasa Inggris dalam proses belajar mengajar, termasuk doa dan renungan pagi, salam guru, kegiatan pembelajaran, serta percakapan sehari-hari.",
+
+          "Smukiez Lounge - Program yang memberikan kesempatan bagi siswa-siswi memanfaatkan waktu istirahat dengan bermain board games berbasis Bahasa Inggris guna meningkatkan kemampuan komunikasi dalam Bahasa Inggris.",
+
+          "Literacy Club - Klub yang berfokus pada kegiatan membaca buku, menonton film, serta menulis ulasan buku dan film yang kemudian diunggah pada akun Instagram REVER1E.",
+
+          "The Book Nook - Acara yang menghadirkan beberapa toko buku ke SMAK 1 untuk menjual buku yang dapat dibeli oleh siswa-siswi.",
+
+          "English Hour - Kegiatan bulanan di mana seluruh siswa-siswi membaca buku berbahasa Inggris pada jam literasi.",
+        ]}
         dirHome={true}
       />
     </div>
