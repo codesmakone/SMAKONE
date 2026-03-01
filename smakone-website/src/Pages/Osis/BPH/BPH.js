@@ -48,7 +48,7 @@ i hobi banget nonton rom-comssss terutama yang 90s-2000s (happy gilmore iloveu..
             desc="Hey heyy!!👋🏻 Kenalin aku Catherine Hannalie, biasa dipanggil sin”/ sin kuadrat/ sincostan. Tahun ini aku diberi kesempatan buat jadi bendahara OSIS. In my free times, aku suka baking, listening to music (CAS especially), dan tentunya SHOPPING 😉😉. Fun fact about me : I like discovering and trying new things so kalau kalian ada news atau something yang bisa naikin adrenaline and dopamine levels, BOLEH BANGETT buat hit me up @catherinehannalie on ig!! Good luck in smukie y’all‼️"
           />
         }
-        person4={
+        person5={
           <BidangSection
             img={Mudit}
             alt="Mudit"
@@ -59,7 +59,7 @@ kalo mauu ngobrol ngobroll or if you have any film recs, feel free to hmu @mudit
 "
           />
         }
-        person5={
+        person4={
           <BidangSection
             img={Mimi}
             alt="Mimi"

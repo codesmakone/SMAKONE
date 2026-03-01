@@ -8,7 +8,7 @@ import OsisTeam from "../../../Component/Osis/OsisTeam";
 import Arabelle from "../../../Image/Osis/Bidang_3/Arabelle.PNG";
 import Carlton from "../../../Image/Osis/Bidang_3/Carlton.jpg";
 import Bianca from "../../../Image/Osis/Bidang_3/Bianca.jpg";
-import Vincent from "../../../Image/Osis/Bidang_3/Vincent.jpg"
+import Vincent from "../../../Image/Osis/Bidang_3/Vincent.jpg";
 
 const OSIS_3 = () => {
   return (
@@ -24,7 +24,7 @@ const OSIS_3 = () => {
             desc="hallo semuaa, perkenalkan aku Bianca atau bisa dipanggil bibii juga. Pada tahun ini aku berkesempatan untuk menjadi koordinator bidang 3. Fun fact dikit tentang hobby aku, aku suka dance dari kecil dan aku sekarang anggota seren1ty, selain dance aku juga suka diving & hiking. Kalau kalian mau tanya-tanya atau temenan sama aku.. bisa langsung aja dm ig aku di @biancasoetopo_ see you guys in smukiee!!!"
           />
         }
-        person2={
+        person3={
           <BidangSection
             img={Arabelle}
             alt="Arabelle Soetarso"
@@ -32,7 +32,7 @@ const OSIS_3 = () => {
             desc="Stroberi mangga apel, hi semuanyaa! Kenalin nama aku Arabelle biasa dipanggil abel 👋. Tahun ini aku di beri kesempatan menjadi anggota di bidang 3️⃣!! Hobi aku nonton film, dengerin lagu, tidur, makan, sama main game angangang 🤣. Kalo mau tanya2 tentang apapun itu ato mau temenan sama aku boleh bgt chat ig aku yeaa @arabelle.ss 💜 have fun in smukie!!"
           />
         }
-        person3={
+        person2={
           <BidangSection
             img={Vincent}
             alt="Vincent Valentino"
@@ -40,16 +40,14 @@ const OSIS_3 = () => {
             desc="Halo... perkenalkan aku Vincent. Puji Tuhan tahun ini aku menjabat sebagai anggota OSIS bidang 3... Hobi aku berolahraga seperti bulutangkis. Kalo mau contact aku bisa contact aku di ig @vincent.v188. Thanks and have fun in smukie."
           />
         }
-
         person4={
           <BidangSection
-             img={Carlton}
-             alt="Carlton Invanio"
-             name="Carlton Invanio"
-             desc="Halo semua, perkenalkan saya Carlton Invanio. I orang yang very open-minded, dan everything is my hobby dan I suka coba-coba hal baru, apalagi yang belum pernah I coba. I juga suka nonton film, anime, YT ama baca buku. My MBTI is ENTJ dan I suka nebak MBTI orang punya. Kalo mau tanya apapun bisa dm di IG I @carltoninvanio, see you..."
-           />
+            img={Carlton}
+            alt="Carlton Invanio"
+            name="Carlton Invanio"
+            desc="Halo semua, perkenalkan saya Carlton Invanio. I orang yang very open-minded, dan everything is my hobby dan I suka coba-coba hal baru, apalagi yang belum pernah I coba. I juga suka nonton film, anime, YT ama baca buku. My MBTI is ENTJ dan I suka nebak MBTI orang punya. Kalo mau tanya apapun bisa dm di IG I @carltoninvanio, see you..."
+          />
         }
-
         Description={true}
         DescBid="Bidang 3 adalah bidang yang bertanggung jawab dalam kegiatan-kegiatan yang bertujuan untuk melatih dan mengembangkan kepribadian dan wawasan kebangsaan peserta didik serta menumbuhkan sikap bela negara. Pengembangan tersebut kami jalankan melalui program-program yang kami adakan seperti Perayaan-perayaan Hari Nasional, Pasukan Pengibar Bendera (Paskibra), Pramuka, dan berbagai program lainnya yang dapat menanamkan rasa cinta tanah air dalam diri peserta didik SMAK 1."
         Program={true}
