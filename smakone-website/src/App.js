@@ -33,7 +33,6 @@ import OneFM from "./Pages/Osis/ListKepanitiaan/onefm2025.js";
 import Sapxsms25 from "./Pages/Osis/ListKepanitiaan/sapxsms2025.js";
 import Sapext25 from "./Pages/Osis/ListKepanitiaan/sapextend25.js";
 import Sog25 from "./Pages/Osis/ListKepanitiaan/sog25.js";
-import ShutterOne25 from "./Pages/Osis/ListKepanitiaan/shutterOne25.js";
 import TOS25 from "./Pages/Osis/ListKepanitiaan/TOS25.js";
 import Literasi25 from "./Pages/Osis/ListKepanitiaan/literasi25.js";
 import Tedx25 from "./Pages/Osis/ListKepanitiaan/tedx25.js";
@@ -108,6 +107,7 @@ import OneMUN from "./Pages/Clubs/OneMUN/OneMUN";
 import OneJournal from "./Pages/Clubs/OneJournal/OneJournal";
 import OneAID from "./Pages/Clubs/OneAID";
 import Mask from "./Pages/Clubs/Mask/Mask";
+import Mask2026 from "./Pages/Osis/ListKepanitiaan/Mask2026.js";
 
 function App() {
   return (
@@ -194,7 +194,7 @@ function App() {
         <Route path="/OSIS/onefm2025" element={<OneFM />} />
         <Route path="/OSIS/sapxsms2025" element={<Sapxsms25 />} />
         <Route path="/OSIS/sapxsms2025-extended" element={<Sapext25 />} />
-        <Route path="/OSIS/tahap3-shutterone2025" element={<ShutterOne25 />} />
+        <Route path="/OSIS/mask2026" element={<Mask2026 />} />
         <Route path="/OSIS/seleksi-codeone2026" element={<CodeOne26 />} />
         <Route path="/OSIS/seleksi-monograph2026" element={<Mono2026 />} />
         <Route path="/OSIS/tahap-final-TOS25" element={<TOS25 />} />
