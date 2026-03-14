@@ -29,6 +29,7 @@ const CodeOne26 = () => {
             [2, "Natasha Zheng", "X4"],
             [3, "Zefanya Michael Purnomo", "XI5"],
             [4, "Darlenne Steven", "XI4"],
+            [4, "Darlenne Steven", "XI4"],
           ]}
         ></SeleksiGrid>
       </div>
