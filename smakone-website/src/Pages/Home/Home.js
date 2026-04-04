@@ -34,9 +34,9 @@ const Home = () => {
   return (
     <div>
       <Nav carouselCurrentSlide={carouselCurrentSlide} />
-      {/* <div className="col-span-6 flex flex-col justify-start text-left pt-24 bg-slate-400 "> */}
-      <div className="col-span-6 flex flex-col justify-start text-left mt-28">
-        <div className="px-5 md:px-10 lg:px-16 xl:px-20 pt-10 lg:pt-20 pb-12  md:pb-24 lg:pb-24 xl:pb-44">
+      {/* <div className="flex flex-col justify-start col-span-6 pt-24 text-left bg-slate-400 "> */}
+      <div className="flex flex-col justify-start col-span-6 text-left mt-28">
+        <div className="px-5 pt-10 pb-12 md:px-10 lg:px-16 xl:px-20 lg:pt-20 md:pb-24 lg:pb-24 xl:pb-44">
           {/* uncomment the 2 carousel segments to enable */}
           {/* <Carousel
           autoPlay={true}
@@ -73,30 +73,30 @@ const Home = () => {
             <h1 className="text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black">
               We are SMAK 1's OSIS
             </h1>
-            <h4 className="text-base xl:text-2xl lg:text-xl sm:text-xl font-bold">
+            <h4 className="text-base font-bold xl:text-2xl lg:text-xl sm:text-xl">
               Sekolah terbaik dengan siswa-siswi yang berprestasi
             </h4>
           </div>
 
           {/* we are smak 1 osis old ver */}
-          {/* <div className="px-5 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-12 md:pb-24 lg:pb-24 xl:pb-44">
+          {/* <div className="px-5 pt-32 pb-12 md:px-10 lg:px-16 xl:px-20 lg:pt-44 md:pb-24 lg:pb-24 xl:pb-44">
             <h1 className="text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black">
               We are SMAK 1's OSIS
             </h1>
-            <h4 className="text-base xl:text-2xl lg:text-xl sm:text-xl font-bold">
+            <h4 className="text-base font-bold xl:text-2xl lg:text-xl sm:text-xl">
               Sekolah terbaik dengan siswa-siswi yang berprestasi
             </h4>
           </div> */}
 
-          {/* <div className="px-5 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-12 md:pb-24 lg:pb-24 xl:pb-45">
+          {/* <div className="px-5 pt-32 pb-12 md:px-10 lg:px-16 xl:px-20 lg:pt-44 md:pb-24 lg:pb-24 xl:pb-45">
             <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[3.5rem] font-black leading-tight">ALL NEW 10<sup>th</sup> GRADERS</h1>
             <div className="mt-10">
-              <Link to="/BukuAcara" target="blank" className="hover:bg-gray-700 text-white bg-black font-bold rounded-full text-md sm:text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2">
+              <Link to="/BukuAcara" target="blank" className="px-6 py-2 mb-2 mr-2 font-bold text-center text-white bg-black rounded-full hover:bg-gray-700 text-md sm:text-xl lg:text-2xl md:px-8 lg:px-10 xl:px-12 lg:py-3">
                 CLICK HERE
               </Link>
             </div>
           </div  */}
-          {/* <div className="mt-2 md:mt-3 flex flex-col gap-5">
+          {/* <div className="flex flex-col gap-5 mt-2 md:mt-3">
             <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[3.5rem] font-black leading-tight">
               ALL NEW 10<sup>th</sup> GRADERS
             </h1>
@@ -104,7 +104,7 @@ const Home = () => {
               <Link
                 to="/BukuAcara"
                 target="blank"
-                className="hover:bg-gray-700 text-white bg-black font-bold rounded-full text-md sm:text-xl lg:text-2xl px-6 md:px-8 lg:px-10 xl:px-12 py-2 lg:py-3 text-center mr-2 mb-2"
+                className="px-6 py-2 mb-2 mr-2 font-bold text-center text-white bg-black rounded-full hover:bg-gray-700 text-md sm:text-xl lg:text-2xl md:px-8 lg:px-10 xl:px-12 lg:py-3"
               >
                 CLICK HERE
               </Link>
@@ -113,7 +113,7 @@ const Home = () => {
         </div>
 
         {/* HUT 75 SMAK 1 */}
-        <div
+        {/* <div
           style={{
             "--image-url": `url(${stn_splash})`,
             "--image-url-mobile": `url(${stn_splash_mobile})`,
@@ -121,10 +121,10 @@ const Home = () => {
           className="px-8 md:px-10 lg:px-16 xl:px-20 pt-32 lg:pt-44 pb-16 xl:pb-24 bg-[image:var(--image-url-mobile)] md:bg-[image:var(--image-url)] bg-cover bg-top"
         >
           <article className="text-left w-[300px] md:w-[300px] lg:w-[450px] xl:w-[600px]">
-            <h1 className="text-3xl lg:text-5xl xl:text-6xl font-black underline text-white">
+            <h1 className="text-3xl font-black text-white underline lg:text-5xl xl:text-6xl">
               HUT KE-75 SMAK 1
             </h1>
-            <h5 className="text-lg lg:text-xl xl:text-2xl font-normal leading-snug text-white space">
+            <h5 className="text-lg font-normal leading-snug text-white lg:text-xl xl:text-2xl space">
               SMAK 1 merayakan 75 tahun iman, pembelajaran, dan warisan dalam
               reuni akbar yang menyatukan alumni dari generasi pertama hingga
               siswa masa kini. <br />
@@ -135,32 +135,30 @@ const Home = () => {
               </span>
             </h5>
           </article>
-          {/* LINK TO OTHER PAGE
           <Link to="/Kegiatan/sapxsnm">
             <button className="bg-white mt-12 lg:mt-16 xl:mt-20 px-8 lg:px-10 xl:px-12 py-1 lg:py-1.5 xl:py-2 rounded-full font-bold text-2xl lg:text-3xl xl:text-4xl">
               Learn More
             </button>
-          </Link> */}
-          {/* LINK TO OTHER WEB */}
+          </Link>
           <button
             onClick={() => window.open("http://75smak1.hallayak.com", "_blank")}
             className="bg-white mt-12 lg:mt-16 xl:mt-20 px-8 lg:px-10 xl:px-12 py-1 lg:py-1.5 xl:py-2 rounded-full font-bold text-2xl lg:text-3xl xl:text-4xl"
           >
             Click Here
           </button>
-        </div>
+        </div> */}
       </div>
 
-      {/* <div className=' text-black w-full h-auto px-3 pt-12 xl:pb-10'>
+      {/* <div className='w-full h-auto px-3 pt-12 text-black  xl:pb-10'>
         <div className='container mx-auto'>
-            <div className='justify-center  text-center font-bold mb-12 px-3 '>
+            <div className='justify-center px-3 mb-12 font-bold text-center '>
               <div className='text-3xl sm:text-4xl md:text-5xl xl:text-[4.5rem] pb-10 '>
                   <div>30 September 2022</div>
-                  <div className="text-xl sm:text-3xl xl:text-5xl font-bold">Smukiez Theatre Night</div>
+                  <div className="text-xl font-bold sm:text-3xl xl:text-5xl">Smukiez Theatre Night</div>
               </div>
-              <div className="container mx-auto flex flex-col lg:flex-row xl:mt-16 lg:mt-4">
+              <div className="container flex flex-col mx-auto lg:flex-row xl:mt-16 lg:mt-4">
                     <img src={ STN } className="md:mx-36 lg:mx-[0.1rem] object-cover w-full md:h-[26rem] md:w-[26rem] lg:h-[30rem] lg:w-full xl:h-[30rem] rounded-2xl"alt={ STN } />
-                  <div className="ml-0 md:ml-8 lg:ml-12 md:mr-8 lg:mr-10 xl:mr-8 mt-4 sm:mt-8 md:mt-10 lg:mt-4 xl:mt-2 mx-auto">
+                  <div className="mx-auto mt-4 ml-0 md:ml-8 lg:ml-12 md:mr-8 lg:mr-10 xl:mr-8 sm:mt-8 md:mt-10 lg:mt-4 xl:mt-2">
                       <div className="text-xl md:text-[1.4rem] lg:text-lg xl:text-2xl font-medium text-justify flex flex-col gap-4 xl:mt-6">
                         <div>
                         Di sebuah desa, ada seorang pemuda yang tangguh dan dapat selalu diandalkan penduduk desanya. Pada suatu saat, Ia bertemu bidadari dan kemudian mengambil selendang miliknya untuk disimpan. Sebuah babak baru dari kehidupan sang pemuda akan segera di mulai!
@@ -172,8 +170,8 @@ const Home = () => {
                           Bersiap dan nantikanlah penjualan tiket untuk menyaksikan penampilan STN pada tanggal 30 September 2022!!
                         </div>
                       </div>
-                      <div className="text-lg lg:text-xl mt-8 sm:mt-12 lg:mt-14 xl:mt-12">
-                        <a href="https://tickets.smakone.org/" target="blank" className="text-center py-4 lg:py-3 xl:py-4 px-12 lg:px-10 xl:px-12 bg-dark-blue hover:bg-dark-blue-hover rounded-full text-white text-xl ">
+                      <div className="mt-8 text-lg lg:text-xl sm:mt-12 lg:mt-14 xl:mt-12">
+                        <a href="https://tickets.smakone.org/" target="blank" className="px-12 py-4 text-xl text-center text-white rounded-full lg:py-3 xl:py-4 lg:px-10 xl:px-12 bg-dark-blue hover:bg-dark-blue-hover ">
                           <button >Beli tiket di sini</button>
                         </a>
                       </div>
@@ -185,7 +183,7 @@ const Home = () => {
                   <img src={STN} alt="STN" className="rounded-xl"/>
                 </div>
                 <div className="mt-10 ">
-                  <button className="text-center py-4 lg:py-5 px-12 lg:px-16 bg-dark-blue hover:bg-dark-blue-hover rounded-full text-white text-xl ">
+                  <button className="px-12 py-4 text-xl text-center text-white rounded-full lg:py-5 lg:px-16 bg-dark-blue hover:bg-dark-blue-hover ">
                     <a href="https://tickets.smakone.org/" target="blank">Buy Tickets Here</a>
                   </button>
                 </div>
@@ -194,20 +192,20 @@ const Home = () => {
       </div> */}
 
       <div
-        className="bg-dark-blue w-full h-auto  text-white px-3 py-24"
+        className="w-full h-auto px-3 py-24 text-white bg-dark-blue"
         id="Alasan"
       >
         <div className="container mx-auto">
-          <div className="justify-center text-white text-center font-bold mb-12 px-3 sm:px-12 md:px-24 lg:px-32 xl:px-40">
-            <div className="text-white mb-5 content-center text-lg">
+          <div className="justify-center px-3 mb-12 font-bold text-center text-white sm:px-12 md:px-24 lg:px-32 xl:px-40">
+            <div className="content-center mb-5 text-lg text-white">
               Dengar dari SMUKIERS
             </div>
-            <div className="text-white text-2xl sm:text-3xl lg:text-4xl xl:text-5xl leading-normal">
+            <div className="text-2xl leading-normal text-white sm:text-3xl lg:text-4xl xl:text-5xl">
               <div>Dengar Alasan Mengapa</div>
               <div>Mereka Bersekolah di SMAK 1</div>
             </div>
           </div>
-          <div className="grid grid-cols-none md:grid-cols-2 xl:grid-cols-4 lg:grid-rows-none justify-items-center gap-3 mt-12">
+          <div className="grid grid-cols-none gap-3 mt-12 md:grid-cols-2 xl:grid-cols-4 lg:grid-rows-none justify-items-center">
             <AlasanCard
               img={Edward}
               alt="Edward Rusli"
@@ -236,32 +234,32 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="w-full h-auto mt-8 px-3 py-16">
+      <div className="w-full h-auto px-3 py-16 mt-8">
         <div className="container mx-auto">
-          <div className="grid sm:grid-rows-2 grid-cols-none lg:grid-cols-2 lg:grid-rows-none">
-            <div className="pl-12 lg:pl-20 pr-12 mt-14 mx-auto rounded-lg">
+          <div className="grid grid-cols-none sm:grid-rows-2 lg:grid-cols-2 lg:grid-rows-none">
+            <div className="pl-12 pr-12 mx-auto rounded-lg lg:pl-20 mt-14">
               <img
                 src={Lobby_SMAK1}
                 alt="Lobby_SMAK1"
-                className="sm:h-auto w-full rounded-3xl justify-center lg:justify-end"
+                className="justify-center w-full sm:h-auto rounded-3xl lg:justify-end"
               />
             </div>
             <div className="container mx-auto mt-10 sm:mt-0">
-              <div className="text-4xl md:text-5xl xl:text-6xl leading-normal font-bold pl-14 sm:pl-20 sm:pt-12 lg:pt-8">
+              <div className="text-4xl font-bold leading-normal md:text-5xl xl:text-6xl pl-14 sm:pl-20 sm:pt-12 lg:pt-8">
                 <div>Kenapa SMAK 1?</div>
               </div>
-              <div className="px-14 mr-2 pt-2 sm:pt-10">
+              <div className="pt-2 mr-2 px-14 sm:pt-10">
                 <Checklist txt="Sekolah swasta nomor 1 di Jakarta berdasarkan nilai UTBK 2021" />
                 <Checklist txt="Alumni SMAK 1 tersebar di seluruh dunia" />
                 <Checklist txt="Sudah dikenal sampai ke mancanegara" />
               </div>
-              <div className="grid px-10 lg:px-20 pt-10 place-items-center">
+              <div className="grid px-10 pt-10 lg:px-20 place-items-center">
                 <a
                   href="https://psbjakarta.bpkpenabur.or.id"
-                  className="px-3 py-2 text-white text-base sm:text-lg md:text-xl font-black"
+                  className="px-3 py-2 text-base font-black text-white sm:text-lg md:text-xl"
                   target="blank"
                 >
-                  <button className="py-4 lg:py-5 px-12 lg:px-16 bg-dark-blue hover:bg-dark-blue-hover rounded-full">
+                  <button className="px-12 py-4 rounded-full lg:py-5 lg:px-16 bg-dark-blue hover:bg-dark-blue-hover">
                     Daftar Sekarang
                   </button>
                 </a>
@@ -271,22 +269,22 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-dark-blue w-full h-auto mt-16 text-white px-3 py-24">
+      <div className="w-full h-auto px-3 py-24 mt-16 text-white bg-dark-blue">
         <FeatEmagz />
       </div>
 
       <div
-        className="w-full h-auto text-black px-6 sm:px-16 py-20 sm:py-28 xl:py-32"
+        className="w-full h-auto px-6 py-20 text-black sm:px-16 sm:py-28 xl:py-32"
         id="kegiatan"
       >
         <div className="container mx-auto">
-          <div className="justify-center text-center font-bold px-3 sm:px-12 md:px-24 lg:px-32 xl:px-40">
-            <div className="mb-5 content-center text-lg">Kegiatan</div>
-            <div className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl leading-normal">
+          <div className="justify-center px-3 font-bold text-center sm:px-12 md:px-24 lg:px-32 xl:px-40">
+            <div className="content-center mb-5 text-lg">Kegiatan</div>
+            <div className="text-2xl leading-normal sm:text-3xl lg:text-4xl xl:text-5xl">
               <div>Seputar Kegiatan di SMAK 1</div>
             </div>
           </div>
-          <div className="justify-items-center gap-3 mt-8">
+          <div className="gap-3 mt-8 justify-items-center">
             <Kegiatan
               img={soc}
               title="Smakonecup"
@@ -310,15 +308,15 @@ const Home = () => {
       </div>
 
       <div
-        className="w-full h-auto text-white bg-dark-blue px-6 sm:px-16 py-20 sm:py-28 xl:py-32"
+        className="w-full h-auto px-6 py-20 text-white bg-dark-blue sm:px-16 sm:py-28 xl:py-32"
         id="Kehidupan"
       >
         <div className="container mx-auto">
-          <div className="justify-center text-center font-bold mb-3 sm:mb-12 px-3 sm:px-12 md:px-24 lg:px-32 xl:px-40">
-            <div className="mb-5 content-center text-lg">
+          <div className="justify-center px-3 mb-3 font-bold text-center sm:mb-12 sm:px-12 md:px-24 lg:px-32 xl:px-40">
+            <div className="content-center mb-5 text-lg">
               Kehidupan SMUKIERS
             </div>
-            <div className="text-white text-2xl sm:text-3xl lg:text-4xl xl:text-5xl  leading-normal">
+            <div className="text-2xl leading-normal text-white sm:text-3xl lg:text-4xl xl:text-5xl">
               <div>Cari Tahu Seluk Beluk Kehidupan</div>
               <div>Murid-murid SMAK 1</div>
             </div>

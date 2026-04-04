@@ -39,6 +39,7 @@ import Tedx25 from "./Pages/Osis/ListKepanitiaan/tedx25.js";
 import Tedxs25 from "./Pages/Osis/ListKepanitiaan/tedxs.js";
 import Osis26 from "./Pages/Osis/ListKepanitiaan/osis26.js";
 import CodeOne26 from "./Pages/Osis/ListKepanitiaan/codeone2026.js";
+import TestClub2026 from "./Pages/Osis/ListKepanitiaan/testclub2026.js";
 import Mono2026 from "./Pages/Osis/ListKepanitiaan/monograph2026.js";
 
 import Emagz from "./Pages/Emagz/Emagz";
@@ -196,6 +197,7 @@ function App() {
         <Route path="/OSIS/sapxsms2025-extended" element={<Sapext25 />} />
         <Route path="/OSIS/mask2026" element={<Mask2026 />} />
         <Route path="/OSIS/seleksi-codeone2026" element={<CodeOne26 />} />
+        <Route path="/OSIS/seleksi-testclub" element={<TestClub2026 />} />
         <Route path="/OSIS/seleksi-monograph2026" element={<Mono2026 />} />
         <Route path="/OSIS/tahap-final-TOS25" element={<TOS25 />} />
         <Route path="/OSIS/sog2025" element={<Sog25 />} />
