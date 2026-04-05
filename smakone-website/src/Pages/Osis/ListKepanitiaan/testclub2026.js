@@ -7,19 +7,18 @@ import Nav from "../../../Component/Nav/Nav";
 import Footer from "../../../Component/Footer/Footer";
 import SeleksiGrid from "../../../Component/Osis/SeleksiGrid";
 
-const CodeOne26 = () => {
+const TestClub2026 = () => {
   return (
     <div>
       <Nav />
       <div className="mx-auto mt-28">
         <h1 className="mb-20 text-4xl font-black text-center sm:text-4xl md:text-5xl xl:text-5xl">
-          Hasil Seleksi Tahap 2 CodeOne 2026
+          Hasil club codeone yes
         </h1>
         <div className="flex flex-col items-center">
           <p className="w-3/4 text-left ">
-            Setelah kami melakukan seleksi selama 2 hari pada{" "}
-            <b> 9 - 10 Februari 2026</b>, telah ditentukan anggota baru CodeOne
-            sebagai berikut:
+            sadsafdsa selama 2 hari pada <b> 9 - 10 Februari 2026</b>, telah
+            ditentukan anggota baru CodeOne sebagai berikut:
           </p>
         </div>
         <SeleksiGrid
@@ -58,4 +57,4 @@ const CodeOne26 = () => {
   );
 };
 
-export default CodeOne26;
+export default TestClub2026;
