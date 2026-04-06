@@ -1,112 +1,99 @@
-# Dokumentasi Proyek Website SMAKONE
-_SMAKONE Website Project Documentation_
+<div align="justify">
 
-Proyek ini adalah repositori situs web resmi untuk **OSIS SMAK 1 PENABUR Jakarta**.
-Alamat: Jl. Tanjung Duren Raya No.4, RT.12/RW.2, Tj. Duren Utara, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470.
+# SMAKONE Website Project Documentation
 
-Dokumentasi ini menyediakan panduan komprehensif terkait arsitektur, instalasi, *testing*, infrastruktur, dan proses *deployment* untuk proyek website SMAKONE. Bahasa utama yang digunakan dalam dokumentasi ini adalah Bahasa Indonesia (dengan pengecualian istilah teknis standar), beserta terjemahan Bahasa Inggris yang menyertai setiap bagian untuk memfasilitasi kolaborasi multinasional.
+This project serves as the official digital headquarters and active web repository for the **Student Council of SMAK 1 PENABUR Jakarta** (OSIS SMAK 1 PENABUR Jakarta). 
+**Official Site Address:** Jl. Tanjung Duren Raya No.4, RT.12/RW.2, Tj. Duren Utara, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470.
 
-_This project is the official website repository for the Student Council of SMAK 1 PENABUR Jakarta. 
-Address: Jl. Tanjung Duren Raya No.4, RT.12/RW.2, Tj. Duren Utara, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470._
-
-_This documentation provides a comprehensive guide regarding the architecture, installation, testing, infrastructure, and deployment processes for the SMAKONE website project. The primary language used in this documentation is Indonesian (with the exception of standard technical terms), along with an accompanying English translation for each section to facilitate multinational collaboration._
+This documentation serves as a continuously updated, comprehensive set of guidelines pertaining to the system architecture, foundational installation guidelines, automated testing strategies, underlying cloud infrastructure, and exact deployment methodologies constructed specifically for the SMAKONE website project. To maximize seamless integration and promote friction-free code contributions from remote developers operating across multinational boundaries, this documentation is standardized entirely in English.
 
 ---
 
 ## 1. System Overview
-_1. System Overview_
 
-Website SMAKONE dibangun sebagai platform informasi dan interaksi digital utama bagi komunitas sekolah. Proyek ini diimplementasikan menggunakan *tech stack* modern yang berfokus pada kecepatan, skalabilitas, dan kemudahan dalam *maintenance*. *Source code* menstrukturkan pemisahan tanggung jawab (*separation of concerns*) secara logis, memungkinkan pengembang untuk bekerja secara paralel tanpa memicu konflik kode (*merge conflict*) yang berarti.
+The SMAKONE website is meticulously engineered to function as the predominant information hub and core digital interaction platform catering to the expansive school community, including active students, faculty members, and external visitors. This extensive project is conceptually driven and successfully implemented utilizing a strictly modern technology stack heavily focused on maximizing page load speed metrics, ensuring massive concurrent scalability, and streamlining ease of overarching long-term codebase maintenance. 
 
-_The SMAKONE website is built as the primary information and digital interaction platform for the school community. This project is implemented using a modern tech stack focused on speed, scalability, and ease of maintenance. The source code logically structures the separation of concerns, allowing developers to work in parallel without triggering significant merge conflicts._
+The underlying source code architecture logically structures the strict separation of concerns, strategically scattering programmatic burdens across various domains. This systematic paradigm inherently empowers multiple frontend and backend developers to concurrently push high-velocity feature deployments within parallel sprints without triggering complex structural merge conflicts or jeopardizing the overall framework stability.
 
 ---
 
 ## 2. Documentation Hub
-_2. Documentation Hub_
 
-Untuk menjaga halaman utama ini agar tetap rapi, rincian mendalam mengenai struktur *User Interface* (UI) dan arsitektur *layout* telah dipisahkan ke dalam direktori independen. Silakan merujuk ke tautan internal berikut untuk membaca panduan teknis yang lebih spesifik:
+To maintain the absolute clarity and concise readability of this primary introductory README page, exhaustive granular details regarding the complex User Interface (UI) structural designs, interactive component implementations, and layout architectural trees have been intentionally segregated into an independent centralized directory structure named `docs/`. 
 
-_To keep this main page organized, in-depth details regarding the User Interface (UI) structure and layout architecture have been separated into an independent directory. Please refer to the following internal links to read more specific technical guidelines:_
+Please refer to the following internal directory links to read highly specific technical documentation guidelines required for day-to-day development:
 
-*   **[Component Documentation](docs/components.md)**: Panduan lengkap mengenai rancangan, *props*, dan *reusability* dari elemen-elemen *User Interface* dasar (seperti *button*, *navbar*, dan *card* component). _(A complete guide regarding the design, props, and reusability of foundational User Interface elements such as buttons, navbars, and card components.)_
-*   **[Pages Documentation](docs/pages.md)**: Rincian arsitektur *routing*, komposisi halaman utama, dan logika navigasi yang mengikat berbagai komponen menjadi satu kesatuan (*view*). _(Details of the routing architecture, main page compositions, and navigation logic that bind various components into a unified view.)_
+*   **[Component Documentation](docs/components.md)**: A complete, rigorous guide dictating the overarching design systems, standardized data payload structures (props), and aggressive reusability requirements surrounding foundational User Interface elements (such as dynamic responsive buttons, global navigation bars, isolated footer sections, and repetitive data card grids).
+*   **[Pages Documentation](docs/pages.md)**: Complete details diving into the system's asynchronous routing architecture, main page structural compositions, asynchronous data-fetching procedures, and the specific navigation logic frameworks required to bind an assorted collection of fragmented foundational components into a singular, unified visual presentation view.
 
 ---
 
 ## 3. System Infrastructure
-_3. System Infrastructure_
 
-Infrastruktur proyek ini dirancang untuk mencapai keandalan maksimum dengan tingkat *latency* yang sangat rendah. Secara umum, aplikasi ini di-*build* ke dalam bentuk *static asset* yang mengoptimalkan distribusi secara global. Server dikonfigurasikan agar mampu merespons lonjakan jumlah pengunjung secara bersamaan melalui sistem *load balancing* standar industri, serta mekanisme *caching* otomatis di lapisan *Content Delivery Network (CDN)*. Seluruh aset multimedia dan berkas statis disimpan di lingkungan *cloud storage* untuk memastikan stabilitas jangka panjang.
+The operational cloud infrastructure supporting this intricate project is highly customized and engineered towards consistently maintaining maximum reliability combined with an exceptionally low latency performance baseline. In general operation, the completed web application is compiled sequentially into rigidly secure, minimized static asset formatting. This fundamentally optimizes the speed and scope of continuous payload content distribution targeted globally. 
 
-_The infrastructure of this project is designed to achieve maximum reliability with an extremely low latency level. Generally, the application is built into static assets formatting to optimize distribution globally. Servers are configured to respond to sudden spikes in concurrent visitors through industry-standard load balancing systems, as well as automatic caching mechanisms at the Content Delivery Network (CDN) layer. All multimedia assets and static files are hosted in a cloud storage environment to ensure long-term stability._
+Handling excessive network turbulence is crucial; therefore, assigned primary operational servers are dynamically configured to frictionlessly respond and immediately scale vertically to endure suddenly extreme exponential spikes in concurrent visitor web traffic. This is effectively accomplished through the heavy utilization of industry-standard load balancing algorithmic systems, running completely in tandem alongside automatic real-time caching optimization mechanisms embedded deeply at the global Content Delivery Network (CDN) structural layer. The entirety of the platform's multimedia assets, graphic banners, and static codebase files are entirely hosted within an exceptionally fast, highly redundant cloud storage environment to absolutely guarantee reliable, long-term ecosystem stability.
 
 ---
 
 ## 4. System Requirements & Local Installation
-_4. System Requirements & Local Installation_
 
-Sebelum memulai proses *development* lokal, pastikan seluruh persyaratan sistem telah terpenuhi. Anda harus menginstal Node.js dan *package manager* pada sistem operasi Anda. Instruksi eksekusi di bawah ini diwajibkan untuk dijalankan sebelum mengubah *source code* apa pun.
+Before completely initiating your localized physical development processes, you must rigorously ensure that all absolute primary system requirements have been sufficiently fulfilled. All developers must initially install a properly configured Node.js runtime environment coupled with a standardized package manager tool corresponding natively to the local hardware operating system in use. 
 
-_Before completely initiating the local development process, ensure all system requirements are met. You must install Node.js and a package manager on your operating system. The execution instructions below are mandatory to run prior to modifying any source code._
+The technical local execution instructions explicitly outlined below are definitively mandatory and must strictly be performed perfectly prior to manually attempting to analyze, modify, or extend any pre-existing project source code features.
 
-### Prerequisites (_Prerequisites_)
-1.  Node.js (versi LTS sangat direkomendasikan / _LTS version is highly recommended_).
-2.  NPM atau Yarn *package manager* (_NPM or Yarn package manager_).
-3.  Git untuk *version control* (_Git for version control_).
+### Prerequisites
+1.  **Node.js Framework** (Installing the absolute latest Long Term Support variant—LTS version—is universally, highly recommended to avoid complex environment desyncing inconsistencies).
+2.  **Package Manager** (You must utilize either NPM or the Yarn package manager dependency controller).
+3.  **Version Control System** (Git is undeniably required for repository fetching, branch checking, and version track controlling).
 
-### Panduan Menjalankan Lingkungan Lokal (_Local Environment Guide_)
-Jalankan deretan perintah berikut pada terminal lokal Anda:
-_Execute the following sequential commands on your local terminal:_
+### Local Environment Initialization Guide
+Execute the following sequential terminal commands securely directly on your target local hardware operating system interface terminal:
 
 ```bash
-# Clone repositori (Clone the repository)
-git clone <url-repositori>
+# Safely clone the remote project repository down to your private local drive
+git clone <repository-url-here>
 
-# Berpindah ke dalam working directory (Navigate to the working directory)
+# Successfully navigate the internal terminal directory structure specifically into the working directory
 cd smakone-website
 
-# Install seluruh dependencies yang diperlukan (Install all required dependencies)
+# Automatically fetch, resolve, and fully install all heavily required third-party system dependencies
 npm install
 
-# Menjalankan local development server (Start the local development server)
+# Forcefully boot and constantly run the continuous local development host server port
 npm start
 ```
 
 ---
 
 ## 5. Deployment Guide
-_5. Deployment Guide_
 
-Proses *deployment* sistem ke *environment production* dilakukan melalui jalur *Continuous Integration and Continuous Deployment (CI/CD)*. Langkah-langkah penyebaran kode baru diotorisasi hanya setelah *commit* terakhir tervalidasi di dalam *stage environment* pengujian atau di cabang *development* terpisah.
+The advanced system deployment procedure pushing features completely out toward the live public production environment is exclusively executed utilizing automated Continuous Integration and Continuous Deployment (CI/CD) automated pipeline strategies. Crucial physical steps deployed transitioning beta code straight into new live public environments are authorized exclusively after the absolute final codebase commit branch is heavily, successfully validated strictly within a dedicated pre-production testing staging environment alongside deep manual inspection conducted from a completely secluded sandbox development branch.
 
-_The system deployment process to the production environment is executed via a Continuous Integration and Continuous Deployment (CI/CD) pipeline. Steps to deploy new code are authorized exclusively after the final commit is validated within a testing staging environment or a separate development branch._
+The fundamental, rigid procedure guaranteeing a safe manual production local command-line build is detailed exactly as follows:
 
-Prosedur dasar untuk *build production* secara manual adalah sebagai berikut:
-_The fundamental procedure for a manual production build is as follows:_
-
-1.  Selalu *sync* *local branch* kontrol versi Anda dengan *commit* terakhir dari cabang `main`. _(Always sync your local version control branch with the latest commit from the main branch.)_
-2.  Gunakan perintah `npm run build` untuk menghasilkan bundel aset statis yang telah diminimalkan dan dibungkus untuk keperluan *production*. _(Execute the `npm run build` command to generate minimized static asset bundles wrapped for production purposes.)_
-3.  Ekstrak direktori `build/` yang dihasilkan oleh *build process*. _(Extract the `build/` directory generated by the build process.)_
-4.  Upload seluruh isi direktori `build/` secara aman (menggunakan SFTP atau SSH) menuju ke server *production*, pastikan direktori ditempatkan sesuai pada *public output path* server agar dapat terekspos. _(Securely upload all contents within the `build/` directory using SFTP or SSH to the production server, ensuring the directory is appropriately placed on the server's public output path to be exposed.)_
+1.  Thoroughly sync and systematically update your native local version control targeted branch directly against the most up-to-date final commit merged safely arriving from the primary origin `main` source branch.
+2.  Aggressively execute the standard `npm run build` command trigger inside the terminal in order to automatically compile, optimize, generate, and systematically minify a complete static overarching asset bundle completely protected and packaged suitably restricted purely for heavy public HTTP production purposes.
+3.  Isolate, extract, and target the specific `build/` root output directory newly generated securely via the system's webpack compiler build process string.
+4.  Consistently encrypt and then securely upload the entire unmitigated contents currently held locked within the local `build/` folder boundary directly utilizing SFTP or SSH tunneling methods natively pointing pointing towards the cloud production remote server hardware. Always meticulously ensure the `build/` directory package is correctly deposited flat directly over the web server's core public exposition output deployment path specifically designated for internet browser traffic exposure routing.
 
 ---
 
 ## 6. Testing Procedures
-_6. Testing Procedures_
 
-Stabilitas proyek merupakan pilar esensial, sehingga seluruh komponen dan modul sangat tunduk pada serangkaian pengujian perangkat lunak sebelum fase *deployment* bisa diinisiasi. Hal ini bertujuan untuk mengurangi *regression bug*, memastikan fungsi bisnis berjalan mulus, dan menghindari celah masalah kompatibilitas antar modul.
+Maintaining exceptional project stability sits natively as an utterly non-negotiable, essential project foundation pillar. Because of this intrinsic development standard, absolutely all newly created standalone frontend components and heavily logic-bound asynchronous modules are entirely subjected traversing an extensive rigorous programmatic software testing protocol series exactly prior to initiating final official production deployment phase authorizations. 
 
-_Project stability is an essential pillar; hence, all components and modules are heavily subjected to a software testing series prior to the deployment phase initialization. This aims to reduce regression bugs, ensure smooth business functions, and avoid compatibility vulnerability issues between modules._
+This immense overarching standard operating quality assurance testing procedure aims drastically reducing arbitrary code functional regression bugs, guaranteeing smooth undisturbed continual digital interactive business functions, and totally negating unexpected cross-contamination version compatibility vulnerability issues occasionally arising colliding between inter-dependent third-party module systems.
 
-Langkah menjalankan *unit testing* dasar di lokal:
-_Steps to execute basic unit testing locally:_
+Procedure initiating comprehensive core basic unit-testing methodologies located right on personal hardware:
 
 ```bash
-# Menjalankan test suite (Run the test suite)
+# Target, compile, launch, and execute the standard comprehensive test suite environment runner
 npm test
 ```
 
-Pada skala yang lebih besar, *Functional* dan *End-to-End (E2E) testing* diforsir secara otomatis di lapisan *CI pipeline*. Semua modifikasi *source code* yang diusulkan melalui *Pull Request (PR)* secara langsung diwajibkan untuk lolos tinjauan linier ini sebelum disetujui untuk di-*merge* ke dalam cabang utama. Setiap kode yang masuk harus dipastikan tidak memiliki *conflict* visual pada *User Interface* terhadap rancangan awal platform.
+On a progressively broader enterprise scale, dedicated automated Functional evaluation procedures and meticulous End-to-End (E2E) cross-browser regression testing environments are permanently, automatically enforced serving prominently as heavy unbreakable quality gatekeepers right stationed completely at the remote cloud CI integration pipeline layer. 
 
-_On a broader scale, Functional and End-to-End (E2E) testing are automatically enforced at the CI pipeline layer. All source code modifications proposed via Pull Requests (PR) are directly mandated to pass this linear overview prior to approval for merging into the main branch. Any incoming code must be certified completely devoid of visual UI conflicts against the base platform design._
+Any source codebase structural modifications formally proposed by assigned team developers via structured GitHub Pull Requests (PR) are explicitly, natively mandated strictly surviving to pass this automated linear evaluation overview precisely prior to achieving ultimate managerial authority required finalizing merging executions sliding securely inside the repository's final protected main source branch. Any inbound code injection attempting modifications must objectively, visibly be certified altogether totally devoid concerning displaying any arbitrary conflicting visual UI rendering desynchronizations contrasting against the standardized fundamental operating platform primary visual language design layout parameter instructions.
+
+</div>
