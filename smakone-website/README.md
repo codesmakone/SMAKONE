@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+<div align="justify">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SMAKONE Website Project Documentation
 
-## Available Scripts
+This repository houses the official website for the **Student Council of SMAK 1 PENABUR Jakarta** (OSIS SMAK 1 PENABUR Jakarta).  
+**Address:** Jl. Tanjung Duren Raya No.4, RT.12/RW.2, Tj. Duren Utara, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470.
 
-In the project directory, you can run:
+This documentation serves as the central technical reference for the SMAKONE website project. It outlines the architecture, setup procedures, testing protocols, infrastructure design, and deployment methodologies. To cater to a potentially diverse team and maintain international coding standards, this documentation is written exclusively in English.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 1. System Overview and Technical Architecture
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The SMAKONE website is a digital platform designed to provide information regarding school programs, extracurricular clubs, student profiles, and recent events. It is built using a modern JavaScript stack, structured heavily as a Single Page Application (SPA). This SPA architecture ensures rapid transitions between pages, reducing server latency during navigation. 
 
-### `npm test`
+To maintain code hygiene and scalability, the underlying codebase enforce a strict separation of concerns. Global styles, independent UI components, routing logic, and static assets are explicitly divided into top-level directories to prevent spaghetti code and minimize merge conflicts among concurrent developers.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 2. Global Directory Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project root contains several critical directories and configuration files that orchestrate the build process and source code management.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Root Directories
+*   **`src/`**: The primary workspace. All React components, page layouts, graphical assets, hooks, and CSS stylesheets reside here.
+*   **`public/`**: Stores static files such as `index.html`, raw favicons, and manifest files. These files are not processed by Webpack and are copied completely intact during the build process.
+*   **`config/` & `scripts/`**: These directories hold the low-level build configurations (like Webpack overrides) and node scripts used to compile, start, and test the project. 
+*   **`build/`**: An auto-generated output folder. When compiled for production, all minimized JS/CSS bundles and assets are exported here. *Note: This directory shouldn't be tracked manually in version control.*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Main Configuration Files
+*   **`package.json`**: Acts as the project manifesto, recording all third-party Node.js dependencies (e.g., React Router, TailwindCSS) and execution scripts.
+*   **`tailwind.config.js` & `postcss.config.js`**: Contains all strict configuration rules, styling theme overrides, and color palettes specific to the SMAKONE design system.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 3. Documentation Hub
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To prevent this root file from becoming an endless scroll of technical jargon, detailed interface and architectural rules have been separated into a dedicated `docs/` folder. Please refer to them below:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*   **[Component Architecture Guidelines](docs/components.md)**: Explore the detailed breakdown of the `src/Component/` directory. This includes standardizing the UI blocks, global navigation components, and state encapsulation.
+*   **[Pages and Routing Architecture](docs/pages.md)**: Explore the logic behind the `src/Pages/` directory, which covers how routing ties different UI components into complete, functional screens like the Clubs gallery or the OSIS profiles.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 4. Local Development Environment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Before attempting to modify the source code, you must initialize the project on your local machine by installing all necessary dependencies.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation Prerequisites
+1.  **Node.js**: The long-term support (LTS) environment is strictly required. 
+2.  **Package Manager**: You must have `npm` installed.
 
-### Code Splitting
+### Quick Start Commands
+Run the following executions sequentially on your terminal:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+# Clone the repository to your local machine
+git clone <repository-url>
 
-### Analyzing the Bundle Size
+# Navigate into the project's root folder
+cd smakone-website
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Install all required development and production dependencies
+npm install
 
-### Making a Progressive Web App
+# Start the Webpack development server (usually on http://localhost:3000)
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 5. Deployment Procedures
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The deployment pipeline relies on generating optimized static assets for the production server. This process completely strips away heavy development debugging tools, resulting in a lightweight, highly performant bundle.
 
-### Deployment
+1.  Before deploying, ensure your active branch is fully synchronized with the `main` branch to avoid missing the latest validated features.
+2.  Execute the command `npm run build` in your terminal. This triggers the compiler to package the entire React application into a minified chunk inside the `build/` folder.
+3.  Upload the entire contents of the recently generated `build/` directory to the remote production server using SFTP/SSH, ensuring it explicitly targets the server's public web directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 6. Testing Methodologies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ensuring a crash-free experience for the end-user is critical. Before a new Pull Request is finalized and merged, developers must guarantee that their code conforms to the existing UI layout and doesn't break dependent components.
+
+```bash
+# Initiate the integrated unit testing suite
+npm test
+```
+
+Currently, developers are expected to manually verify UI stability across multiple screen ratios (mobile, tablet, desktop) to ensure the utility classes defined in Tailwind CSS scale correctly without breaking the grid structure.
+
+</div>
