@@ -2,98 +2,92 @@
 
 # SMAKONE Website Project Documentation
 
-This project serves as the official digital headquarters and active web repository for the **Student Council of SMAK 1 PENABUR Jakarta** (OSIS SMAK 1 PENABUR Jakarta). 
-**Official Site Address:** Jl. Tanjung Duren Raya No.4, RT.12/RW.2, Tj. Duren Utara, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470.
+This repository houses the official website for the **Student Council of SMAK 1 PENABUR Jakarta** (OSIS SMAK 1 PENABUR Jakarta).  
+**Address:** Jl. Tanjung Duren Raya No.4, RT.12/RW.2, Tj. Duren Utara, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470.
 
-This documentation serves as a continuously updated, comprehensive set of guidelines pertaining to the system architecture, foundational installation guidelines, automated testing strategies, underlying cloud infrastructure, and exact deployment methodologies constructed specifically for the SMAKONE website project. To maximize seamless integration and promote friction-free code contributions from remote developers operating across multinational boundaries, this documentation is standardized entirely in English.
-
----
-
-## 1. System Overview
-
-The SMAKONE website is meticulously engineered to function as the predominant information hub and core digital interaction platform catering to the expansive school community, including active students, faculty members, and external visitors. This extensive project is conceptually driven and successfully implemented utilizing a strictly modern technology stack heavily focused on maximizing page load speed metrics, ensuring massive concurrent scalability, and streamlining ease of overarching long-term codebase maintenance. 
-
-The underlying source code architecture logically structures the strict separation of concerns, strategically scattering programmatic burdens across various domains. This systematic paradigm inherently empowers multiple frontend and backend developers to concurrently push high-velocity feature deployments within parallel sprints without triggering complex structural merge conflicts or jeopardizing the overall framework stability.
+This documentation serves as the central technical reference for the SMAKONE website project. It outlines the architecture, setup procedures, testing protocols, infrastructure design, and deployment methodologies. To cater to a potentially diverse team and maintain international coding standards, this documentation is written exclusively in English.
 
 ---
 
-## 2. Documentation Hub
+## 1. System Overview and Technical Architecture
 
-To maintain the absolute clarity and concise readability of this primary introductory README page, exhaustive granular details regarding the complex User Interface (UI) structural designs, interactive component implementations, and layout architectural trees have been intentionally segregated into an independent centralized directory structure named `docs/`. 
+The SMAKONE website is a digital platform designed to provide information regarding school programs, extracurricular clubs, student profiles, and recent events. It is built using a modern JavaScript stack, structured heavily as a Single Page Application (SPA). This SPA architecture ensures rapid transitions between pages, reducing server latency during navigation. 
 
-Please refer to the following internal directory links to read highly specific technical documentation guidelines required for day-to-day development:
-
-*   **[Component Documentation](docs/components.md)**: A complete, rigorous guide dictating the overarching design systems, standardized data payload structures (props), and aggressive reusability requirements surrounding foundational User Interface elements (such as dynamic responsive buttons, global navigation bars, isolated footer sections, and repetitive data card grids).
-*   **[Pages Documentation](docs/pages.md)**: Complete details diving into the system's asynchronous routing architecture, main page structural compositions, asynchronous data-fetching procedures, and the specific navigation logic frameworks required to bind an assorted collection of fragmented foundational components into a singular, unified visual presentation view.
+To maintain code hygiene and scalability, the underlying codebase enforce a strict separation of concerns. Global styles, independent UI components, routing logic, and static assets are explicitly divided into top-level directories to prevent spaghetti code and minimize merge conflicts among concurrent developers.
 
 ---
 
-## 3. System Infrastructure
+## 2. Global Directory Structure
 
-The operational cloud infrastructure supporting this intricate project is highly customized and engineered towards consistently maintaining maximum reliability combined with an exceptionally low latency performance baseline. In general operation, the completed web application is compiled sequentially into rigidly secure, minimized static asset formatting. This fundamentally optimizes the speed and scope of continuous payload content distribution targeted globally. 
+The project root contains several critical directories and configuration files that orchestrate the build process and source code management.
 
-Handling excessive network turbulence is crucial; therefore, assigned primary operational servers are dynamically configured to frictionlessly respond and immediately scale vertically to endure suddenly extreme exponential spikes in concurrent visitor web traffic. This is effectively accomplished through the heavy utilization of industry-standard load balancing algorithmic systems, running completely in tandem alongside automatic real-time caching optimization mechanisms embedded deeply at the global Content Delivery Network (CDN) structural layer. The entirety of the platform's multimedia assets, graphic banners, and static codebase files are entirely hosted within an exceptionally fast, highly redundant cloud storage environment to absolutely guarantee reliable, long-term ecosystem stability.
+### Root Directories
+*   **`src/`**: The primary workspace. All React components, page layouts, graphical assets, hooks, and CSS stylesheets reside here.
+*   **`public/`**: Stores static files such as `index.html`, raw favicons, and manifest files. These files are not processed by Webpack and are copied completely intact during the build process.
+*   **`config/` & `scripts/`**: These directories hold the low-level build configurations (like Webpack overrides) and node scripts used to compile, start, and test the project. 
+*   **`build/`**: An auto-generated output folder. When compiled for production, all minimized JS/CSS bundles and assets are exported here. *Note: This directory shouldn't be tracked manually in version control.*
+
+### Main Configuration Files
+*   **`package.json`**: Acts as the project manifesto, recording all third-party Node.js dependencies (e.g., React Router, TailwindCSS) and execution scripts.
+*   **`tailwind.config.js` & `postcss.config.js`**: Contains all strict configuration rules, styling theme overrides, and color palettes specific to the SMAKONE design system.
 
 ---
 
-## 4. System Requirements & Local Installation
+## 3. Documentation Hub
 
-Before completely initiating your localized physical development processes, you must rigorously ensure that all absolute primary system requirements have been sufficiently fulfilled. All developers must initially install a properly configured Node.js runtime environment coupled with a standardized package manager tool corresponding natively to the local hardware operating system in use. 
+To prevent this root file from becoming an endless scroll of technical jargon, detailed interface and architectural rules have been separated into a dedicated `docs/` folder. Please refer to them below:
 
-The technical local execution instructions explicitly outlined below are definitively mandatory and must strictly be performed perfectly prior to manually attempting to analyze, modify, or extend any pre-existing project source code features.
+*   **[Component Architecture Guidelines](docs/components.md)**: Explore the detailed breakdown of the `src/Component/` directory. This includes standardizing the UI blocks, global navigation components, and state encapsulation.
+*   **[Pages and Routing Architecture](docs/pages.md)**: Explore the logic behind the `src/Pages/` directory, which covers how routing ties different UI components into complete, functional screens like the Clubs gallery or the OSIS profiles.
 
-### Prerequisites
-1.  **Node.js Framework** (Installing the absolute latest Long Term Support variant—LTS version—is universally, highly recommended to avoid complex environment desyncing inconsistencies).
-2.  **Package Manager** (You must utilize either NPM or the Yarn package manager dependency controller).
-3.  **Version Control System** (Git is undeniably required for repository fetching, branch checking, and version track controlling).
+---
 
-### Local Environment Initialization Guide
-Execute the following sequential terminal commands securely directly on your target local hardware operating system interface terminal:
+## 4. Local Development Environment
+
+Before attempting to modify the source code, you must initialize the project on your local machine by installing all necessary dependencies.
+
+### Installation Prerequisites
+1.  **Node.js**: The long-term support (LTS) environment is strictly required. 
+2.  **Package Manager**: You must have `npm` installed.
+
+### Quick Start Commands
+Run the following executions sequentially on your terminal:
 
 ```bash
-# Safely clone the remote project repository down to your private local drive
-git clone <repository-url-here>
+# Clone the repository to your local machine
+git clone <repository-url>
 
-# Successfully navigate the internal terminal directory structure specifically into the working directory
+# Navigate into the project's root folder
 cd smakone-website
 
-# Automatically fetch, resolve, and fully install all heavily required third-party system dependencies
+# Install all required development and production dependencies
 npm install
 
-# Forcefully boot and constantly run the continuous local development host server port
+# Start the Webpack development server (usually on http://localhost:3000)
 npm start
 ```
 
 ---
 
-## 5. Deployment Guide
+## 5. Deployment Procedures
 
-The advanced system deployment procedure pushing features completely out toward the live public production environment is exclusively executed utilizing automated Continuous Integration and Continuous Deployment (CI/CD) automated pipeline strategies. Crucial physical steps deployed transitioning beta code straight into new live public environments are authorized exclusively after the absolute final codebase commit branch is heavily, successfully validated strictly within a dedicated pre-production testing staging environment alongside deep manual inspection conducted from a completely secluded sandbox development branch.
+The deployment pipeline relies on generating optimized static assets for the production server. This process completely strips away heavy development debugging tools, resulting in a lightweight, highly performant bundle.
 
-The fundamental, rigid procedure guaranteeing a safe manual production local command-line build is detailed exactly as follows:
-
-1.  Thoroughly sync and systematically update your native local version control targeted branch directly against the most up-to-date final commit merged safely arriving from the primary origin `main` source branch.
-2.  Aggressively execute the standard `npm run build` command trigger inside the terminal in order to automatically compile, optimize, generate, and systematically minify a complete static overarching asset bundle completely protected and packaged suitably restricted purely for heavy public HTTP production purposes.
-3.  Isolate, extract, and target the specific `build/` root output directory newly generated securely via the system's webpack compiler build process string.
-4.  Consistently encrypt and then securely upload the entire unmitigated contents currently held locked within the local `build/` folder boundary directly utilizing SFTP or SSH tunneling methods natively pointing pointing towards the cloud production remote server hardware. Always meticulously ensure the `build/` directory package is correctly deposited flat directly over the web server's core public exposition output deployment path specifically designated for internet browser traffic exposure routing.
+1.  Before deploying, ensure your active branch is fully synchronized with the `main` branch to avoid missing the latest validated features.
+2.  Execute the command `npm run build` in your terminal. This triggers the compiler to package the entire React application into a minified chunk inside the `build/` folder.
+3.  Upload the entire contents of the recently generated `build/` directory to the remote production server using SFTP/SSH, ensuring it explicitly targets the server's public web directory.
 
 ---
 
-## 6. Testing Procedures
+## 6. Testing Methodologies
 
-Maintaining exceptional project stability sits natively as an utterly non-negotiable, essential project foundation pillar. Because of this intrinsic development standard, absolutely all newly created standalone frontend components and heavily logic-bound asynchronous modules are entirely subjected traversing an extensive rigorous programmatic software testing protocol series exactly prior to initiating final official production deployment phase authorizations. 
-
-This immense overarching standard operating quality assurance testing procedure aims drastically reducing arbitrary code functional regression bugs, guaranteeing smooth undisturbed continual digital interactive business functions, and totally negating unexpected cross-contamination version compatibility vulnerability issues occasionally arising colliding between inter-dependent third-party module systems.
-
-Procedure initiating comprehensive core basic unit-testing methodologies located right on personal hardware:
+Ensuring a crash-free experience for the end-user is critical. Before a new Pull Request is finalized and merged, developers must guarantee that their code conforms to the existing UI layout and doesn't break dependent components.
 
 ```bash
-# Target, compile, launch, and execute the standard comprehensive test suite environment runner
+# Initiate the integrated unit testing suite
 npm test
 ```
 
-On a progressively broader enterprise scale, dedicated automated Functional evaluation procedures and meticulous End-to-End (E2E) cross-browser regression testing environments are permanently, automatically enforced serving prominently as heavy unbreakable quality gatekeepers right stationed completely at the remote cloud CI integration pipeline layer. 
-
-Any source codebase structural modifications formally proposed by assigned team developers via structured GitHub Pull Requests (PR) are explicitly, natively mandated strictly surviving to pass this automated linear evaluation overview precisely prior to achieving ultimate managerial authority required finalizing merging executions sliding securely inside the repository's final protected main source branch. Any inbound code injection attempting modifications must objectively, visibly be certified altogether totally devoid concerning displaying any arbitrary conflicting visual UI rendering desynchronizations contrasting against the standardized fundamental operating platform primary visual language design layout parameter instructions.
+Currently, developers are expected to manually verify UI stability across multiple screen ratios (mobile, tablet, desktop) to ensure the utility classes defined in Tailwind CSS scale correctly without breaking the grid structure.
 
 </div>

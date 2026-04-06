@@ -1,49 +1,44 @@
 <div align="justify">
 
-# Architecture Components Documentation
+# UI Components Architecture Documentation
 
-This comprehensive document serves as the officially centralized, strictly enforced professional guideline governing the operational standards for conceptually creating, technically utilizing, and perpetually maintaining all fundamental User Interface (UI) components dispersed entirely across the SMAKONE website project infrastructure. The core primary objective driving this structural standardization is fundamentally to guarantee immaculate consistency, strict code logic modularity, seamless block code reusability, and flawlessly uniform global aesthetic consistency securely distributed across all hierarchical system levels deployed throughout the web platform.
-
----
-
-## 1. Modularity and Reusability Philosophy
-
-All graphical pixel-based visual element foundations prominently represented inside this functional web framework system must be executed leaning upon the primary, non-negotiable architectural structural blueprint of purely modular components. Essentially, any manually segmented graphical display view or explicitly clustered interconnected navigational module projecting parallel recurring layout design manifestations, or frequently deployed across multiple different routing pages, must be aggressively encapsulated. They must be packaged as a wholly solitary, explicit, individual standalone Component entity boundary. 
-
-The successfully realized isolated components are forcefully forbidden from directly leaning upon broad application-wide global movement state management systems. Alternatively, they consistently must acquire their highly specialized isolated structural data supply frameworks predominantly delivered by filtering straight down through strict attribute properties functional transmission injection pipelines (universally cataloged as standard props cascading data transfers). This universally designated programming mechanism inherently accelerates total interface layout bug-fixing resolution workflow adjustment periods without accidentally casting an overarching catastrophic visual rendering layout distortion across the vastly greater codebase architecture repository. This ensures safety should any singular localized internal facet of a local sub-component necessitate drastic refinement structural overhaul modification efforts manually initiated by contributing staff developers.
+This section provides an in-depth breakdown of the `src/Component/` directory. Rather than housing large, monolithic files, the SMAKONE website utilizes a strictly component-based architecture. This means every visual element ranging from buttons to massive navigation menus is abstracted into isolated pieces. The primary objective is to maximize reusability, ensure consistency in design, and eliminate redundant code.
 
 ---
 
-## 2. Component Directory Structure
+## 1. Directory Structure within `src/Component/`
 
-All deeply foundational, natively fundamental core functional web interface system structural layout elements are securely assigned routing pointing directly towards the tightly regulated central master directory space `src/Component/`. To adequately preempt heavily arbitrary, unstructured, hopelessly complicated folder hierarchy structuring configurations, widely assorted disparate component element files persistently endure rigorous classification boundary limits based totally primarily around their explicitly inherent functional urgency constraints.
+To prevent the `src/Component/` folder from becoming a chaotic repository of random scripts, elements are aggressively categorized into descriptive subdirectories based on their primary function and domain. 
 
-*   **Core Base Structural Components:** Represents the absolute fundamental highest tier architectural structural class framing directly dictating strict layout foundation boundaries identically resembling standard global overarching website Top Header Navigation Routing Controller Menu Bars (Navbars). These are typically combined seamlessly alongside completely static visually unmoving textual display header graphics to create rigid container layouts that wrap the underlying page content.
-*   **Isolated Custom Display Interaction Elements:** Specific rigid data payload content fragmentation visual display graphical structural UI distribution modules strictly locked regarding precise application deployment execution boundary functionality. These specific items are completely exclusively restricted to pointing securely entirely inward toward uniquely segregated isolated private graphical presentation scopes, such as an extracurricular activity array picture gallery grid information presentation display interface, or specific organizational personnel hierarchy rendering data tables for the Student Council parameters.
+### Core Structural Components
+These directories house the global bounding boxes and overarching navigational elements that tie the entire website together. These components are generally imported directly into the main `App.js` or the highest level routing wrapper.
+
+*   **`Nav/`**: This directory contains all components relating to the site's top navigation bar. It is strictly reserved for user routing menus, mobile hamburger menus, and the sticky header logic.
+*   **`Footer/`**: Stores the global footer components, dictating the bottom layout of the website containing institutional copyrights, external social media links, and concluding contact information.
+*   **`Layout/`**: Houses functional wrapper components. If multiple pages share an exact spacing structure or a specialized background container, the reusable layout wrapper is defined here and wraps the children pages.
+
+### Domain-Specific UI Components
+Because the SMAKONE website spans multiple large sub-organizations, certain standalone UI components are only relevant to specific pages. These are grouped into their own domain folders within the components directory to isolate their logic.
+
+*   **`Osis/`**: Contains specific data tables, organizational hierarchy grids, and profile cards explicitly used for rendering Student Council (OSIS) parameters.
+*   **`Ass1st/`**: Stores components tailored specifically for the ASS1ST subsystem.
+*   **`Alumni/`**: Houses visual components dedicated to rendering alumni testimonies, graduation years, and post-academic profiles.
+*   **`Home/`**: Stores unique UI blocks that only appear on the primary landing page (e.g., hero banners, dynamic promotional carousels).
+
+### Content and Core Utilities
+*   **`Content/`**: A general repository for standardized content blocks like text-image alternations, stylized quote blocks, and reusable typography headers.
+*   **`Data/`**: Often utilized for components that map heavily over static JSON objects or hardcoded arrays to generate lists without cluttering the main page files.
+*   **`ScrollToTop.js`**: A critical utility component specifically engineered to intercept routing transitions and reset the browser's window scroll position gracefully to the Y-axis zero coordinate.
+*   **`useAnalyticsEventTracker.js`**: A custom hook component dedicated to managing and broadcasting user interaction events (like clicks) to external analytics services.
 
 ---
 
-## 3. Props Distribution and State Management Standardization
+## 2. Best Practices for Component Development
 
-Each explicit unique segmented compartmentalized individual slice of locally functioning structural UI component source block script module code explicitly relying upon incoming transitioning external parent object payload variables is entirely uniformly universally mandated to endure executing a heavy structural data precision variable input parameter validation boundary check. This critical practice essentially functions to systematically eliminate fatal functional pipeline processing errors dynamically caused by entirely empty logical payload objects suddenly appearing during demanding rendering runtimes.
+When creating or modifying a file within `src/Component/`, developers must adhere to the following rigorous engineering standards to maintain system stability.
 
-*   **Parameter Passing Strategy:** Whenever pragmatically feasible, payload parameter deliveries transferring structured data metrics bounding efficiently bypassing cross-component thresholds should deliberately exclusively travel explicitly natively engaging directly applying object property variable explicit deconstruction targeting. This strategy aggressively prevents passing an incredibly massive global system configuration object deep down into a tiny local view wrapper simply to retrieve one short descriptive parameter line code string, thereby severely optimizing overall application rendering performance margins.
-*   **Encapsulating Interactive Native States:** If your designated explicit application view rendering module absolutely critically demands cyclical logic execution triggering or highly dynamic customized graphical visual representation interactions natively (such as operating as a dropdown navigation overlay panel component controller or functioning as a binary functional interactive status toggle switch mechanism), the precise isolated interactive event management engine (State Manager) officially MUST dynamically continuously natively operate aggressively securely encapsulated physically remaining permanently exclusively privately locked inside that exact component boundary parameter space.
-
----
-
-## 4. Naming Convention Formulation
-
-Any explicitly designated nomenclature allocated aiming primarily towards file documentary structure frameworks and intrinsic architecture format framing UI application code blocks MUST sternly capture native corporate international architectural standards. This mandates utilizing the universally cataloged standard absolute PascalCase layout typing framework conventions (e.g., `MainNavbar.js`, `ClubFooterCards.js`). 
-
-Absolute zero extra character expressions containing explicit hyphenation symbols (kebab-case formats) or bottom-line underscores (snake_case formulas) shall be legally tolerated regarding strict internal software architecture component formulation rules. This explicitly ensures embedded code compiler search engines, notably primary code text editor file indexers, confront absolutely zero technical static system analysis misinterpretation failures or syntax indexing desynchronization processing crashes.
-
----
-
-## 5. Styling and Utility-First Framework Strategy
-
-During physical screen dimension architecture layout creation processing (specifically strictly mapping exterior margin alignment bounds or interior padding space expansion perimeters), calculating massively scalable responsive fluid physical interfaces, and strictly extending out into explicitly assigning exact visual graphics hexadecimal spectrum rendering ranges (referring directly to graphical background canvas palettes alongside text-based typography graphic overlays), dedicated frontend interface developers are completely strictly forbidden from initiating independently unconstrained manually generated separate custom cascading CSS script external stylesheet document creation instances targeting unique independent user interface element components. 
-
-All graphic interface developers must strictly depend exclusively running solely executing upon native system framework design architecture configuration ideologies. These principles execute entirely leveraging heavily natively built-in syntax framework utility-first core classification module groupings directly sourced purely via internal utility libraries, thus maintaining global corporate platform design uniformity, seamless codebase aesthetic interlinking, and universally smooth rapid system layout maintenance workflows.
+*   **Destructuring Props Data**: Components should never blindly accept monolithic data objects if they only need a single string. Always explicitly destructure incoming props (e.g., `const ProfileCard = ({ name, role, image }) => { ... }`). This explicit definition provides immediate clarity regarding what data the component structurally requires to render successfully.
+*   **State Encapsulation**: A component should manage its own internal state using `useState` hooks. For instance, if a mobile navbar has an internal boolean status dictating whether it is expanded or collapsed, that state logic must never leak into the global parent route. Let the component handle its own interactivity privately.
+*   **Utility-First Styling Restrictions**: Developers are strictly forbidden from writing standalone raw CSS files to manually align components. Instead, spatial dimensions, margins, paddings, and typographic colors must strictly rely on utility-first generic classes directly embedded into the element tags (e.g., utilizing `flex justify-between items-center bg-blue-900 text-white`). This universally ensures that the entire project perfectly respects a standardized design token system.
 
 </div>
