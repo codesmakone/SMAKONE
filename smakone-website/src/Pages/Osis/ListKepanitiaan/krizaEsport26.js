@@ -38,20 +38,19 @@ const KrizaEsport = () => {
             [13, "Christopher Edward Sutandar", "XI-9"],
             [14, "Diego Marvel Maxwell", "XI-2"],
             [15, "Boga F Renzo", "XI-6"],
-            [16, "Nicholas Hugo Iswandy", "X-1"],
-            [17, "Ethan Kenzo Bunowo", "X-9"],
-            [18, "Steven Wong", "X-10"],
-            [19, "Bertrand Nathanael Prasetyo", "X-4"],
-            [20, "Benedictus Kioe", "X-4"],
-            [21, "Kenneth William Sugianto", "X-9"],
-            [22, "Joshua Yang", "XI-2"],
-            [23, "Jonathan Halim", "XI-3"],
-            [24, "Robertus Wilson Santosa", "XI-7"],
-            [25, "Brandon Colin", "XI-2"],
-            [26, "Gilbert Rustandy", "XI-3"],
-            [27, "Michael Christian Halim", "XI-2"],
-            [28, "Quirinus Lionnel Hanson Kangga", "XI-5"],
-            [29, "Diego Leander Wilbert", "X-4"]
+            [16, "Ethan Kenzo Bunowo", "X-9"],
+            [17, "Steven Wong", "X-10"],
+            [18, "Bertrand Nathanael Prasetyo", "X-4"],
+            [19, "Benedictus Kioe", "X-4"],
+            [20, "Kenneth William Sugianto", "X-9"],
+            [21, "Joshua Yang", "XI-2"],
+            [22, "Jonathan Halim", "XI-3"],
+            [23, "Robertus Wilson Santosa", "XI-7"],
+            [24, "Brandon Colin", "XI-2"],
+            [25, "Gilbert Rustandy", "XI-3"],
+            [26, "Michael Christian Halim", "XI-2"],
+            [27, "Quirinus Lionnel Hanson Kangga", "XI-5"],
+            [28, "Diego Leander Wilbert", "X-4"]
           ]}
         ></SeleksiGrid>
       </div>
