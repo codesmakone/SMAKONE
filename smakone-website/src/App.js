@@ -39,7 +39,7 @@ import Tedx25 from "./Pages/Osis/ListKepanitiaan/tedx25.js";
 import Tedxs25 from "./Pages/Osis/ListKepanitiaan/tedxs.js";
 import Osis26 from "./Pages/Osis/ListKepanitiaan/osis26.js";
 import CodeOne26 from "./Pages/Osis/ListKepanitiaan/codeone2026.js";
-import KrizaEsport26 from "./Pages/Osis/ListKepanitiaan/krizaespot26.js";
+import KrizaEsport26 from "./Pages/Osis/ListKepanitiaan/krizaEsport26.js";
 import Mono2026 from "./Pages/Osis/ListKepanitiaan/monograph2026.js";
 
 import Emagz from "./Pages/Emagz/Emagz";
