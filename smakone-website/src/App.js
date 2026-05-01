@@ -25,7 +25,7 @@ import SeleksiOsis from "./Pages/Osis/ListKepanitiaan/Osis2025";
 import PanitiaBazone2024 from "./Pages/Osis/ListKepanitiaan/Bazone2024";
 import PesertaTOS from "./Pages/Osis/ListKepanitiaan/TOS2025";
 import CuratorsTedx from "./Pages/Osis/ListKepanitiaan/curatorsTedx2025";
-import SOCTahap12025 from "./Pages/Osis/ListKepanitiaan/SOCTahap12025";
+import SOCTahap12026 from "./Pages/Osis/ListKepanitiaan/SOCTahap12026";
 import SOC2025Gel2 from "./Pages/Osis/ListKepanitiaan/SOC25Tahap1-gel2";
 import OneJournal25 from "./Pages/Osis/ListKepanitiaan/oneJournal25";
 import KrizaEsports25 from "./Pages/Osis/ListKepanitiaan/krizaEsports25";
@@ -188,7 +188,7 @@ function App() {
         <Route path="/OSIS/PengumumanOSIS2025" element={<SeleksiOsis />} />
         <Route path="/OSIS/PesertaTOS2025" element={<PesertaTOS />} />
         <Route path="/OSIS/CuratorsTEDx2025" element={<CuratorsTedx />} />
-        <Route path="/OSIS/SOC2025" element={<SOCTahap12025 />} />
+        <Route path="/OSIS/SOC2026" element={<SOCTahap12026 />} />
         <Route path="/OSIS/soc2025-gel2-final" element={<SOC2025Gel2 />} />
         <Route path="/OSIS/onejournal2025" element={<OneJournal25 />} />
         <Route path="/OSIS/krizaesports2025" element={<KrizaEsports25 />} />
