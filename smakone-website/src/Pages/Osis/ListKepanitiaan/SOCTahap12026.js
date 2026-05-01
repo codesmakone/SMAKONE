@@ -481,7 +481,7 @@ const SOC1_2026 = () => {
             </div>
             <div className="flex flex-col items-center">
                 <p className="text-left w-3/4 mb-7">
-                    Setelah dilaksanakannya seleksi berkas pada <b>30 April 2026</b>, maka telah ditentukan siswa/siswi yang lanjut pada seleksi tahap Wawancara sebagai berikut:
+                    Setelah dilaksanakannya seleksi berkas, maka telah ditentukan siswa/siswi yang lanjut pada seleksi tahap berikutnya sebagai berikut:
                 </p>
             </div>
             <SOCGrid data={data} />
