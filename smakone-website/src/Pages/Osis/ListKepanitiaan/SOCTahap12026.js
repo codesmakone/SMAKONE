@@ -425,7 +425,9 @@ const data = [
     },
     {
         bidang: "Web Division",
-        members: [{ name: "Eleazar Gosdavicraka", kelas: "XI-8" }]
+        members: [
+            { name: "Eleazar Gosdavicraka", kelas: "XI-8" }
+        ]
     },
     {
         bidang: "Keamanan",
