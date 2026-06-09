@@ -187,8 +187,7 @@ const data = [
         members: [
             { name: "Jazzelyn Abigail Hanley", kelas: "X-2" },
             { name: "Celestine Victoria Wang", kelas: "X-4" },
-            { name: "Marvel Khioe", kelas: "XI-9" },
-            { name: "Michelle Hie", kelas: "X-6" }
+            { name: "Marvel Khioe", kelas: "XI-9" }
         ]
     },
     {
