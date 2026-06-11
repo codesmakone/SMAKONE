@@ -39,7 +39,7 @@ const data = [
         members: [
             { name: "Kenneth Nathaniel Tjan", kelas: "X-1" },
             { name: "Davendra Winston Kasmah", kelas: "X-3" },
-            { name: "Lionel Lie Hadiwinata", kelas: "X-4" },
+            { name: "Nathanael Armantyo Hutabalian", kelas: "X-8" },
             { name: "Declan Hannael Adhypramana", kelas: "X-9" },
             { name: "Shiela Pranoto", kelas: "XI-3" }
         ]
