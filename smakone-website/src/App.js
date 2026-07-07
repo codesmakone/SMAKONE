@@ -110,7 +110,7 @@ import OneAID from "./Pages/Clubs/OneAID";
 import Mask from "./Pages/Clubs/Mask/Mask";
 import Mask2026 from "./Pages/Osis/ListKepanitiaan/Mask2026.js";
 import Smukie360 from "./Pages/Smukiers/Smukie360.js";
-import Arch1ve from "./Pages/Smukiers/Arch1ve.js";
+import Arch1ve from "./Pages/Smukiers/Arch1ve/Arch1ve.js";
 
 function App() {
   return (

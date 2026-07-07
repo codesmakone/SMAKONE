@@ -36,7 +36,7 @@ const Home = () => {
       <Nav carouselCurrentSlide={carouselCurrentSlide} />
       {/* <div className="flex flex-col justify-start col-span-6 pt-24 text-left bg-slate-400 "> */}
       <div className="flex flex-col justify-start col-span-6 text-left mt-28">
-        <div className="px-5 pt-10 pb-12 md:px-10 lg:px-16 xl:px-20 lg:pt-20 md:pb-24 lg:pb-24 xl:pb-44">
+        <div className="px-5 pt-20 pb-20 md:px-10 lg:px-16 xl:px-20 lg:pt-24 md:pb-32 xl:pb-40">
           {/* uncomment the 2 carousel segments to enable */}
           {/* <Carousel
           autoPlay={true}
@@ -69,33 +69,43 @@ const Home = () => {
         > */}
 
           {/* we are smak 1 osis new ver */}
-          <div>
-            <h1 className="text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black">
+          <div className="mt-[-1rem] text-center ">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-[5rem] font-black">
               We are SMAK 1's OSIS
             </h1>
             <h4 className="text-base font-bold xl:text-2xl lg:text-xl sm:text-xl">
               Sekolah terbaik dengan siswa-siswi yang berprestasi
             </h4>
-          </div>
 
-          {/* we are smak 1 osis old ver */}
-          {/* <div className="px-5 pt-32 pb-12 md:px-10 lg:px-16 xl:px-20 lg:pt-44 md:pb-24 lg:pb-24 xl:pb-44">
-            <h1 className="text-4xl sm:text-5xl md:text-[3.25rem] lg:text-6xl xl:text-[5rem] font-black">
-              We are SMAK 1's OSIS
-            </h1>
-            <h4 className="text-base font-bold xl:text-2xl lg:text-xl sm:text-xl">
-              Sekolah terbaik dengan siswa-siswi yang berprestasi
-            </h4>
-          </div> */}
+            <div className="flex flex-col justify-center">
+              <p className="mt-10 text-2xl font-bold lg:text-3xl sm:text-2xl md:text-3xl">
+                ALL NEW 10<sup>th</sup> GRADERS
+              </p>
 
-          {/* <div className="px-5 pt-32 pb-12 md:px-10 lg:px-16 xl:px-20 lg:pt-44 md:pb-24 lg:pb-24 xl:pb-45">
-            <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[3.5rem] font-black leading-tight">ALL NEW 10<sup>th</sup> GRADERS</h1>
-            <div className="mt-10">
-              <Link to="/BukuAcara" target="blank" className="px-6 py-2 mb-2 mr-2 font-bold text-center text-white bg-black rounded-full hover:bg-gray-700 text-md sm:text-xl lg:text-2xl md:px-8 lg:px-10 xl:px-12 lg:py-3">
-                CLICK HERE
+              <div className="flex flex-col items-center justify-center gap-4 mt-3 sm:flex-row">
+                <Link
+                  to="/BukuAcara"
+                  target="blank"
+                  className="inline-flex items-center rounded-full bg-blue-800 px-14 py-4 text-white font-semibold shadow-lg transition-all duration-200 hover:bg-blue-900 hover:-translate-y-0.5 text-l md:text-xl"
+                >
+                  Buku Acara ↗
+                </Link>
+
+                <Link
+                  to="/osis/smukie360"
+                  className="inline-flex items-center rounded-full bg-sky-500 px-14 py-4 text-white font-semibold shadow-lg transition-all duration-200 hover:bg-sky-600 hover:-translate-y-0.5 text-l md:text-xl"
+                >
+                  Virtual Tour ↗
+                </Link>
+              </div>
+              <Link to="/osis/arch1ve" className="inline-block mt-8">
+                <span className="relative inline-block after:absolute after:left-0 after:-bottom-0.5 after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:bg-current after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 text-lg md:text-xl">
+                  Click here to explore our event archives.
+                </span>
               </Link>
             </div>
-          </div  */}
+          </div>
+
           {/* <div className="flex flex-col gap-5 mt-2 md:mt-3">
             <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-[3.5rem] font-black leading-tight">
               ALL NEW 10<sup>th</sup> GRADERS
@@ -149,7 +159,7 @@ const Home = () => {
         </div> */}
       </div>
 
-      {/* <div className='w-full h-auto px-3 pt-12 text-black  xl:pb-10'>
+      {/* <div className='w-full h-auto px-3 pt-12 text-black xl:pb-10'>
         <div className='container mx-auto'>
             <div className='justify-center px-3 mb-12 font-bold text-center '>
               <div className='text-3xl sm:text-4xl md:text-5xl xl:text-[4.5rem] pb-10 '>
@@ -301,7 +311,7 @@ const Home = () => {
               img={kriza}
               title="KR1ZA"
               desc="Terus berlatih dan raih prestasi"
-              dir="/Kegiatan/KR1ZA"
+              dir="/clubs/KR1ZA"
             />
           </div>
         </div>
