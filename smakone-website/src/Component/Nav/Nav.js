@@ -34,7 +34,8 @@ import { IoIosBasketball } from "react-icons/io";
 import { BsFillBrushFill } from "react-icons/bs";
 import { IoFlaskSharp } from "react-icons/io5";
 import { GiCalendar } from "react-icons/gi";
-
+import { RiArchiveDrawerFill } from "react-icons/ri";
+import { FaStreetView } from "react-icons/fa";
 // import { GiPublicSpeaker } from "react-icons/gi";
 
 const Nav = (props) => {
@@ -83,7 +84,10 @@ const Nav = (props) => {
     path === "/osis/ass1st/hukum" ||
     path === "/osis/ass1st/psikologi" ||
     path === "/osis/ass1st/teknik_sipil" ||
-    path === "/osis/ass1st/pertambangan";
+    path === "/osis/ass1st/pertambangan" ||
+    path === "/osis/calendar" ||
+    path === "/osis/smukie360" ||
+    path === "/osis/arch1ve";
 
   const pathKehidupan =
     path === "/kehidupan_smukiers" ||
@@ -94,8 +98,7 @@ const Nav = (props) => {
     path === "/kehidupan_smukiers/alumni" ||
     path === "/kehidupan_smukiers/alumni/billystevanus" ||
     path === "/kehidupan_smukiers/alumni/scottmoses" ||
-    path === "/kehidupan_smukiers/alumni/nicolecharlene" ||
-    path === "/kehidupan_smukiers/calendar";
+    path === "/kehidupan_smukiers/alumni/nicolecharlene";
 
   const pathKegiatan =
     path === "/kegiatan" ||
@@ -421,6 +424,39 @@ const Nav = (props) => {
                       <Link to="/OSIS/ASS1ST">Ass1st</Link>
                     </p>
                   </button>
+
+                  <button
+                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
+                      path === "/osis/calendar" ? "font-bold" : "text-gray-500"
+                    }`}
+                  >
+                    <GiCalendar size={24} />
+                    <p className="text-base leading-4 ">
+                      <Link to="/osis/Calendar">Calendar</Link>
+                    </p>
+                  </button>
+
+                  <button
+                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
+                      path === "/osis/smukie360" ? "font-bold" : "text-gray-500"
+                    }`}
+                  >
+                    <FaStreetView size={24} />
+                    <p className="text-base leading-4 ">
+                      <Link to="/osis/smukie360">Smukie 360</Link>
+                    </p>
+                  </button>
+
+                  <button
+                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
+                      path === "/osis/arch1ve" ? "font-bold" : "text-gray-500"
+                    }`}
+                  >
+                    <RiArchiveDrawerFill size={24} />
+                    <p className="text-base leading-4 ">
+                      <Link to="/osis/arch1ve">Arch1ve</Link>
+                    </p>
+                  </button>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-start w-full px-6 border-b border-gray-600 md:items-start">
@@ -508,19 +544,6 @@ const Nav = (props) => {
                     <IoSchool size={24} />
                     <p className="text-base leading-4 ">
                       <Link to="/Kehidupan_smukiers/Alumni">Alumni</Link>
-                    </p>
-                  </button>
-
-                  <button
-                    className={`flex justify-start items-center space-x-6 rounded px-3 py-2  w-full ${
-                      path === "/kehidupan_smukiers/calendar"
-                        ? "font-bold"
-                        : "text-gray-500"
-                    }`}
-                  >
-                    <GiCalendar size={24} />
-                    <p className="text-base leading-4 ">
-                      <Link to="/Kehidupan_smukiers/Calendar">Calendar</Link>
                     </p>
                   </button>
                 </div>
@@ -760,10 +783,16 @@ const Nav = (props) => {
                 dir1="/OSIS"
                 dir2="/OSIS/Emagz"
                 dir3="/OSIS/ASS1ST"
+                dir4="/OSIS/Calendar"
+                dir5="/OSIS/Smukie360"
+                dir6="/OSIS/Arch1ve"
                 // dir3=""
                 menu1="Tentang Osis"
                 menu2="E-Magazine (Archived)"
-                menu3="Ass1st"
+                menu3="Uni Ass1st"
+                menu4="Calendar"
+                menu5="Smukie 360"
+                menu6="Arch1ve"
                 // menu3=""
                 osis={true}
               />
@@ -788,13 +817,11 @@ const Nav = (props) => {
                 dir2="/Kehidupan_smukiers/Tips"
                 dir3="/Kehidupan_smukiers/Kegiatan"
                 dir4="/Kehidupan_smukiers/Alumni"
-                dir5="/Kehidupan_smukiers/Calendar"
                 menu1="Kehidupan SMUKIERS"
                 // menu2="Clubs"
                 menu2="Tips Belajar"
                 menu3="Kegiatan Setelah Kelas"
                 menu4="Alumni"
-                menu5="Calendar"
                 Kehidupan={true}
               />
               <Dropdown

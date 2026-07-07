@@ -109,6 +109,8 @@ import OneJournal from "./Pages/Clubs/OneJournal/OneJournal";
 import OneAID from "./Pages/Clubs/OneAID";
 import Mask from "./Pages/Clubs/Mask/Mask";
 import Mask2026 from "./Pages/Osis/ListKepanitiaan/Mask2026.js";
+import Smukie360 from "./Pages/Smukiers/Smukie360.js";
+import Arch1ve from "./Pages/Smukiers/Arch1ve/Arch1ve.js";
 
 function App() {
   return (
@@ -169,7 +171,6 @@ function App() {
           path="/Kehidupan_smukiers/kegiatan"
           element={<KegiatanSetelahKelas />}
         />
-        <Route path="/Kehidupan_smukiers/calendar" element={<Calendar />} />
         <Route path="/Kehidupan_smukiers/Alumni" element={<AlumniPage />} />
         <Route
           path="/Kehidupan_smukiers/Alumni/BillyStevanus"
@@ -232,6 +233,9 @@ function App() {
         <Route path="/OSIS/ASS1ST/Psikologi" element={<Psikologi />} />
         <Route path="/OSIS/ASS1ST/Teknik_sipil" element={<Sipil />} />
         <Route path="/OSIS/ASS1ST/Pertambangan" element={<Pertambangan />} />
+        <Route path="/OSIS/calendar" element={<Calendar />} />
+        <Route path="/OSIS/Smukie360" element={<Smukie360 />} />
+        <Route path="/OSIS/Arch1ve" element={<Arch1ve />} />
         <Route path="*" element={<NoMatchPages />} />
       </Routes>
     </div>
