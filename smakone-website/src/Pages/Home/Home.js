@@ -83,13 +83,23 @@ const Home = () => {
               </p>
 
               <div className="flex flex-col items-center justify-center gap-4 mt-3 sm:flex-row">
+                {/* 
                 <Link
                   to="/BukuAcara"
                   target="blank"
                   className="inline-flex items-center rounded-full bg-blue-800 px-14 py-4 text-white font-semibold shadow-lg transition-all duration-200 hover:bg-blue-900 hover:-translate-y-0.5 text-l md:text-xl"
                 >
                   Buku Acara ↗
-                </Link>
+                </Link> */}
+
+                <a
+                  href="https://heyzine.com/flip-book/c30956aba1.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-full bg-blue-800 px-14 py-4 text-white font-semibold shadow-lg transition-all duration-200 hover:bg-blue-900 hover:-translate-y-0.5 text-lg md:text-xl"
+                >
+                  Buku Acara ↗
+                </a>
 
                 <Link
                   to="/osis/smukie360"
