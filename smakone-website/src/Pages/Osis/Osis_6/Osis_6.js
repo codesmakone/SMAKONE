@@ -28,7 +28,7 @@ const OSIS_6 = () => {
 
 
         Description={true}
-        DescBid="OSIS Bidang 6 merupakan seksi dalam organisasi OSIS yang bertujuan untuk membina kreativitas, keterampilan, dan kewirausahaan untuk siswa/i SMAK 1 PENABUR Jakarta. Hal ini ditunjukan dalam bentuk program kerja kami yang sekaligus dibangun untuk menggalang dana bagi program OSIS lainnya."
+        DescBid="Bidang 6 adalah bidang yang berperan dan bertanggung jawab dalam mengembangkan jiwa kewirausahaan, kreativitas, serta keterampilan siswa di sekolah. Bidang ini bertujuan untuk melatih siswa agar lebih mandiri, inovatif, dan memiliki kemampuan dalam mengelola ide serta peluang secara positif. Melalui berbagai program kerja yang diadakan, Bidang 6 berusaha menumbuhkan sikap jujur, rasa syukur, serta kemampuan berorganisasi dan berwirausaha di kalangan siswa SMAK 1. Program kerja yang dijalankan oleh Bidang 6 antara lain Air Kejujuran, SMS, Koperasi Kejujuran, Secret Admirer, Gradtitude, dan BazOne, yang dirancang untuk mengasah kreativitas siswa sekaligus memberikan pengalaman nyata dalam kegiatan kewirausahaan dan pengembangan keterampilan."
         Program={true}
         ProgramList={
           [

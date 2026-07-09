@@ -58,7 +58,7 @@ const OSIS_1 = () => {
           />
         }
         Description={true}
-        DescBid="Bidang 1 adalah bidang yang berperan dan bertanggung jawab dalam pembinaan kegiatan keagamaan Kristen di sekolah, salah satunya melalui kegiatan kebaktian yang rutin diadakan 1x dalam sebulan yang diikuti oleh seluruh guru, karyawan, dan siswa SMAK 1. Selain itu, melalui program kerja lainnya seperti R4G, SOG, dan One Ins1ght pengurus terus berusaha untuk mendorong pertumbuhan rohani seluruh warga SMAK 1."
+        DescBid="Bidang 1 adalah bidang yang berperan dan bertanggung jawab dalam pembinaan kegiatan keagamaan Kristen di sekolah, salah satunya melalui kegiatan kebaktian yang rutin diadakan 1x dalam sebulan yang diikuti oleh seluruh guru, karyawan, dan siswa SMAK 1. Selain itu, melalui program kerja lainnya seperti R4G, SOG, Praise & Bound, pengurus terus berusaha untuk mendorong pertumbuhan rohani seluruh warga SMAK 1."
         Program={true}
         ProgramList={[
           //PENDING

@@ -10,10 +10,9 @@ import Nav from "../../Component/Nav/Nav";
 import Footer from "../../Component/Footer/Footer";
 
 // Import Image
-import Edward from "../../Image/Home/Alasan/Edward1.webp";
-import Emily from "../../Image/Home/Alasan/Emily1.webp";
-import Rania from "../../Image/Home/Alasan/Rania1.webp";
-import Jayden from "../../Image/Home/Alasan/Jayden1.webp";
+import Elwein from "../../Image/Home/Alasan/Elwein.webp";
+import Audrey from "../../Image/Home/Alasan/Audrey.webp";
+import Catherine from "../../Image/Home/Alasan/Catherine.webp";
 import Lobby_SMAK1 from "../../Image/Home/gedung_sekolah.jpg";
 import soc from "../../Image/Home/Kegiatan/soc.webp";
 import soundscape from "../../Image/Home/Kegiatan/soundscape.webp";
@@ -225,30 +224,24 @@ const Home = () => {
               <div>Mereka Bersekolah di SMAK 1</div>
             </div>
           </div>
-          <div className="grid grid-cols-none gap-3 mt-12 md:grid-cols-2 xl:grid-cols-4 lg:grid-rows-none justify-items-center">
+          <div className="grid grid-cols-none gap-3 mt-12 md:grid-cols-2 xl:grid-cols-3 lg:grid-rows-none justify-items-center">
             <AlasanCard
-              img={Edward}
-              alt="Edward Rusli"
-              desc="Siswa kreatif yang aktif berorganisasi."
-              dir="Alasan/Edward"
+              img={Elwein}
+              alt="Elwein Liong"
+              desc="Siswa Berprestasi yang Penuh Dedikasi"
+              dir="/Alasan/Elwein"
             />
             <AlasanCard
-              img={Emily}
-              alt="Emily Jane"
-              desc="Pekerja Keras yang Aktif Bersukarela"
-              dir="/Alasan/Emily"
+              img={Audrey}
+              alt="Audrey Liandra"
+              desc="Siswa Berprestasi Tanpa Takut Gagal"
+              dir="/Alasan/Audrey"
             />
             <AlasanCard
-              img={Rania}
-              alt="Rania Kusumadinata"
-              desc="Siswi Multi-Interest yang Berprestasi"
-              dir="/Alasan/Rania"
-            />
-            <AlasanCard
-              img={Jayden}
-              alt="Jayden Jurianto"
-              desc="Mengukir Prestasi dengan Dedikasi"
-              dir="/Alasan/Jayden"
+              img={Catherine}
+              alt="Catherine Nichole Yuen"
+              desc="Siswi Disiplin yang Bersinar di Dunia Debat"
+              dir="/Alasan/Catherine"
             />
           </div>
         </div>

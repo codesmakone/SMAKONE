@@ -14,10 +14,9 @@ import Paintings from "./Pages/Kegiatan/SAPxSNM/Paintings";
 import PaintingDetails from "./Pages/Kegiatan/SAPxSNM/PaintingDetails";
 import SOC from "./Pages/Kegiatan/soc";
 
-import Edward from "./Pages/Home/Alasan/Edward";
-import Emily from "./Pages/Home/Alasan/Emily";
-import Rania from "./Pages/Home/Alasan/Rania";
-import Jayden from "./Pages/Home/Alasan/Jayden";
+import Elwein from "./Pages/Home/Alasan/Elwein";
+import Audrey from "./Pages/Home/Alasan/Audrey";
+import Catherine from "./Pages/Home/Alasan/Catherine";
 
 import Osis from "./Pages/Osis/Osis";
 
@@ -155,10 +154,9 @@ function App() {
         <Route path="/clubs/oneaid" element={<OneAID />} />
         <Route path="/clubs/Mask" element={<Mask />} />
         {/* Alasan */}
-        <Route path="/alasan/Edward" element={<Edward />} />
-        <Route path="/alasan/Emily" element={<Emily />} />
-        <Route path="/alasan/Rania" element={<Rania />} />
-        <Route path="/alasan/Jayden" element={<Jayden />} />
+        <Route path="/alasan/Elwein" element={<Elwein />} />
+        <Route path="/alasan/Audrey" element={<Audrey />} />
+        <Route path="/alasan/Catherine" element={<Catherine />} />
         <Route path="/tentang_smak1" element={<TentangKami />} />
         <Route path="/tentang_smak1/sejarah" element={<Sejarah />} />
         <Route path="/tentang_smak1/fasilitas" element={<Fasilitas />} />

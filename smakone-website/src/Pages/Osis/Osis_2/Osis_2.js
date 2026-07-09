@@ -58,7 +58,7 @@ const OSIS_2 = () => {
           />
         }
         Description={true}
-        DescBid="OSIS Bidang 2 adalah bidang pembinaan budi pekerti luhur dan akhlak mulia, sesuai namanya visi dari seksi bidang 2 adalah untuk menamakan sikap-sikap yang yang sesuai dengan budi pekerti dan nilai-nilai kristiani. Dalam rangka mewujudkan visi tersebut osis bidang 2 membuat beberapa program yaitu Christmas Carol, Quozzy, Spread the Word, dan Tutorial for Others by Smukiers. Jadi kalau teman teman berminat untuk bergabung di OSIS bidang 2 jangan lupa daftar ya saat ada pendaftaran OSIS"
+        DescBid="OSIS Bidang 2 adalah bidang pembinaan budi pekerti luhur dan akhlak mulia. Sesuai namanya, visi dari seksi bidang 2 adalah untuk menamakan sikap-sikap yang yang sesuai dengan budi pekerti dan nilai-nilai kristiani. Bidang 2 mengutamakan empati, bersikap baik, dan peduli terhadap sesama. Untuk mewujudkan hal tersebut, bidang 2 memiliki beberapa program yaitu, Tutorial for Others, 5S, Live In, One for Humanity, dan Buka Bersama. "
         Program={true}
         ProgramList={[
           //UPDATED 2026
