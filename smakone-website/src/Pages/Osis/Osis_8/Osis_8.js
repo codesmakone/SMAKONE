@@ -58,7 +58,7 @@ const OSIS_8 = () => {
           />
         }
         Description={true}
-        DescBid="Selamat datang di Bidang 8 yaitu Bidang Pembinaan Sastra dan Budaya. Bidang ini bertanggung jawab mengenai kegiatan non-akademik di bidang kesenian, sastra, dan budaya. Bidang 8 juga mendukung siswa-siswi SMAK 1 dalam menyalurkan talenta kesenian pada acara STN ( Smukiez Theatre Night), kemampuan memproduksi short movie pada SMURF, dan bidang jurnalistik pada program PENS1L. Selain itu, bidang 8 juga memantau dan mempersiapkan regenerasi club-club di SMAK 1 serta masih banyak program bidang 8 yang menarik seperti Birthday Calendar, CNYxVals, dan RESONANSI."
+        DescBid="Bidang 8 adalah bidang yang bertanggung jawab atas kegiatan non-akademik di bidang kesenian, sastra, dan budaya, serta mendukung siswa-siswi SMAK 1 dalam menyalurkan dan mengembangkan talenta seni melalui berbagai program dan kegiatan, seperti SAP (Smukiez Art Performance) dan CNYxVals. Selain itu, Bidang 8 juga memantau dan mempersiapkan regenerasi klub-klub di SMAK 1 melalui program Sen1man, serta meningkatkan pengetahuan dan wawasan siswa tentang sejarah, budaya, dan teknik seni melalui kunjungan ke museum dalam program Kalaswara. Adapun program kerja Bidang 8 yang menarik lainnya seperti Birthday Calendar, REVER1E, dan Lagu Daerah."
         Program={true}
         ProgramList={[
           //UPDATE 2024
