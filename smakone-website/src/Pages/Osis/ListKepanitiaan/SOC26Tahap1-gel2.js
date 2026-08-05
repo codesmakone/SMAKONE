@@ -528,8 +528,8 @@ const SOC1_2026_gel2 = () => {
             alt="Signature of Olivia Melissa Puspitarini, S. Pd"
             className="h-24 mb-1"
           />
-          <p className="border-b-2 border-black font-bold uppercase text-center px-2">
-            Olivia Melissa Puspitarini, S. Pd
+          <p className="border-b-2 border-black font-bold text-center px-2">
+            Olivia Melissa Puspitarini, S.Pd.
           </p>
           <p className="text-center mt-1">
             Wakil Kesiswaan SMAK&nbsp;1&nbsp;PENABUR&nbsp;Jakarta
