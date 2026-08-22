@@ -1,0 +1,11 @@
+node_modules
+smakone-website/node_modules
+smakone-website/build
+.git
+.gitignore
+.vscode
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db

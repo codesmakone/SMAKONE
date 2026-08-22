@@ -99,7 +99,7 @@ const data = [
       { name: "Reynaldo Frances Hendarto", kelas: "X-1" },
       { name: "Viera Kay Praiseley", kelas: "XI-4" },
       { name: "Lionel Nathan Solaiman", kelas: "X-4" },
-      { name: "Martha Valencia", kelas: "XI-2" },
+      { name: "Gabrio Aaron Wijaya", kelas: "XII-4" },
     ],
   },
   {
@@ -285,7 +285,7 @@ const data = [
     bidang: "Voli",
     members: [
       { name: "Colin Amadeo Tsai", kelas: "X-2" },
-      { name: "Shannon Kelita Midi Darmawan", kelas: "X-7" },
+      { name: "David Joseph Mulyana", kelas: "XII-7" },
       { name: "Milliani Phiong", kelas: "X-8" },
       { name: "Zen Ermenegeldo Nicholas", kelas: "XI-3" },
     ],
