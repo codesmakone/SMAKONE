@@ -25,7 +25,7 @@ import PanitiaBazone2024 from "./Pages/Osis/ListKepanitiaan/Bazone2024";
 import PesertaTOS from "./Pages/Osis/ListKepanitiaan/TOS2025";
 import CuratorsTedx from "./Pages/Osis/ListKepanitiaan/curatorsTedx2025";
 import SOCTahap22026 from "./Pages/Osis/ListKepanitiaan/SOCTahap22026";
-import SOC2026Gel2 from "./Pages/Osis/ListKepanitiaan/SOC26Tahap1-gel2.js";
+import SOC2026Gel2 from "./Pages/Osis/ListKepanitiaan/SOC26Tahap2-gel2";
 import OneJournal25 from "./Pages/Osis/ListKepanitiaan/oneJournal25";
 import KrizaEsports25 from "./Pages/Osis/ListKepanitiaan/krizaEsports25";
 import OneFM from "./Pages/Osis/ListKepanitiaan/onefm2025.js";
