@@ -76,26 +76,38 @@ const Tedx25 = () => {
   return (
     <div>
       <Nav />
-      <div className="mt-28 mx-auto">
-        <h1 className="text-center text-4xl sm:text-4xl md:text-5xl xl:text-5xl font-black mb-20">Hasil Seleksi Panitia TEDx 2025</h1>
+      <div className="mx-auto mt-28">
+        <h1 className="mb-20 text-4xl font-black text-center sm:text-4xl md:text-5xl xl:text-5xl">
+          Hasil Seleksi Panitia TEDx 2025
+        </h1>
         <div className="flex flex-col items-center">
-          <p className="text-left w-3/4 ">
-            Setelah kami melakukan seleksi selama 4 hari pada <b>Selasa, 21 Oktober 2025 - Jumat, 24 Oktober 2025</b>, telah ditetapkan panitia baru sebagai berikut:
+          <p className="w-3/4 text-left ">
+            Setelah kami melakukan seleksi selama 4 hari pada{" "}
+            <b>Selasa, 21 Oktober 2025 - Jumat, 24 Oktober 2025</b>, telah
+            ditetapkan panitia baru sebagai berikut:
           </p>
         </div>
 
         <SOCGrid data={data} />
       </div>
-      <section className="max-w-3xl mx-auto py-10 font-serif leading-relaxed">
+      <section className="max-w-3xl py-10 mx-auto font-serif leading-relaxed">
         {/* Date */}
         <p className="text-right">Jakarta, 5 November 2025</p>
 
         {/* Menyetujui */}
-        <p className="text-center mt-24">Mengetahui,</p>
-        <div className="mt-20 flex flex-col items-center">
-          <img src={ttdyy} alt="Signature of YENDRA YOHANNES, M. Li." className="h-24 mb-4" />
-          <p className="border-b-2 border-black font-bold uppercase text-center px-2">YENDRA YOHANNES, S.S., M.Li.</p>
-          <p className="text-center mt-1">Wakil Kesiswaan SMAK&nbsp;1&nbsp;PENABUR&nbsp;Jakarta</p>
+        <p className="mt-24 text-center">Mengetahui,</p>
+        <div className="flex flex-col items-center mt-20">
+          <img
+            src={ttdyy}
+            alt="Signature of YENDRA YOHANNES, M. Li."
+            className="h-24 mb-4"
+          />
+          <p className="px-2 font-bold text-center uppercase border-b-2 border-black">
+            YENDRA YOHANNES, S.S., M.Li.
+          </p>
+          <p className="mt-1 text-center">
+            Wakil Kesiswaan SMAK&nbsp;1&nbsp;PENABUR&nbsp;Jakarta
+          </p>
         </div>
       </section>
       <Footer />

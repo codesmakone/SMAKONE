@@ -22,7 +22,7 @@ import Osis from "./Pages/Osis/Osis";
 
 import SeleksiOsis from "./Pages/Osis/ListKepanitiaan/Osis2025";
 import PanitiaBazone2024 from "./Pages/Osis/ListKepanitiaan/Bazone2024";
-import PesertaTOS from "./Pages/Osis/ListKepanitiaan/TOS2025";
+import PesertaTOS from "./Pages/Osis/ListKepanitiaan/TOS2026.js";
 import CuratorsTedx from "./Pages/Osis/ListKepanitiaan/curatorsTedx2025";
 import SOCTahap22026 from "./Pages/Osis/ListKepanitiaan/SOCTahap22026";
 import SOC2026Gel2 from "./Pages/Osis/ListKepanitiaan/SOC26Tahap2-gel2";
@@ -32,7 +32,7 @@ import OneFM from "./Pages/Osis/ListKepanitiaan/onefm2025.js";
 import Sapxsms25 from "./Pages/Osis/ListKepanitiaan/sapxsms2025.js";
 import Sapext25 from "./Pages/Osis/ListKepanitiaan/sapextend25.js";
 import Sog25 from "./Pages/Osis/ListKepanitiaan/sog25.js";
-import TOS25 from "./Pages/Osis/ListKepanitiaan/TOS25.js";
+import TOS26 from "./Pages/Osis/ListKepanitiaan/TOS2026.js";
 import Literasi25 from "./Pages/Osis/ListKepanitiaan/literasi25.js";
 import Tedx25 from "./Pages/Osis/ListKepanitiaan/tedx25.js";
 import Tedxs25 from "./Pages/Osis/ListKepanitiaan/tedxs.js";
@@ -185,7 +185,7 @@ function App() {
         {/* Hasil Seleksi Kepanitiaan */}
         <Route path="/OSIS/panitiabazone2024" element={<PanitiaBazone2024 />} />
         <Route path="/OSIS/PengumumanOSIS2025" element={<SeleksiOsis />} />
-        <Route path="/OSIS/PesertaTOS2025" element={<PesertaTOS />} />
+        <Route path="/OSIS/PesertaTOS2026" element={<PesertaTOS />} />
         <Route path="/OSIS/CuratorsTEDx2025" element={<CuratorsTedx />} />
         <Route path="/OSIS/SOC2026" element={<SOCTahap22026 />} />
         <Route path="/OSIS/soc2026-gel2" element={<SOC2026Gel2 />} />
@@ -201,7 +201,7 @@ function App() {
           element={<KrizaEsport26 />}
         />
         <Route path="/OSIS/seleksi-monograph2026" element={<Mono2026 />} />
-        <Route path="/OSIS/tahap-final-TOS25" element={<TOS25 />} />
+        <Route path="/OSIS/tahap-final-TOS26" element={<TOS26 />} />
         <Route path="/OSIS/sog2025" element={<Sog25 />} />
         <Route path="/OSIS/LitClub2025" element={<Literasi25 />} />
         <Route path="/OSIS/TEDx2025" element={<Tedx25 />} />
